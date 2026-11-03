@@ -1,0 +1,9 @@
+{
+  "x5_host": "192.168.127.10",
+  "x5_user": "sunrise",
+  "x5_host_key": "",
+  "esp_mac": "",
+  "esp_url": "http://192.168.137.2",
+  "esp_via_x5": true,
+  "backend": "x5"
+}

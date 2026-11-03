@@ -1,0 +1,54 @@
+{
+  "scope": "Offline synthesis only; three original single-region WAVs unchanged; combinations soft-limited",
+  "clips": [
+    {
+      "direction": "LEFT",
+      "text": "左侧有障碍",
+      "duration_s": 1.8355416666666666,
+      "pcm_bytes": 88106,
+      "sha256": "3b8aaf4890e4781a09aee36a0921b5253b13cc91010d19828cb8f1aee451ef37"
+    },
+    {
+      "direction": "CENTER",
+      "text": "前方有障碍",
+      "duration_s": 1.9064166666666666,
+      "pcm_bytes": 91508,
+      "sha256": "ba2fec2ed7bc6b9712c9d06928f8a1f84ef9a0b8f7f7734eb31dd4b07ff5774a"
+    },
+    {
+      "direction": "RIGHT",
+      "text": "右侧有障碍",
+      "duration_s": 1.84825,
+      "pcm_bytes": 88716,
+      "sha256": "07851aa42403bc49024d2201a230e6674e3975b45047533147c1b951cce54040"
+    },
+    {
+      "direction": "LEFT_CENTER",
+      "text": "前方和左侧有障碍",
+      "duration_s": 2.5315833333333333,
+      "pcm_bytes": 121516,
+      "sha256": "53bb6977c174d666b6dad99ddcfca45005ef623bf6ffaf2035ee06369d6f91ee"
+    },
+    {
+      "direction": "CENTER_RIGHT",
+      "text": "前方和右侧有障碍",
+      "duration_s": 2.5405,
+      "pcm_bytes": 121944,
+      "sha256": "57904b5acf1d2ebffc2d39499a78401500b0f45dca5e697e783e094fde35fadf"
+    },
+    {
+      "direction": "LEFT_CENTER_RIGHT",
+      "text": "前方和两侧有障碍",
+      "duration_s": 2.5721666666666665,
+      "pcm_bytes": 123464,
+      "sha256": "d8adcbd6d2f0ae7a6536fe355f66d9fad35566e6e3697e866eeb346bf6d1db69"
+    },
+    {
+      "direction": "LEFT_RIGHT",
+      "text": "左右两侧有障碍",
+      "duration_s": 2.194875,
+      "pcm_bytes": 105354,
+      "sha256": "aa88f308e0429f6902186561eecdc8e19ba59e8ea378dbae78c30595a4df5503"
+    }
+  ]
+}

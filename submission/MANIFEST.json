@@ -1,0 +1,2290 @@
+{
+  "version": "20261103",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 307,
+      "sha256": "1538aabfd80d5b459358ada86c7f6b06581d30a120984355d2b857fe280e6210"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 607,
+      "sha256": "a4adedffb3ae0d8f7c612d1e8e2c9a554986d052cadc8e4495d730521828b388"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v031_A1_PETG_仅补打5件_两盘.3mf",
+      "bytes": 6862808,
+      "sha256": "a568ef2bdcec74032e1d3f51e6dfbb7ed204e95e0e01f81c598ed0c205db7a3b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v0_3_1_printed.step",
+      "bytes": 6232337,
+      "sha256": "e5f9fe83dc0ba2236d6400c84705e6598c78375e0964c34db62d0616d63c6394"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v0_3_1_with_references.step",
+      "bytes": 7939963,
+      "sha256": "8f7d362f883eec65c802e6e8f318c1842c314a6ddf8e70fed765305899e984d5"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_模型查看.html",
+      "bytes": 6757537,
+      "sha256": "a96d7867e96c3ba74e7e829b8302d94d3f993616d9522a3180969a7e7bbbcd65"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ASSEMBLY.md",
+      "bytes": 2514,
+      "sha256": "e0090239d502e2e2c88ba36ce2a0d36ca956f09796f15bb678922c50a8e54dcc"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/first_layers.png",
+      "bytes": 137018,
+      "sha256": "37b4fbe17796e1c972116e6a1424a0536620e3e1a12588811082fa0d8cc2d19b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/plate_1.png",
+      "bytes": 9103,
+      "sha256": "920a7b195a8343d889b9307ac3519ad31f988fa96fe2074ec8f2f12680baaa1e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/plate_2.png",
+      "bytes": 9545,
+      "sha256": "2f81c6db41f9f384e0d0ed25bb0541a768b6fc537438c66a8eea831027e06527"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/01_总装外观.png",
+      "bytes": 284422,
+      "sha256": "00508e31d6cafc35dd27e6d505321930a50fdda718002db9004e2f08d805141b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/02_结构尺寸.png",
+      "bytes": 254773,
+      "sha256": "94d562fed3ec77dbcc58e3bf19862623b4bdba5aafb339f2499a250c9c419ad1"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/03_内部布局.png",
+      "bytes": 317105,
+      "sha256": "9c1613a30f59ba972d33116ea843e4b9e6aa6133db4137f81e08b0d93f5e2f99"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/04_接触结构.png",
+      "bytes": 291150,
+      "sha256": "e2d85a966f31fbb367c85021ace218f0e888a86d4410538781cf89085184f23d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/05_与旧版同尺度对比.png",
+      "bytes": 256666,
+      "sha256": "15d5c908d24a8e74884465c9aa1e71b38c061a1bc4c71bf81dd23063779eaaad"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/06_补打改动与连接说明.png",
+      "bytes": 277406,
+      "sha256": "d3b3c84e0e15acf12097d24fe25ae67a3d4bdb7e7aef2864e5a5972c121726ad"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/preview_checks.json",
+      "bytes": 1311,
+      "sha256": "9bddd0b0a4d2386e66ffe4961fbd16a61deb6e246b7c03ab5a2975a471bd8856"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/previews/viewer_logic_checks.json",
+      "bytes": 1349,
+      "sha256": "737768e8616288d8c27b06617c134cf8dc396b263ee108f435480ea56f917042"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/delivery.json",
+      "bytes": 353,
+      "sha256": "71ea6b844ba5a77c0c02b3bb37628af4636bd75034f0207c6cda0168135ff6ac"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/old_v03_snapshot.json",
+      "bytes": 3532,
+      "sha256": "f7bb3215865ae6969ea9c9356ec2bd50b61ce62baa38519581e126610b94707c"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/parts_manifest.json",
+      "bytes": 42054,
+      "sha256": "61827b98b3c0931652f4487bd6b7eec11cb009dec56744e4d51a230bbc4ab0b7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/plate_1_deposition.json",
+      "bytes": 993,
+      "sha256": "e49764d725a05bdcc04f9ea14fcccf8eb8a73690ae77108d294deef1d3ea2634"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/plate_2_deposition.json",
+      "bytes": 977,
+      "sha256": "7b709b4e1ec1c08d76916a55b029d3e44db2e10295533e6a2320389dea1efa32"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/preparation.json",
+      "bytes": 7239,
+      "sha256": "48c74be523f567782f527373b1096a14421b14d1a6a25d0e3670fe67204bb249"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/reinforced_root_verification.json",
+      "bytes": 1045,
+      "sha256": "d900b5c2a8e4f656cf5c3c5af58e2cacbc9004a0946a19f7bbfc5bda704de3e3"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/repair_geometry_verification.json",
+      "bytes": 1507,
+      "sha256": "bec08ba4badb739a70433e07a944473f935fa7c4946113c5801f6a9fd9c8316a"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/trial_manifest.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/validation.json",
+      "bytes": 68792,
+      "sha256": "22ab11a3f792fce2e9015f140bc098c45db2a148debff8808635ddd65b7872d2"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/verification.json",
+      "bytes": 4839,
+      "sha256": "45c1da40772b51c25d6117d4b338d654fadd4327a5e052bfb858f0608c88552d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/viewer_meshes.json",
+      "bytes": 1993836,
+      "sha256": "c01addb264ae540109a773ae6e4a8ccb1b2885d9c189b00804c515649d558187"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
+      "bytes": 5631,
+      "sha256": "03af8006a33287eea8aaf83283f368a9ffe3e30f2cb5bc7c8a23ef22d6e3afae"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/result.json",
+      "bytes": 6089,
+      "sha256": "2f0ada9920d1c7b0f7827d638451a2985793cc42bab6b620be9e00b36b9bef41"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_camera_edge_keeper.step",
+      "bytes": 65233,
+      "sha256": "1e39e0defff8f1654465016ea20e315f8b2d9b23e721971b13c541bffd72bf9e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_camera_edge_tray.step",
+      "bytes": 95425,
+      "sha256": "f949c55454645884995454f6ee362ec22be2bb74c89bcaa9371c455d36dd0d8e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_eye_side_barrier.step",
+      "bytes": 193389,
+      "sha256": "56e6f3bf187da528d810d4d65c3b7820326e8aafe5daebd1e0a2282f8169f450"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_front_flat_lid.step",
+      "bytes": 198842,
+      "sha256": "fedd013da727dbbb887e73853d5cac8b7cd427791656cc1de52066c0fe7eb8bc"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_imu_edge_keeper.step",
+      "bytes": 81067,
+      "sha256": "548d2b3a583dd828185a99791e8fc4e1c619ef12b98d5eddfb58ac47c4354cb7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_rigid_electronics_carrier.step",
+      "bytes": 457669,
+      "sha256": "d244e29a72d79dde949befba4875aff981324a8762d36502296547a29f22a335"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_structural_rim.step",
+      "bytes": 1303953,
+      "sha256": "99c21f57ab5164bbf1fbb93800ef2099a4c62dc6e1797f4192496551072396dd"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_top_service_blank.step",
+      "bytes": 36606,
+      "sha256": "2cadd79f3cfadc3c817d7878cb8d5db1a5161e1f4509c883bf5e61463a95be9e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/battery_only_cover.step",
+      "bytes": 96795,
+      "sha256": "59d186facd3e9f3101071c6fbdc4f530bf7613e8d26656dfc3ba6e85d0e570ea"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/battery_only_tray.step",
+      "bytes": 316683,
+      "sha256": "cc564697fd4c9c4bd33dbad96112467331f39b2bd5b20cbe180dc963012dc987"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_left_pod_body.step",
+      "bytes": 311677,
+      "sha256": "009b4225e7a776952594f3942527fccc055a7a575c85b789d6e50200ec5ce4c7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_left_pod_cover.step",
+      "bytes": 133989,
+      "sha256": "3a4c1f89620cb0d26cef07215e3fbf4a327ffa900d0cdfa88c40bfe6f3bf36fe"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_right_pod_body.step",
+      "bytes": 308588,
+      "sha256": "92e26fd759626b85b45512d7113b2cb6a75fabc19b76b58f563af1c9c3ccc36a"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_right_pod_cover.step",
+      "bytes": 134743,
+      "sha256": "f762f5a205c3d8b1651f9662a0c655ce67ecae4d55b4d14f1186dc871a5c0442"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/m2_fit_coupon.step",
+      "bytes": 40692,
+      "sha256": "2701a8ba15f3d9572be0217b976fae437c5f993de9aea13de4c4bd6c719f0158"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/speaker_strap_body.step",
+      "bytes": 248880,
+      "sha256": "8d61ce63322c2b9763ba130afb7e1cf1ef60276140f3138fa41d3373d4e28f95"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/speaker_strap_cover.step",
+      "bytes": 162683,
+      "sha256": "4e5f7715ef4bca7dc052f1c049ae0edef6df8c737cc9ae88af90a5aa173d91d1"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_left_flat_connector.step",
+      "bytes": 88728,
+      "sha256": "5c54a093c309619bf250dcc3e8f35db755560f246f818b6f58c364d6aa581618"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_rear_occipital_cradle.step",
+      "bytes": 572279,
+      "sha256": "0f5f0c7ce081cd6e032363b3c0540ef65941890dbf2d710117448acf9f2be1c6"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_removable_forehead_face_frame.step",
+      "bytes": 1032267,
+      "sha256": "f00f84391fef75df6574ba4351d08fdddb0fe8f25e0a5be0bb475fdbaf1cf774"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_right_flat_connector.step",
+      "bytes": 91586,
+      "sha256": "2ba52791117a96619bf96be69ecfb9a5a11de81985fdc8c0ddc36b9ade2c4f3b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_camera_edge_keeper.stl",
+      "bytes": 45684,
+      "sha256": "36b90394499bd84e58fff9356294694e9f24e8ee85c3c27c8cd79411ff43f86c"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_camera_edge_tray.stl",
+      "bytes": 47284,
+      "sha256": "9fb458f431c636701554ae1a422e01e47cbaebfe2eef5c2b9ba6522bc56ef224"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_eye_side_barrier.stl",
+      "bytes": 223084,
+      "sha256": "524da6dfa80d8475d07b59db0a14e514f62a625042f4781aa4496adb8210c0f8"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_front_flat_lid.stl",
+      "bytes": 115484,
+      "sha256": "26d864c9fb7ce2b025f1f63987e7da61ebdbca57a1f53973bea90a89dcbb273c"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_imu_edge_keeper.stl",
+      "bytes": 78284,
+      "sha256": "42ceaf9ea5466e1769a960ad266ead6d8f767e4b96e5c812ff4c51f11f4f4972"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_rigid_electronics_carrier.stl",
+      "bytes": 443084,
+      "sha256": "a4201cbba4f3b29fe0cd5a1d54fbdf3ae4af3418399e8401c51c0bfaff980b6d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_structural_rim.stl",
+      "bytes": 628884,
+      "sha256": "1ce5e16679b86fbf4628e5b9a4d94cbfe038d3b4737560bbdbac42015645b126"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_top_service_blank.stl",
+      "bytes": 43884,
+      "sha256": "8b250e4c8426dbb5182998ad11218d8c2879960fc2c3516d48d3001bca246323"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/battery_only_cover.stl",
+      "bytes": 67884,
+      "sha256": "be27df3867744a34a63e1a82b32fc9ace3530a5e7cac5c49f34189cde91872a1"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/battery_only_tray.stl",
+      "bytes": 251484,
+      "sha256": "d563d60fa11769eaf696f0409896dcf0718589f69890daf71846ed5ee84c8f8e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_left_pod_body.stl",
+      "bytes": 214084,
+      "sha256": "97343d01802a4873268901b8110642ae7fe10a524f47b22ac1c06184189db08d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_left_pod_cover.stl",
+      "bytes": 97084,
+      "sha256": "b12677bbc173c7fef832b854a7c912b83b0b7e4f48e7f4cc1b995cdcc9f0a3e0"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_right_pod_body.stl",
+      "bytes": 214084,
+      "sha256": "53844bc69839bf3b8dbaf9d054d62dc6e6dbe42690aa5a2a65a57765cf3f0d69"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_right_pod_cover.stl",
+      "bytes": 97084,
+      "sha256": "915f237d596c42577fc6884b92091492b6e4aa51c49b4591d8bffc7a64e3a5bb"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/m2_fit_coupon.stl",
+      "bytes": 128084,
+      "sha256": "370d4c159f0222f82aa6e0ef140a1a47789632b00edadfc38b8739fb51f0f261"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/speaker_strap_body.stl",
+      "bytes": 110484,
+      "sha256": "fe8bb15e3e7407386acaf421ddd61cabd9201cab2ee11439bfa9f945383927c8"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/speaker_strap_cover.stl",
+      "bytes": 103084,
+      "sha256": "827023e1d96a8ac39510491754a48563475b248825d67804d81f98cb9dbc84da"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_left_flat_connector.stl",
+      "bytes": 88884,
+      "sha256": "9c91f3a70e2f0321c4dbc1d45383a9e810cc1fe602de206d64cfbdd8f665deeb"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_rear_occipital_cradle.stl",
+      "bytes": 309284,
+      "sha256": "5d329189343cb90db2a6807ecfee2d83a1153e852ecf86117d1739a8bc73d02e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_removable_forehead_face_frame.stl",
+      "bytes": 292384,
+      "sha256": "fc23f127cc83843a679e4af03a44012edc74c52d274a0801bd4edfd65a25cb33"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_right_flat_connector.stl",
+      "bytes": 88884,
+      "sha256": "add70cf39f6cd7258f5da55cf0d5479f074b1ad15393a0982004711bc7b22bb3"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/top_1.png",
+      "bytes": 5053,
+      "sha256": "f022e58903b66167193427032e02c1a47f116b6445ddcd5828d6a27d8aedf0b5"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/top_2.png",
+      "bytes": 5627,
+      "sha256": "8bdac005b696be3ae5d8201a1d33a134dd41441d74ffd908f3440afb2ffad1be"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_A1_PETG_6parts.3mf",
+      "bytes": 1111067,
+      "sha256": "02646d865ebe15594d14b67f6f68b4516823edafe98cd91c619b65905ce6bf4f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_assembly_with_refs.step",
+      "bytes": 1705640,
+      "sha256": "4bee9bb7050e186a362f426b567850c59e69476b272903337613b258ea720b3b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_printed_assembly.step",
+      "bytes": 1504952,
+      "sha256": "7fb7513ae9ba8c1cdb5b7db3fd4ac27c4a3c18442d89bc2a681841b57a1f5c9a"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ASSEMBLY.md",
+      "bytes": 5180,
+      "sha256": "2e9ed7b2ec9082b6d61bcd52c09e519d5308dc05835c8674e2a9b26c704c47e5"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/assembly_order.drawio",
+      "bytes": 2727,
+      "sha256": "ed25734f42c9532e873621f18869818d958a311260033271d9c2fe9ace93cc27"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/B_modular_viewer.html",
+      "bytes": 7164152,
+      "sha256": "4f99fecc7c5245407104719f8504f66e817c9c62bbef3091f9cf8573e24a2409"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/01_assembly_exploded.png",
+      "bytes": 277324,
+      "sha256": "21ddb81b4f9a30e1b3d52c0edf89adf277df217673765eec4d1a2a89979704f8"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/02_part_identification.png",
+      "bytes": 282556,
+      "sha256": "9828f3787d7f882718bac151f3925195bb3018a5a0935367cab259c8dc44fd78"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/03_fasteners_camera_IMU.png",
+      "bytes": 281471,
+      "sha256": "428874ba1358ea6ac8f29e98b28291c212f733c807480a0c06d9b4ee5e342a58"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/04_open_wire_seats.png",
+      "bytes": 213442,
+      "sha256": "e81340d97aba8a6f9b16f3d8f6b65d671bfd71d294630724218f480b7b7e83b7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/first_layer.png",
+      "bytes": 117765,
+      "sha256": "8257555f0e2234151ce8255c5a9491e98d8f50cc44f8b83d47a429ff034f84dd"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/plate_1.png",
+      "bytes": 10120,
+      "sha256": "40f55432dbd9cae9179968f5912af8a9a5f6fd96f1dfe0c3aa9962eb08219d2f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/top_1.png",
+      "bytes": 4472,
+      "sha256": "3b74116f3231be4622a5c573de37c0dfbceec1a004e5e4f45b665dc5522d332f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/delivery_gate.json",
+      "bytes": 7212,
+      "sha256": "4064bfc9d92ccef00a1fa994c1bc62ae21dae464d04e7a8bf1ad3490a5ed5202"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/fastener_schedule.json",
+      "bytes": 2402,
+      "sha256": "d7d843b09125f9adc436e29cfe8670c313234ddbf921916fe29f61a067040f38"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/mechsim/physics_report.json",
+      "bytes": 94258,
+      "sha256": "78c1d88dab73163e93a1d2d522dea64555ca30d02da612d72d228d7cfb77ceda"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/mechsim/physics_report.md",
+      "bytes": 15487,
+      "sha256": "b3f209acc29f77da9b931bf697c916592169485a2c3abd07562240f13124c1f7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/parts_manifest.json",
+      "bytes": 5993,
+      "sha256": "66a8808ef88cca7b9ecc85d59d1ff629f6b757330fce3a30a1b3c4cdb7973c98"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/plate_1_deposition.json",
+      "bytes": 991,
+      "sha256": "2caa5efdcc2353ed12095ca0099f780b6df9f57fefb1fcc003fe97ddcd18333f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/preparation.json",
+      "bytes": 5787,
+      "sha256": "effd86f83958aa6a4712343f7799c97b8a5d1b1b8364d9063b13d266fafc77a0"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/project_verification.json",
+      "bytes": 4510,
+      "sha256": "a10857a3a8a9b01a0021da0c378ac2dcf13903848d88384c20f7ffdccf3eabe2"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/validation.json",
+      "bytes": 10810,
+      "sha256": "65e0f0bf2ae15e47000ecd5f6836415180376b84cb424c3fc154ffae42e0f122"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/viewer_meshes.json",
+      "bytes": 1604110,
+      "sha256": "0c9347e15c265afcb3fe0dbe86662df074b3f3b12c3414378fd48ae4f9f385e7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+      "bytes": 6550,
+      "sha256": "29743af52f8e5528723be0f8f8505451eaf1d9ce621e138431d734c2ad878a47"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/result.json",
+      "bytes": 5009,
+      "sha256": "55eedc97c269c94a59e57e0135aed66cfb3f77cae66d6bcc84fa520a664593f5"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B01_common_frame.step",
+      "bytes": 591060,
+      "sha256": "e5e433f4918f1c852c0f81f52109900707edf099e65ce6646ffcdf8d0eea2cc7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B02_mb_cradle.step",
+      "bytes": 326456,
+      "sha256": "eeb60a13eb4d74e1006a1407579f7c40129249398c067a9edadf28571ec0e2aa"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B03_camera_cradle.step",
+      "bytes": 259831,
+      "sha256": "7e8f682934d184fe8a16fa1b031397315d33584e094f04217576f31cb11fa9a1"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B04_imu_cradle.step",
+      "bytes": 180989,
+      "sha256": "f926fb310a0b742a9d32fd7ddc81dc3488caf9e9e39e619e7e6dc6d42ea1089e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B05_camera_cap.step",
+      "bytes": 69056,
+      "sha256": "ab583df34810605cdec17e0bcf833f6f5e0e1e9bd6929a908f04670a625b6ac1"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B06_imu_keeper.step",
+      "bytes": 25598,
+      "sha256": "ea993ad81e23d9d0afb99c5161c231a5ac03e03cd086e72e62aaea1bfc9a5d50"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B01_common_frame.stl",
+      "bytes": 431884,
+      "sha256": "0e2779caa2e97c2e6f54f6e25c0b55661679b704f50554d00dd2007ffc32f1e2"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B02_mb_cradle.stl",
+      "bytes": 416784,
+      "sha256": "7b7b24279cfd8383b6cf72ce6661f26bb669b9c8bba9bdd3c3be85ea055cbe7b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B03_camera_cradle.stl",
+      "bytes": 214484,
+      "sha256": "69eff63aec09de21cd7a6d081581dcdcba5c46bf719e2ca0c422946cff8b6bcf"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B04_imu_cradle.stl",
+      "bytes": 209584,
+      "sha256": "f5b7860eb2bc9c5bd6e061608c7ac59954a2659b821747b35581ac1693e28076"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B05_camera_cap.stl",
+      "bytes": 79284,
+      "sha256": "659fda5ea1d1f684996ef67dd5a7aa5126dc3c69e48b75820986cca97563ffee"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B06_imu_keeper.stl",
+      "bytes": 94684,
+      "sha256": "b82afddf357c884d1c6264f6a57e6ba17fe8602534197fe83ea765bc0d134c0a"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/01_当前版结构拆解与认件.png",
+      "bytes": 613708,
+      "sha256": "027be8933a55437829ae42b06ee3eb5ede4907b74f90f96d6185f8e7c66f8e09"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/02_安装朝向与底部螺丝.png",
+      "bytes": 530887,
+      "sha256": "cf07bd6d66d9a8994b93e3b8fd4af9f930e0e6ef09eaaf9f7c0cb9c2d0486412"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/manifest.json",
+      "bytes": 965,
+      "sha256": "4a7e5ec2cf0a2a6dbb595ff001226ab59c799609ec60e1238c0e026bd160b488"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/README.md",
+      "bytes": 1429,
+      "sha256": "cb857edd6e4715a5f4b4c23b70d199d160b6b306179bd1d9a0c71f16fc743953"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/当前版结构标注.drawio",
+      "bytes": 236651,
+      "sha256": "1e1f192829dd040c902b9c754c41d81058e9577d1bd5b8977cf6c85199ed8e68"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ArcMask_v05_A1_PETG_M2x10_8parts.3mf",
+      "bytes": 236299,
+      "sha256": "ed8c56a8e67b0128e5442f80acec1ab64f8291e078ebf168c9a00db3a4709a48"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ASSEMBLY.md",
+      "bytes": 5474,
+      "sha256": "3414dd225aa95d2f2a8ae01ab195154341f93be8e2414e14d7444a035e3c6e28"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/FASTENERS.md",
+      "bytes": 2205,
+      "sha256": "8c7e148d3b73cee27b6117446528fb2893b2ff933a98c091a76c840dba7308bf"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/01_parts_exploded.png",
+      "bytes": 202165,
+      "sha256": "ab3f5117ad13248e69043397ff6df65acf35374b089fd91d5aedf9ccc5e5350c"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/02_driver_access.png",
+      "bytes": 166568,
+      "sha256": "edd37e54825cabfe23cdb22af1543e941cac81b61f841d01023ca5e3c7ba10bf"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/03_battery_location.png",
+      "bytes": 151118,
+      "sha256": "d8da2a2b8eb8c90d248d1af73d252d58ae3a08d78b47e20fcaa7174d131a6b4f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/optional_backplate_first_layer.png",
+      "bytes": 142598,
+      "sha256": "9c42f9f54e162f2ec2250be65ffdc2504778ce4eff32ef77dc6619057946558b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/optional_backplate_plate_1.png",
+      "bytes": 5016,
+      "sha256": "d340322474d96c9f767287c521808764062595d9f62becb7617caa13ea2f3e33"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/optional_backplate_top_1.png",
+      "bytes": 3055,
+      "sha256": "bef810ab32c63022466060a804799b3550c520638c8622c8d3dacd8b515dd451"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/primary_first_layer.png",
+      "bytes": 103643,
+      "sha256": "e520cb460f282acbbd5b49df8a4925b19b0111cdc22c713a083c2dae1fd1ee5d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/primary_plate_1.png",
+      "bytes": 10578,
+      "sha256": "925ae305dbb5b038e1a9aa265d829c17eb6d52d8cbe2c590ea732c49972a2327"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/primary_top_1.png",
+      "bytes": 2711,
+      "sha256": "4d6e8373518c6bfd62f3bd495b05955e6793e5e7127c71b83724f804d5ca588f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/OPTIONAL_Backplate_A1_PETG_1part.3mf",
+      "bytes": 177342,
+      "sha256": "0dbe16e3790f36990309b72aa486f11989ebd00e5994ba3f5ee52626adf0ff7b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/peripherals_viewer.html",
+      "bytes": 4707026,
+      "sha256": "60410df26691b281ab788ad459a4b5f6e19aab1b00d7849d37a7037d51afa090"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/battery_layout_check.json",
+      "bytes": 2625,
+      "sha256": "2856b4122b55ceac2715f093b9dbf5a2cfba0f9d255bc02461ccc5411ce920e8"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/battery_layout_z10_conflict.json",
+      "bytes": 2643,
+      "sha256": "78f17f6789e916f747a436ee2e97d17f2274754e4020ec1a02aee0c814a7c40e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/battery_meshes.json",
+      "bytes": 803451,
+      "sha256": "f50b3efa3dc944fdb17fdde7d5b83ed1c8b7531e0f94c661d8696b5d94f2ca32"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/delivery_gate.json",
+      "bytes": 10242,
+      "sha256": "b147c735c827a6bb78b7a733c455b0985abc1f737f6ba1faead161a62ccb312d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/legacy_sources_at_delivery_start.json",
+      "bytes": 3859,
+      "sha256": "719c1b21d4818fb8e723799716cc31135e1164974a7fd22e6f193d86a4684c93"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/meshes.json",
+      "bytes": 1194326,
+      "sha256": "b3f49a500af1da22d33498303f5caab6304f3964f3feeadc241225bb2968dca0"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/optional_backplate_deposition.json",
+      "bytes": 763,
+      "sha256": "4d8901af140247de3ebbfcd4802c898837da36690f097567216435ecd3c1c927"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/optional_backplate_preparation.json",
+      "bytes": 963,
+      "sha256": "62169909b02ec3d45583bff9c023a272dabee8b4b5b6ce7fb16229fc9873892b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/optional_backplate_project_verification.json",
+      "bytes": 1722,
+      "sha256": "5e7a7b1c81ffa602e49f52398b39d9df28789bdc642977e0952ca1e02bb4b4ca"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/parts_manifest.json",
+      "bytes": 1963,
+      "sha256": "8f3a5ee7c414842f93d0aadf6f26881733bf6d41434bb5c28ab827ffc2c3e328"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/primary_deposition.json",
+      "bytes": 1002,
+      "sha256": "8f593bd55f010b5e0aadca263645df2c4716590ffd093a59679188afaf75d415"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/primary_preparation.json",
+      "bytes": 6933,
+      "sha256": "60600f23df7827fc197e63150aa7672a71d1fdfba44b2187fc0f0a3bfa0858fd"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/primary_project_verification.json",
+      "bytes": 5362,
+      "sha256": "6cf993a72f57453f82d18ce597310b9f8f0cb44d2695daa2515ffec227509527"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/validation.json",
+      "bytes": 8468,
+      "sha256": "38dd26ecd0183271d17a5bcc736ee69987828a1fb17a23e1786feb0eb10ff774"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/validation_before_nut_loading_fix.json",
+      "bytes": 8328,
+      "sha256": "260b8b6dffabb046a433cc4da0bfc39ad38b5adc22ffb6ea67403e03198110a6"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/README.md",
+      "bytes": 5322,
+      "sha256": "df54c7dc3c05ab081a4b4a573a7b41be29993ddc1ab5509fde8cb3a45fa0ef5d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/result.json",
+      "bytes": 2335,
+      "sha256": "a0dd8bda64b7758c2ffe6fb4b54290d73e45dcc827920eab31e917319cb21fb5"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/H01_body.step",
+      "bytes": 134355,
+      "sha256": "138b8e5a5efaf9b8c126b63cb9a9a024ab8a66cbfaf3c4b04fc9aa94faf88b0f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/H02_cover.step",
+      "bytes": 257504,
+      "sha256": "76750aa49afac9f73616b2e7585a98ed02b0a71928f315d0c84028c31a153880"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/H03_nut_keeper.step",
+      "bytes": 167378,
+      "sha256": "9d29312cbae7976b80c4bc50a8df5c47470bf63673f1ee3c1b7bc0eb43201f9e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/OPTIONAL_backplate_wire_port.step",
+      "bytes": 211940,
+      "sha256": "fd6fea1681704c1e9b672fa55e87cc769ed97ff6e5fbac83f279a46447eb1a04"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/S01_body.step",
+      "bytes": 240033,
+      "sha256": "a765bcf147d97f2ecf389c10087a5f681d36b63e4ab5051f969298450abca573"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/S02_cover.step",
+      "bytes": 278398,
+      "sha256": "e51ede70e2a4892ee12826ab7d9376413f40790494c2a1dc5dc1b803a7c82a54"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/H01_body.stl",
+      "bytes": 211484,
+      "sha256": "c4fdcbcfd2d669bd6a3df084193a3e9118706d911818c0f63d1a14862e9e602c"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/H02_cover.stl",
+      "bytes": 76684,
+      "sha256": "3ade0c74482d3cd0ea0399f4aacd90bc2b8f0ed8fdf49f6d3c71284b61a1d308"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/H03_nut_keeper.stl",
+      "bytes": 81684,
+      "sha256": "9a2b17e4cb4a3984b9617263682b41a8c80cc166909f19930fac087ea1e8a436"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/OPTIONAL_backplate_wire_port.stl",
+      "bytes": 245684,
+      "sha256": "45c6af8c516a8f25ef499082413bcd6d9ff440a92439268551c550838c21ce00"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/S01_body.stl",
+      "bytes": 159484,
+      "sha256": "7ade96a454150c2d9d92499dd8f06644e584b1fcb9612b397ef238da8221fdb2"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/S02_cover.stl",
+      "bytes": 77884,
+      "sha256": "4638955b09c2787d2bebdbbaa23de8a47e63eab6eb0f9d1d3ada8a2b145963be"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/ArcMask_Rear_R01_A1_PETG_1part.3mf",
+      "bytes": 951355,
+      "sha256": "535e7ba40af57a2e5d0687cf2d661c2d9f43e84dd2b38edeb8b263c9c4f71d5f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/first_layer.png",
+      "bytes": 70521,
+      "sha256": "9b3eb7296af2ec35a60398eece085b67b6d2a7d9434e1788fb9a8fe3a948b716"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/plate_1.png",
+      "bytes": 10012,
+      "sha256": "91a13e918b1c2968e3a8aff752408df61a844f5d0d47a4affa3111f2f179c152"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/print_cleanup.png",
+      "bytes": 164349,
+      "sha256": "573115d4571a494bafbc9a0ecd76599f51e549bb96a72baf0903f8124853ea78"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/rear_old_new.png",
+      "bytes": 154214,
+      "sha256": "ca1a795012acd38adc274409249ef41381dfef7a55199b4a5c9ce39993db6641"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/rear_threading.png",
+      "bytes": 161792,
+      "sha256": "f5fa1f98c71321fe653c75b0cf859ac2f3ea8233eda6463e80e1919cfb12417d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/sliced_supports.png",
+      "bytes": 302415,
+      "sha256": "6766eb8e20df19af5e524aebdf599bf7b7370d74782d2417498d3036f179fd7e"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/top_1.png",
+      "bytes": 4640,
+      "sha256": "1843c0ef95c8579a2906dce8878a8ea02749f7fc7ce229bb7cf87f0c799be679"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/delivery_gate.json",
+      "bytes": 5276,
+      "sha256": "af4d64a4f05bc4516c98b0bf7e0791d44afeab7fceda448f3852b926bd7b2723"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/meshes.json",
+      "bytes": 1207226,
+      "sha256": "d803587b15f68c189440070fccd1388b7fe238bc599981f6bdba8350122211c7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/normal_support_trial/plate_1_deposition.json",
+      "bytes": 967,
+      "sha256": "0bd30040b50fa17efa279c845e741ca8840f10fbb3b0ebe0cd0fd32cc3b52fc2"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/normal_support_trial/preparation.json",
+      "bytes": 1819,
+      "sha256": "f5fb00b602f07681b2dedc6fa4eb4dffcfe488910f70da3c922937d70cfb06a8"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/normal_support_trial/project_verification.json",
+      "bytes": 2422,
+      "sha256": "30946fc1dd81a70f08127ff640a8c5c4799ac4dae16e4257bf5c14aea4cef6ea"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/plate_1_deposition.json",
+      "bytes": 967,
+      "sha256": "0bd30040b50fa17efa279c845e741ca8840f10fbb3b0ebe0cd0fd32cc3b52fc2"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/preparation.json",
+      "bytes": 1819,
+      "sha256": "f5fb00b602f07681b2dedc6fa4eb4dffcfe488910f70da3c922937d70cfb06a8"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/project_verification.json",
+      "bytes": 2422,
+      "sha256": "30946fc1dd81a70f08127ff640a8c5c4799ac4dae16e4257bf5c14aea4cef6ea"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/support_comparison.json",
+      "bytes": 351,
+      "sha256": "1e84e123c4a00ec3e554d692555bac194e6798420fccc7cf94ecf87d1358b744"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/tree_support_trial/plate_1_deposition.json",
+      "bytes": 971,
+      "sha256": "6a347bb69445916c2dfb075ea56345429bd91399a4b634152f324c452f9ba91f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/tree_support_trial/preparation.json",
+      "bytes": 1820,
+      "sha256": "c4db9eb2c526a3b2263b8dbf0f215c3cae56bd01f681f199ad87365a2504f762"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/tree_support_trial/project_verification.json",
+      "bytes": 2459,
+      "sha256": "c508ab224a6f2561749791b93f0267d6570828575e571e7bf33dc59b28b4da12"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/validation.json",
+      "bytes": 6669,
+      "sha256": "10c340dfa492b5e85dcd331241c7db3552f34b374b1c304ae93e974b39fe7a72"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
+      "bytes": 5492,
+      "sha256": "dccb45b1dc0eaa0851b3a4d63f6a8ca46265554a8642046ee8c1a8b84fb6fec7"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/rear_strap_viewer.html",
+      "bytes": 4397225,
+      "sha256": "578d6c88bf3b8dbbebdc9803aea56eb45824d49772be27a0be481580e33b0765"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/result.json",
+      "bytes": 2598,
+      "sha256": "28b70f00848e8e2692bcd7cb6a5dd6dcd3a61c3fcbf64f8f06c734341f59301d"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/step_parts/R01_rear_cradle_clear_strap.step",
+      "bytes": 737479,
+      "sha256": "155f21e8d4dbaafb313f0cd3f1cd6da107f9b730916fc2e0353bf11378e8eb95"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/stl_print/R01_rear_cradle_clear_strap.stl",
+      "bytes": 316784,
+      "sha256": "1cf17f25d527cd450af898185ac3e270b054c6174f0df5f348e2e3570df2d80d"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_v01_A1_PETG_9件.3mf",
+      "bytes": 3917329,
+      "sha256": "00766bd75ea18d5a5912aacf2821cdb039e84af3ce8de78a41d2a2ffe3c7482e"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_v01_assembly.step",
+      "bytes": 30294278,
+      "sha256": "2da2a79d5a4943ada63c036e813a40f7f703049d64e9b226380bc4d3ebe9ae7d"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_v01_临时M3套筒五金参考.step",
+      "bytes": 588816,
+      "sha256": "0bfa103a204efeed31f7608d6cb75933861993f019aeadafc172a5173eb0710f"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_模型查看.html",
+      "bytes": 13239668,
+      "sha256": "d520c9fbd0599fe3b165fc0ebe1640450eedc4547c44a17d3df68fb3310efe2d"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/01_整体与内部.png",
+      "bytes": 340616,
+      "sha256": "a170caef21d9f7f11c26532161857f45fada53253709b334f941302d59085803"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/02_拆分与顺序.png",
+      "bytes": 388305,
+      "sha256": "3177f11f067141d9d523ed3d0781a1062f26e6d69219cd58d8d4907323e5686a"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/03_背部绑带.png",
+      "bytes": 196165,
+      "sha256": "fbc70bb321af80d1e7f7bbacc1d6bca645d908252f3b6e67faa46f3a810a1f7e"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/04_九件认件.png",
+      "bytes": 330574,
+      "sha256": "409e3aef145b6f645c3eeec458fddc02e4762ce6532e7f1908e6f0f7e72746f3"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/05_安装逻辑_临时M3套筒.png",
+      "bytes": 191553,
+      "sha256": "4c85c4dc3235c3bd49a2791bb5882c042688f43dd0a8bd004b6b8c5587506986"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/plate_1.png",
+      "bytes": 13247,
+      "sha256": "dd7fd59809eff4dbcddc028add674670f420f64b44c23916847eb9fe0bdc269b"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/top_1.png",
+      "bytes": 9107,
+      "sha256": "679658753deef2ca0d532e577fc62fac9d5b1b95818ae44461dca61d9150255e"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/assembly_guide_checks.json",
+      "bytes": 235,
+      "sha256": "e57b722967988b7c9beb4f91726b76a40ea54de42eefe21a431cc76b5d99faa0"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/cairn_delivery_checks.json",
+      "bytes": 323,
+      "sha256": "340d754a2e18558f8ea19837f45421d21c492ee0c22bb4091e4b0c33d9e55a8d"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/delivery_checks.json",
+      "bytes": 1869,
+      "sha256": "518e8d474be511ba8320e48645fd7a328c0e54879f29fd6d0f20f8f14371bb5f"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/deposition_checks.json",
+      "bytes": 923,
+      "sha256": "901075f2617c6d2b63fc90e7c6f987cc0ac191d8a8d9306975d3295bbb266b46"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/geometry_checks.json",
+      "bytes": 58621,
+      "sha256": "b6951ed90a6677f51f90c72e5f4c1fead24256d20154b9135c495c477ea9efa8"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/joints.json",
+      "bytes": 6113,
+      "sha256": "3aa18f5c1c0642e4f2ca28354b99eda42ebc6c4edecb588b98b4e071b68e2fec"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/mesh_checks.json",
+      "bytes": 1734,
+      "sha256": "0b0e50f34fd216ad897f0a0b153d647536d328e5a72e718d561212dd51fafccd"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/official_geometry.json",
+      "bytes": 170936,
+      "sha256": "dedc6928268a2885a3d09bf5cef4882ed963d1eb09518a463daa24b1947d96e8"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/parts_manifest.json",
+      "bytes": 2453,
+      "sha256": "778f6107c5934e89ef5bfb3c52d6ea40d0dbc8800830094096d79340887897a9"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/print_preparation.json",
+      "bytes": 3802,
+      "sha256": "6e6f2e80df287d9e4bb6f66ac8b399a5f075ff96c139c4541564f207df896a0e"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/print_project_verification.json",
+      "bytes": 3589,
+      "sha256": "fd01bb93715627a1b17c60dfdd0003011bfa32075846d7cd7c0d5af039bcf87b"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/temporary_hardware_checks.json",
+      "bytes": 44031,
+      "sha256": "80b618c12669e5141055a558a9ef7a94e2889861d7062b8216756ee00ebac57c"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/temporary_hardware_meshes.json",
+      "bytes": 660002,
+      "sha256": "b4d65afb18f003ae0896332ef37b9be22e6c4fbb38bebcc3b64c66a00f0a666e"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/viewer_meshes.json",
+      "bytes": 17525806,
+      "sha256": "76cd7d7c74bb28637c646f68313e17fcac571a0f38e603233d468a95fc3034b6"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/x5_reference.brep",
+      "bytes": 5552396,
+      "sha256": "691689d5c52f018fbcd85199192649a90d24b2f202ac7ab48556dd16eea653b2"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/qa/建模修订说明.md",
+      "bytes": 1535,
+      "sha256": "f1160a2cd5587e13736a79694a6f8633662d7538a7c8552ba17432b8587d35e4"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
+      "bytes": 8697,
+      "sha256": "96165b8654a95a5d4c1d4dce31d8506bac1fcb4b434778c7eab577268930b7b1"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/result.json",
+      "bytes": 6259,
+      "sha256": "13b93c8ee93330374e6fae99126f0d4893182ad64ddd4993df4e2ea7a33637b0"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/01_common_base.step",
+      "bytes": 1858545,
+      "sha256": "7cfc741dfe03e140a18fd6d21acae557cb8d98047bbe480755e87dc11bbb855f"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/02_compute_lid.step",
+      "bytes": 284071,
+      "sha256": "ea7210bf99ff95955ba10faf68196b0be910f08502d31375771ae4ad6c653430"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/03_battery_lid.step",
+      "bytes": 46338,
+      "sha256": "53e9964c0532c8c48c00250fd3ae4ca56d9a355fce2fdc2f01dc8f4dc35c7f04"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/04_x5_carrier.step",
+      "bytes": 175076,
+      "sha256": "d66d0522d66307594418a9475d0dd866ce268a4f53264953534fb238bbbb15e7"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/05_left_service_panel.step",
+      "bytes": 216597,
+      "sha256": "83f4e199dcb2b8f3aadbf7a3127f4f88a62ba44c0d7d49301f46dfff19ec5f25"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/06_right_service_panel.step",
+      "bytes": 127583,
+      "sha256": "c438f729a40f1ba28d11ae81a452c4b4326610c0a37cd146590262b3023f5373"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/07_front_service_panel.step",
+      "bytes": 234176,
+      "sha256": "27c709289b96294948d5d96a7e35ab7ee9ddcfe84232b291285326b3df51270f"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/08_waist_bridge.step",
+      "bytes": 103478,
+      "sha256": "a3514f5b072df27ad66b523cd9cfdcaf5511c975fc60c92b7ec5818c7e1d6ace"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/09_second_bridge.step",
+      "bytes": 74874,
+      "sha256": "8d44c752f52e08d03bcfa74eb97f0c8ebdf1c8c3a5f86e5238fbca6cb0c9d512"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/01_common_base.stl",
+      "bytes": 1004784,
+      "sha256": "14c45d5d5c178af8adf946660f106a34a25bde575d7704a165e1e0961572cb4a"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/02_compute_lid.stl",
+      "bytes": 210884,
+      "sha256": "7d185a212d1d37c4ed9b9b9934e8e5555aa34a973f46b7df6edc7e1c4be9bbce"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/03_battery_lid.stl",
+      "bytes": 85484,
+      "sha256": "ceada916581a18a63b5c5e5656c3be9a0d6fd535bad6a687d65498d63887ed39"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/04_x5_carrier.stl",
+      "bytes": 223684,
+      "sha256": "2c502f6cc437310b08d98a75b9ce6f5a0b1be59253ed8cf18dbb5b819ba9ea8b"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/05_left_service_panel.stl",
+      "bytes": 87484,
+      "sha256": "2e1dd9ff1660220309f455f685be731cff5f26404c5609a012c3d20eecfd8309"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/06_right_service_panel.stl",
+      "bytes": 40484,
+      "sha256": "7d2d58330aeb58bab965640efcee10461a6f9c91bf1d79c80d0adb68c45c835a"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/07_front_service_panel.stl",
+      "bytes": 47884,
+      "sha256": "daeb34542f4fe89c3300329360942df5941376eb229d2910772b06d677a56f7e"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/08_waist_bridge.stl",
+      "bytes": 88284,
+      "sha256": "0edd690be3bb84ed0832848c4b5e3567af8eb2f3d5ccaad8b93952eeaec2240b"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/09_second_bridge.stl",
+      "bytes": 86684,
+      "sha256": "60e1c2e0f3e4ff87d71598130d3d5cd9d92beef6617cf17b9eee041c16cde30d"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/安装简明说明.md",
+      "bytes": 1547,
+      "sha256": "ff9a30e1d64d6db4cbc0ba00f7ab08e6947f56f7f714944479589457f998fdac"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/安装逻辑_临时M3套筒.drawio",
+      "bytes": 8901,
+      "sha256": "5ab9d1ad8c598401e91333b7fcc91ceb8b1ee65575b5faa074089b758093614a"
+    },
+    {
+      "path": "3D打印文件/README.md",
+      "bytes": 801,
+      "sha256": "f5a0818a974ed6e1404b387cbb05368f945d016a62c44808f93cfa39f244301d"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/CENTER.wav",
+      "bytes": 91552,
+      "sha256": "ba2fec2ed7bc6b9712c9d06928f8a1f84ef9a0b8f7f7734eb31dd4b07ff5774a"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/CENTER_RIGHT.wav",
+      "bytes": 121988,
+      "sha256": "57904b5acf1d2ebffc2d39499a78401500b0f45dca5e697e783e094fde35fadf"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/generation.json",
+      "bytes": 142,
+      "sha256": "aee218d5417935980ae275185c209d924a947d48c56dbd266574dbf18b529cb4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT.wav",
+      "bytes": 88150,
+      "sha256": "3b8aaf4890e4781a09aee36a0921b5253b13cc91010d19828cb8f1aee451ef37"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_CENTER.wav",
+      "bytes": 121560,
+      "sha256": "53bb6977c174d666b6dad99ddcfca45005ef623bf6ffaf2035ee06369d6f91ee"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_CENTER_RIGHT.wav",
+      "bytes": 123508,
+      "sha256": "d8adcbd6d2f0ae7a6536fe355f66d9fad35566e6e3697e866eeb346bf6d1db69"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_RIGHT.wav",
+      "bytes": 105398,
+      "sha256": "aa88f308e0429f6902186561eecdc8e19ba59e8ea378dbae78c30595a4df5503"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/manifest.json",
+      "bytes": 1724,
+      "sha256": "30b0341c8461cd438e042d576c85b332b63e8cc3b4e25723a819688c7c95f83d"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/CENTER.wav",
+      "bytes": 91554,
+      "sha256": "1696ac30a6197225f77544da6e6fd7472f679b2056f96fd9995375b7097347f2"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/CENTER_RIGHT.wav",
+      "bytes": 121990,
+      "sha256": "92befed63f972369aca383620be943b7823cc3451c0610b1f9ccf6eda567e9c9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT.wav",
+      "bytes": 88152,
+      "sha256": "e5e60b4a50edd483feaea41e546b23204f40863860a13d7c472c38627c572cd4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT_CENTER.wav",
+      "bytes": 121562,
+      "sha256": "afdd1544fc86a8b2a2dd1460d021b53db86e0657f406414b02ba93cc5b5740dd"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT_CENTER_RIGHT.wav",
+      "bytes": 123510,
+      "sha256": "77f1aa14643e617666d30c1686bd1ee42867fb6494ba373bd7996a8cff252157"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT_RIGHT.wav",
+      "bytes": 105400,
+      "sha256": "4de409663abe39ead179e9b86c0b158aa14ac2296487705f768b68c847b11e41"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/RIGHT.wav",
+      "bytes": 88762,
+      "sha256": "583b7170f0fd763bb50120c32cb26462e038f82506a042820ef9125339258e82"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/RIGHT.wav",
+      "bytes": 88760,
+      "sha256": "07851aa42403bc49024d2201a230e6674e3975b45047533147c1b951cce54040"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/backends.py",
+      "bytes": 5557,
+      "sha256": "9229b928a92605ff3536d2e20fd5e83f40b8d27bcdb46677e6f25c2e73ce058a"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/board_worker.py",
+      "bytes": 2136,
+      "sha256": "06b7c2f636635d61d437b6426403be8973fbb37b9306772d5280694e1584acdc"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/check_quant.py",
+      "bytes": 2062,
+      "sha256": "aab7dd4a5c9574a0af606d9557a2dacd287459009ee3511fc9bbb1ec58212c11"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/compile_demo.py",
+      "bytes": 3698,
+      "sha256": "487c2467a91a7581d2ab71377fd96638af7d0a073ed9547d214a50de2dbf055c"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/corridor_decision.py",
+      "bytes": 7765,
+      "sha256": "74b6847120b84ed4d2836d50fb11273e5fa8d8be77742c612eefabd2d59fa2a7"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/demo_core.py",
+      "bytes": 5077,
+      "sha256": "4685c6a145cbac27be08bbbb4ec4cb82f894e0bb3aa6dc2c72860e4ec1500025"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/emulate_quant.py",
+      "bytes": 1307,
+      "sha256": "9a025431f78b3e26350229d3fda59c0585383717ae8224d7867827a3183caaf3"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/live_demo.py",
+      "bytes": 29289,
+      "sha256": "a7f716f5d71068f008471f9368e37600ed5705794514669522e18afaef5c6101"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/prepare_corridor_audio.py",
+      "bytes": 1704,
+      "sha256": "56745fbce22098896cd43dc93479a194fa5463857e6c895658d2694776c3ade4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/prepare_speech.ps1",
+      "bytes": 1650,
+      "sha256": "f3638f45e3d679804b85aada543c7b0e3b2ffefaa9ee6b35782dd28af02e52c9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/README.md",
+      "bytes": 246,
+      "sha256": "afc84289fe3a9ffa780fe756169a1953a166d5a7e1c1b0bbb3f74f22f4156e7e"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/resilient_stream.py",
+      "bytes": 3207,
+      "sha256": "fc15349def5495c83d593318ea9615bd8f364d0a59a2a9986cd2bf5bc3c7d7d9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/run_storage.py",
+      "bytes": 2376,
+      "sha256": "1fc78d9c0ce9b6b54935549e3bd1362edbb8c012f9972b4cc26ed41d5ded6eca"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_01.npy",
+      "bytes": 614528,
+      "sha256": "2d4af1fdc4e884f15d57d23a4d7c25d689f7e4146c66d6a6ef9564be9b4ed25d"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_02.npy",
+      "bytes": 614528,
+      "sha256": "b75e8af5fe676228ada9bce9f2d819ee98f53bc23d4d507585e7dc3df63fd983"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_03.npy",
+      "bytes": 614528,
+      "sha256": "2b1b57e9599d116c4900fdfff6bdfb9a0d7ade0c4f0e2cba276db48ef28794ae"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_04.npy",
+      "bytes": 614528,
+      "sha256": "a55f7a2814f5bd113310ef2741e5dc5fac31416ca46a2c4068f9b53a260787f1"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_01.npy",
+      "bytes": 614528,
+      "sha256": "00cdba750f8178bf07fc2a5a563a2b24a620c216ab9e068db1c67ccb3fc969fd"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_02.npy",
+      "bytes": 614528,
+      "sha256": "f5f5a5301695ce68d96f002acd4ae2913e48e3d33327541573fa32c18ad86e10"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_03.npy",
+      "bytes": 614528,
+      "sha256": "ee04290c01d4ef5a36fca005576c222ca92820d0e651d08b9e30d4a369da16cf"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_04.npy",
+      "bytes": 614528,
+      "sha256": "79a5dcb53d426c08c7ce5f7d1c0b054bd56334cd9748bdebea398d4482ee80a8"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_01.npy",
+      "bytes": 614528,
+      "sha256": "e5c0e6cae36292bfb9d81fe2a22a703983729ac312f9e47ba67b91e2a0e26ca1"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_02.npy",
+      "bytes": 614528,
+      "sha256": "213630f372baba46271f4af2834cd3a8ab182a51c04bc5cea7fcd38267e4a820"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_03.npy",
+      "bytes": 614528,
+      "sha256": "10dbae6092caaa730fb9c584eb6550320addbbd3a86069b7e83e23b4f21551f5"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_04.npy",
+      "bytes": 614528,
+      "sha256": "4116793a75e46ef47614e1e68d81a888d40aa72acec44704679d8d731bf5ff57"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_01.npy",
+      "bytes": 614528,
+      "sha256": "c378f15bba013f094284d66b217c83f3972df621dca46add794585f0f99ee43f"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_02.npy",
+      "bytes": 614528,
+      "sha256": "c162f46b564ebf52676aa0cf013b496bddd57bda48c05c42dc0e6a41c72223ce"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_03.npy",
+      "bytes": 614528,
+      "sha256": "cbed1c0710477f718b1498b1fbb5aec67c854dade2c60e2b437c001bed64f608"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_04.npy",
+      "bytes": 614528,
+      "sha256": "116817cf6359f39bc0692608f6f1a3df5bb1bda18577eed83f9afc2b904c484b"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_01.npy",
+      "bytes": 614528,
+      "sha256": "79fa9b78f6b589d42d8bbb63569021b8a9f1d9b827d25af18760db4945224207"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_02.npy",
+      "bytes": 614528,
+      "sha256": "b3eb13065bc014495af96d4ad4ac87ba6b0fd2947fdf09c1a06c514a493311c0"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_03.npy",
+      "bytes": 614528,
+      "sha256": "9f438be61972128b1173cb5a97b7f621c928e15dd1645bad3f99b72dc4d55403"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_04.npy",
+      "bytes": 614528,
+      "sha256": "b56b81761fb9244d2d7fbe50f513b3f00d339d8cdc2386fc08c8b818511f602c"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_01.npy",
+      "bytes": 614528,
+      "sha256": "70380ff71acf12724db28867a3f251dd919cd7919ac108a5eac6b6abaa2fa2a2"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_02.npy",
+      "bytes": 614528,
+      "sha256": "53e0e9b865e8d98a9ed50e1785f5f44106c283988d3e3f92d78fdc8719f8dca4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_03.npy",
+      "bytes": 614528,
+      "sha256": "3cdbe23ad3f35705178d95e68cac6619ea2c52a4494930d7e5f68db48f04fffc"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_04.npy",
+      "bytes": 614528,
+      "sha256": "ae775043785b1f556d44192686cb313109c64cfb6061383b37161674693c05cb"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_01.npy",
+      "bytes": 614528,
+      "sha256": "ae67abaf2e98d8b979adba24face718abc70ef873ebcdb2a210aa36ec17312ed"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_02.npy",
+      "bytes": 614528,
+      "sha256": "7a74f7ecd4f2138ac6caa7deef03cacb867663f3074009b5afa5deac0ee1322b"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_03.npy",
+      "bytes": 614528,
+      "sha256": "f2a8bf4b7b6b7cdee8d14bbcd18f2dad0c28368fe8d2a6fbad698ad92f08de44"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_04.npy",
+      "bytes": 614528,
+      "sha256": "ddb816f4fdeec7b8e44b097293522a0d1c89b1a0294efdbfbf62a32e8e171aed"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_01.npy",
+      "bytes": 614528,
+      "sha256": "7be75556167a0a221571bcd5de8eb3fa4592d76c303e4cb19d62834a522989ca"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_02.npy",
+      "bytes": 614528,
+      "sha256": "042f543259f33d0c74811dac421219f99be847f1d37202c461dab3a642f91bc9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_03.npy",
+      "bytes": 614528,
+      "sha256": "c003b85df98f576628f666501088ecceffeb9c1eeafb0abce2e543ae102d390c"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_04.npy",
+      "bytes": 614528,
+      "sha256": "47644ceafb5aac4fe13fc25b58d52f87b6049f2a583f4ac1fa3be88cbb60d4e5"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/inputs.json",
+      "bytes": 12574,
+      "sha256": "b87e03a7839f57bb8d9ff05836ed32f72130d24c5ee936adeec1647e85f8b4ee"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/work/floor_demo.bin",
+      "bytes": 395715,
+      "sha256": "627da5cd5db122e5ff0e6554ef45fa905e95c004bca5fbb9a6d05b8a2205c410"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/speech_output.py",
+      "bytes": 6751,
+      "sha256": "2b59e0c138ecd66735ce0de9aa8c74a45967fdab848ecb8adb9fe9563e398910"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/speech_phrases.json",
+      "bytes": 417,
+      "sha256": "7e9cea9a9cf239233fa4b69cf101839e06f47293583d1efb3aee637aa6df1930"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_closed_loop.py",
+      "bytes": 5841,
+      "sha256": "0208ff6581381481ffc2aee18e9e403b9a8427ab0cf736690c71b5d206e25c6a"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_continuous.py",
+      "bytes": 6010,
+      "sha256": "ebdb62d46995b1381c921bd6ce143b29c6f9cb19a2aeae53de25449cf32961cb"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_corridor.py",
+      "bytes": 5019,
+      "sha256": "400c9f573835c8f2450c386b034799da6d2457cc09bef5f9d35b062cb2554c62"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_demo_core.py",
+      "bytes": 2138,
+      "sha256": "29854cab1543c15d4cea08764e44ac09bb0d03816657798139a85051c4c39012"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_live_integration.py",
+      "bytes": 4876,
+      "sha256": "eab012251c4e727931cbd27d1d57633259b74f5a0eddd0c1326e86b8468905fe"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_speech.py",
+      "bytes": 7787,
+      "sha256": "453ab7644c6dca07cbdd34010631394f6719d129ab833fb83b4e18a29b2549d3"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_x5_camera_link.py",
+      "bytes": 3077,
+      "sha256": "51a0218f2ce715b196bda3f0124b060a114738b724f3090ab6f8582cbb26b218"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/verify_board.py",
+      "bytes": 2187,
+      "sha256": "63d7ff85bf54cb65b5d01bcb4263a783bfa9d3004beb93903f3df5816cd68eda"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/x5_camera_link.py",
+      "bytes": 4265,
+      "sha256": "8cf27b29a5bdefb1f11a3acbc3b14afcbd9c903daa2603f66722c9909a0de45c"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/check_round02.py",
+      "bytes": 2078,
+      "sha256": "6e0f90df2bb4a9c50e7e6cff148e97de6241dfa42d882325b1eff3418f2b99b5"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/device_settings.py",
+      "bytes": 975,
+      "sha256": "4a51af054fd6eac490ed175b5e9938aa011ed5f62008ebe3eaa04440f932371e"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/rdk_io.py",
+      "bytes": 2025,
+      "sha256": "ec2f217234da0f7fc31095d238b68f4495d479342a39a8c47d2469b005a60ef4"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/round02_supervision.py",
+      "bytes": 12768,
+      "sha256": "8dd23ae510bb4ce351f9564bd19b80e66253ad62796c4005f1ceda9f4e6ba588"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A01_02_draft_mask.png",
+      "bytes": 1146,
+      "sha256": "5ec53dcad64d9e16015dd5d994d43fbbd76403f754f3b2300aab6d78d8fc708a"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A02_02_draft_mask.png",
+      "bytes": 1473,
+      "sha256": "7a8fefc92359b67a8b7d5e1902cbcb93afd196559cd8da246b29845d6f45a64e"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A03_02_draft_mask.png",
+      "bytes": 1309,
+      "sha256": "dd0c6a345a3142d2ba581ebf5de3f924f697c8d3c81b6434435d5b832c31d5dd"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A04_02_draft_mask.png",
+      "bytes": 1161,
+      "sha256": "548336f91d32c5f750c5fd8da231a9b36d51c4f16c983eb0785cc34242dbb900"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A05_02_draft_mask.png",
+      "bytes": 1479,
+      "sha256": "6d22471adc03ba558d67293338abd9111e497d113ad95542067bf24e33bcbe7f"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A06_02_draft_mask.png",
+      "bytes": 1503,
+      "sha256": "dddd3720c596786704cec96f88f731be2ffd52ce069064a70de14bae7f668ce7"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A07_02_draft_mask.png",
+      "bytes": 1311,
+      "sha256": "f8c7920aed7fddf6ac7574c3c6be0a4bcca86ab1c59abb7b77b2896f4fb85c63"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/A08_02_draft_mask.png",
+      "bytes": 1281,
+      "sha256": "b7f78d44fb963a8e75a4f50c1b65d2bc5063c36af9da6fbe7b201e1220be75f0"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/annotation_drafts/labels.json",
+      "bytes": 13216,
+      "sha256": "19313828298ad1cd6b6dbfe78b2aee34b475259a7afd946922949bdc08d7da83"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_01.jpg",
+      "bytes": 15130,
+      "sha256": "22678f7a1afbcaeb78352be535dd8bab07fd5501d009c8c9ed26e33e6cd0d824"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_02.jpg",
+      "bytes": 13496,
+      "sha256": "b3a76bf65674a28342a02894b0669889196f1482a6183b77a4ac77abe73cc805"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_03.jpg",
+      "bytes": 12539,
+      "sha256": "e215b2889c84d965707ab88eb836a45432ddffe37efc83838253bb6786dab41e"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_04.jpg",
+      "bytes": 15324,
+      "sha256": "c4b0bbbaa4ee60a031b80f955d441a666d3682014d5831f8ba3f8506be92d54c"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_01.jpg",
+      "bytes": 15465,
+      "sha256": "4fcd3637838c92923f72ca3cf521aa8175a49b16b74ae062c118a669e0a8b407"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_02.jpg",
+      "bytes": 15404,
+      "sha256": "b8294a3c216d42574b0746eb0958b057166952284bd3b8238d80153805563d74"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_03.jpg",
+      "bytes": 15494,
+      "sha256": "b93fbc0d5a3ed2bc50d6e16fcfbeda57969ced36f65a3cdff88899e619792172"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_04.jpg",
+      "bytes": 15368,
+      "sha256": "ede8cda08198b1fd33effb4ee3b71ae19af2f5eff1148f2097aaffbf34fcc1f6"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_01.jpg",
+      "bytes": 15114,
+      "sha256": "c59246fc764e090de7c0f5c06e3774a3cd72969cf38211aefc7447b6b74d47d8"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_02.jpg",
+      "bytes": 15262,
+      "sha256": "f4e4fcb76bbd4d61667d2c689c7e9077a470dd7793a2ae12e993a85f23a26c05"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_03.jpg",
+      "bytes": 15410,
+      "sha256": "227beff107d423748525713bd9de817278517efaa36c042d4120f1e5a006e757"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_04.jpg",
+      "bytes": 15436,
+      "sha256": "7036d159c71dd1344473c385717922970f17c52bdf7fff6900ba5d5af8c9b7fd"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_01.jpg",
+      "bytes": 15345,
+      "sha256": "0d1f766d2b3829a4e226f8b1c34eb7362fe85b3acb573c7cd26d0e6b7cb84450"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_02.jpg",
+      "bytes": 15315,
+      "sha256": "f11143106cee3991ed8c32ed4b84702a4c46a65e3d85f3b0cdbb4778a201c772"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_03.jpg",
+      "bytes": 15196,
+      "sha256": "3ed02da704a057de9d8514409e92d2fa1b3abe2b3d9e970e4a0a68afdf12a1b3"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_04.jpg",
+      "bytes": 14926,
+      "sha256": "dce510e2bd7d809b2226ae68d1910b459c01f488d2fd3f828f6100e68ffb52b1"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_01.jpg",
+      "bytes": 15951,
+      "sha256": "9065dda1d3b6e9e42e658c5b23ff5713b47fd7b6c88c28ab3fe31a4fbf57b5ea"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_02.jpg",
+      "bytes": 16093,
+      "sha256": "ad7d9224a4ef56019f284c3b5a0a4419c9ff7654e42a16247e54c225cb0d1caf"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_03.jpg",
+      "bytes": 16107,
+      "sha256": "bf919d244b02dafca6d736def1645e5476df2e5e529feb777af4c21ad65b43d6"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_04.jpg",
+      "bytes": 15695,
+      "sha256": "b18b8366663b4f8ef1dab6b9fd801014f8889cef91ee8c661bb9f010d7f2b029"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_01.jpg",
+      "bytes": 15192,
+      "sha256": "6e36172ddf06977386a05bc8396ed27740ca713e027d23a38ae9dcdaa981f797"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_02.jpg",
+      "bytes": 15365,
+      "sha256": "3aded9cc4f95d7ba669cf2a357bf8ed8f751534a157929151b5e5bc97e2f8db4"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_03.jpg",
+      "bytes": 15538,
+      "sha256": "4281d0c16549210cf7d6e3a1781af1170ed0ad1015b873ba965fcb5c5bf9e01c"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_04.jpg",
+      "bytes": 15547,
+      "sha256": "7f014d761a7c033f2237f01322dab4e27d7ee7449903e2d61b2c36b0d312ed14"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_01.jpg",
+      "bytes": 15456,
+      "sha256": "e3bde8809710f62afd72828a22221ac85f4a52ca0586ad29b44d72f2c04208a6"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_02.jpg",
+      "bytes": 13604,
+      "sha256": "832929ecee7d606adeb8a596db3ccce3efb971ae6832f3be9362debb918bfaa7"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_03.jpg",
+      "bytes": 14888,
+      "sha256": "a70d4de64543ed4bf209e5440bbb78f55685c972168f6e420bd1a46e41a6cbe3"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_04.jpg",
+      "bytes": 14708,
+      "sha256": "732589676bca05b7efc569cb44b5920b0868809968b1cc28254a2739f9416acd"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_01.jpg",
+      "bytes": 16151,
+      "sha256": "a299f7cd94cb6347c0be68d8a9521e58acd24c86d04d3e18b673006f01ea2f6a"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_02.jpg",
+      "bytes": 16243,
+      "sha256": "a95d1a5742db053e2361cfeb2e3d2762ac388fcf3ab2ff96e89ec856b59f375d"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_03.jpg",
+      "bytes": 16131,
+      "sha256": "f3f213ef2a0236f4edf163d195011bcbc256b041edd3bd41494bbc706cb6a71b"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_04.jpg",
+      "bytes": 16170,
+      "sha256": "5edaa7a23fd3b25221e3964c1e97fe4d8cc1400e1a1bb4876a6f00ecbcf47740"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round01/data/manifest.json",
+      "bytes": 35447,
+      "sha256": "415834d4b44d81142b5c8d3df2bb33a09f8dd16aca30292f38f1f04cf721d569"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A01_02.png",
+      "bytes": 2148,
+      "sha256": "7461bc3b9994ef62e1cd46bbb244bbd72ed937713361766650bdc6f35ce4e2db"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A02_02.png",
+      "bytes": 2579,
+      "sha256": "00977c68713858ad577ca3bd3da0b6f5d7812f1238d82a569cee6d05266deec9"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A03_02.png",
+      "bytes": 2349,
+      "sha256": "97e20b61563676439e1162419648f07c43d90e45bd5be4417cb5a42603396278"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A04_02.png",
+      "bytes": 2183,
+      "sha256": "cd8d59a83f57087b05db4f854920ccad532459773e5d5c937bf1d833fd4384c5"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A05_02.png",
+      "bytes": 2526,
+      "sha256": "d4bb130452a711fbd1a639e7c7d6e20a69438cd3f70954709bbdd5e4f51a0f07"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A06_02.png",
+      "bytes": 2635,
+      "sha256": "11441fe1dad5619512b6f5fd164ab3ab6dc9f794590d250d3d798d0e572fbfb3"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A07_02.png",
+      "bytes": 2308,
+      "sha256": "f838b8b601d73af1771e7e7cce994bddced0e6d56322b6b508360dc46f8a5d4e"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_labels/A08_02.png",
+      "bytes": 2464,
+      "sha256": "bbad703d2bc46ce1a0721e3903641be24e3e8ae2f01a22df098f3fb112931817"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/coarse_review_acceptance.json",
+      "bytes": 3995,
+      "sha256": "d7efa872c411cd2986e86ad7d0e70263534b824589a9ae02d7fa7a2a299b16a3"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/completion.json",
+      "bytes": 290,
+      "sha256": "c74ad4c3530538fa13535faeb44c9ef71e5859614373714906bbe8022c5c6d4e"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A01_02_prediction.png",
+      "bytes": 463,
+      "sha256": "3394585a186f4313c003580900cc0d4920ed8ad31d089981092937fef1de0631"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A02_02_prediction.png",
+      "bytes": 537,
+      "sha256": "7ff6bf8b3c1935f04c08be7841ee7732e725b69a4b10c4e364a9e29e6ccca126"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A03_02_prediction.png",
+      "bytes": 459,
+      "sha256": "7a2fb64a4a5d3338601f293d4312e235826c23539bee3155e26620e864315d40"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A04_02_prediction.png",
+      "bytes": 408,
+      "sha256": "e201828a941691a5ac2aed48f2b2009b174d6f894be1a629c110c3625371a8ea"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A05_02_prediction.png",
+      "bytes": 551,
+      "sha256": "155228da4e244be94aef9d6780eb2e0cf3d23224db3ab0eb4e82d474b77d36ac"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A06_02_prediction.png",
+      "bytes": 568,
+      "sha256": "70a0432474b7aaf31aaaf1f5da5e24fe96944719afcf4f02cb3fe52e655e7090"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A07_02_prediction.png",
+      "bytes": 494,
+      "sha256": "aae08f0b7a9fc0b5503f39d601cae57f25337653030561d594b311dbb8071e41"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/A08_02_prediction.png",
+      "bytes": 469,
+      "sha256": "0f8879aa69335b379123792492c35652095ac5a4f13fbe1afc9e7dc63304225e"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/checkpoint.pt",
+      "bytes": 574175,
+      "sha256": "037a15d3f17e9aa7bf83c62ef6c61205ada48a8d4915f51dd22617e0bac4880d"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/diagnostics.json",
+      "bytes": 1987,
+      "sha256": "ab7a289cb8bfd77d0fe5d1f7ab50875068f301d3835e7b5cb93021f5b2ebaa2f"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/model.onnx",
+      "bytes": 565044,
+      "sha256": "51ba24d2310c25f875e96260ddbbce66b3f223d698028ea0e78ec4e50c9831d1"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/floor_only/onnx_consistency.json",
+      "bytes": 1100,
+      "sha256": "d2f710e0b487528c48f947dbe0d13426a56a3f65e2a1523426617dcc2fb95228"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/runs/round02_20261101/protocol.json",
+      "bytes": 1019,
+      "sha256": "c6c400ca914ff93d87a58ecfba630ab739fc194e01504e4ec664f49662cd4bf1"
+    },
+    {
+      "path": "benchmarks/ground_route_screen_20261031/test_round02_supervision.py",
+      "bytes": 963,
+      "sha256": "311a851af617b9d521e3b57a0f699eab14589eeb2b7a2565c468a34d1d31b7d1"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/board_connection.py",
+      "bytes": 4374,
+      "sha256": "9af1b6a9819a0b6f0d2736279f0add07d28d04f778bf74aefcb883cfafd821be"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/check_camera_transport.py",
+      "bytes": 7435,
+      "sha256": "056a75bc829bdf8810f939ee56d304cfbfe1f45c967c3d34e4649e1bf5eb4565"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/check_joint_board.py",
+      "bytes": 9634,
+      "sha256": "8e86ef6d3cd9cc831544ff7021887a0e35410dca2c274c604ea5b8595c753093"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/check_joint_pc.py",
+      "bytes": 2563,
+      "sha256": "86be1ae078ae02f914701c6c4314318762cc0761851fa660e18f857291b030f7"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/guidance_output.py",
+      "bytes": 2696,
+      "sha256": "815b9d8897d9d6f7e78076c894010c40fc92d387a08a2ab11c2883166fba3e2b"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/joint_app.py",
+      "bytes": 10542,
+      "sha256": "4db9229e4fb041402973f912c4e21d06b8197a3c9d9d1d5cdcf1842946c4bb91"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/live_joint.py",
+      "bytes": 12763,
+      "sha256": "8991ffe1b8aa2f62c7c5ea2891636411ea158ead08885c06d88ee8a0ce38af18"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/path_policy.py",
+      "bytes": 3100,
+      "sha256": "9dc81080e2aa55016b4b0055f16157008755c7d33acfb689eeb0395a29952937"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/paths.py",
+      "bytes": 1169,
+      "sha256": "9495b717d6696697e28f01dfa9763747993dfeeb830bc8d46c0d28316094a9c6"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/pyeasy_yolo_seg.py",
+      "bytes": 6787,
+      "sha256": "bad2befe29f72f3b98ab08ce06a46ee0115894053bb16952fb99e6e3d90ff1a1"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/README.md",
+      "bytes": 207,
+      "sha256": "da1c477f0954573888557172b79eb0329f1d42129de553b3cd36e25b9b51b006"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/runtime_utils/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/runtime_utils/numpy_softmax.py",
+      "bytes": 322,
+      "sha256": "8e9529284bfedca0449109f43cf8d94508e571a5d019783441048374764d181e"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/runtime_utils/postprocess.py",
+      "bytes": 31085,
+      "sha256": "83afb0e707371f35aa8ca07a489153fc20812422fabc8c054105307e6ec5b636"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/runtime_utils/preprocess.py",
+      "bytes": 8297,
+      "sha256": "63c2bd0c64fb7d7f397e00d8b631d0437aef8817759f46e5b4633db5b8eb06f4"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/tactile_backend.py",
+      "bytes": 3834,
+      "sha256": "94678eb24fa1ad846c02ba09075d403e6bdb53fbe5759db38b4e7ae2edf54ee9"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/tactile_worker.py",
+      "bytes": 1709,
+      "sha256": "1a65e198b8d6c0f29e211ff37f14f4a94808e95afaa9838543b6983992663715"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_board_preflight.py",
+      "bytes": 1995,
+      "sha256": "ef0cdf994bdfe89bfb0b07ed8ad4981532ade7a60e3a0b60c2afd313294464e1"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_camera_transport.py",
+      "bytes": 1974,
+      "sha256": "4fea3fc4cebe764041773be3492f6b9e8ef3085ca67145a76f43b0516eee6bce"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_guidance_output.py",
+      "bytes": 2723,
+      "sha256": "1c673100d798d4ffa3eeb9071529ade1411e85d64a6eb9624f562987ebb39b25"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_live_joint.py",
+      "bytes": 4418,
+      "sha256": "cfc4d66110d21d7a14a5d7a5e660727542678a254c8b23cf3c2b464f2566b67a"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_path_policy.py",
+      "bytes": 2867,
+      "sha256": "2842db357a22ab1512d6cdb7d4358749404431936bfdb591c4154b2ed703f937"
+    },
+    {
+      "path": "config/device.json.example",
+      "bytes": 174,
+      "sha256": "79508f2e85ee50f0f5ba41bde68bb02076f35d1c537e541f30958be9c4533553"
+    },
+    {
+      "path": "docs/assets/compute_case.png",
+      "bytes": 340616,
+      "sha256": "a170caef21d9f7f11c26532161857f45fada53253709b334f941302d59085803"
+    },
+    {
+      "path": "docs/assets/headwear.png",
+      "bytes": 277324,
+      "sha256": "21ddb81b4f9a30e1b3d52c0edf89adf277df217673765eec4d1a2a89979704f8"
+    },
+    {
+      "path": "docs/GITHUB.md",
+      "bytes": 2653,
+      "sha256": "6bded90b11cb345577d0fcf64ec1d3220fe07bb05c245cbe2001978d982bc2e5"
+    },
+    {
+      "path": "docs/HARDWARE.md",
+      "bytes": 2396,
+      "sha256": "ecc5e5ccf7edfbdf68c3143798991c430795d93a2d29c4bdf0a14067c840341b"
+    },
+    {
+      "path": "docs/MECHANICAL.md",
+      "bytes": 3953,
+      "sha256": "ee2fe8b08a75f3cd53d7a90c7e2c9e03cd3f2d34dd51d4bfdf72c7fc1b2b1da0"
+    },
+    {
+      "path": "docs/SETUP.md",
+      "bytes": 4592,
+      "sha256": "b7b0d7dd10cf037271ab7417afd5cabbb1f56025f1c154594ebfe8cfe37e4ffc"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "bytes": 4101,
+      "sha256": "9eb0b94067a716c5b75833b42a49a48a23ced10b25cbb77e990db12667be9881"
+    },
+    {
+      "path": "docs/SUBMISSION.md",
+      "bytes": 2959,
+      "sha256": "eb867314682ec8302e8f48f8606fe14df88c00bb6419683e33437445273d08e8"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 4205,
+      "sha256": "5cba898eae071dc11afbe130d5336df13e425b1589f0653efa8c10ca82b96c0f"
+    },
+    {
+      "path": "firmware/esp32s3/CMakeLists.txt",
+      "bytes": 117,
+      "sha256": "a5fb04ab1053fa8016e66c19a779fe4c3549abc77485ee2b842eb2aca8f4700c"
+    },
+    {
+      "path": "firmware/esp32s3/components/glasses_board/CMakeLists.txt",
+      "bytes": 260,
+      "sha256": "1af60a0f8f7a24f13b5b3d88b4a0f3bcc4337a3fe603b43514a79c7dd21b7fec"
+    },
+    {
+      "path": "firmware/esp32s3/components/glasses_board/glasses_board.c",
+      "bytes": 15908,
+      "sha256": "8b43a4259b0ac892a912ed4146a3f39c21aa0840cb2882c06bf52eddecdeff28"
+    },
+    {
+      "path": "firmware/esp32s3/components/glasses_board/include/glasses_board.h",
+      "bytes": 2553,
+      "sha256": "06ba337e4ad73811f87d58a1b502a625ddfd262d222ad6b67fec8a6cdc289bad"
+    },
+    {
+      "path": "firmware/esp32s3/dependencies.lock",
+      "bytes": 2796,
+      "sha256": "78fec36e62c09b219d337121e24f27544fff0a4751c9e92d5191bb68f7fccc58"
+    },
+    {
+      "path": "firmware/esp32s3/main/CMakeLists.txt",
+      "bytes": 445,
+      "sha256": "a03411cacfff4fe80577d80f31172d698780391b68b09ad29153d96b64e0de74"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_imu_stream.c",
+      "bytes": 10718,
+      "sha256": "2595ad39d5951b5b3a7092ec3858ed4e89d173f65a961b897321787db04e1d55"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_imu_stream.h",
+      "bytes": 436,
+      "sha256": "d41807e752503235f7fbe6e6b9fb6190712ef08ae0f4c5dd9d717c51db960dc5"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_peripheral_bench.c",
+      "bytes": 16972,
+      "sha256": "65cdcc641bb528d07ec94f26d7c97956682e16609eb0297995948424d5a4e3d9"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_peripheral_bench.h",
+      "bytes": 244,
+      "sha256": "02bd00eeed9d007edf8c21b08c283a4d710bdea875e5c6d2e53bfcfe0681c574"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_protocol.c",
+      "bytes": 5151,
+      "sha256": "98781aa894c87527ff9f84c37735b8954dbf9d8c45d2d8814544fbe0ccceabd9"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_protocol.h",
+      "bytes": 1844,
+      "sha256": "c2689e5ac43717068fd86c28ac3a8ae5d1cd9c4830b1e8416734fd263124fee9"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_sync_core.c",
+      "bytes": 2293,
+      "sha256": "70df71d0650823f3bbbae3bff25e40fe8e4919c8186facf53fcb1070a2912f18"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_sync_core.h",
+      "bytes": 1105,
+      "sha256": "ea2d50283659d34661bdd75e689a70e70d9498a2e90e883ad11584033f6dd888"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_transport.c",
+      "bytes": 19902,
+      "sha256": "d6f7c8647a11f4e5cada0629dfa8ac22683da661ab3ebc8075171800f6ac2a87"
+    },
+    {
+      "path": "firmware/esp32s3/main/glasses_transport.h",
+      "bytes": 146,
+      "sha256": "ce77ec134e2b56f967b57156066c26ba544da069ac63cead2194bd0a77174d4f"
+    },
+    {
+      "path": "firmware/esp32s3/main/idf_component.yml",
+      "bytes": 176,
+      "sha256": "c5d4603f9c9e8cc16c112a72067b57a2ef861ce149ef485ad57e8b3db3dcd8e4"
+    },
+    {
+      "path": "firmware/esp32s3/main/Kconfig.projbuild",
+      "bytes": 4984,
+      "sha256": "2d4b18c251bb3c9b70b82e177db8cf54ebf28ee5a7f62c00613c5372c452db4e"
+    },
+    {
+      "path": "firmware/esp32s3/main/main.c",
+      "bytes": 18924,
+      "sha256": "6e6eaa2470af304022fc9020447eca23f0b14511e20d6d4d99ce483307c957a6"
+    },
+    {
+      "path": "firmware/esp32s3/main/speaker_volume.h",
+      "bytes": 820,
+      "sha256": "274136c058d0014db3fdf0c8f07450ce5359f94c0d288be718f9dd16f138b804"
+    },
+    {
+      "path": "firmware/esp32s3/sdkconfig.defaults",
+      "bytes": 1296,
+      "sha256": "d1474bbd5030cc630dcadcda090d793aa322a14f799c643903775fb549da1c22"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/app.py",
+      "bytes": 10325,
+      "sha256": "00f9315f9be44d28cc5386aa8972a4e3e924e348a4335a7de3f1a86eeba74964"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/live_stream.py",
+      "bytes": 3037,
+      "sha256": "f97b7dedb9a8c796c6ed689f228ee2027e1faec640c51a6d17fdedc9d65b8bf3"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/README.md",
+      "bytes": 342,
+      "sha256": "9da9d379f32382ec91c4d4663a1619d62ef996201aff5f5c4b0269cfb0dc647f"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/recorder.py",
+      "bytes": 19148,
+      "sha256": "8e370fde7b164eae6f3141108a4815faff8e8e8465c262938fe99d0fbf845e0b"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/test_live_stream.py",
+      "bytes": 3558,
+      "sha256": "abc479fd7dcd2961bf411d1078c515fc60b61f8422d3f583e6dffd36dff53047"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/test_recorder.py",
+      "bytes": 8143,
+      "sha256": "b6c4ee8cef914246ac13c61c51cf40efd5d5e532fc4bdafac207163b794e4f06"
+    },
+    {
+      "path": "hardware_test/esp_dataset_capture/verify_dataset.py",
+      "bytes": 2606,
+      "sha256": "7ca1197479c91823f2de766f79522b4dbe4e98aa06d52d4e4e8b643ca0199da0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4103,
+      "sha256": "010eaa617d22a8de78e3fda80ea93170ee757334570f101f758b61c403fa8e45"
+    },
+    {
+      "path": "requirements-training.txt",
+      "bytes": 140,
+      "sha256": "57a1920acc9765edd7bb356354cc6f37d084658579a32f70f0e064dffee40716"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 125,
+      "sha256": "d23ba70c718cff0d84863acddabb7527df2aaf9b39610af05f1764404cc8db46"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 522,
+      "sha256": "4c3255097f644d68586814a7a1c493fd04342608b4b3dabcfb6253c63fa53c55"
+    },
+    {
+      "path": "scripts/launch_demo.ps1",
+      "bytes": 1590,
+      "sha256": "09881bd07039a330c0aeb7571ea86aa193beb307fa01324c20b214e43d66b95a"
+    },
+    {
+      "path": "scripts/offline_demo.py",
+      "bytes": 3206,
+      "sha256": "7a8b5a3ea14dade246c6798f78ee03630b41ea88be8d5e1d451ee08ade2deaf7"
+    },
+    {
+      "path": "scripts/verify_repository.py",
+      "bytes": 6166,
+      "sha256": "3d37a874b8cc9bf21bda89f3386c2e25887befa4a61da058a5911baccb6b27e3"
+    },
+    {
+      "path": "submission/baseline.json",
+      "bytes": 12966,
+      "sha256": "47829b3bc089bbd53171ee6918b2433ab5201c1d42c1c3743d9f79beba5d8207"
+    },
+    {
+      "path": "submission/EXPORT_CHANGES.md",
+      "bytes": 1743,
+      "sha256": "65f0c422e383cba4e6f59abae8bb6f4c1c4729da80aae4499ba72c0289c97adf"
+    },
+    {
+      "path": "submission/mechanics.json",
+      "bytes": 27528,
+      "sha256": "fb8d4f5e1614217543116c74acf6ff792e15a92a8d41eabfe5e4d7b1026a0a77"
+    },
+    {
+      "path": "submission/omitted_references.json",
+      "bytes": 2192,
+      "sha256": "85901be515bdccf6f6033ddddf625fa222b8ae64bb13ce75dddcd25da83a6f2a"
+    },
+    {
+      "path": "submission/PROVENANCE.json",
+      "bytes": 180418,
+      "sha256": "ed1949163e04436a6abc40f0b6c3555a54bd37ae75db543a7f5faefe2000ea12"
+    },
+    {
+      "path": "third_party/GuideTWSI_LICENSE_MIT.txt",
+      "bytes": 1074,
+      "sha256": "78a984e3ae317d5ae7bcd8db78e96a260b5cd016e4770f068d9b94d378d213a0"
+    },
+    {
+      "path": "third_party/RDK_MODEL_ZOO_LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2183,
+      "sha256": "ce7b3eb13c708ddd6b87c61969ee9dd00dc06ea214caa442dac7127b4e2637a3"
+    },
+    {
+      "path": "启动演示.cmd",
+      "bytes": 137,
+      "sha256": "1051a8315c4a7b81fe7e1e074e33e1e373fdf7b668a95da10e55ae43905ded61"
+    }
+  ]
+}

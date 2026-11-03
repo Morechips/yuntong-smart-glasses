@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "latest_log_lines": 6,
+  "records": [
+    "cairn/LOG.md",
+    "cairn/ROADMAP.md",
+    "cairn/x5-compute-case.md"
+  ],
+  "physical_fit_validated": false,
+  "thermal_validated": false,
+  "print_submitted": false,
+  "three_mf_sha256": "00766bd75ea18d5a5912aacf2821cdb039e84af3ce8de78a41d2a2ffe3c7482e"
+}

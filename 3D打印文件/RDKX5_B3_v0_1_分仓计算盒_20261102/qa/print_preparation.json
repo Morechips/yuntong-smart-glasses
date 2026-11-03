@@ -1,0 +1,182 @@
+{
+  "plate_count": 1,
+  "gap_mm": 3.0,
+  "parts": [
+    {
+      "id": 5,
+      "name": "05_left_service_panel",
+      "plate": 1,
+      "turn90": false,
+      "xy_local": [
+        6.5,
+        6.5
+      ],
+      "size_mm": [
+        50.20000076293945,
+        146.0,
+        2.4000000953674316
+      ],
+      "mesh_sha256": "2e1dd9ff1660220309f455f685be731cff5f26404c5609a012c3d20eecfd8309",
+      "faces": 1748
+    },
+    {
+      "id": 7,
+      "name": "07_front_service_panel",
+      "plate": 1,
+      "turn90": true,
+      "xy_local": [
+        6.5,
+        155.5
+      ],
+      "size_mm": [
+        50.20000076293945,
+        93.19999694824219,
+        2.4000000953674316
+      ],
+      "mesh_sha256": "daeb34542f4fe89c3300329360942df5941376eb229d2910772b06d677a56f7e",
+      "faces": 956
+    },
+    {
+      "id": 1,
+      "name": "01_common_base",
+      "plate": 1,
+      "turn90": true,
+      "xy_local": [
+        59.70000076293945,
+        6.5
+      ],
+      "size_mm": [
+        146.0,
+        98.0,
+        52.599998474121094
+      ],
+      "mesh_sha256": "14c45d5d5c178af8adf946660f106a34a25bde575d7704a165e1e0961572cb4a",
+      "faces": 20094
+    },
+    {
+      "id": 8,
+      "name": "08_waist_bridge",
+      "plate": 1,
+      "turn90": true,
+      "xy_local": [
+        208.70000076293945,
+        6.5
+      ],
+      "size_mm": [
+        16.0,
+        98.0,
+        13.0
+      ],
+      "mesh_sha256": "0edd690be3bb84ed0832848c4b5e3567af8eb2f3d5ccaad8b93952eeaec2240b",
+      "faces": 1764
+    },
+    {
+      "id": 4,
+      "name": "04_x5_carrier",
+      "plate": 1,
+      "turn90": true,
+      "xy_local": [
+        59.70000076293945,
+        107.5
+      ],
+      "size_mm": [
+        70.79756997699224,
+        77.69999694824219,
+        2.4000000953674316
+      ],
+      "mesh_sha256": "2c502f6cc437310b08d98a75b9ce6f5a0b1be59253ed8cf18dbb5b819ba9ea8b",
+      "faces": 4472
+    },
+    {
+      "id": 9,
+      "name": "09_second_bridge",
+      "plate": 1,
+      "turn90": false,
+      "xy_local": [
+        227.70000076293945,
+        6.5
+      ],
+      "size_mm": [
+        16.0,
+        74.0,
+        13.0
+      ],
+      "mesh_sha256": "60e1c2e0f3e4ff87d71598130d3d5cd9d92beef6617cf17b9eee041c16cde30d",
+      "faces": 1732
+    },
+    {
+      "id": 6,
+      "name": "06_right_service_panel",
+      "plate": 1,
+      "turn90": true,
+      "xy_local": [
+        59.70000076293945,
+        188.1999969482422
+      ],
+      "size_mm": [
+        76.0,
+        50.20000076293945,
+        2.4000000953674316
+      ],
+      "mesh_sha256": "7d2d58330aeb58bab965640efcee10461a6f9c91bf1d79c80d0adb68c45c835a",
+      "faces": 808
+    },
+    {
+      "id": 3,
+      "name": "03_battery_lid",
+      "plate": 1,
+      "turn90": false,
+      "xy_local": [
+        138.70000076293945,
+        107.5
+      ],
+      "size_mm": [
+        98.0,
+        63.0,
+        2.4000000953674316
+      ],
+      "mesh_sha256": "ceada916581a18a63b5c5e5656c3be9a0d6fd535bad6a687d65498d63887ed39",
+      "faces": 1708
+    },
+    {
+      "id": 2,
+      "name": "02_compute_lid",
+      "plate": 1,
+      "turn90": false,
+      "xy_local": [
+        138.70000076293945,
+        173.5
+      ],
+      "size_mm": [
+        98.0,
+        76.0,
+        2.4000000953674316
+      ],
+      "mesh_sha256": "7d185a212d1d37c4ed9b9b9934e8e5555aa34a973f46b7df6edc7e1c4be9bbce",
+      "faces": 4216
+    }
+  ],
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "sliced": false,
+  "print_submitted": false
+}

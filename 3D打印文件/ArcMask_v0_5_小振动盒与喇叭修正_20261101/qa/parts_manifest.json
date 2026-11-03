@@ -1,0 +1,67 @@
+[
+  {
+    "name": "H01_body",
+    "group": "haptic",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H01_body.stl",
+    "sha256": "c4fdcbcfd2d669bd6a3df084193a3e9118706d911818c0f63d1a14862e9e602c",
+    "print_rotation_x": 0,
+    "size_mm": [
+      40.599998474121094,
+      26.0,
+      13.199999809265137
+    ],
+    "copies": 2
+  },
+  {
+    "name": "H02_cover",
+    "group": "haptic",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H02_cover.stl",
+    "sha256": "3ade0c74482d3cd0ea0399f4aacd90bc2b8f0ed8fdf49f6d3c71284b61a1d308",
+    "print_rotation_x": 90,
+    "size_mm": [
+      40.599998474121094,
+      10.80000019073486,
+      29.299999237060547
+    ],
+    "copies": 2
+  },
+  {
+    "name": "H03_nut_keeper",
+    "group": "haptic",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H03_nut_keeper.stl",
+    "sha256": "9a2b17e4cb4a3984b9617263682b41a8c80cc166909f19930fac087ea1e8a436",
+    "print_rotation_x": 180,
+    "size_mm": [
+      8.0,
+      22.799999237060547,
+      3.700000047683716
+    ],
+    "copies": 2
+  },
+  {
+    "name": "S01_body",
+    "group": "speaker",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\S01_body.stl",
+    "sha256": "7ade96a454150c2d9d92499dd8f06644e584b1fcb9612b397ef238da8221fdb2",
+    "print_rotation_x": 0,
+    "size_mm": [
+      36.0,
+      14.0,
+      10.0
+    ],
+    "copies": 1
+  },
+  {
+    "name": "S02_cover",
+    "group": "speaker",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\S02_cover.stl",
+    "sha256": "4638955b09c2787d2bebdbbaa23de8a47e63eab6eb0f9d1d3ada8a2b145963be",
+    "print_rotation_x": 90,
+    "size_mm": [
+      36.0,
+      11.199999809265133,
+      29.299999237060547
+    ],
+    "copies": 1
+  }
+]

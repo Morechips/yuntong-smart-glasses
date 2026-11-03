@@ -1,0 +1,2233 @@
+[
+  {
+    "name": "arc_front_flat_lid",
+    "kind": "printed",
+    "color": [
+      0.24,
+      0.3,
+      0.36
+    ],
+    "notes": "Planar1.2mm front skin with1.4mm inner ribs inside unchanged housing; front face on bed, camera independent.",
+    "explode": [
+      0,
+      -35,
+      0
+    ],
+    "print_rotation": [
+      90,
+      0,
+      0
+    ],
+    "module": "shell",
+    "bounds": {
+      "min": [
+        -85.0,
+        0.0,
+        -35.00000000000001
+      ],
+      "max": [
+        85.00000000000003,
+        2.6000000000000005,
+        35.000000000000014
+      ],
+      "size": [
+        170.00000000000003,
+        2.6000000000000005,
+        70.00000000000003
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 13926.144043919632,
+    "step": "step_parts\\arc_front_flat_lid.step",
+    "stl": "stl_fit_parts\\arc_front_flat_lid.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "max": [
+        170.0,
+        70.0,
+        2.5999999046325684
+      ],
+      "size": [
+        170.0,
+        69.99999999999999,
+        2.5999999046325684
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -1.4210854715202004e-14,
+      -0.0
+    ]
+  },
+  {
+    "name": "arc_structural_rim",
+    "kind": "printed",
+    "color": [
+      0.18,
+      0.23,
+      0.28
+    ],
+    "notes": "Planar straight wall body toY29.4; carrier datum28.8 and wearer dock40; local rearward posts remain.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": [
+      90,
+      0,
+      0
+    ],
+    "module": "shell",
+    "bounds": {
+      "min": [
+        -89.2,
+        1.1999999999999993,
+        -35.0
+      ],
+      "max": [
+        89.20000000000002,
+        40.0,
+        35.000000000000014
+      ],
+      "size": [
+        178.40000000000003,
+        38.8,
+        70.00000000000001
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 35904.84415892021,
+    "step": "step_parts\\arc_structural_rim.step",
+    "stl": "stl_fit_parts\\arc_structural_rim.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "max": [
+        178.39999389648438,
+        70.0,
+        38.79999923706055
+      ],
+      "size": [
+        178.39999389648438,
+        69.99999999999999,
+        38.79999923706055
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -1.4210854715202004e-14,
+      -0.0
+    ]
+  },
+  {
+    "name": "arc_eye_side_barrier",
+    "kind": "printed",
+    "color": [
+      0.3,
+      0.34,
+      0.38
+    ],
+    "notes": "Flat1mm opaque barrier, screw and structural pass-through openings.",
+    "explode": [
+      0,
+      35,
+      0
+    ],
+    "print_rotation": [
+      -90,
+      0,
+      0
+    ],
+    "module": "shell",
+    "bounds": {
+      "min": [
+        -85.0,
+        29.4,
+        -35.0
+      ],
+      "max": [
+        85.00000000000003,
+        30.400000000000002,
+        35.000000000000014
+      ],
+      "size": [
+        170.00000000000003,
+        1.0000000000000036,
+        70.00000000000001
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 10755.825703116088,
+    "step": "step_parts\\arc_eye_side_barrier.step",
+    "stl": "stl_fit_parts\\arc_eye_side_barrier.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        3.1530860753847638e-15
+      ],
+      "max": [
+        170.0,
+        70.0,
+        1.0
+      ],
+      "size": [
+        170.0,
+        70.0,
+        0.9999999999999969
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -3.1530860753847638e-15
+    ]
+  },
+  {
+    "name": "arc_top_service_blank",
+    "kind": "printed",
+    "color": [
+      0.25,
+      0.31,
+      0.37
+    ],
+    "notes": "New45.6mm wide service lid,36mm hole pitch, mates reinforced roof supports. Exact USB/button/plug alignment unmeasured.",
+    "explode": [
+      0,
+      0,
+      26
+    ],
+    "print_rotation": [
+      180,
+      0,
+      0
+    ],
+    "module": "shell",
+    "bounds": {
+      "min": [
+        -62.8,
+        9.2,
+        31.800000000000004
+      ],
+      "max": [
+        -17.199999999999996,
+        28.8,
+        35.0
+      ],
+      "size": [
+        45.6,
+        19.6,
+        3.1999999999999957
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1866.3186824037605,
+    "step": "step_parts\\arc_top_service_blank.step",
+    "stl": "stl_fit_parts\\arc_top_service_blank.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -1.408186186760966e-16
+      ],
+      "max": [
+        45.599998474121094,
+        19.600000381469727,
+        3.200000047683716
+      ],
+      "size": [
+        45.599998474121094,
+        19.600000381469727,
+        3.200000047683716
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      1.408186186760966e-16
+    ]
+  },
+  {
+    "name": "arc_rigid_electronics_carrier",
+    "kind": "printed",
+    "color": [
+      0.27,
+      0.38,
+      0.43
+    ],
+    "notes": "Shared skeleton; inferred38mm MB pitch with diagonal ±0.6mm slot centres. Camera/IMU safe contact and printed1.7mm pilot fit pending.",
+    "explode": [
+      0,
+      8,
+      0
+    ],
+    "print_rotation": {
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -90
+    },
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        -69.0,
+        11.0,
+        -29.0
+      ],
+      "max": [
+        69.0,
+        28.8,
+        29.0
+      ],
+      "size": [
+        138.0,
+        17.8,
+        58.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7743.002443989451,
+    "step": "step_parts\\arc_rigid_electronics_carrier.step",
+    "stl": "stl_fit_parts\\arc_rigid_electronics_carrier.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -1.2766162943661594e-16
+      ],
+      "max": [
+        138.0,
+        58.0,
+        17.799999237060547
+      ],
+      "size": [
+        138.0,
+        58.0,
+        17.799999237060547
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      1.2766162943661594e-16
+    ]
+  },
+  {
+    "name": "arc_camera_edge_tray",
+    "kind": "printed",
+    "color": [
+      0.42,
+      0.51,
+      0.55
+    ],
+    "notes": "13.3mm PCB sits between side guards with0.2mm lateral gap; removable edge support, top FPC slot; actual bearing map unconfirmed.",
+    "explode": [
+      0,
+      -8,
+      0
+    ],
+    "print_rotation": {
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": 90
+    },
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        -15.0,
+        10.999999999999998,
+        -2.6500000000000004
+      ],
+      "max": [
+        15.0,
+        14.6,
+        14.65
+      ],
+      "size": [
+        30.0,
+        3.6000000000000014,
+        17.3
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 553.0849748625102,
+    "step": "step_parts\\arc_camera_edge_tray.step",
+    "stl": "stl_fit_parts\\arc_camera_edge_tray.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        30.0,
+        17.299999237060547,
+        3.5999999046325684
+      ],
+      "size": [
+        30.0,
+        17.299999237060547,
+        3.5999999046325684
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "arc_camera_edge_keeper",
+    "kind": "printed",
+    "color": [
+      0.52,
+      0.62,
+      0.65
+    ],
+    "notes": "Front edge retainer atPCB front plane; does not touch10.3mm lens. Actual safe edge contact and torque pending.",
+    "explode": [
+      0,
+      -16,
+      0
+    ],
+    "print_rotation": {
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -90
+    },
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        -15.0,
+        9.399999999999999,
+        -2.6500000000000004
+      ],
+      "max": [
+        15.0,
+        11.0,
+        14.65
+      ],
+      "size": [
+        30.0,
+        1.6000000000000014,
+        17.3
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 383.18477989000803,
+    "step": "step_parts\\arc_camera_edge_keeper.step",
+    "stl": "stl_fit_parts\\arc_camera_edge_keeper.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -1.2761851016564478e-16
+      ],
+      "max": [
+        30.0,
+        17.299999237060547,
+        1.600000023841858
+      ],
+      "size": [
+        30.0,
+        17.299999237060547,
+        1.6000000238418581
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      1.2761851016564478e-16
+    ]
+  },
+  {
+    "name": "arc_imu_edge_keeper",
+    "kind": "printed",
+    "color": [
+      0.45,
+      0.58,
+      0.48
+    ],
+    "notes": "Provisional C-keeper onX18..38 PCB end, socket end toward+X. This local PCB placement/contact is an assumption and must be checked before tightening.",
+    "explode": [
+      0,
+      -12,
+      0
+    ],
+    "print_rotation": {
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -90
+    },
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        15.0,
+        9.399999999999999,
+        -17.0
+      ],
+      "max": [
+        39.0,
+        11.0,
+        17.0
+      ],
+      "size": [
+        24.0,
+        1.6000000000000014,
+        34.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 378.6556567580605,
+    "step": "step_parts\\arc_imu_edge_keeper.step",
+    "stl": "stl_fit_parts\\arc_imu_edge_keeper.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        24.0,
+        33.997337341308594,
+        1.600000023841858
+      ],
+      "size": [
+        24.0,
+        33.997337341308594,
+        1.600000023841858
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0013298268895596266,
+      1.2761851016564478e-16
+    ]
+  },
+  {
+    "name": "arc_ref_mainboard_plugged",
+    "kind": "reference",
+    "color": [
+      0.16,
+      0.42,
+      0.31
+    ],
+    "notes": "Measured43.5X×42Z×13.3Y plugged envelope. Nominal2mm bore and38pitch inferred; not detailed PCB ECAD.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        -61.5,
+        10.999999999999998,
+        -18.0
+      ],
+      "max": [
+        -18.0,
+        24.299999999999997,
+        24.0
+      ],
+      "size": [
+        43.5,
+        13.299999999999999,
+        42.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 24131.967270829016
+  },
+  {
+    "name": "arc_ref_camera_raised",
+    "kind": "reference",
+    "color": [
+      0.22,
+      0.47,
+      0.39
+    ],
+    "notes": "Measured13.3squarePCB and10.3diameter/10projection lens; PCB thickness1.6mm is an assumption. Optical axis faces−Y.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        -6.65,
+        1.0,
+        -0.6500000000000004
+      ],
+      "max": [
+        6.65,
+        12.600000000000001,
+        12.65
+      ],
+      "size": [
+        13.3,
+        11.600000000000001,
+        13.3
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1116.2529115483533
+  },
+  {
+    "name": "arc_ref_imu_bent_plugged",
+    "kind": "reference",
+    "color": [
+      0.27,
+      0.54,
+      0.37
+    ],
+    "notes": "Measured35X×20Z×13.3Y includes20mm PCB and in-plane bentDuPont. PCB+X socket-end allocation assumed, not confirmed.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        18.0,
+        10.999999999999998,
+        -10.0
+      ],
+      "max": [
+        53.0,
+        24.299999999999997,
+        10.0
+      ],
+      "size": [
+        35.0,
+        13.299999999999999,
+        20.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 9310.0
+  },
+  {
+    "name": "arc_keepout_fpc_corridor",
+    "kind": "keepout",
+    "color": [
+      0.83,
+      0.51,
+      0.17
+    ],
+    "notes": "Reserved route above/leftcamera, not an actual flex model. Connector rotation, cable width, bend radius and usable75mm length pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "carrier",
+    "bounds": {
+      "min": [
+        -18.0,
+        12.799999999999999,
+        13.0
+      ],
+      "max": [
+        6.0,
+        22.0,
+        21.0
+      ],
+      "size": [
+        24.0,
+        9.200000000000001,
+        8.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1387.1999999999998
+  },
+  {
+    "name": "battery_only_tray",
+    "kind": "printed",
+    "color": [
+      0.23,
+      0.29,
+      0.35
+    ],
+    "notes": "1.6mm protective case, frontM2 dock ears,6mm soft retaining ribbon slots,round-bottom lead port opening to cover seam and tie slots. No rigid face preload.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": {
+      "axis": "X",
+      "angle": 90
+    },
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -44.5,
+        222.0,
+        -17.0
+      ],
+      "max": [
+        44.5,
+        237.2,
+        33.0
+      ],
+      "size": [
+        89.0,
+        15.199999999999989,
+        50.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 10731.654664435526,
+    "step": "step_parts\\battery_only_tray.step",
+    "stl": "stl_fit_parts\\battery_only_tray.stl",
+    "print_bounds": {
+      "min": [
+        -8.881784197001252e-16,
+        0.0,
+        -5.541723645323101e-16
+      ],
+      "max": [
+        89.0,
+        50.0,
+        15.199999809265137
+      ],
+      "size": [
+        89.0,
+        50.0,
+        15.199999809265137
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      8.881784197001252e-16,
+      -0.0,
+      5.541723645323101e-16
+    ]
+  },
+  {
+    "name": "battery_only_cover",
+    "kind": "printed",
+    "color": [
+      0.34,
+      0.4,
+      0.45
+    ],
+    "notes": "TwoM2 candidate nut closures, nuts load top/bottom, lid lifts+Y. Screws actual length/head unselected.",
+    "explode": [
+      0,
+      18,
+      0
+    ],
+    "print_rotation": {
+      "axis": "X",
+      "angle": -90
+    },
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -32.0,
+        236.2,
+        -17.0
+      ],
+      "max": [
+        32.0,
+        238.8,
+        33.0
+      ],
+      "size": [
+        64.0,
+        2.6000000000000227,
+        50.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 5088.368486033622,
+    "step": "step_parts\\battery_only_cover.step",
+    "stl": "stl_fit_parts\\battery_only_cover.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -5.541723645323101e-16
+      ],
+      "max": [
+        64.0,
+        50.0,
+        2.5999999046325684
+      ],
+      "size": [
+        64.0,
+        50.0,
+        2.599999904632569
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      5.541723645323101e-16
+    ]
+  },
+  {
+    "name": "battery_measured_reference",
+    "kind": "reference",
+    "color": [
+      0.78,
+      0.72,
+      0.24
+    ],
+    "notes": "55X×10.8Y×34.8Z measured pouch cell17g. Lead/tabs/expansion unmeasured.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -27.5,
+        224.6,
+        -9.399999999999999
+      ],
+      "max": [
+        27.5,
+        235.4,
+        25.4
+      ],
+      "size": [
+        55.0,
+        10.800000000000011,
+        34.8
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 20671.200000000008
+  },
+  {
+    "name": "battery_front_liner_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.12,
+      0.3,
+      0.34
+    ],
+    "notes": "1mm candidate compliant front liner, zero nominal compression; not verified contact/material.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -22.5,
+        223.6,
+        -4.5
+      ],
+      "max": [
+        22.5,
+        224.6,
+        20.5
+      ],
+      "size": [
+        45.0,
+        1.0,
+        25.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1125.0
+  },
+  {
+    "name": "battery_retaining_ribbon_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.25,
+      0.35,
+      0.42
+    ],
+    "notes": "Candidate replaceable6mm soft ribbon,0.8thick. No preload; real lead/tab and pressure checks pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -33.0,
+        235.4,
+        5.0
+      ],
+      "max": [
+        33.0,
+        236.20000000000002,
+        11.0
+      ],
+      "size": [
+        66.0,
+        0.8000000000000114,
+        6.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 316.8000000000015
+  },
+  {
+    "name": "battery_round_wire_keepout",
+    "kind": "keepout",
+    "color": [
+      0.8,
+      0.3,
+      0.1
+    ],
+    "notes": "NominalØ2.9 bundle inØ3.6 round-bottom port; open cover and lay loose wire from+Y, leaving existing terminals fitted. Lead map/grommet/strain relief pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        10.55,
+        233.55,
+        26.0
+      ],
+      "max": [
+        13.45,
+        236.45,
+        36.0
+      ],
+      "size": [
+        2.8999999999999986,
+        2.8999999999999773,
+        10.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 66.05198554172532
+  },
+  {
+    "name": "haptic_left_pod_body",
+    "kind": "printed",
+    "color": [
+      0.23,
+      0.29,
+      0.35
+    ],
+    "notes": "Smooth1.6mm inner transmission panel,Ø3.6 round-bottom wire outlet open to cover seam,tie passages,soft ribbon slots. Actualmotor/PCB map unmeasured.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": {
+      "axis": "Y",
+      "angle": 90
+    },
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -106.0,
+        130.0,
+        -4.0
+      ],
+      "max": [
+        -91.4,
+        186.0,
+        28.0
+      ],
+      "size": [
+        14.599999999999994,
+        56.0,
+        32.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 6833.803331785122,
+    "step": "step_parts\\haptic_left_pod_body.step",
+    "stl": "stl_fit_parts\\haptic_left_pod_body.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -4.4333789162584805e-16
+      ],
+      "max": [
+        32.0,
+        56.0,
+        14.600000381469727
+      ],
+      "size": [
+        32.0,
+        56.0,
+        14.600000381469727
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      4.4333789162584805e-16
+    ]
+  },
+  {
+    "name": "haptic_left_pod_cover",
+    "kind": "printed",
+    "color": [
+      0.34,
+      0.4,
+      0.45
+    ],
+    "notes": "Twoouter25mm band loops integral to cover. Releaseband/remove pod before service. TwoM2 candidates,nut+Zentry.",
+    "explode": [
+      -16,
+      0,
+      0
+    ],
+    "print_rotation": {
+      "axis": "Y",
+      "angle": -90
+    },
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -113.2,
+        130.0,
+        -4.0
+      ],
+      "max": [
+        -106.0,
+        186.0,
+        28.0
+      ],
+      "size": [
+        7.200000000000003,
+        56.0,
+        32.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3640.6311916116115,
+    "step": "step_parts\\haptic_left_pod_cover.step",
+    "stl": "stl_fit_parts\\haptic_left_pod_cover.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        32.0,
+        56.0,
+        7.199999809265137
+      ],
+      "size": [
+        32.0,
+        56.0,
+        7.199999809265137
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "haptic_left_measured_reference",
+    "kind": "reference",
+    "color": [
+      0.12,
+      0.46,
+      0.31
+    ],
+    "notes": "Measured complete module10X×39.5Y×26.5Z includingplug; actualbearingmap unknown.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -104.0,
+        138.25,
+        -1.25
+      ],
+      "max": [
+        -94.0,
+        177.75,
+        25.25
+      ],
+      "size": [
+        10.0,
+        39.5,
+        26.5
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 10467.500000000002
+  },
+  {
+    "name": "haptic_left_trial_inner_pad",
+    "kind": "soft_reference",
+    "color": [
+      0.12,
+      0.3,
+      0.34
+    ],
+    "notes": "1mm trialcontactpad touches boundingfaces only. Actualmotor/PCB bearing location pending; not a proven vibrationcoupling.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -94.0,
+        146.0,
+        5.0
+      ],
+      "max": [
+        -93.0,
+        170.0,
+        19.0
+      ],
+      "size": [
+        1.0,
+        24.0,
+        14.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 336.0
+  },
+  {
+    "name": "haptic_left_trial_skin_pad",
+    "kind": "soft_reference",
+    "color": [
+      0.16,
+      0.25,
+      0.3
+    ],
+    "notes": "Optional0.8mm skin-facingpad,pressure/damping notvalidated.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -91.4,
+        140.0,
+        0.5
+      ],
+      "max": [
+        -90.6,
+        176.0,
+        23.5
+      ],
+      "size": [
+        0.8000000000000114,
+        36.0,
+        23.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 662.4000000000063
+  },
+  {
+    "name": "haptic_left_retaining_ribbon",
+    "kind": "soft_reference",
+    "color": [
+      0.25,
+      0.35,
+      0.42
+    ],
+    "notes": "Replaceable6mm softretentionribbon throughend slots,0.8nominalthickness. Nohardclamp; actualcomponentpressure pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -104.80000000000001,
+        129.0,
+        17.0
+      ],
+      "max": [
+        -104.0,
+        187.0,
+        23.0
+      ],
+      "size": [
+        0.8000000000000114,
+        58.0,
+        6.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 278.40000000000265
+  },
+  {
+    "name": "haptic_left_round_wire_keepout",
+    "kind": "keepout",
+    "color": [
+      0.8,
+      0.3,
+      0.1
+    ],
+    "notes": "Ø2.9 nominalroute inØ3.6 round-bottom port open to outward cover seam: lay wire in without removing terminals. Two1.4×3.0 tiepassages; wirelength/grommet/strain relief pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        -101.45,
+        177.9,
+        2.55
+      ],
+      "max": [
+        -98.55,
+        187.9,
+        5.45
+      ],
+      "size": [
+        2.9000000000000057,
+        10.0,
+        2.9000000000000004
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 66.05198554172539
+  },
+  {
+    "name": "haptic_right_pod_body",
+    "kind": "printed",
+    "color": [
+      0.23,
+      0.29,
+      0.35
+    ],
+    "notes": "Smooth1.6mm inner transmission panel,Ø3.6 round-bottom wire outlet open to cover seam,tie passages,soft ribbon slots. Actualmotor/PCB map unmeasured.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": {
+      "axis": "Y",
+      "angle": -90
+    },
+    "module": "rear",
+    "bounds": {
+      "min": [
+        91.4,
+        130.0,
+        -4.0
+      ],
+      "max": [
+        106.0,
+        186.0,
+        28.0
+      ],
+      "size": [
+        14.599999999999994,
+        56.0,
+        32.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 6833.803331785122,
+    "step": "step_parts\\haptic_right_pod_body.step",
+    "stl": "stl_fit_parts\\haptic_right_pod_body.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -4.4333789162584805e-16
+      ],
+      "max": [
+        32.0,
+        56.0,
+        14.600000381469727
+      ],
+      "size": [
+        32.0,
+        56.0,
+        14.600000381469727
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      4.4333789162584805e-16
+    ]
+  },
+  {
+    "name": "haptic_right_pod_cover",
+    "kind": "printed",
+    "color": [
+      0.34,
+      0.4,
+      0.45
+    ],
+    "notes": "Twoouter25mm band loops integral to cover. Releaseband/remove pod before service. TwoM2 candidates,nut+Zentry.",
+    "explode": [
+      16,
+      0,
+      0
+    ],
+    "print_rotation": {
+      "axis": "Y",
+      "angle": 90
+    },
+    "module": "rear",
+    "bounds": {
+      "min": [
+        106.0,
+        130.0,
+        -4.0
+      ],
+      "max": [
+        113.2,
+        186.0,
+        28.0
+      ],
+      "size": [
+        7.200000000000003,
+        56.0,
+        32.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3640.6311916116115,
+    "step": "step_parts\\haptic_right_pod_cover.step",
+    "stl": "stl_fit_parts\\haptic_right_pod_cover.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        32.0,
+        56.0,
+        7.199999809265137
+      ],
+      "size": [
+        32.0,
+        56.0,
+        7.199999809265137
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "haptic_right_measured_reference",
+    "kind": "reference",
+    "color": [
+      0.12,
+      0.46,
+      0.31
+    ],
+    "notes": "Measured complete module10X×39.5Y×26.5Z includingplug; actualbearingmap unknown.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        94.0,
+        138.25,
+        -1.25
+      ],
+      "max": [
+        104.0,
+        177.75,
+        25.25
+      ],
+      "size": [
+        10.0,
+        39.5,
+        26.5
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 10467.500000000002
+  },
+  {
+    "name": "haptic_right_trial_inner_pad",
+    "kind": "soft_reference",
+    "color": [
+      0.12,
+      0.3,
+      0.34
+    ],
+    "notes": "1mm trialcontactpad touches boundingfaces only. Actualmotor/PCB bearing location pending; not a proven vibrationcoupling.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        93.0,
+        146.0,
+        5.0
+      ],
+      "max": [
+        94.0,
+        170.0,
+        19.0
+      ],
+      "size": [
+        1.0,
+        24.0,
+        14.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 336.0
+  },
+  {
+    "name": "haptic_right_trial_skin_pad",
+    "kind": "soft_reference",
+    "color": [
+      0.16,
+      0.25,
+      0.3
+    ],
+    "notes": "Optional0.8mm skin-facingpad,pressure/damping notvalidated.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        90.6,
+        140.0,
+        0.5
+      ],
+      "max": [
+        91.4,
+        176.0,
+        23.5
+      ],
+      "size": [
+        0.8000000000000114,
+        36.0,
+        23.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 662.4000000000063
+  },
+  {
+    "name": "haptic_right_retaining_ribbon",
+    "kind": "soft_reference",
+    "color": [
+      0.25,
+      0.35,
+      0.42
+    ],
+    "notes": "Replaceable6mm softretentionribbon throughend slots,0.8nominalthickness. Nohardclamp; actualcomponentpressure pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        104.0,
+        129.0,
+        17.0
+      ],
+      "max": [
+        104.80000000000001,
+        187.0,
+        23.0
+      ],
+      "size": [
+        0.8000000000000114,
+        58.0,
+        6.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 278.40000000000265
+  },
+  {
+    "name": "haptic_right_round_wire_keepout",
+    "kind": "keepout",
+    "color": [
+      0.8,
+      0.3,
+      0.1
+    ],
+    "notes": "Ø2.9 nominalroute inØ3.6 round-bottom port open to outward cover seam: lay wire in without removing terminals. Two1.4×3.0 tiepassages; wirelength/grommet/strain relief pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "rear",
+    "bounds": {
+      "min": [
+        98.55,
+        177.9,
+        2.55
+      ],
+      "max": [
+        101.45,
+        187.9,
+        5.45
+      ],
+      "size": [
+        2.9000000000000057,
+        10.0,
+        2.9000000000000004
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 66.05198554172539
+  },
+  {
+    "name": "wear_removable_forehead_face_frame",
+    "kind": "printed",
+    "color": [
+      0.23,
+      0.29,
+      0.35
+    ],
+    "notes": "Reinforced3mm contact skins with original pad-side curves; wide bridge webs; four front-loaded nut seats. No integral angled mounting feet.",
+    "explode": [
+      0,
+      28,
+      0
+    ],
+    "print_rotation": [
+      90,
+      0,
+      0
+    ],
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -74.0000001,
+        36.0634799990766,
+        -29.000000100000097
+      ],
+      "max": [
+        74.0000001,
+        58.71041648610637,
+        70.0
+      ],
+      "size": [
+        148.0000002,
+        22.64693648702977,
+        99.0000001000001
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 22895.392747441056,
+    "step": "step_parts\\wear_removable_forehead_face_frame.step",
+    "stl": "stl_fit_parts\\wear_removable_forehead_face_frame.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        148.0,
+        99.0,
+        22.64693260192871
+      ],
+      "size": [
+        148.0,
+        99.0,
+        22.64693260192871
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -9.999999406318238e-08,
+      -0.0,
+      -9.999999406318238e-08
+    ]
+  },
+  {
+    "name": "wear_left_flat_connector",
+    "kind": "printed",
+    "color": [
+      0.34,
+      0.43,
+      0.49
+    ],
+    "notes": "3mm flat plate plus2.5mm short pads; shell holesX±73/Z±26, frame holesX±58/Z±25. Flat face on bed; no support intended.",
+    "explode": [
+      -18,
+      -7,
+      0
+    ],
+    "print_rotation": [
+      90,
+      0,
+      0
+    ],
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -78.0,
+        40.0,
+        -32.0
+      ],
+      "max": [
+        -52.0,
+        45.5,
+        32.0
+      ],
+      "size": [
+        26.0,
+        5.5,
+        64.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 4457.369143165668,
+    "step": "step_parts\\wear_left_flat_connector.step",
+    "stl": "stl_fit_parts\\wear_left_flat_connector.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        6.977808715086459e-15
+      ],
+      "max": [
+        26.0,
+        64.0,
+        5.5
+      ],
+      "size": [
+        26.0,
+        64.0,
+        5.499999999999993
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -6.977808715086459e-15
+    ]
+  },
+  {
+    "name": "wear_right_flat_connector",
+    "kind": "printed",
+    "color": [
+      0.34,
+      0.43,
+      0.49
+    ],
+    "notes": "3mm flat plate plus2.5mm short pads; shell holesX±73/Z±26, frame holesX±58/Z±25. Flat face on bed; no support intended.",
+    "explode": [
+      18,
+      -7,
+      0
+    ],
+    "print_rotation": [
+      90,
+      0,
+      0
+    ],
+    "module": "wear",
+    "bounds": {
+      "min": [
+        52.0,
+        40.0,
+        -32.0
+      ],
+      "max": [
+        78.0,
+        45.5,
+        32.0
+      ],
+      "size": [
+        26.0,
+        5.5,
+        64.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 4457.369143165668,
+    "step": "step_parts\\wear_right_flat_connector.step",
+    "stl": "stl_fit_parts\\wear_right_flat_connector.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        6.977808715086459e-15
+      ],
+      "max": [
+        26.0,
+        64.0,
+        5.5
+      ],
+      "size": [
+        26.0,
+        64.0,
+        5.499999999999993
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -6.977808715086459e-15
+    ]
+  },
+  {
+    "name": "wear_forehead_pad_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.53,
+      0.64,
+      0.67
+    ],
+    "notes": "4mm nominal soft replacement pad candidate, 0.2mm assembly gap to hard carrier; no material/compression or fit validation.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -62.0000001,
+        42.400000000000006,
+        30.9999999
+      ],
+      "max": [
+        62.0000001,
+        63.33824039655045,
+        61.0000001
+      ],
+      "size": [
+        124.0000002,
+        20.93824039655044,
+        30.000000200000002
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 15351.039862270096
+  },
+  {
+    "name": "wear_face_pad_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.53,
+      0.64,
+      0.67
+    ],
+    "notes": "Optional peripheral light-contact gasket; no intended eye/eyelid load, fit unvalidated.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -74.0000001,
+        39.29539874516234,
+        -29.000000100000097
+      ],
+      "max": [
+        74.0000001,
+        63.63285542219638,
+        29.0000001
+      ],
+      "size": [
+        148.0000002,
+        24.33745667703404,
+        58.0000002000001
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 13442.48350288524
+  },
+  {
+    "name": "wear_rear_occipital_cradle",
+    "kind": "printed",
+    "color": [
+      0.23,
+      0.29,
+      0.35
+    ],
+    "notes": "Independent curved load cradle with rear battery dock Y222 and side/top webbing anchors; not the battery enclosure.",
+    "explode": [
+      0,
+      -18,
+      0
+    ],
+    "print_rotation": [
+      90,
+      0,
+      0
+    ],
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -51.5,
+        203.1889133217961,
+        -11.000000100000001
+      ],
+      "max": [
+        51.5,
+        222.0000001,
+        40.0
+      ],
+      "size": [
+        103.0,
+        18.8110867782039,
+        51.0000001
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 8940.026108546856,
+    "step": "step_parts\\wear_rear_occipital_cradle.step",
+    "stl": "stl_fit_parts\\wear_rear_occipital_cradle.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        103.0,
+        51.0,
+        18.810985565185547
+      ],
+      "size": [
+        103.0,
+        51.0,
+        18.810985565185547
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -0.00010098063648911193
+    ]
+  },
+  {
+    "name": "wear_rear_pad_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.53,
+      0.64,
+      0.67
+    ],
+    "notes": "Candidate soft occipital pad; screw access circles kept clear; no universal-fit claim.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -46.0000001,
+        198.5918962403455,
+        -11.000000100000001
+      ],
+      "max": [
+        46.0000001,
+        212.8,
+        27.0000001
+      ],
+      "size": [
+        92.0000002,
+        14.208103759654506,
+        38.0000002
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 13800.111937377442
+  },
+  {
+    "name": "wear_left_side_band_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.14,
+      0.19,
+      0.22
+    ],
+    "notes": "25mm adjustable textile webbing illustration; routing around actual anchors, no rigid head shell and no quantified head size.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -111.19997112918809,
+        26.256381143708115,
+        -12.5000001
+      ],
+      "max": [
+        -45.87649839578111,
+        209.79040972700088,
+        24.5000001
+      ],
+      "size": [
+        65.32347273340697,
+        183.53402858329275,
+        37.0000002
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7585.025180302775
+  },
+  {
+    "name": "wear_right_side_band_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.14,
+      0.19,
+      0.22
+    ],
+    "notes": "25mm adjustable textile webbing illustration; routing around actual anchors, no rigid head shell and no quantified head size.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "wear",
+    "bounds": {
+      "min": [
+        45.87649839578111,
+        26.256381143708115,
+        -12.5000001
+      ],
+      "max": [
+        111.19997112918809,
+        209.79040972700088,
+        24.5000001
+      ],
+      "size": [
+        65.32347273340697,
+        183.53402858329275,
+        37.0000002
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 7585.025180302766
+  },
+  {
+    "name": "wear_top_band_reference",
+    "kind": "soft_reference",
+    "color": [
+      0.14,
+      0.19,
+      0.22
+    ],
+    "notes": "25mm fold-back hook-and-loop top strap with two passes in each slot and short return ends. Illustrative overlap, not a self-locking printed slot or a validated textile assembly.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "wear",
+    "bounds": {
+      "min": [
+        -12.5,
+        33.296944129965325,
+        30.9
+      ],
+      "max": [
+        12.5,
+        222.7030558700347,
+        108.17361517301484
+      ],
+      "size": [
+        25.0,
+        189.40611174006938,
+        77.27361517301483
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 11350.353496642714
+  },
+  {
+    "name": "speaker_strap_body",
+    "kind": "printed",
+    "color": [
+      0.23,
+      0.29,
+      0.35
+    ],
+    "notes": "Trial2209 chamber with0.4mm front seal gap; inward grille, two M2 side nut entries and openable lead slot. Actual contact/acoustics pending.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": [
+      0,
+      90,
+      0
+    ],
+    "module": "accessories",
+    "bounds": {
+      "min": [
+        -107.0,
+        91.0,
+        -3.0
+      ],
+      "max": [
+        -96.4,
+        125.0,
+        13.0
+      ],
+      "size": [
+        10.599999999999994,
+        34.0,
+        16.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 3007.646576792515,
+    "step": "step_parts\\speaker_strap_body.step",
+    "stl": "stl_fit_parts\\speaker_strap_body.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        -1.2761851016564478e-16
+      ],
+      "max": [
+        16.0,
+        34.0,
+        10.600000381469727
+      ],
+      "size": [
+        16.0,
+        34.0,
+        10.600000381469727
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      1.2761851016564478e-16
+    ]
+  },
+  {
+    "name": "speaker_strap_cover",
+    "kind": "printed",
+    "color": [
+      0.3,
+      0.35,
+      0.4
+    ],
+    "notes": "25mm outer-webbing loops; rear fingers contact only assumed driver edge. Actual edge map/retention and pressure pending.",
+    "explode": [
+      -25,
+      0,
+      0
+    ],
+    "print_rotation": [
+      0,
+      -90,
+      0
+    ],
+    "module": "accessories",
+    "bounds": {
+      "min": [
+        -113.80000000000001,
+        91.0,
+        -10.9
+      ],
+      "max": [
+        -102.0,
+        125.0,
+        20.9
+      ],
+      "size": [
+        11.800000000000011,
+        34.0,
+        31.799999999999997
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 2133.8066394127004,
+    "step": "step_parts\\speaker_strap_cover.step",
+    "stl": "stl_fit_parts\\speaker_strap_cover.stl",
+    "print_bounds": {
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max": [
+        31.799999237060547,
+        34.0,
+        11.800000190734863
+      ],
+      "size": [
+        31.799999237060547,
+        34.0,
+        11.800000190734863
+      ]
+    },
+    "stl_final_bed_translation_mm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "ref_speaker_2209",
+    "kind": "reference",
+    "color": [
+      0.15,
+      0.2,
+      0.24
+    ],
+    "notes": "Measured22x9xmax4mm envelope, no detailed diaphragm or terminal geometry.",
+    "explode": [
+      0,
+      0,
+      0
+    ],
+    "print_rotation": null,
+    "module": "accessories",
+    "bounds": {
+      "min": [
+        -102.0,
+        97.0,
+        0.5
+      ],
+      "max": [
+        -98.0,
+        119.0,
+        9.5
+      ],
+      "size": [
+        4.0,
+        22.0,
+        9.0
+      ]
+    },
+    "cad_valid": true,
+    "solid_count": 1,
+    "volume_mm3": 792.0
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "record_and_delivery_gate_passed": true,
+  "checks": [
+    {
+      "name": "29_geometry_checks",
+      "passed": true
+    },
+    {
+      "name": "physical_boundary",
+      "passed": true
+    },
+    {
+      "name": "final_sliced_project_hash_and_one_part",
+      "passed": true
+    },
+    {
+      "name": "sliced_input_hash",
+      "passed": true
+    },
+    {
+      "name": "chosen_normal_support_and_estimate",
+      "passed": true
+    },
+    {
+      "name": "source_preserved_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear_legacy.py",
+      "passed": true
+    },
+    {
+      "name": "source_preserved_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py",
+      "passed": true
+    },
+    {
+      "name": "source_preserved_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\rear.py",
+      "passed": true
+    },
+    {
+      "name": "source_preserved_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\parameters.json",
+      "passed": true
+    },
+    {
+      "name": "export_hash_R01_rear_cradle_clear_strap",
+      "passed": true
+    },
+    {
+      "name": "LOG_newest_and_20_line_limit",
+      "passed": true
+    },
+    {
+      "name": "topic_schema",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\LOG.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\LOG.md_eyewear-b2-mechanics.md",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\LOG.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/project_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\eyewear-b2-mechanics.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\eyewear-b2-mechanics.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/project_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\eyewear-b2-mechanics.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\eyewear-b2-mechanics.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/qa/validation.json",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\ROADMAP.md_../3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
+      "passed": true
+    },
+    {
+      "name": "link_cairn\\ROADMAP.md_eyewear-b2-mechanics.md",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_ArcMask_Rear_R01_A1_PETG_1part.3mf",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_images/print_cleanup.png",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_images/sliced_supports.png",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_images/first_layer.png",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_qa/project_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_qa/support_comparison.json",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_images/rear_old_new.png",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_images/rear_threading.png",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_rear_strap_viewer.html",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_step_parts/R01_rear_cradle_clear_strap.step",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_stl_print/R01_rear_cradle_clear_strap.stl",
+      "passed": true
+    },
+    {
+      "name": "link_3D打印文件\\ArcMask_后枕托穿带修正_20261101\\README.md_qa/validation.json",
+      "passed": true
+    },
+    {
+      "name": "artifact_images/rear_old_new.png",
+      "passed": true
+    },
+    {
+      "name": "artifact_images/rear_threading.png",
+      "passed": true
+    },
+    {
+      "name": "artifact_images/print_cleanup.png",
+      "passed": true
+    },
+    {
+      "name": "artifact_images/first_layer.png",
+      "passed": true
+    },
+    {
+      "name": "artifact_images/sliced_supports.png",
+      "passed": true
+    },
+    {
+      "name": "artifact_rear_strap_viewer.html",
+      "passed": true
+    },
+    {
+      "name": "artifact_step_parts/R01_rear_cradle_clear_strap.step",
+      "passed": true
+    },
+    {
+      "name": "artifact_stl_print/R01_rear_cradle_clear_strap.stl",
+      "passed": true
+    },
+    {
+      "name": "artifact_reference/user_feedback.json",
+      "passed": true
+    },
+    {
+      "name": "artifact_ArcMask_Rear_R01_A1_PETG_1part.3mf",
+      "passed": true
+    }
+  ],
+  "physical_validated": false,
+  "sliced": true,
+  "submitted_to_printer": false
+}

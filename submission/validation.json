@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-03",
+  "passed": true,
+  "static": {
+    "passed": true,
+    "errors": [],
+    "stats": {
+      "files": 459,
+      "total_bytes": 182049801,
+      "largest_file_bytes": 30294278,
+      "fixed_jpegs": 32,
+      "checked_manifest_files": 457
+    },
+    "checks": [
+      "SHA256 inventory",
+      "required files and model fixtures",
+      "Python AST",
+      "JSON parse",
+      "local Markdown links",
+      "credential filename/key/token/Wi-Fi patterns",
+      "package per-file size policy"
+    ],
+    "scope": "Local static checks only; not exhaustive security review or hardware verification"
+  },
+  "software_tests": [
+    {
+      "suite": "ground_runtime",
+      "exit_code": 0,
+      "tests": 44,
+      "elapsed_s": 9.45,
+      "localhost_only": true
+    },
+    {
+      "suite": "camera_capture",
+      "exit_code": 0,
+      "tests": 13,
+      "elapsed_s": 12.91,
+      "localhost_only": true
+    }
+  ],
+  "offline": {
+    "samples": 32,
+    "model_sha256": "51ba24d2310c25f875e96260ddbbce66b3f223d698028ea0e78ec4e50c9831d1",
+    "device_io": false
+  },
+  "mechanics": {
+    "passed": true,
+    "files": 98,
+    "details": "mechanics.json"
+  },
+  "privacy": {
+    "known_wifi_secret_matches": 0,
+    "secret_values_printed": false,
+    "credentials_and_esp_firmware_binaries_excluded": true
+  },
+  "environment_retry": "Initial sandbox denied localhost sockets and system temporary paths. The 44+13 suites passed with localhost access and a workspace temp directory. No hardware or external hosts used.",
+  "original_engineering_sources_unchanged": true,
+  "hardware_operations": false,
+  "commit": false,
+  "push": false,
+  "limits": [
+    "No fresh-device pip installation",
+    "No sanitized ESP rebuild or flash",
+    "No external tactile weights bundled",
+    "No CAD regeneration or new slicing",
+    "No new hardware, fit, accuracy, thermal or endurance acceptance"
+  ]
+}

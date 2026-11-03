@@ -1,0 +1,263 @@
+{
+  "delivery_checks_passed": true,
+  "all_checks_passed": false,
+  "physical_validated": false,
+  "submitted_to_printer": false,
+  "checked_geometry_count": 54,
+  "battery_geometry_count": 17,
+  "primary_parts": 8,
+  "primary_prediction_seconds": 7847,
+  "primary_weight_g": 19.35,
+  "head_type_confirmed": "flat underside pan head",
+  "images_visually_reviewed_by_agent": [
+    "01_parts_exploded.png",
+    "02_driver_access.png",
+    "03_battery_location.png"
+  ],
+  "legacy_sources_unchanged_during_delivery_step": true,
+  "legacy_source_snapshot": [
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\accessories.py",
+      "sha256": "9872426580de35df08fcbb9a76dab271eb69d5c5bb8536b16762ee518e2401c7"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\build_all.py",
+      "sha256": "0d7b9557487ddbac83361f380fbe707f8a6bb57cda051da6c6ae164e97eb9b9f"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\carrier.py",
+      "sha256": "2c666dd92687ab2b2b6aad0806fbb037f5a64be9c099940859b8a9bcebf3c407"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\common.py",
+      "sha256": "55c341462d1d86379d7013567daca6e1e25a3c158f9b39d77b08d7cacc17c5cf"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\final_gate.py",
+      "sha256": "6b1496dd065e36c257fd73900307047fd32376749cda9d94d9f03ff58b548cbe"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\inspect_reinforced_root.py",
+      "sha256": "91ecfaeef9545c933dd3ba9543003d8bb575f4bdc39bf8d829cfc120a38ecd47"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\prepare_repair_project.py",
+      "sha256": "1bfcd02c4f6cb642c53617e5e5c33632dcac1afd96752ad692c14274484919d5"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\rear.py",
+      "sha256": "62bd8e69bfb8265df0c963aa092ef642062587b262d943ed8618b90e1001316a"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\render_previews.py",
+      "sha256": "7586031c97436037ace3bb96b91deb76c7d22d4650ead6d0b656020d19398902"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\render_repair_details.py",
+      "sha256": "7cacba89089bcf958b9cd4a0a4396692b7cb01d281bd6039e94d1d256bc13907"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\shell.py",
+      "sha256": "4261c11b398a994028decd7a4303b40fb28bd3864e4a229cc499eb9fe94280c8"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\verify_repair_geometry.py",
+      "sha256": "33ff806e999cee8f326bd2cc067fe04f11414e9fd624e630974287cd459a3679"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\verify_repair_project.py",
+      "sha256": "2ba740a4beadf279d8a8caeb966a5bd3021d373853c1f15d3d90bfb778fe033f"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py",
+      "sha256": "6f46bd87d52c44f39303c2da2a41be09d07e325541f40b21d386c4bef3a5fdfa"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear_legacy.py",
+      "sha256": "bea9634460301408896d98dbb4528cfb323420ac8e0b80155842d5284a5bf15c"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\build_and_check.py",
+      "sha256": "97218a0830cfb1e983acabe5c5798a96df9dcaa32c0f73f962775d41d775f956"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\finish_delivery.py",
+      "sha256": "8a88569f1f577d8b000a66b03b0becf5a25ef4bb7076d6ef07c2e9009dfe0bba"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\model.py",
+      "sha256": "79fbf6fa3671dfc693712c111577a0955c9203bb7609ae5395197ac9ea391db0"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\prepare_3mf.py",
+      "sha256": "363400e067a3ebec6e858bc3d39fb7a912e82a096946fdd3d695d13f27621b40"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\render_and_viewer.py",
+      "sha256": "418033e8e7d00c0048c10c8d30bfcf5adc8055dbf87e61125d19995c88835f79"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\slice_project.py",
+      "sha256": "1c4e3c27ce2ab8ad692dfa49fc30e65234d10ee8f6fbec1bcd69924eece5c68c"
+    },
+    {
+      "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\verify_3mf.py",
+      "sha256": "156efb2ae7c9b7683a072cd3b2b8d112fdf98a000af0343482e0220b47134d31"
+    }
+  ],
+  "local_pointers_checked": [
+    {
+      "source": "cairn\\LOG.md",
+      "target": "eyewear-b2-mechanics.md"
+    },
+    {
+      "source": "cairn\\LOG.md",
+      "target": "../3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/README.md"
+    },
+    {
+      "source": "cairn\\LOG.md",
+      "target": "../3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/primary_project_verification.json"
+    },
+    {
+      "source": "cairn\\LOG.md",
+      "target": "../3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/qa/delivery_gate.json"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "ArcMask_v05_A1_PETG_M2x10_8parts.3mf"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "OPTIONAL_Backplate_A1_PETG_1part.3mf"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "ASSEMBLY.md"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "FASTENERS.md"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "peripherals_viewer.html"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "images/01_parts_exploded.png"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "images/02_driver_access.png"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "images/03_battery_location.png"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "qa/validation.json"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "qa/primary_project_verification.json"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "qa/battery_layout_check.json"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "qa/optional_backplate_project_verification.json"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "model.py"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\README.md",
+      "target": "parameters.json"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\ASSEMBLY.md",
+      "target": "ArcMask_v05_A1_PETG_M2x10_8parts.3mf"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\ASSEMBLY.md",
+      "target": "images/01_parts_exploded.png"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\ASSEMBLY.md",
+      "target": "images/02_driver_access.png"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\ASSEMBLY.md",
+      "target": "OPTIONAL_Backplate_A1_PETG_1part.3mf"
+    },
+    {
+      "source": "3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\ASSEMBLY.md",
+      "target": "images/03_battery_location.png"
+    }
+  ],
+  "records_maintained": [
+    "cairn/LOG.md",
+    "cairn/eyewear-b2-mechanics.md",
+    "cairn/ROADMAP.md"
+  ],
+  "external_knowledge_base_used": false,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "a4248b473be677239368a5218af09d344f50149e9d2750fe104d9bf55f6dc9e8"
+    },
+    {
+      "path": "ASSEMBLY.md",
+      "sha256": "3414dd225aa95d2f2a8ae01ab195154341f93be8e2414e14d7444a035e3c6e28"
+    },
+    {
+      "path": "FASTENERS.md",
+      "sha256": "8c7e148d3b73cee27b6117446528fb2893b2ff933a98c091a76c840dba7308bf"
+    },
+    {
+      "path": "model.py",
+      "sha256": "b3e828b30d8592504d470059a0e86007e48ebb5ce2cd4827160036310751d1f1"
+    },
+    {
+      "path": "parameters.json",
+      "sha256": "481e1fc2ddef09d7d4b39ed262d493c7b507a34811e6dfd899141929c980a06e"
+    },
+    {
+      "path": "ArcMask_v05_A1_PETG_M2x10_8parts.3mf",
+      "sha256": "6f6f65eeb4d27c9cc88f5abfc90b2a427d4de74851db108a5fd11fbc4234ec82"
+    },
+    {
+      "path": "OPTIONAL_Backplate_A1_PETG_1part.3mf",
+      "sha256": "0dbe16e3790f36990309b72aa486f11989ebd00e5994ba3f5ee52626adf0ff7b"
+    },
+    {
+      "path": "peripherals_viewer.html",
+      "sha256": "772627e53bf8bb0fa82dc06ef7b661fd82622fb857c23a8b1d904c18fbc2d194"
+    },
+    {
+      "path": "images/01_parts_exploded.png",
+      "sha256": "ab3f5117ad13248e69043397ff6df65acf35374b089fd91d5aedf9ccc5e5350c"
+    },
+    {
+      "path": "images/02_driver_access.png",
+      "sha256": "edd37e54825cabfe23cdb22af1543e941cac81b61f841d01023ca5e3c7ba10bf"
+    },
+    {
+      "path": "images/03_battery_location.png",
+      "sha256": "d8da2a2b8eb8c90d248d1af73d252d58ae3a08d78b47e20fcaa7174d131a6b4f"
+    }
+  ],
+  "physical_pending": [
+    "hole-row symmetry and actual fastener head/nut sizes",
+    "solder protrusion within2.3mm underside budget",
+    "centered3pin connector within10mm width budget and actual bends",
+    "2209 hard rim, sealing and light retention pads",
+    "PETG support removal, strength, tactile and left/right discrimination",
+    "strap actual thickness and threading",
+    "battery adhesion, head clearance and actual wire route"
+  ]
+}

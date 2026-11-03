@@ -1,0 +1,143 @@
+{
+    "error_string": "Success.",
+    "export_time": 1190,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 99,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 184.13809204101563,
+                "Bridge": 304.4849548339844,
+                "Brim": 114.77342224121094,
+                "Custom": 385.5143127441406,
+                "Flush": 25.0,
+                "Gap infill": 256.2766418457031,
+                "Inner wall": 2114.193115234375,
+                "Internal solid infill": 987.3922119140625,
+                "Outer wall": 1352.005126953125,
+                "Overhang wall": 63.55808639526367,
+                "Sparse infill": 197.33148193359375,
+                "Support": 171.5104217529297,
+                "Support interface": 107.13219451904297,
+                "Support transition": 27.8215274810791,
+                "Top surface": 441.3603820800781,
+                "Travel": 1333.8306884765625,
+                "Undefined": 1316.5968017578125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 24.33534812927246,
+                    "total_used_g": 24.335350036621094
+                }
+            ],
+            "generate_support_material_time": 80,
+            "id": 1,
+            "infill_time": 304,
+            "layer_filament_change": 0,
+            "main_predication": 7630.216796875,
+            "make_perimeters_time": 492,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 60.0,
+                        "height": 4.800000190734863,
+                        "width": 138.0,
+                        "x": 12.0,
+                        "y": 12.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "01_共同骨架_背面贴床",
+                    "triangle_count": 8636
+                },
+                {
+                    "bbox": {
+                        "depth": 56.0,
+                        "height": 10.399999618530273,
+                        "width": 45.0,
+                        "x": 12.0,
+                        "y": 90.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "02_主板托架_柱朝上",
+                    "triangle_count": 8334
+                },
+                {
+                    "bbox": {
+                        "depth": 32.0,
+                        "height": 19.399999618530273,
+                        "width": 30.0,
+                        "x": 78.0,
+                        "y": 90.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "03_相机托座_局部支撑",
+                    "triangle_count": 4288
+                },
+                {
+                    "bbox": {
+                        "depth": 33.099998474121094,
+                        "height": 13.0,
+                        "width": 36.0,
+                        "x": 129.0,
+                        "y": 90.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "04_IMU托座_局部支撑",
+                    "triangle_count": 4190
+                },
+                {
+                    "bbox": {
+                        "depth": 15.0,
+                        "height": 8.199999809265137,
+                        "width": 30.0,
+                        "x": 78.0,
+                        "y": 145.0,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "05_相机上锁压盖",
+                    "triangle_count": 1584
+                },
+                {
+                    "bbox": {
+                        "depth": 32.19777297973633,
+                        "height": 1.7999999523162842,
+                        "width": 7.199957847595215,
+                        "x": 129.0,
+                        "y": 145.0,
+                        "z": 0.0
+                    },
+                    "id": 25,
+                    "name": "06_IMU限位条",
+                    "triangle_count": 1892
+                }
+            ],
+            "sliced_time": 2378,
+            "sliced_time_with_cache": 1275,
+            "total_predication": 8048.49755859375,
+            "triangle_count": 28924,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

@@ -1,0 +1,74 @@
+{
+  "file": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\OPTIONAL_Backplate_A1_PETG_1part.3mf",
+  "sha256": "0dbe16e3790f36990309b72aa486f11989ebd00e5994ba3f5ee52626adf0ff7b",
+  "parts": [
+    {
+      "label": "备用_背板带出线孔",
+      "key": "OPTIONAL_backplate_wire_port",
+      "source_sha256": "45c6af8c516a8f25ef499082413bcd6d9ff440a92439268551c550838c21ce00",
+      "geometry_error_mm": 3.980674812956494e-06,
+      "bounds": [
+        [
+          24.0,
+          32.0,
+          0.0
+        ],
+        [
+          194.0,
+          102.0,
+          1.0
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    }
+  ],
+  "submitted_to_printer": false,
+  "physical_tested": false,
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "digital_project_checks_passed": true,
+  "plate_count": 1,
+  "object_count": 1,
+  "prediction_seconds": 3407,
+  "weight_grams": 12.99,
+  "layers": 5,
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "support_moves_by_object": {},
+  "all_checks_passed": false,
+  "physical_pending": true
+}

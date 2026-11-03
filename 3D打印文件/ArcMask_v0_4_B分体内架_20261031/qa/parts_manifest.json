@@ -1,0 +1,284 @@
+[
+  {
+    "name": "B01_common_frame",
+    "kind": "printed",
+    "color": [
+      0.27,
+      0.43,
+      0.53
+    ],
+    "group": "frame",
+    "print_rotation_x": -90,
+    "explode": [
+      0,
+      12,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -69.0,
+        24.0,
+        -29.0
+      ],
+      "max": [
+        69.0,
+        28.800000000000004,
+        31.0
+      ],
+      "size": [
+        138.0,
+        4.800000000000004,
+        60.0
+      ]
+    },
+    "volume_mm3": 6006.412406469338,
+    "step": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\step_parts\\B01_common_frame.step",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B01_common_frame.stl",
+    "stl_sha256": "0e2779caa2e97c2e6f54f6e25c0b55661679b704f50554d00dd2007ffc32f1e2",
+    "print_size_mm": [
+      138.0,
+      60.0,
+      4.800000190734863
+    ],
+    "print_shift_after_rotation": [
+      69.0,
+      28.999999999999996,
+      28.800000000000008
+    ]
+  },
+  {
+    "name": "B02_mb_cradle",
+    "kind": "printed",
+    "color": [
+      0.2,
+      0.61,
+      0.56
+    ],
+    "group": "mainboard",
+    "print_rotation_x": -90,
+    "explode": [
+      -6,
+      -5,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -62.25,
+        13.6,
+        -25.0
+      ],
+      "max": [
+        -17.25,
+        24.0,
+        31.0
+      ],
+      "size": [
+        45.0,
+        10.4,
+        56.0
+      ]
+    },
+    "volume_mm3": 3920.5678609408287,
+    "step": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\step_parts\\B02_mb_cradle.step",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B02_mb_cradle.stl",
+    "stl_sha256": "7b7b24279cfd8383b6cf72ce6661f26bb669b9c8bba9bdd3c3be85ea055cbe7b",
+    "print_size_mm": [
+      45.0,
+      56.0,
+      10.399999618530273
+    ],
+    "print_shift_after_rotation": [
+      62.25,
+      24.999999999999996,
+      24.000000000000004
+    ]
+  },
+  {
+    "name": "B03_camera_cradle",
+    "kind": "printed",
+    "color": [
+      0.2,
+      0.61,
+      0.56
+    ],
+    "group": "camera",
+    "print_rotation_x": -90,
+    "explode": [
+      0,
+      -8,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -15.0,
+        4.6,
+        -7.0
+      ],
+      "max": [
+        15.0,
+        24.0,
+        25.0
+      ],
+      "size": [
+        30.0,
+        19.4,
+        32.0
+      ]
+    },
+    "volume_mm3": 5070.019439971619,
+    "step": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\step_parts\\B03_camera_cradle.step",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B03_camera_cradle.stl",
+    "stl_sha256": "69eff63aec09de21cd7a6d081581dcdcba5c46bf719e2ca0c422946cff8b6bcf",
+    "print_size_mm": [
+      30.0,
+      32.0,
+      19.399999618530273
+    ],
+    "print_shift_after_rotation": [
+      15.0,
+      6.999999999999997,
+      24.0
+    ]
+  },
+  {
+    "name": "B04_imu_cradle",
+    "kind": "printed",
+    "color": [
+      0.2,
+      0.61,
+      0.56
+    ],
+    "group": "imu",
+    "print_rotation_x": -90,
+    "explode": [
+      7,
+      -5,
+      0
+    ],
+    "bounds": {
+      "min": [
+        16.0,
+        11.0,
+        -16.0
+      ],
+      "max": [
+        52.0,
+        24.0,
+        17.1
+      ],
+      "size": [
+        36.0,
+        13.0,
+        33.1
+      ]
+    },
+    "volume_mm3": 4467.570024087036,
+    "step": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\step_parts\\B04_imu_cradle.step",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B04_imu_cradle.stl",
+    "stl_sha256": "f5b7860eb2bc9c5bd6e061608c7ac59954a2659b821747b35581ac1693e28076",
+    "print_size_mm": [
+      36.0,
+      33.099998474121094,
+      13.0
+    ],
+    "print_shift_after_rotation": [
+      -16.0,
+      15.999999999999998,
+      24.0
+    ]
+  },
+  {
+    "name": "B05_camera_cap",
+    "kind": "printed",
+    "color": [
+      0.89,
+      0.61,
+      0.24
+    ],
+    "group": "camera",
+    "print_rotation_x": 90,
+    "explode": [
+      0,
+      -18,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -15.0,
+        3.0,
+        -1.0
+      ],
+      "max": [
+        15.0,
+        11.2,
+        14.000000000000002
+      ],
+      "size": [
+        30.0,
+        8.2,
+        15.000000000000002
+      ]
+    },
+    "volume_mm3": 862.2837243507813,
+    "step": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\step_parts\\B05_camera_cap.step",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B05_camera_cap.stl",
+    "stl_sha256": "659fda5ea1d1f684996ef67dd5a7aa5126dc3c69e48b75820986cca97563ffee",
+    "print_size_mm": [
+      30.0,
+      14.999999999999998,
+      8.199999809265137
+    ],
+    "print_shift_after_rotation": [
+      15.0,
+      14.000000000000002,
+      -3.0
+    ]
+  },
+  {
+    "name": "B06_imu_keeper",
+    "kind": "printed",
+    "color": [
+      0.89,
+      0.61,
+      0.24
+    ],
+    "group": "imu",
+    "print_rotation_x": 90,
+    "explode": [
+      5,
+      -15,
+      0
+    ],
+    "bounds": {
+      "min": [
+        23.2,
+        9.2,
+        -15.1
+      ],
+      "max": [
+        30.400000000000002,
+        11.0,
+        17.1
+      ],
+      "size": [
+        7.200000000000003,
+        1.8000000000000007,
+        32.2
+      ]
+    },
+    "volume_mm3": 228.89330807348927,
+    "step": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\step_parts\\B06_imu_keeper.step",
+    "stl": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B06_imu_keeper.stl",
+    "stl_sha256": "b82afddf357c884d1c6264f6a57e6ba17fe8602534197fe83ea765bc0d134c0a",
+    "print_size_mm": [
+      7.199957827464459,
+      32.1977727873018,
+      1.7999999523162846
+    ],
+    "print_shift_after_rotation": [
+      -23.2,
+      17.099999999999998,
+      -9.199999999999998
+    ]
+  }
+]

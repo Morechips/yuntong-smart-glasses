@@ -1,0 +1,67 @@
+{
+  "parts": [
+    {
+      "id": "1",
+      "key": "R01_rear_cradle_clear_strap",
+      "label": "R01_后枕托_穿带耳避让_柱朝上",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_后枕托穿带修正_20261101\\stl_print\\R01_rear_cradle_clear_strap.stl",
+      "source_sha256": "1cf17f25d527cd450af898185ac3e270b054c6174f0df5f348e2e3570df2d80d",
+      "xy": [
+        60.0,
+        90.0
+      ],
+      "size_mm": [
+        119.0,
+        51.0,
+        19.999999900000006
+      ],
+      "source_to_world_translation_mm": [
+        60.0,
+        90.0,
+        -9.999999406318238e-08
+      ],
+      "overrides": {
+        "name": "R01_后枕托_穿带耳避让_柱朝上",
+        "extruder": "1",
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_style": "default",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "bridge_no_support": "0",
+        "support_remove_small_overhang": "0",
+        "brim_type": "outer_only",
+        "brim_width": "4"
+      },
+      "faces": 6334
+    }
+  ],
+  "plate_count": 1,
+  "template_sha256": "58a0164c898e57c2a5ea7422f0a312d96a29a8cfb9e0a2933f6e007c56a172c8",
+  "input_sha256": "43b2e4dd6ccea5aa7d9199f74d5b5c2a6eb69de0b59de3222c47fb8d90b53273",
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "filament_type": [
+      "PETG"
+    ],
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "strap_thickness_assumed_max_mm": 2.5,
+  "submitted_to_printer": false
+}

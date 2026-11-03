@@ -1,0 +1,206 @@
+{
+  "file": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\ArcMask_B_v04_A1_PETG_6parts.3mf",
+  "sha256": "02646d865ebe15594d14b67f6f68b4516823edafe98cd91c619b65905ce6bf4f",
+  "parts": [
+    {
+      "key": "B01_common_frame",
+      "id": 1,
+      "source_sha256": "0e2779caa2e97c2e6f54f6e25c0b55661679b704f50554d00dd2007ffc32f1e2",
+      "maximum_geometry_error_mm": 3.851743200279596e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "bounds": [
+        [
+          12.0,
+          12.0,
+          0.0
+        ],
+        [
+          150.0,
+          72.0,
+          4.8000002
+        ]
+      ],
+      "enable_support": "0"
+    },
+    {
+      "key": "B02_mb_cradle",
+      "id": 2,
+      "source_sha256": "7b7b24279cfd8383b6cf72ce6661f26bb669b9c8bba9bdd3c3be85ea055cbe7b",
+      "maximum_geometry_error_mm": 1.4072199522662388e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "bounds": [
+        [
+          12.0,
+          90.0,
+          0.0
+        ],
+        [
+          57.0,
+          146.0,
+          10.39999962
+        ]
+      ],
+      "enable_support": "0"
+    },
+    {
+      "key": "B03_camera_cradle",
+      "id": 3,
+      "source_sha256": "69eff63aec09de21cd7a6d081581dcdcba5c46bf719e2ca0c422946cff8b6bcf",
+      "maximum_geometry_error_mm": 5.74798564571402e-07,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "bounds": [
+        [
+          78.0,
+          90.0,
+          0.0
+        ],
+        [
+          108.0,
+          122.0,
+          19.39999962
+        ]
+      ],
+      "enable_support": "1"
+    },
+    {
+      "key": "B04_imu_cradle",
+      "id": 4,
+      "source_sha256": "f5b7860eb2bc9c5bd6e061608c7ac59954a2659b821747b35581ac1693e28076",
+      "maximum_geometry_error_mm": 1.09517047719289e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "bounds": [
+        [
+          129.0,
+          89.9999998,
+          0.0
+        ],
+        [
+          165.0,
+          123.0999982,
+          13.0
+        ]
+      ],
+      "enable_support": "1"
+    },
+    {
+      "key": "B05_camera_cap",
+      "id": 5,
+      "source_sha256": "659fda5ea1d1f684996ef67dd5a7aa5126dc3c69e48b75820986cca97563ffee",
+      "maximum_geometry_error_mm": 5.224736279696829e-07,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "bounds": [
+        [
+          78.0,
+          145.0,
+          0.0
+        ],
+        [
+          108.0,
+          160.0,
+          8.1999998
+        ]
+      ],
+      "enable_support": "0"
+    },
+    {
+      "key": "B06_imu_keeper",
+      "id": 6,
+      "source_sha256": "b82afddf357c884d1c6264f6a57e6ba17fe8602534197fe83ea765bc0d134c0a",
+      "maximum_geometry_error_mm": 1.1567353528582127e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "bounds": [
+        [
+          129.00000007999998,
+          144.9999995,
+          0.0
+        ],
+        [
+          136.19995792,
+          177.19777249999999,
+          1.799999952
+        ]
+      ],
+      "enable_support": "0"
+    }
+  ],
+  "submitted_to_printer": false,
+  "physical_print_tested": false,
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "curr_bed_type": "Textured PEI Plate",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ]
+  },
+  "digital_project_checks_passed": true,
+  "plate_count": 1,
+  "objects_sliced": 6,
+  "total_seconds": 8048,
+  "total_grams": 24.34,
+  "layers": 164,
+  "support_extrusion_moves_by_object": {
+    "4": 801,
+    "3": 1916
+  },
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "deposition_bounds_xy_mm": [
+    [
+      12.21,
+      12.21
+    ],
+    [
+      168.528,
+      176.9878076868576
+    ]
+  ],
+  "all_checks_passed": false,
+  "physical_validation_pending": true
+}

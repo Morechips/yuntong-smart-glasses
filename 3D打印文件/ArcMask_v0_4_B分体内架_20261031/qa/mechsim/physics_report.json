@@ -1,0 +1,3306 @@
+{
+  "tool": "mechsim",
+  "tool_version": "0.1.0",
+  "project": "ArcMask v0.4 B 分体内架（六件）实体物理筛选",
+  "spec": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\physics_spec.json",
+  "generated_at": "2026-11-02T11:35:38",
+  "elapsed_s": 115.5,
+  "units": "mm / g / N / MPa / deg",
+  "counts": {
+    "PASS": 29,
+    "FAIL": 14,
+    "UNVERIFIED": 6,
+    "INFO": 13
+  },
+  "overall": "FAIL",
+  "digital_checks_passed": false,
+  "all_checks_passed": false,
+  "physics_pass": false,
+  "pending_physical": [
+    "真实元件/焊点/插头与所列包络的差异（未在本规格内）",
+    "实际螺丝/螺母批次尺寸与扭矩手感",
+    "相机/IMU 最终接触面与约 0.1 mm 薄定位层的真实厚度",
+    "FPC 整条路线、弯曲半径与光学视场",
+    "原线束长度/走向/止拉与理线座夹持",
+    "PETG 层间强度与 4 墙/20% 填充的实际等效性能（材料库为文献值，需试片标定）",
+    "清支撑后的表面/根部强度、热变形与佩戴压力分布"
+  ],
+  "checks": [
+    {
+      "id": "B01_common_frame.geometry.winding",
+      "category": "geometry",
+      "part": "B01_common_frame",
+      "status": "FAIL",
+      "value": 0.07835259908933302,
+      "limit": 0.999,
+      "unit": "",
+      "method": "有符号体积/绝对体积和",
+      "detail": "绕向不一致会让体积、惯性矩、内外判定全部失效",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.geometry.winding",
+      "category": "geometry",
+      "part": "B02_mb_cradle",
+      "status": "FAIL",
+      "value": 0.10665781603622464,
+      "limit": 0.999,
+      "unit": "",
+      "method": "有符号体积/绝对体积和",
+      "detail": "绕向不一致会让体积、惯性矩、内外判定全部失效",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.print.min_wall",
+      "category": "printability",
+      "part": "B02_mb_cradle",
+      "status": "FAIL",
+      "value": 0.75,
+      "limit": 1.2,
+      "unit": "mm",
+      "method": "表面采样点沿内法线射线求局部厚度（p05）",
+      "detail": "min=0.75 p05=0.75 p50=2.48；射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.geometry.winding",
+      "category": "geometry",
+      "part": "B03_camera_cradle",
+      "status": "FAIL",
+      "value": 0.26484573589834354,
+      "limit": 0.999,
+      "unit": "",
+      "method": "有符号体积/绝对体积和",
+      "detail": "绕向不一致会让体积、惯性矩、内外判定全部失效",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.geometry.winding",
+      "category": "geometry",
+      "part": "B04_imu_cradle",
+      "status": "FAIL",
+      "value": 0.14676180840278252,
+      "limit": 0.999,
+      "unit": "",
+      "method": "有符号体积/绝对体积和",
+      "detail": "绕向不一致会让体积、惯性矩、内外判定全部失效",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.geometry.winding",
+      "category": "geometry",
+      "part": "B05_camera_cap",
+      "status": "FAIL",
+      "value": 0.24139695653396126,
+      "limit": 0.999,
+      "unit": "",
+      "method": "有符号体积/绝对体积和",
+      "detail": "绕向不一致会让体积、惯性矩、内外判定全部失效",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.geometry.winding",
+      "category": "geometry",
+      "part": "B06_imu_keeper",
+      "status": "FAIL",
+      "value": 0.10925948934363353,
+      "limit": 0.999,
+      "unit": "",
+      "method": "有符号体积/绝对体积和",
+      "detail": "绕向不一致会让体积、惯性矩、内外判定全部失效",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.clearance.B03_camera_cradle_B05_camera_cap",
+      "category": "interference",
+      "part": null,
+      "status": "FAIL",
+      "value": -2.228,
+      "limit": 0.15,
+      "unit": "mm",
+      "method": "双向表面采样 + 有符号距离",
+      "detail": "最小间隙 0.000 mm，穿透深度 2.228 mm，穿透采样点 137",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.insertion.B05_camera_cap",
+      "category": "motion",
+      "part": null,
+      "status": "FAIL",
+      "value": 11.846153846153847,
+      "limit": null,
+      "unit": "",
+      "method": "沿装配方向逐步推进 + 有符号距离",
+      "detail": "被 B03_camera_cradle 挡在剩余 11.8 mm 处",
+      "assumptions": []
+    },
+    {
+      "id": "joint.IMU 限位条 M2×16 ×2（进钢螺母）",
+      "category": "fastener",
+      "part": null,
+      "status": "FAIL",
+      "value": 0.63,
+      "limit": 2.0,
+      "unit": "安全系数",
+      "method": "预紧力/承压/螺纹拉脱/螺丝拉伸",
+      "detail": "夹紧力 375 N，承压 33.8 MPa（许用 21.4），拉脱能力 1608 N",
+      "assumptions": [
+        "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂",
+        "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制"
+      ]
+    },
+    {
+      "id": "joint.主板 M2×12 ×4",
+      "category": "fastener",
+      "part": null,
+      "status": "FAIL",
+      "value": 0.63,
+      "limit": 2.0,
+      "unit": "安全系数",
+      "method": "预紧力/承压/螺纹拉脱/螺丝拉伸",
+      "detail": "夹紧力 375 N，承压 33.8 MPa（许用 21.4），拉脱能力 1608 N",
+      "assumptions": [
+        "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂",
+        "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制"
+      ]
+    },
+    {
+      "id": "joint.共架-旧壳 M2 ×6",
+      "category": "fastener",
+      "part": null,
+      "status": "FAIL",
+      "value": 0.48,
+      "limit": 2.0,
+      "unit": "安全系数",
+      "method": "预紧力/承压/螺纹拉脱/螺丝拉伸",
+      "detail": "夹紧力 500 N，承压 45.0 MPa（许用 21.4），拉脱能力 2011 N",
+      "assumptions": [
+        "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂",
+        "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制"
+      ]
+    },
+    {
+      "id": "joint.相机压盖 M2×8 ×2（进钢螺母）",
+      "category": "fastener",
+      "part": null,
+      "status": "FAIL",
+      "value": 0.63,
+      "limit": 2.0,
+      "unit": "安全系数",
+      "method": "预紧力/承压/螺纹拉脱/螺丝拉伸",
+      "detail": "夹紧力 375 N，承压 33.8 MPa（许用 21.4），拉脱能力 1608 N",
+      "assumptions": [
+        "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂",
+        "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制"
+      ]
+    },
+    {
+      "id": "tolerance.M2 螺丝穿过主板 Ø2.2 孔（孔距 32.6 已确认）",
+      "category": "tolerance",
+      "part": null,
+      "status": "FAIL",
+      "value": [
+        -0.25,
+        0.25
+      ],
+      "limit": [
+        -0.15,
+        0.15
+      ],
+      "unit": "mm",
+      "method": "最坏情况 + RSS",
+      "detail": "名义 0.000；主要贡献：打印柱位（FDM 定位误差） 60.00%，主板孔位（官方图/实测） 40.00%",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.strength.整组前部惯性载荷（50g）",
+      "category": "strength",
+      "part": "B01_common_frame",
+      "status": "UNVERIFIED",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "",
+      "detail": "NameError: name 'fea' is not defined",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.strength.主板 50g 冲击（向下）",
+      "category": "strength",
+      "part": "B02_mb_cradle",
+      "status": "UNVERIFIED",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "",
+      "detail": "NameError: name 'fea' is not defined",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.strength.相机模组 50g 冲击（+Y 向头）",
+      "category": "strength",
+      "part": "B03_camera_cradle",
+      "status": "UNVERIFIED",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "",
+      "detail": "NameError: name 'fea' is not defined",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.strength.IMU + 杜邦头 50g 冲击（+Y 向头）",
+      "category": "strength",
+      "part": "B04_imu_cradle",
+      "status": "UNVERIFIED",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "",
+      "detail": "NameError: name 'fea' is not defined",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.strength.正面按压/撞击 5N（两螺丝固定）",
+      "category": "strength",
+      "part": "B05_camera_cap",
+      "status": "UNVERIFIED",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "",
+      "detail": "NameError: name 'fea' is not defined",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.strength.IMU 反向顶 1.5N（-Y）",
+      "category": "strength",
+      "part": "B06_imu_keeper",
+      "status": "UNVERIFIED",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "",
+      "detail": "NameError: name 'fea' is not defined",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.geometry.volume",
+      "category": "geometry",
+      "part": "B01_common_frame",
+      "status": "PASS",
+      "value": 6005.994641576198,
+      "limit": null,
+      "unit": "mm3",
+      "method": "散度定理精确积分",
+      "detail": "实体体积；为 0 说明不是闭合实体",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.geometry.watertight",
+      "category": "geometry",
+      "part": "B01_common_frame",
+      "status": "PASS",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "limit": [
+        0,
+        0,
+        0
+      ],
+      "unit": "条边",
+      "method": "STL 边拓扑计数（焊接后）",
+      "detail": "边界边/非流形边/同向重复边必须全为 0；非水密网格不能当承力件",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.print.min_wall",
+      "category": "printability",
+      "part": "B01_common_frame",
+      "status": "PASS",
+      "value": 1.706,
+      "limit": 1.2,
+      "unit": "mm",
+      "method": "表面采样点沿内法线射线求局部厚度（p05）",
+      "detail": "min=0.05 p05=1.71 p50=2.85；射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.print.overhang",
+      "category": "printability",
+      "part": "B01_common_frame",
+      "status": "PASS",
+      "value": 0.0084,
+      "limit": 0.35,
+      "unit": "面积占比",
+      "method": "朝向 build 方向的下表面 + 向下射线判自支撑",
+      "detail": "悬垂总面积 66.7 mm²，其中需支撑 66.7 mm²（自支撑 0%），估算支撑体积 24.0 mm³",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.geometry.volume",
+      "category": "geometry",
+      "part": "B02_mb_cradle",
+      "status": "PASS",
+      "value": 3920.337375346155,
+      "limit": null,
+      "unit": "mm3",
+      "method": "散度定理精确积分",
+      "detail": "实体体积；为 0 说明不是闭合实体",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.geometry.watertight",
+      "category": "geometry",
+      "part": "B02_mb_cradle",
+      "status": "PASS",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "limit": [
+        0,
+        0,
+        0
+      ],
+      "unit": "条边",
+      "method": "STL 边拓扑计数（焊接后）",
+      "detail": "边界边/非流形边/同向重复边必须全为 0；非水密网格不能当承力件",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.print.overhang",
+      "category": "printability",
+      "part": "B02_mb_cradle",
+      "status": "PASS",
+      "value": 0.0101,
+      "limit": 0.35,
+      "unit": "面积占比",
+      "method": "朝向 build 方向的下表面 + 向下射线判自支撑",
+      "detail": "悬垂总面积 44.5 mm²，其中需支撑 44.5 mm²（自支撑 0%），估算支撑体积 16.0 mm³",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.geometry.volume",
+      "category": "geometry",
+      "part": "B03_camera_cradle",
+      "status": "PASS",
+      "value": 5069.943004245111,
+      "limit": null,
+      "unit": "mm3",
+      "method": "散度定理精确积分",
+      "detail": "实体体积；为 0 说明不是闭合实体",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.geometry.watertight",
+      "category": "geometry",
+      "part": "B03_camera_cradle",
+      "status": "PASS",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "limit": [
+        0,
+        0,
+        0
+      ],
+      "unit": "条边",
+      "method": "STL 边拓扑计数（焊接后）",
+      "detail": "边界边/非流形边/同向重复边必须全为 0；非水密网格不能当承力件",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.print.min_wall",
+      "category": "printability",
+      "part": "B03_camera_cradle",
+      "status": "PASS",
+      "value": 2.4,
+      "limit": 1.2,
+      "unit": "mm",
+      "method": "表面采样点沿内法线射线求局部厚度（p05）",
+      "detail": "min=0.85 p05=2.40 p50=3.20；射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.print.overhang",
+      "category": "printability",
+      "part": "B03_camera_cradle",
+      "status": "PASS",
+      "value": 0.0565,
+      "limit": 0.35,
+      "unit": "面积占比",
+      "method": "朝向 build 方向的下表面 + 向下射线判自支撑",
+      "detail": "悬垂总面积 229.6 mm²，其中需支撑 229.6 mm²（自支撑 0%），估算支撑体积 379.5 mm³",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.strength.beam",
+      "category": "strength",
+      "part": "B03_camera_cradle",
+      "status": "PASS",
+      "value": 0.07,
+      "limit": 31.99,
+      "unit": "MPa",
+      "method": "逐层截面 I + 悬臂近似（独立口径）",
+      "detail": "挠度 0.000 mm，细长比 1.8；等截面悬臂近似 + 逐层实际截面；仅适用于长细比>5 的细长件",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.geometry.volume",
+      "category": "geometry",
+      "part": "B04_imu_cradle",
+      "status": "PASS",
+      "value": 4467.323248535009,
+      "limit": null,
+      "unit": "mm3",
+      "method": "散度定理精确积分",
+      "detail": "实体体积；为 0 说明不是闭合实体",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.geometry.watertight",
+      "category": "geometry",
+      "part": "B04_imu_cradle",
+      "status": "PASS",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "limit": [
+        0,
+        0,
+        0
+      ],
+      "unit": "条边",
+      "method": "STL 边拓扑计数（焊接后）",
+      "detail": "边界边/非流形边/同向重复边必须全为 0；非水密网格不能当承力件",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.print.min_wall",
+      "category": "printability",
+      "part": "B04_imu_cradle",
+      "status": "PASS",
+      "value": 2.4,
+      "limit": 1.2,
+      "unit": "mm",
+      "method": "表面采样点沿内法线射线求局部厚度（p05）",
+      "detail": "min=1.20 p05=2.40 p50=2.85；射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.print.overhang",
+      "category": "printability",
+      "part": "B04_imu_cradle",
+      "status": "PASS",
+      "value": 0.0518,
+      "limit": 0.35,
+      "unit": "面积占比",
+      "method": "朝向 build 方向的下表面 + 向下射线判自支撑",
+      "detail": "悬垂总面积 231.8 mm²，其中需支撑 231.8 mm²（自支撑 0%），估算支撑体积 237.5 mm³",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.geometry.volume",
+      "category": "geometry",
+      "part": "B05_camera_cap",
+      "status": "PASS",
+      "value": 862.3205130127931,
+      "limit": null,
+      "unit": "mm3",
+      "method": "散度定理精确积分",
+      "detail": "实体体积；为 0 说明不是闭合实体",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.geometry.watertight",
+      "category": "geometry",
+      "part": "B05_camera_cap",
+      "status": "PASS",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "limit": [
+        0,
+        0,
+        0
+      ],
+      "unit": "条边",
+      "method": "STL 边拓扑计数（焊接后）",
+      "detail": "边界边/非流形边/同向重复边必须全为 0；非水密网格不能当承力件",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.print.min_wall",
+      "category": "printability",
+      "part": "B05_camera_cap",
+      "status": "PASS",
+      "value": 1.6,
+      "limit": 1.0,
+      "unit": "mm",
+      "method": "表面采样点沿内法线射线求局部厚度（p05）",
+      "detail": "min=1.60 p05=1.60 p50=2.40；射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.print.overhang",
+      "category": "printability",
+      "part": "B05_camera_cap",
+      "status": "PASS",
+      "value": 0.0068,
+      "limit": 0.35,
+      "unit": "面积占比",
+      "method": "朝向 build 方向的下表面 + 向下射线判自支撑",
+      "detail": "悬垂总面积 8.5 mm²，其中需支撑 8.5 mm²（自支撑 0%），估算支撑体积 2.7 mm³",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.geometry.volume",
+      "category": "geometry",
+      "part": "B06_imu_keeper",
+      "status": "PASS",
+      "value": 228.84729739535987,
+      "limit": null,
+      "unit": "mm3",
+      "method": "散度定理精确积分",
+      "detail": "实体体积；为 0 说明不是闭合实体",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.geometry.watertight",
+      "category": "geometry",
+      "part": "B06_imu_keeper",
+      "status": "PASS",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "limit": [
+        0,
+        0,
+        0
+      ],
+      "unit": "条边",
+      "method": "STL 边拓扑计数（焊接后）",
+      "detail": "边界边/非流形边/同向重复边必须全为 0；非水密网格不能当承力件",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.print.min_wall",
+      "category": "printability",
+      "part": "B06_imu_keeper",
+      "status": "PASS",
+      "value": 1.8,
+      "limit": 1.0,
+      "unit": "mm",
+      "method": "表面采样点沿内法线射线求局部厚度（p05）",
+      "detail": "min=1.80 p05=1.80 p50=1.80；射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.print.overhang",
+      "category": "printability",
+      "part": "B06_imu_keeper",
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.35,
+      "unit": "面积占比",
+      "method": "朝向 build 方向的下表面 + 向下射线判自支撑",
+      "detail": "悬垂总面积 0.0 mm²，其中需支撑 0.0 mm²（自支撑 100%），估算支撑体积 0.0 mm³",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.clearance.B02_mb_cradle_B01_common_frame",
+      "category": "interference",
+      "part": null,
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.15,
+      "unit": "mm",
+      "method": "双向表面采样 + 有符号距离",
+      "detail": "最小间隙 0.000 mm，穿透深度 0.000 mm，穿透采样点 0",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.clearance.B03_camera_cradle_B01_common_frame",
+      "category": "interference",
+      "part": null,
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.15,
+      "unit": "mm",
+      "method": "双向表面采样 + 有符号距离",
+      "detail": "最小间隙 0.000 mm，穿透深度 0.000 mm，穿透采样点 0",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.clearance.B04_imu_cradle_B06_imu_keeper",
+      "category": "interference",
+      "part": null,
+      "status": "PASS",
+      "value": 0.0,
+      "limit": 0.15,
+      "unit": "mm",
+      "method": "双向表面采样 + 有符号距离",
+      "detail": "最小间隙 0.000 mm，穿透深度 0.000 mm，穿透采样点 0",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.insertion.B06_imu_keeper",
+      "category": "motion",
+      "part": null,
+      "status": "PASS",
+      "value": null,
+      "limit": null,
+      "unit": "",
+      "method": "沿装配方向逐步推进 + 有符号距离",
+      "detail": "全程最小间隙 0.000 mm",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.print_mass_vs_slicer",
+      "category": "printability",
+      "part": null,
+      "status": "PASS",
+      "value": 26.3,
+      "limit": 24.34,
+      "unit": "g",
+      "method": "壳层+填充模型求和 vs 切片器预测",
+      "detail": "估算/切片 = 1.08；偏差主要来自顶底实心层与支撑界面，落在 0.75~1.3 内说明工艺模型可信",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.mass",
+      "category": "mass",
+      "part": "B01_common_frame",
+      "status": "INFO",
+      "value": 7.627613194801771,
+      "limit": null,
+      "unit": "g",
+      "method": "体积 × PETG 密度 1.27 g/cm³",
+      "detail": "实体质量，不含支撑、紧固件、软垫；与切片耗材量不同",
+      "assumptions": []
+    },
+    {
+      "id": "B01_common_frame.print.mass_estimate",
+      "category": "printability",
+      "part": "B01_common_frame",
+      "status": "INFO",
+      "value": 7.655,
+      "limit": null,
+      "unit": "g",
+      "method": "壳层(1.80mm)+20% 填充模型",
+      "detail": "壳层占比 100%；与切片器预测比对以校准，不参与判据",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.mass",
+      "category": "mass",
+      "part": "B02_mb_cradle",
+      "status": "INFO",
+      "value": 4.978828466689618,
+      "limit": null,
+      "unit": "g",
+      "method": "体积 × PETG 密度 1.27 g/cm³",
+      "detail": "实体质量，不含支撑、紧固件、软垫；与切片耗材量不同",
+      "assumptions": []
+    },
+    {
+      "id": "B02_mb_cradle.print.mass_estimate",
+      "category": "printability",
+      "part": "B02_mb_cradle",
+      "status": "INFO",
+      "value": 4.997,
+      "limit": null,
+      "unit": "g",
+      "method": "壳层(1.80mm)+20% 填充模型",
+      "detail": "壳层占比 100%；与切片器预测比对以校准，不参与判据",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.mass",
+      "category": "mass",
+      "part": "B03_camera_cradle",
+      "status": "INFO",
+      "value": 6.438827615391292,
+      "limit": null,
+      "unit": "g",
+      "method": "体积 × PETG 密度 1.27 g/cm³",
+      "detail": "实体质量，不含支撑、紧固件、软垫；与切片耗材量不同",
+      "assumptions": []
+    },
+    {
+      "id": "B03_camera_cradle.print.mass_estimate",
+      "category": "printability",
+      "part": "B03_camera_cradle",
+      "status": "INFO",
+      "value": 6.313,
+      "limit": null,
+      "unit": "g",
+      "method": "壳层(1.80mm)+20% 填充模型",
+      "detail": "壳层占比 89%；与切片器预测比对以校准，不参与判据",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.mass",
+      "category": "mass",
+      "part": "B04_imu_cradle",
+      "status": "INFO",
+      "value": 5.6735005256394615,
+      "limit": null,
+      "unit": "g",
+      "method": "体积 × PETG 密度 1.27 g/cm³",
+      "detail": "实体质量，不含支撑、紧固件、软垫；与切片耗材量不同",
+      "assumptions": []
+    },
+    {
+      "id": "B04_imu_cradle.print.mass_estimate",
+      "category": "printability",
+      "part": "B04_imu_cradle",
+      "status": "INFO",
+      "value": 5.945,
+      "limit": null,
+      "unit": "g",
+      "method": "壳层(1.80mm)+20% 填充模型",
+      "detail": "壳层占比 100%；与切片器预测比对以校准，不参与判据",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.mass",
+      "category": "mass",
+      "part": "B05_camera_cap",
+      "status": "INFO",
+      "value": 1.0951470515262474,
+      "limit": null,
+      "unit": "g",
+      "method": "体积 × PETG 密度 1.27 g/cm³",
+      "detail": "实体质量，不含支撑、紧固件、软垫；与切片耗材量不同",
+      "assumptions": []
+    },
+    {
+      "id": "B05_camera_cap.print.mass_estimate",
+      "category": "printability",
+      "part": "B05_camera_cap",
+      "status": "INFO",
+      "value": 1.098,
+      "limit": null,
+      "unit": "g",
+      "method": "壳层(1.80mm)+20% 填充模型",
+      "detail": "壳层占比 100%；与切片器预测比对以校准，不参与判据",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.mass",
+      "category": "mass",
+      "part": "B06_imu_keeper",
+      "status": "INFO",
+      "value": 0.29063606769210704,
+      "limit": null,
+      "unit": "g",
+      "method": "体积 × PETG 密度 1.27 g/cm³",
+      "detail": "实体质量，不含支撑、紧固件、软垫；与切片耗材量不同",
+      "assumptions": []
+    },
+    {
+      "id": "B06_imu_keeper.print.mass_estimate",
+      "category": "printability",
+      "part": "B06_imu_keeper",
+      "status": "INFO",
+      "value": 0.291,
+      "limit": null,
+      "unit": "g",
+      "method": "壳层(1.80mm)+20% 填充模型",
+      "detail": "壳层占比 100%；与切片器预测比对以校准，不参与判据",
+      "assumptions": []
+    },
+    {
+      "id": "assembly.wear.moment",
+      "category": "balance",
+      "part": null,
+      "status": "INFO",
+      "value": 18.9,
+      "limit": null,
+      "unit": "N·mm",
+      "method": "",
+      "detail": "spec 未给力矩上限，仅报数",
+      "assumptions": []
+    }
+  ],
+  "parts": {
+    "B01_common_frame": {
+      "mesh_path": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B01_common_frame.stl",
+      "material": {
+        "name": "PETG",
+        "kind": "fdm_polymer",
+        "density_g_cm3": 1.27,
+        "E_xy_MPa": 2000.0,
+        "E_z_MPa": 1600.0,
+        "yield_xy_MPa": 45.0,
+        "yield_z_MPa": 22.0,
+        "allowable_xy_MPa": 33.75,
+        "allowable_z_MPa": 16.5,
+        "derate": 0.75,
+        "calibration": "assumed"
+      },
+      "effective": {
+        "E_xy": 2000.0,
+        "E_z": 1600.0,
+        "allow_xy": 33.75,
+        "allow_z": 16.5,
+        "stiffness_factor": 1.0,
+        "strength_factor": 1.0,
+        "shell_fraction": 1.0,
+        "infill": 0.2,
+        "assumptions": [
+          "等效模量按壳层体积占比与填充相对刚度线性折算（经验模型）",
+          "许用应力按较弱指数折算：填充对强度贡献小于对刚度贡献",
+          "层间强度取材料库 yield_z，属文献典型值，需试片标定"
+        ]
+      },
+      "mass_g": 7.627613194801771,
+      "volume_mm3": 6005.994641576198,
+      "centroid_mm": [
+        5.137261490223382,
+        27.297384727648403,
+        3.812366335969117
+      ],
+      "inertia_g_mm2": [
+        [
+          3382.072011612163,
+          -0.7332259029032535,
+          -580.7855484874931
+        ],
+        [
+          -0.7332259029032535,
+          18913.616042657504,
+          12.941417072282928
+        ],
+        [
+          -580.7855484874931,
+          12.941417072282928,
+          15548.475265885594
+        ]
+      ],
+      "topology": {
+        "triangles": 8636,
+        "edges": 12954,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "duplicate_direction_edges": 0,
+        "watertight": true,
+        "edge_length_min_mm": 0.057330835653958606,
+        "edge_length_median_mm": 2.4000000953674316,
+        "degenerate_triangles": 1056
+      },
+      "print": {
+        "cell_mm": 0.4,
+        "wall": {
+          "ok": true,
+          "samples": 4000,
+          "unbounded_rays": 0,
+          "min_mm": 0.049900000745048835,
+          "p01_mm": 0.8984486355407197,
+          "p05_mm": 1.7063700729292148,
+          "p50_mm": 2.8490144596581146,
+          "mean_mm": 3.51538552861205,
+          "note": "射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看"
+        },
+        "overhang": {
+          "up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limit_deg": 45.0,
+          "overhang_area_mm2": 66.74187120637635,
+          "self_supported_area_mm2": 0.0,
+          "needs_support_area_mm2": 66.74187120637635,
+          "self_supported_fraction": 0.0,
+          "bed_contact_area_mm2": 2190.143908659413,
+          "support_volume_mm3": 24.027074589045622,
+          "max_unsupported_span_mm": 2.4000000953674316,
+          "worst_faces": [
+            {
+              "area_mm2": 0.034,
+              "height_mm": 2.4,
+              "at": [
+                28.01,
+                8.95,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.035,
+              "height_mm": 2.4,
+              "at": [
+                27.99,
+                8.93,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.033,
+              "height_mm": 2.4,
+              "at": [
+                28.04,
+                8.98,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                27.96,
+                8.9,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.032,
+              "height_mm": 2.4,
+              "at": [
+                28.07,
+                9.0,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                27.94,
+                8.87,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.03,
+              "height_mm": 2.4,
+              "at": [
+                28.1,
+                9.03,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                27.92,
+                8.84,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 1.152,
+              "height_mm": 2.4,
+              "at": [
+                28.35,
+                9.54,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.029,
+              "height_mm": 2.4,
+              "at": [
+                28.13,
+                9.05,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.037,
+              "height_mm": 2.4,
+              "at": [
+                27.9,
+                8.8,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.027,
+              "height_mm": 2.4,
+              "at": [
+                28.87,
+                9.47,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.037,
+              "height_mm": 2.4,
+              "at": [
+                27.88,
+                8.77,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.029,
+              "height_mm": 2.4,
+              "at": [
+                28.9,
+                9.49,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                27.86,
+                8.74,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.03,
+              "height_mm": 2.4,
+              "at": [
+                28.93,
+                9.51,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                27.84,
+                8.7,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.032,
+              "height_mm": 2.4,
+              "at": [
+                28.97,
+                9.52,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                27.83,
+                8.67,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.033,
+              "height_mm": 2.4,
+              "at": [
+                29.01,
+                9.53,
+                2.4
+              ]
+            }
+          ],
+          "note": "支撑体积按 15% 密度估算，仅用于判断风险量级，不等于切片器的真实支撑量"
+        },
+        "mass": {
+          "shell_thickness_mm": 1.8,
+          "solid_volume_mm3": 6005.9946415761315,
+          "shell_volume_mm3": 6005.9946415761315,
+          "infill_volume_mm3": 0.0,
+          "material_volume_mm3": 6005.9946415761315,
+          "mass_part_g": 7.627613194801688,
+          "mass_support_g": 0.02746294625527915,
+          "mass_total_g": 7.655076141056967,
+          "shell_fraction": 1.0,
+          "note": "模型估算（含支撑按 0.9 实心系数）；与切片器差异主要来自顶底实心层与支撑界面"
+        },
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            -1.2767564518491504e-16
+          ],
+          [
+            138.0,
+            60.0,
+            4.800000190734863
+          ]
+        ],
+        "volume_mm3": 6005.9946415761315,
+        "area_mm2": 7953.372389785507,
+        "shell_fraction": 1.0
+      },
+      "load_cases": [
+        {
+          "name": "整组前部惯性载荷（50g）",
+          "result": {
+            "ok": false,
+            "reason": "NameError: name 'fea' is not defined"
+          },
+          "provenance": "assumed：六件+元件约 25 g，头戴跌落按 50 g 取 12 N，方向 +Y（向头）"
+        }
+      ],
+      "bounds": [
+        [
+          -69.0,
+          24.0,
+          -29.0
+        ],
+        [
+          69.0,
+          28.800000190734863,
+          31.0
+        ]
+      ],
+      "grid": {
+        "cell_mm": 0.4,
+        "shape": [
+          347,
+          15,
+          152
+        ],
+        "voxel_volume_rescale": 0.9928445437434201
+      },
+      "fea_size_mm": 1.2
+    },
+    "B02_mb_cradle": {
+      "mesh_path": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B02_mb_cradle.stl",
+      "material": {
+        "name": "PETG",
+        "kind": "fdm_polymer",
+        "density_g_cm3": 1.27,
+        "E_xy_MPa": 2000.0,
+        "E_z_MPa": 1600.0,
+        "yield_xy_MPa": 45.0,
+        "yield_z_MPa": 22.0,
+        "allowable_xy_MPa": 33.75,
+        "allowable_z_MPa": 16.5,
+        "derate": 0.75,
+        "calibration": "assumed"
+      },
+      "effective": {
+        "E_xy": 2000.0,
+        "E_z": 1600.0,
+        "allow_xy": 33.75,
+        "allow_z": 16.5,
+        "stiffness_factor": 1.0,
+        "strength_factor": 1.0,
+        "shell_fraction": 1.0,
+        "infill": 0.2,
+        "assumptions": [
+          "等效模量按壳层体积占比与填充相对刚度线性折算（经验模型）",
+          "许用应力按较弱指数折算：填充对强度贡献小于对刚度贡献",
+          "层间强度取材料库 yield_z，属文献典型值，需试片标定"
+        ]
+      },
+      "mass_g": 4.978828466689618,
+      "volume_mm3": 3920.337375346155,
+      "centroid_mm": [
+        -39.74999974216191,
+        21.94372029382222,
+        2.9999921616377283
+      ],
+      "inertia_g_mm2": [
+        [
+          1326.4448955665569,
+          4.064738838933408e-06,
+          -3.0604423955082895e-11
+        ],
+        [
+          4.064738838933408e-06,
+          2453.100405609402,
+          1.1706542820029427e-05
+        ],
+        [
+          -3.0604423955082895e-11,
+          1.1706542820029427e-05,
+          1161.7575927945832
+        ]
+      ],
+      "topology": {
+        "triangles": 8334,
+        "edges": 12501,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "duplicate_direction_edges": 0,
+        "watertight": true,
+        "edge_length_min_mm": 0.05733731113117384,
+        "edge_length_median_mm": 1.6012648620302183,
+        "degenerate_triangles": 475
+      },
+      "print": {
+        "cell_mm": 0.3,
+        "wall": {
+          "ok": true,
+          "samples": 4000,
+          "unbounded_rays": 0,
+          "min_mm": 0.7496630413609892,
+          "p01_mm": 0.7496656940113361,
+          "p05_mm": 0.7496666321514832,
+          "p50_mm": 2.4802591044533635,
+          "mean_mm": 3.347558541726068,
+          "note": "射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看"
+        },
+        "overhang": {
+          "up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limit_deg": 45.0,
+          "overhang_area_mm2": 44.49463416671756,
+          "self_supported_area_mm2": 0.0,
+          "needs_support_area_mm2": 44.49463416671756,
+          "self_supported_fraction": 0.0,
+          "bed_contact_area_mm2": 1245.7186883222016,
+          "support_volume_mm3": 16.018068936519178,
+          "max_unsupported_span_mm": 2.400000095367432,
+          "worst_faces": [
+            {
+              "area_mm2": 0.034,
+              "height_mm": 2.4,
+              "at": [
+                4.96,
+                12.65,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.035,
+              "height_mm": 2.4,
+              "at": [
+                4.94,
+                12.63,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.033,
+              "height_mm": 2.4,
+              "at": [
+                4.99,
+                12.68,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                4.91,
+                12.6,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.032,
+              "height_mm": 2.4,
+              "at": [
+                5.02,
+                12.7,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                4.89,
+                12.57,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.03,
+              "height_mm": 2.4,
+              "at": [
+                5.05,
+                12.73,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                4.87,
+                12.54,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 1.152,
+              "height_mm": 2.4,
+              "at": [
+                5.3,
+                13.24,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.029,
+              "height_mm": 2.4,
+              "at": [
+                5.08,
+                12.75,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.037,
+              "height_mm": 2.4,
+              "at": [
+                4.85,
+                12.5,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.027,
+              "height_mm": 2.4,
+              "at": [
+                5.82,
+                13.17,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.037,
+              "height_mm": 2.4,
+              "at": [
+                4.83,
+                12.47,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.029,
+              "height_mm": 2.4,
+              "at": [
+                5.85,
+                13.19,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                4.81,
+                12.44,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.03,
+              "height_mm": 2.4,
+              "at": [
+                5.88,
+                13.21,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                4.79,
+                12.4,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.032,
+              "height_mm": 2.4,
+              "at": [
+                5.92,
+                13.22,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                4.78,
+                12.37,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.033,
+              "height_mm": 2.4,
+              "at": [
+                5.96,
+                13.23,
+                2.4
+              ]
+            }
+          ],
+          "note": "支撑体积按 15% 密度估算，仅用于判断风险量级，不等于切片器的真实支撑量"
+        },
+        "mass": {
+          "shell_thickness_mm": 1.8,
+          "solid_volume_mm3": 3920.337375346149,
+          "shell_volume_mm3": 3920.337375346149,
+          "infill_volume_mm3": 0.0,
+          "material_volume_mm3": 3920.337375346149,
+          "mass_part_g": 4.97882846668961,
+          "mass_support_g": 0.018308652794441424,
+          "mass_total_g": 4.9971371194840515,
+          "shell_fraction": 1.0,
+          "note": "模型估算（含支撑按 0.9 实心系数）；与切片器差异主要来自顶底实心层与支撑界面"
+        },
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            -4.439532081224691e-16
+          ],
+          [
+            45.0,
+            56.0,
+            10.399999618530273
+          ]
+        ],
+        "volume_mm3": 3920.337375346149,
+        "area_mm2": 4401.034898160488,
+        "shell_fraction": 1.0
+      },
+      "load_cases": [
+        {
+          "name": "主板 50g 冲击（向下）",
+          "result": {
+            "ok": false,
+            "reason": "NameError: name 'fea' is not defined"
+          },
+          "provenance": "assumed：主板含元件约 15 g，50 g 冲击 ≈ 7.4 N，取 8 N 压在四柱上"
+        }
+      ],
+      "bounds": [
+        [
+          -62.25,
+          13.6,
+          -25.0
+        ],
+        [
+          -17.25,
+          23.99999961853027,
+          31.0
+        ]
+      ],
+      "grid": {
+        "cell_mm": 0.3,
+        "shape": [
+          152,
+          37,
+          189
+        ],
+        "voxel_volume_rescale": 0.9983201590213016
+      },
+      "fea_size_mm": 1.0
+    },
+    "B03_camera_cradle": {
+      "mesh_path": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B03_camera_cradle.stl",
+      "material": {
+        "name": "PETG",
+        "kind": "fdm_polymer",
+        "density_g_cm3": 1.27,
+        "E_xy_MPa": 2000.0,
+        "E_z_MPa": 1600.0,
+        "yield_xy_MPa": 45.0,
+        "yield_z_MPa": 22.0,
+        "allowable_xy_MPa": 33.75,
+        "allowable_z_MPa": 16.5,
+        "derate": 0.75,
+        "calibration": "assumed"
+      },
+      "effective": {
+        "E_xy": 1860.9118541033433,
+        "E_z": 1488.7294832826747,
+        "allow_xy": 31.98966565349544,
+        "allow_z": 15.639392097264437,
+        "stiffness_factor": 0.9304559270516717,
+        "strength_factor": 0.9478419452887538,
+        "shell_fraction": 0.8913373860182371,
+        "infill": 0.2,
+        "assumptions": [
+          "等效模量按壳层体积占比与填充相对刚度线性折算（经验模型）",
+          "许用应力按较弱指数折算：填充对强度贡献小于对刚度贡献",
+          "层间强度取材料库 yield_z，属文献典型值，需试片标定"
+        ]
+      },
+      "mass_g": 6.438827615391292,
+      "volume_mm3": 5069.943004245111,
+      "centroid_mm": [
+        2.062363220804998e-09,
+        16.725832259281074,
+        7.012843526443115
+      ],
+      "inertia_g_mm2": [
+        [
+          503.20568172580477,
+          8.449247276688952e-07,
+          5.971113701499995e-07
+        ],
+        [
+          8.449247276688952e-07,
+          834.2536224317079,
+          -27.40616265881124
+        ],
+        [
+          5.971113701499995e-07,
+          -27.40616265881124,
+          857.7782634026114
+        ]
+      ],
+      "topology": {
+        "triangles": 4288,
+        "edges": 6432,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "duplicate_direction_edges": 0,
+        "watertight": true,
+        "edge_length_min_mm": 0.057338714599609375,
+        "edge_length_median_mm": 1.4180359969899772,
+        "degenerate_triangles": 436
+      },
+      "print": {
+        "cell_mm": 0.3,
+        "wall": {
+          "ok": true,
+          "samples": 4000,
+          "unbounded_rays": 0,
+          "min_mm": 0.8499003814697268,
+          "p01_mm": 1.9999000000000002,
+          "p05_mm": 2.3999000953674283,
+          "p50_mm": 3.1999000476837125,
+          "mean_mm": 4.660693301109726,
+          "note": "射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看"
+        },
+        "overhang": {
+          "up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limit_deg": 45.0,
+          "overhang_area_mm2": 229.55217080879459,
+          "self_supported_area_mm2": 0.0,
+          "needs_support_area_mm2": 229.55217080879459,
+          "self_supported_fraction": 0.0,
+          "bed_contact_area_mm2": 852.5432083342932,
+          "support_volume_mm3": 379.4833947910563,
+          "max_unsupported_span_mm": 12.699900286102299,
+          "worst_faces": [
+            {
+              "area_mm2": 1.4,
+              "height_mm": 12.7,
+              "at": [
+                0.17,
+                9.8,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 1.0,
+              "height_mm": 12.7,
+              "at": [
+                0.33,
+                11.67,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 6.4,
+              "height_mm": 12.7,
+              "at": [
+                5.97,
+                8.47,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 3.05,
+              "height_mm": 12.7,
+              "at": [
+                17.03,
+                7.07,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 3.05,
+              "height_mm": 12.7,
+              "at": [
+                12.97,
+                7.23,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 62.4,
+              "height_mm": 12.7,
+              "at": [
+                12.83,
+                12.2,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 10.4,
+              "height_mm": 12.7,
+              "at": [
+                12.97,
+                8.47,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 9.76,
+              "height_mm": 12.7,
+              "at": [
+                17.17,
+                7.93,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 6.4,
+              "height_mm": 12.7,
+              "at": [
+                24.03,
+                8.47,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 62.4,
+              "height_mm": 12.7,
+              "at": [
+                17.17,
+                15.4,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 1.0,
+              "height_mm": 12.7,
+              "at": [
+                29.67,
+                11.67,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 1.4,
+              "height_mm": 12.7,
+              "at": [
+                29.83,
+                9.8,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 7.12,
+              "height_mm": 12.7,
+              "at": [
+                3.13,
+                7.93,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 7.12,
+              "height_mm": 12.7,
+              "at": [
+                26.87,
+                7.93,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 5.1,
+              "height_mm": 5.1,
+              "at": [
+                3.33,
+                13.8,
+                18.55
+              ]
+            },
+            {
+              "area_mm2": 5.1,
+              "height_mm": 5.1,
+              "at": [
+                1.92,
+                14.6,
+                18.55
+              ]
+            },
+            {
+              "area_mm2": 5.1,
+              "height_mm": 5.1,
+              "at": [
+                28.08,
+                13.8,
+                18.55
+              ]
+            },
+            {
+              "area_mm2": 5.1,
+              "height_mm": 5.1,
+              "at": [
+                26.67,
+                14.6,
+                18.55
+              ]
+            },
+            {
+              "area_mm2": 0.8,
+              "height_mm": 12.7,
+              "at": [
+                0.33,
+                16.47,
+                15.1
+              ]
+            },
+            {
+              "area_mm2": 0.8,
+              "height_mm": 12.7,
+              "at": [
+                0.17,
+                17.53,
+                15.1
+              ]
+            }
+          ],
+          "note": "支撑体积按 15% 密度估算，仅用于判断风险量级，不等于切片器的真实支撑量"
+        },
+        "mass": {
+          "shell_thickness_mm": 1.8,
+          "solid_volume_mm3": 5069.943004245119,
+          "shell_volume_mm3": 4519.029744665292,
+          "infill_volume_mm3": 110.1826519159653,
+          "material_volume_mm3": 4629.212396581257,
+          "mass_part_g": 5.879099743658196,
+          "mass_support_g": 0.4337495202461774,
+          "mass_total_g": 6.312849263904374,
+          "shell_fraction": 0.8913373860182371,
+          "note": "模型估算（含支撑按 0.9 实心系数）；与切片器差异主要来自顶底实心层与支撑界面"
+        },
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            30.0,
+            32.0,
+            19.399999618530273
+          ]
+        ],
+        "volume_mm3": 5069.943004245119,
+        "area_mm2": 4060.064059257804,
+        "shell_fraction": 0.8913373860182371
+      },
+      "load_cases": [
+        {
+          "name": "相机模组 50g 冲击（+Y 向头）",
+          "result": {
+            "ok": false,
+            "reason": "NameError: name 'fea' is not defined"
+          },
+          "provenance": "assumed：相机 8 g 含 FPC，50 g 冲击 ≈ 4 N"
+        }
+      ],
+      "bounds": [
+        [
+          -15.0,
+          4.600000000000001,
+          -7.0
+        ],
+        [
+          15.0,
+          23.999999618530275,
+          25.0
+        ]
+      ],
+      "grid": {
+        "cell_mm": 0.3,
+        "shape": [
+          102,
+          67,
+          109
+        ],
+        "voxel_volume_rescale": 1.0113735932862216
+      },
+      "fea_size_mm": 0.9
+    },
+    "B04_imu_cradle": {
+      "mesh_path": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B04_imu_cradle.stl",
+      "material": {
+        "name": "PETG",
+        "kind": "fdm_polymer",
+        "density_g_cm3": 1.27,
+        "E_xy_MPa": 2000.0,
+        "E_z_MPa": 1600.0,
+        "yield_xy_MPa": 45.0,
+        "yield_z_MPa": 22.0,
+        "allowable_xy_MPa": 33.75,
+        "allowable_z_MPa": 16.5,
+        "derate": 0.75,
+        "calibration": "assumed"
+      },
+      "effective": {
+        "E_xy": 2000.0,
+        "E_z": 1600.0,
+        "allow_xy": 33.75,
+        "allow_z": 16.5,
+        "stiffness_factor": 1.0,
+        "strength_factor": 1.0,
+        "shell_fraction": 1.0,
+        "infill": 0.2,
+        "assumptions": [
+          "等效模量按壳层体积占比与填充相对刚度线性折算（经验模型）",
+          "许用应力按较弱指数折算：填充对强度贡献小于对刚度贡献",
+          "层间强度取材料库 yield_z，属文献典型值，需试片标定"
+        ]
+      },
+      "mass_g": 5.6735005256394615,
+      "volume_mm3": 4467.323248535009,
+      "centroid_mm": [
+        32.496424398759494,
+        20.1065146650657,
+        0.9315392629944166
+      ],
+      "inertia_g_mm2": [
+        [
+          570.5246062594033,
+          -40.60089973719245,
+          6.021925829728636
+        ],
+        [
+          -40.60089973719245,
+          950.8532847428277,
+          0.8964204010980195
+        ],
+        [
+          6.021925829728636,
+          0.8964204010980195,
+          542.5980195996183
+        ]
+      ],
+      "topology": {
+        "triangles": 4190,
+        "edges": 6285,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "duplicate_direction_edges": 0,
+        "watertight": true,
+        "edge_length_min_mm": 0.057337814146923086,
+        "edge_length_median_mm": 2.4500005953662143,
+        "degenerate_triangles": 363
+      },
+      "print": {
+        "cell_mm": 0.3,
+        "wall": {
+          "ok": true,
+          "samples": 4000,
+          "unbounded_rays": 0,
+          "min_mm": 1.2000122983530197,
+          "p01_mm": 1.7999001907348635,
+          "p05_mm": 2.399900095367431,
+          "p50_mm": 2.8508365982271666,
+          "mean_mm": 5.557926823756887,
+          "note": "射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看"
+        },
+        "overhang": {
+          "up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limit_deg": 45.0,
+          "overhang_area_mm2": 231.8473092934371,
+          "self_supported_area_mm2": 0.0,
+          "needs_support_area_mm2": 231.8473092934371,
+          "self_supported_fraction": 0.0,
+          "bed_contact_area_mm2": 1086.8941286960976,
+          "support_volume_mm3": 237.5178831548239,
+          "max_unsupported_span_mm": 7.299899713897706,
+          "worst_faces": [
+            {
+              "area_mm2": 104.8,
+              "height_mm": 7.3,
+              "at": [
+                14.37,
+                14.33,
+                9.7
+              ]
+            },
+            {
+              "area_mm2": 104.8,
+              "height_mm": 7.3,
+              "at": [
+                18.73,
+                19.67,
+                9.7
+              ]
+            },
+            {
+              "area_mm2": 0.034,
+              "height_mm": 2.4,
+              "at": [
+                9.56,
+                30.45,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.035,
+              "height_mm": 2.4,
+              "at": [
+                9.54,
+                30.43,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.033,
+              "height_mm": 2.4,
+              "at": [
+                9.59,
+                30.48,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                9.51,
+                30.4,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.032,
+              "height_mm": 2.4,
+              "at": [
+                9.62,
+                30.5,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                9.49,
+                30.37,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.03,
+              "height_mm": 2.4,
+              "at": [
+                9.65,
+                30.53,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                9.47,
+                30.34,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 1.152,
+              "height_mm": 2.4,
+              "at": [
+                9.9,
+                31.04,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.029,
+              "height_mm": 2.4,
+              "at": [
+                9.68,
+                30.55,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.037,
+              "height_mm": 2.4,
+              "at": [
+                9.45,
+                30.3,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.027,
+              "height_mm": 2.4,
+              "at": [
+                10.42,
+                30.97,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.037,
+              "height_mm": 2.4,
+              "at": [
+                9.43,
+                30.27,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.029,
+              "height_mm": 2.4,
+              "at": [
+                10.45,
+                30.99,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                9.41,
+                30.24,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.03,
+              "height_mm": 2.4,
+              "at": [
+                10.48,
+                31.01,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.036,
+              "height_mm": 2.4,
+              "at": [
+                9.39,
+                30.2,
+                2.4
+              ]
+            },
+            {
+              "area_mm2": 0.032,
+              "height_mm": 2.4,
+              "at": [
+                10.52,
+                31.02,
+                2.4
+              ]
+            }
+          ],
+          "note": "支撑体积按 15% 密度估算，仅用于判断风险量级，不等于切片器的真实支撑量"
+        },
+        "mass": {
+          "shell_thickness_mm": 1.8,
+          "solid_volume_mm3": 4467.3232485349945,
+          "shell_volume_mm3": 4467.3232485349945,
+          "infill_volume_mm3": 0.0,
+          "material_volume_mm3": 4467.3232485349945,
+          "mass_part_g": 5.673500525639444,
+          "mass_support_g": 0.2714829404459637,
+          "mass_total_g": 5.944983466085407,
+          "shell_fraction": 1.0,
+          "note": "模型估算（含支撑按 0.9 实心系数）；与切片器差异主要来自顶底实心层与支撑界面"
+        },
+        "bounds": [
+          [
+            0.0,
+            0.0,
+            -4.440892098500626e-16
+          ],
+          [
+            36.0,
+            33.099998474121094,
+            13.0
+          ]
+        ],
+        "volume_mm3": 4467.323248534994,
+        "area_mm2": 4473.221504316289,
+        "shell_fraction": 1.0
+      },
+      "load_cases": [
+        {
+          "name": "IMU + 杜邦头 50g 冲击（+Y 向头）",
+          "result": {
+            "ok": false,
+            "reason": "NameError: name 'fea' is not defined"
+          },
+          "provenance": "assumed：IMU 板+座约 6 g，50 g 冲击 ≈ 3 N"
+        }
+      ],
+      "bounds": [
+        [
+          16.0,
+          11.0,
+          -16.0
+        ],
+        [
+          52.0,
+          24.000000000000004,
+          17.099998474121094
+        ]
+      ],
+      "grid": {
+        "cell_mm": 0.3,
+        "shape": [
+          122,
+          46,
+          113
+        ],
+        "voxel_volume_rescale": 0.9970737764544706
+      },
+      "fea_size_mm": 0.9
+    },
+    "B05_camera_cap": {
+      "mesh_path": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B05_camera_cap.stl",
+      "material": {
+        "name": "PETG",
+        "kind": "fdm_polymer",
+        "density_g_cm3": 1.27,
+        "E_xy_MPa": 2000.0,
+        "E_z_MPa": 1600.0,
+        "yield_xy_MPa": 45.0,
+        "yield_z_MPa": 22.0,
+        "allowable_xy_MPa": 33.75,
+        "allowable_z_MPa": 16.5,
+        "derate": 0.75,
+        "calibration": "assumed"
+      },
+      "effective": {
+        "E_xy": 2000.0,
+        "E_z": 1600.0,
+        "allow_xy": 33.75,
+        "allow_z": 16.5,
+        "stiffness_factor": 1.0,
+        "strength_factor": 1.0,
+        "shell_fraction": 1.0,
+        "infill": 0.2,
+        "assumptions": [
+          "等效模量按壳层体积占比与填充相对刚度线性折算（经验模型）",
+          "许用应力按较弱指数折算：填充对强度贡献小于对刚度贡献",
+          "层间强度取材料库 yield_z，属文献典型值，需试片标定"
+        ]
+      },
+      "mass_g": 1.0951470515262474,
+      "volume_mm3": 862.3205130127931,
+      "centroid_mm": [
+        -2.6850744951596357e-08,
+        9.292083675300487,
+        4.935991414596125
+      ],
+      "inertia_g_mm2": [
+        [
+          29.61174768744254,
+          -4.58283511211892e-08,
+          -6.625175353533443e-08
+        ],
+        [
+          -4.58283511211892e-08,
+          126.53171397314621,
+          -5.746325493539345
+        ],
+        [
+          -6.625175353533443e-08,
+          -5.746325493539345,
+          106.82024396609569
+        ]
+      ],
+      "topology": {
+        "triangles": 1584,
+        "edges": 2376,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "duplicate_direction_edges": 0,
+        "watertight": true,
+        "edge_length_min_mm": 0.057338714599609375,
+        "edge_length_median_mm": 2.40000009536743,
+        "degenerate_triangles": 400
+      },
+      "print": {
+        "cell_mm": 0.25,
+        "wall": {
+          "ok": true,
+          "samples": 1584,
+          "unbounded_rays": 0,
+          "min_mm": 1.5999000238418455,
+          "p01_mm": 1.5999000238418524,
+          "p05_mm": 1.5999000238418566,
+          "p50_mm": 2.3999000953674337,
+          "mean_mm": 3.642290312993639,
+          "note": "射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看"
+        },
+        "overhang": {
+          "up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limit_deg": 45.0,
+          "overhang_area_mm2": 8.532281171748703,
+          "self_supported_area_mm2": 0.0,
+          "needs_support_area_mm2": 8.532281171748703,
+          "self_supported_fraction": 0.0,
+          "bed_contact_area_mm2": 393.0094185789362,
+          "support_volume_mm3": 2.6584901885447407,
+          "max_unsupported_span_mm": 2.299184934997559,
+          "worst_faces": [
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.67,
+              "at": [
+                5.29,
+                0.8,
+                5.84
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.7,
+              "at": [
+                5.27,
+                1.6,
+                5.85
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.75,
+              "at": [
+                5.25,
+                0.8,
+                5.87
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.77,
+              "at": [
+                5.23,
+                1.6,
+                5.89
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.82,
+              "at": [
+                5.2,
+                1.6,
+                5.91
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.84,
+              "at": [
+                5.19,
+                0.8,
+                5.92
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.89,
+              "at": [
+                5.16,
+                0.8,
+                5.94
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.91,
+              "at": [
+                5.14,
+                1.6,
+                5.96
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.95,
+              "at": [
+                5.11,
+                1.6,
+                5.98
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 1.97,
+              "at": [
+                5.09,
+                0.8,
+                5.99
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.01,
+              "at": [
+                5.06,
+                0.8,
+                6.01
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.03,
+              "at": [
+                5.04,
+                1.6,
+                6.01
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.08,
+              "at": [
+                4.99,
+                1.6,
+                6.04
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.06,
+              "at": [
+                5.01,
+                0.8,
+                6.03
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.11,
+              "at": [
+                4.96,
+                1.6,
+                6.06
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.13,
+              "at": [
+                4.94,
+                0.8,
+                6.06
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.17,
+              "at": [
+                4.88,
+                1.6,
+                6.08
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.15,
+              "at": [
+                4.9,
+                0.8,
+                6.08
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.2,
+              "at": [
+                4.83,
+                1.6,
+                6.1
+              ]
+            },
+            {
+              "area_mm2": 0.069,
+              "height_mm": 2.22,
+              "at": [
+                4.79,
+                1.6,
+                6.11
+              ]
+            }
+          ],
+          "note": "支撑体积按 15% 密度估算，仅用于判断风险量级，不等于切片器的真实支撑量"
+        },
+        "mass": {
+          "shell_thickness_mm": 1.8,
+          "solid_volume_mm3": 862.3205130127928,
+          "shell_volume_mm3": 862.3205130127928,
+          "infill_volume_mm3": 0.0,
+          "material_volume_mm3": 862.3205130127928,
+          "mass_part_g": 1.095147051526247,
+          "mass_support_g": 0.0030386542855066387,
+          "mass_total_g": 1.0981857058117535,
+          "shell_fraction": 1.0,
+          "note": "模型估算（含支撑按 0.9 实心系数）；与切片器差异主要来自顶底实心层与支撑界面"
+        },
+        "bounds": [
+          [
+            0.0,
+            1.648720832710289e-15,
+            0.0
+          ],
+          [
+            30.0,
+            15.0,
+            8.199999809265137
+          ]
+        ],
+        "volume_mm3": 862.3205130127928,
+        "area_mm2": 1263.0388893808174,
+        "shell_fraction": 1.0
+      },
+      "load_cases": [
+        {
+          "name": "正面按压/撞击 5N（两螺丝固定）",
+          "result": {
+            "ok": false,
+            "reason": "NameError: name 'fea' is not defined"
+          },
+          "provenance": "assumed：正面受 5 N 按压/磕碰，仅两点螺丝约束（参数取自 parameters.json）"
+        }
+      ],
+      "bounds": [
+        [
+          -15.0,
+          3.0,
+          -1.0
+        ],
+        [
+          15.0,
+          11.199999809265138,
+          13.999999999999998
+        ]
+      ],
+      "grid": {
+        "cell_mm": 0.25,
+        "shape": [
+          122,
+          35,
+          62
+        ],
+        "voxel_volume_rescale": 0.9630494683422113
+      },
+      "fea_size_mm": 0.7
+    },
+    "B06_imu_keeper": {
+      "mesh_path": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B06_imu_keeper.stl",
+      "material": {
+        "name": "PETG",
+        "kind": "fdm_polymer",
+        "density_g_cm3": 1.27,
+        "E_xy_MPa": 2000.0,
+        "E_z_MPa": 1600.0,
+        "yield_xy_MPa": 45.0,
+        "yield_z_MPa": 22.0,
+        "allowable_xy_MPa": 33.75,
+        "allowable_z_MPa": 16.5,
+        "derate": 0.75,
+        "calibration": "assumed"
+      },
+      "effective": {
+        "E_xy": 2000.0,
+        "E_z": 1600.0,
+        "allow_xy": 33.75,
+        "allow_z": 16.5,
+        "stiffness_factor": 1.0,
+        "strength_factor": 1.0,
+        "shell_fraction": 1.0,
+        "infill": 0.2,
+        "assumptions": [
+          "等效模量按壳层体积占比与填充相对刚度线性折算（经验模型）",
+          "许用应力按较弱指数折算：填充对强度贡献小于对刚度贡献",
+          "层间强度取材料库 yield_z，属文献典型值，需试片标定"
+        ]
+      },
+      "mass_g": 0.29063606769210704,
+      "volume_mm3": 228.84729739535987,
+      "centroid_mm": [
+        26.79997895751941,
+        10.099999976158252,
+        0.998885863494595
+      ],
+      "inertia_g_mm2": [
+        [
+          30.12466166821273,
+          6.837944965809584e-13,
+          -3.407421900192276e-13
+        ],
+        [
+          6.837944965809584e-13,
+          30.736095847947308,
+          -4.27371560363099e-14
+        ],
+        [
+          -3.407421900192276e-13,
+          -4.27371560363099e-14,
+          0.7683776479720656
+        ]
+      ],
+      "topology": {
+        "triangles": 1892,
+        "edges": 2838,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "duplicate_direction_edges": 0,
+        "watertight": true,
+        "edge_length_min_mm": 0.05733912050338467,
+        "edge_length_median_mm": 1.8009130105295124,
+        "degenerate_triangles": 474
+      },
+      "print": {
+        "cell_mm": 0.25,
+        "wall": {
+          "ok": true,
+          "samples": 1892,
+          "unbounded_rays": 0,
+          "min_mm": 1.799899952316273,
+          "p01_mm": 1.7998999523162778,
+          "p05_mm": 1.79989995231628,
+          "p50_mm": 1.7998999523162915,
+          "mean_mm": 2.3676438315076282,
+          "note": "射线法局部厚度；尖角/相切面处可能读到相邻壁而不是真实厚度，需结合截面图看"
+        },
+        "overhang": {
+          "up": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limit_deg": 45.0,
+          "overhang_area_mm2": 0.0,
+          "self_supported_area_mm2": 0.0,
+          "needs_support_area_mm2": 0.0,
+          "self_supported_fraction": 1.0,
+          "bed_contact_area_mm2": 127.13739080985904,
+          "support_volume_mm3": 0.0,
+          "max_unsupported_span_mm": 0.0,
+          "worst_faces": [],
+          "note": "支撑体积按 15% 密度估算，仅用于判断风险量级，不等于切片器的真实支撑量"
+        },
+        "mass": {
+          "shell_thickness_mm": 1.8,
+          "solid_volume_mm3": 228.84729739536292,
+          "shell_volume_mm3": 228.84729739536292,
+          "infill_volume_mm3": 0.0,
+          "material_volume_mm3": 228.84729739536292,
+          "mass_part_g": 0.2906360676921109,
+          "mass_support_g": 0.0,
+          "mass_total_g": 0.2906360676921109,
+          "shell_fraction": 1.0,
+          "note": "模型估算（含支撑按 0.9 实心系数）；与切片器差异主要来自顶底实心层与支撑界面"
+        },
+        "bounds": [
+          [
+            2.1000965716666542e-05,
+            0.00111408403608948,
+            -3.995566114668454e-16
+          ],
+          [
+            7.199978828430176,
+            32.19888687133789,
+            1.7999999523162842
+          ]
+        ],
+        "volume_mm3": 228.8472973953629,
+        "area_mm2": 417.00470274924345,
+        "shell_fraction": 1.0
+      },
+      "load_cases": [
+        {
+          "name": "IMU 反向顶 1.5N（-Y）",
+          "result": {
+            "ok": false,
+            "reason": "NameError: name 'fea' is not defined"
+          },
+          "provenance": "assumed：IMU 在冲击下反顶限位条；两点 M2×16 固定"
+        }
+      ],
+      "bounds": [
+        [
+          23.2,
+          9.2,
+          -15.1
+        ],
+        [
+          30.39995782746446,
+          10.999999952316287,
+          17.0977727873018
+        ]
+      ],
+      "grid": {
+        "cell_mm": 0.25,
+        "shape": [
+          31,
+          10,
+          131
+        ],
+        "voxel_volume_rescale": 1.0286716556611204
+      },
+      "fea_size_mm": 0.5
+    }
+  },
+  "assembly": {
+    "properties": {
+      "total_mass_g": 26.104552921740492,
+      "center_of_mass_mm": [
+        1.2807779068697553,
+        21.159090804230157,
+        3.8365426216773533
+      ],
+      "inertia_about_com_g_mm2": [
+        [
+          6575.043220501289,
+          153.62292513685315,
+          -181.6829820321939
+        ],
+        [
+          153.62292513685315,
+          37654.48819807858,
+          63.57257078686507
+        ],
+        [
+          -181.6829820321939,
+          63.57257078686507,
+          33056.66972445383
+        ]
+      ],
+      "parts": [
+        {
+          "part": "B01_common_frame",
+          "mass_g": 7.627613194801771,
+          "centroid_mm": [
+            5.137261490223382,
+            27.297384727648403,
+            3.812366335969117
+          ],
+          "volume_mm3": 6005.994641576198,
+          "density_g_cm3": 1.27,
+          "principal_inertia_g_mm2": [
+            3354.4100418068992,
+            15576.086896895678,
+            18913.6663814527
+          ]
+        },
+        {
+          "part": "B02_mb_cradle",
+          "mass_g": 4.978828466689618,
+          "centroid_mm": [
+            -39.74999974216191,
+            21.94372029382222,
+            2.9999921616377283
+          ],
+          "volume_mm3": 3920.337375346155,
+          "density_g_cm3": 1.27,
+          "principal_inertia_g_mm2": [
+            1161.7575927945832,
+            1326.4448955665569,
+            2453.1004056094025
+          ]
+        },
+        {
+          "part": "B03_camera_cradle",
+          "mass_g": 6.438827615391292,
+          "centroid_mm": [
+            2.062363220804998e-09,
+            16.725832259281074,
+            7.012843526443115
+          ],
+          "volume_mm3": 5069.943004245111,
+          "density_g_cm3": 1.27,
+          "principal_inertia_g_mm2": [
+            503.20568172580477,
+            816.1922956740117,
+            875.8395901603072
+          ]
+        },
+        {
+          "part": "B04_imu_cradle",
+          "mass_g": 5.6735005256394615,
+          "centroid_mm": [
+            32.496424398759494,
+            20.1065146650657,
+            0.9315392629944166
+          ],
+          "volume_mm3": 4467.323248535009,
+          "density_g_cm3": 1.27,
+          "principal_inertia_g_mm2": [
+            541.1245833845021,
+            567.7119449158062,
+            955.139382301541
+          ]
+        },
+        {
+          "part": "B05_camera_cap",
+          "mass_g": 1.0951470515262474,
+          "centroid_mm": [
+            -2.6850744951596357e-08,
+            9.292083675300487,
+            4.935991414596125
+          ],
+          "volume_mm3": 862.3205130127931,
+          "density_g_cm3": 1.27,
+          "principal_inertia_g_mm2": [
+            29.61174768744254,
+            105.26739583509395,
+            128.0845621041479
+          ]
+        },
+        {
+          "part": "B06_imu_keeper",
+          "mass_g": 0.29063606769210704,
+          "centroid_mm": [
+            26.79997895751941,
+            10.099999976158252,
+            0.998885863494595
+          ],
+          "volume_mm3": 228.84729739535987,
+          "density_g_cm3": 1.27,
+          "principal_inertia_g_mm2": [
+            0.7683776479720645,
+            30.124661668212738,
+            30.736095847947304
+          ]
+        }
+      ],
+      "part_mass_share_pct": [
+        {
+          "part": "B01_common_frame",
+          "mass_g": 7.628,
+          "share_pct": 29.2
+        },
+        {
+          "part": "B02_mb_cradle",
+          "mass_g": 4.979,
+          "share_pct": 19.1
+        },
+        {
+          "part": "B03_camera_cradle",
+          "mass_g": 6.439,
+          "share_pct": 24.7
+        },
+        {
+          "part": "B04_imu_cradle",
+          "mass_g": 5.674,
+          "share_pct": 21.7
+        },
+        {
+          "part": "B05_camera_cap",
+          "mass_g": 1.095,
+          "share_pct": 4.2
+        },
+        {
+          "part": "B06_imu_keeper",
+          "mass_g": 0.291,
+          "share_pct": 1.1
+        }
+      ]
+    },
+    "wear": {
+      "pivot_mm": [
+        0.0,
+        95.0,
+        -10.0
+      ],
+      "center_of_mass_mm": [
+        1.2807779068697553,
+        21.159090804230157,
+        3.8365426216773533
+      ],
+      "com_offset_from_pivot_mm": [
+        1.2807779068697553,
+        -73.84090919576984,
+        13.836542621677353
+      ],
+      "lever_arm_mm": 75.1370093537542,
+      "weight_N": 0.2559982139099864,
+      "gravitational_moment_Nmm": [
+        18.90314086760657,
+        0.32787685657402826,
+        0.0
+      ],
+      "moment_magnitude_Nmm": 18.905984182095747,
+      "front_mass_ahead_of_pivot_pct": 0.0,
+      "note": "刚体静力学；实际佩戴压力分布需要人体模型或实测，不能由本项代替舒适性验收"
+    },
+    "clearances": [
+      {
+        "a": "B03_camera_cradle",
+        "b": "B05_camera_cap",
+        "min_signed_distance_mm": -2.2284839400840957,
+        "penetrating_samples": 137,
+        "clearance_mm": 0.0,
+        "penetration_depth_mm": 2.2284839400840957,
+        "verdict": "interference"
+      },
+      {
+        "a": "B04_imu_cradle",
+        "b": "B06_imu_keeper",
+        "min_signed_distance_mm": 4.7683716530855236e-08,
+        "penetrating_samples": 0,
+        "clearance_mm": 4.7683716530855236e-08,
+        "penetration_depth_mm": 0.0,
+        "verdict": "touching"
+      },
+      {
+        "a": "B02_mb_cradle",
+        "b": "B01_common_frame",
+        "min_signed_distance_mm": 3.814697286941282e-07,
+        "penetrating_samples": 0,
+        "clearance_mm": 3.814697286941282e-07,
+        "penetration_depth_mm": 0.0,
+        "verdict": "touching"
+      },
+      {
+        "a": "B03_camera_cradle",
+        "b": "B01_common_frame",
+        "min_signed_distance_mm": 3.814697322468419e-07,
+        "penetrating_samples": 0,
+        "clearance_mm": 3.814697322468419e-07,
+        "penetration_depth_mm": 0.0,
+        "verdict": "touching"
+      }
+    ],
+    "motions": [],
+    "insertions": [
+      {
+        "part": "B05_camera_cap",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "travel_mm": 22.0,
+        "blocked": true,
+        "first_block_at_remaining_mm": 11.846153846153847,
+        "blocking_part": "B03_camera_cradle",
+        "min_clearance_mm": -2.684348570961177,
+        "path": [
+          {
+            "remaining_travel_mm": 22.0,
+            "min_signed_distance_mm": 9.39999961853027,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 20.307692307692307,
+            "min_signed_distance_mm": 7.7076919262225765,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 18.615384615384617,
+            "min_signed_distance_mm": 6.015384233914887,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 16.923076923076923,
+            "min_signed_distance_mm": 4.323076541607193,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 15.23076923076923,
+            "min_signed_distance_mm": 2.6307688492995,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 13.538461538461538,
+            "min_signed_distance_mm": 0.9384611569918082,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 11.846153846153847,
+            "min_signed_distance_mm": -1.778715002521252,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 10.153846153846153,
+            "min_signed_distance_mm": -2.050839525015219,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 8.461538461538462,
+            "min_signed_distance_mm": -2.517125838830635,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 6.76923076923077,
+            "min_signed_distance_mm": -2.28635939426759,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 5.076923076923077,
+            "min_signed_distance_mm": -2.6156884435060004,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 3.3846153846153832,
+            "min_signed_distance_mm": -2.0849626717960077,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 1.6923076923076934,
+            "min_signed_distance_mm": -2.5629419961270643,
+            "part": "B03_camera_cradle"
+          },
+          {
+            "remaining_travel_mm": 0.0,
+            "min_signed_distance_mm": -2.684348570961177,
+            "part": "B03_camera_cradle"
+          }
+        ]
+      },
+      {
+        "part": "B06_imu_keeper",
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "travel_mm": 18.0,
+        "blocked": false,
+        "first_block_at_remaining_mm": null,
+        "blocking_part": null,
+        "min_clearance_mm": 4.7683716530855236e-08,
+        "path": [
+          {
+            "remaining_travel_mm": 18.0,
+            "min_signed_distance_mm": 18.000000047683713,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 16.615384615384617,
+            "min_signed_distance_mm": 16.61538466306833,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 15.23076923076923,
+            "min_signed_distance_mm": 15.230769278452945,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 13.846153846153847,
+            "min_signed_distance_mm": 13.846153893837561,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 12.461538461538462,
+            "min_signed_distance_mm": 12.461538509222178,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 11.076923076923077,
+            "min_signed_distance_mm": 11.076923124606791,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 9.692307692307693,
+            "min_signed_distance_mm": 9.692307739991408,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 8.307692307692308,
+            "min_signed_distance_mm": 8.307692355376023,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 6.923076923076923,
+            "min_signed_distance_mm": 6.92307697076064,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 5.538461538461538,
+            "min_signed_distance_mm": 5.538461586145255,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 4.153846153846153,
+            "min_signed_distance_mm": 4.15384620152987,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 2.76923076923077,
+            "min_signed_distance_mm": 2.7692308169144866,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 1.3846153846153868,
+            "min_signed_distance_mm": 1.3846154322991033,
+            "part": "B04_imu_cradle"
+          },
+          {
+            "remaining_travel_mm": 0.0,
+            "min_signed_distance_mm": 4.7683716530855236e-08,
+            "part": "B04_imu_cradle"
+          }
+        ]
+      }
+    ]
+  },
+  "joints": [
+    {
+      "spec": {
+        "name": "相机压盖 M2×8 ×2（进钢螺母）",
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.15,
+        "engagement_mm": 2.4,
+        "bearing_area_mm2": 11.1,
+        "part_material": "PETG",
+        "min_safety_factor": 2.0
+      },
+      "result": {
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.15,
+        "clamp_force_N": 375.0,
+        "bearing_stress_MPa": 33.78378378378378,
+        "allowable_bearing_MPa": 21.45,
+        "pullout": {
+          "size": "M2",
+          "engagement_mm": 2.4,
+          "thread_d_mm": 2.0,
+          "shear_area_mm2": 7.5398223686155035,
+          "allowable_shear_MPa": 213.33333333333334,
+          "pullout_capacity_N": 1608.495438637974,
+          "proof_load_N": 804.247719318987,
+          "assumption": "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制",
+          "thread_in": "nut"
+        },
+        "screw_tensile_allowable_N": 883.1999999999999,
+        "safety_factors": {
+          "bearing": 0.63492,
+          "pullout": 4.289321169701264,
+          "screw_tension": 2.3552
+        },
+        "min_safety_factor": 0.63492,
+        "passed": false,
+        "warning": "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂"
+      }
+    },
+    {
+      "spec": {
+        "name": "IMU 限位条 M2×16 ×2（进钢螺母）",
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.15,
+        "engagement_mm": 2.4,
+        "bearing_area_mm2": 11.1,
+        "part_material": "PETG",
+        "min_safety_factor": 2.0
+      },
+      "result": {
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.15,
+        "clamp_force_N": 375.0,
+        "bearing_stress_MPa": 33.78378378378378,
+        "allowable_bearing_MPa": 21.45,
+        "pullout": {
+          "size": "M2",
+          "engagement_mm": 2.4,
+          "thread_d_mm": 2.0,
+          "shear_area_mm2": 7.5398223686155035,
+          "allowable_shear_MPa": 213.33333333333334,
+          "pullout_capacity_N": 1608.495438637974,
+          "proof_load_N": 804.247719318987,
+          "assumption": "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制",
+          "thread_in": "nut"
+        },
+        "screw_tensile_allowable_N": 883.1999999999999,
+        "safety_factors": {
+          "bearing": 0.63492,
+          "pullout": 4.289321169701264,
+          "screw_tension": 2.3552
+        },
+        "min_safety_factor": 0.63492,
+        "passed": false,
+        "warning": "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂"
+      }
+    },
+    {
+      "spec": {
+        "name": "共架-旧壳 M2 ×6",
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.2,
+        "engagement_mm": 3.0,
+        "bearing_area_mm2": 11.1,
+        "part_material": "PETG",
+        "min_safety_factor": 2.0
+      },
+      "result": {
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.2,
+        "clamp_force_N": 500.0,
+        "bearing_stress_MPa": 45.04504504504504,
+        "allowable_bearing_MPa": 21.45,
+        "pullout": {
+          "size": "M2",
+          "engagement_mm": 3.0,
+          "thread_d_mm": 2.0,
+          "shear_area_mm2": 9.42477796076938,
+          "allowable_shear_MPa": 213.33333333333334,
+          "pullout_capacity_N": 2010.6192982974676,
+          "proof_load_N": 1005.3096491487338,
+          "assumption": "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制",
+          "thread_in": "nut"
+        },
+        "screw_tensile_allowable_N": 883.1999999999999,
+        "safety_factors": {
+          "bearing": 0.47619,
+          "pullout": 4.0212385965949355,
+          "screw_tension": 1.7664
+        },
+        "min_safety_factor": 0.47619,
+        "passed": false,
+        "warning": "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂"
+      }
+    },
+    {
+      "spec": {
+        "name": "主板 M2×12 ×4",
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.15,
+        "engagement_mm": 2.4,
+        "bearing_area_mm2": 11.1,
+        "part_material": "PETG",
+        "min_safety_factor": 2.0
+      },
+      "result": {
+        "size": "M2",
+        "thread_in": "nut",
+        "torque_Nm": 0.15,
+        "clamp_force_N": 375.0,
+        "bearing_stress_MPa": 33.78378378378378,
+        "allowable_bearing_MPa": 21.45,
+        "pullout": {
+          "size": "M2",
+          "engagement_mm": 2.4,
+          "thread_d_mm": 2.0,
+          "shear_area_mm2": 7.5398223686155035,
+          "allowable_shear_MPa": 213.33333333333334,
+          "pullout_capacity_N": 1608.495438637974,
+          "proof_load_N": 804.247719318987,
+          "assumption": "拧入钢螺母/嵌件：螺纹不控制，实际由塑料承压面与柱根控制",
+          "thread_in": "nut"
+        },
+        "screw_tensile_allowable_N": 883.1999999999999,
+        "safety_factors": {
+          "bearing": 0.63492,
+          "pullout": 4.289321169701264,
+          "screw_tension": 2.3552
+        },
+        "min_safety_factor": 0.63492,
+        "passed": false,
+        "warning": "扭矩按经验 K=0.2 估算；塑料件实际应使用扭矩限制或凭手感，过度拧紧会压塌承压面或使柱根开裂"
+      }
+    }
+  ],
+  "tolerances": [
+    {
+      "spec": {
+        "name": "M2 螺丝穿过主板 Ø2.2 孔（孔距 32.6 已确认）",
+        "chain": [
+          {
+            "name": "主板孔位（官方图/实测）",
+            "nominal": 0.0,
+            "plus": 0.1,
+            "minus": 0.1
+          },
+          {
+            "name": "打印柱位（FDM 定位误差）",
+            "nominal": 0.0,
+            "plus": 0.15,
+            "minus": 0.15
+          }
+        ],
+        "requirement": {
+          "min": -0.15,
+          "max": 0.15
+        },
+        "note": "单侧可用浮动 =（底板过孔 2.3 - 螺丝 2.0）/2 = 0.15；此链不含螺丝自身直线度"
+      },
+      "result": {
+        "nominal_mm": 0.0,
+        "worst_case_mm": [
+          -0.25,
+          0.25
+        ],
+        "rss_mm": [
+          -0.18027756377319948,
+          0.18027756377319948
+        ],
+        "requirement_mm": [
+          -0.15,
+          0.15
+        ],
+        "worst_case_ok": false,
+        "rss_ok": false,
+        "assessed": "fail",
+        "margin_worst_mm": -0.1,
+        "top_contributors": [
+          {
+            "name": "打印柱位（FDM 定位误差）",
+            "total_tolerance_mm": 0.3,
+            "share_pct": 60.0
+          },
+          {
+            "name": "主板孔位（官方图/实测）",
+            "total_tolerance_mm": 0.2,
+            "share_pct": 40.0
+          }
+        ],
+        "note": "最坏情况用于装配可行性，RSS 仅用于统计意义上的尺寸波动；两者都给出"
+      }
+    }
+  ],
+  "limits_of_method": [
+    "FEA 为体素六面体线弹性，单元中心取应力，尖角/薄壁根部会低估峰值",
+    "FDM 材料参数是文献典型值（calibration=assumed），层间强度必须用试片标定后才能定论",
+    "射线壁厚在相切/尖角处可能读到邻壁，需结合截面图",
+    "支撑体积按 15% 密度估算，不等于切片器结果",
+    "运动/干涉基于表面采样，采样点之外的小于采样间距的局部接触可能漏判",
+    "不包含：真实接触压力分布、蠕变/长期载荷、热变形、装配预紧导致的变形"
+  ]
+}

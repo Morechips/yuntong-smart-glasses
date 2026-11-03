@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-01",
+  "user_quote": "基本都对，椅子就这样，应该也是正常的吧",
+  "status": "overall_coarse_review_accepted",
+  "scope": "Overall acceptance of eight visual drafts, specifically chair gaps; not exact per-pixel annotation",
+  "interpretation": "Use as weak/coarse development supervision; object gaps showing visible ground remain floor",
+  "human_per_pixel_verified": false,
+  "complete_obstacle_annotation": false,
+  "independent_ground_truth": false,
+  "annotator_saw_model_previews": true,
+  "allowed_for_bounded_development_training": true,
+  "allowed_for_independent_accuracy_claim": false,
+  "evidence_sha256": "f8887cb78f6346892ac73d97a3cb2f63aa0ed512c2d196c5b6df3a164c4cba23",
+  "entries": [
+    {
+      "sample_id": "A01_02",
+      "split": "train",
+      "source_sha256": "b3a76bf65674a28342a02894b0669889196f1482a6183b77a4ac77abe73cc805",
+      "label_file": "A01_02.png",
+      "original_draft_mask_sha256": "5ec53dcad64d9e16015dd5d994d43fbbd76403f754f3b2300aab6d78d8fc708a",
+      "counts": {
+        "0": 256330,
+        "1": 34271,
+        "2": 0,
+        "255": 16599
+      }
+    },
+    {
+      "sample_id": "A02_02",
+      "split": "train",
+      "source_sha256": "b8294a3c216d42574b0746eb0958b057166952284bd3b8238d80153805563d74",
+      "label_file": "A02_02.png",
+      "original_draft_mask_sha256": "7a8fefc92359b67a8b7d5e1902cbcb93afd196559cd8da246b29845d6f45a64e",
+      "counts": {
+        "0": 247322,
+        "1": 38748,
+        "2": 2750,
+        "255": 18380
+      }
+    },
+    {
+      "sample_id": "A03_02",
+      "split": "train",
+      "source_sha256": "f4e4fcb76bbd4d61667d2c689c7e9077a470dd7793a2ae12e993a85f23a26c05",
+      "label_file": "A03_02.png",
+      "original_draft_mask_sha256": "dd0c6a345a3142d2ba581ebf5de3f924f697c8d3c81b6434435d5b832c31d5dd",
+      "counts": {
+        "0": 259801,
+        "1": 27300,
+        "2": 2900,
+        "255": 17199
+      }
+    },
+    {
+      "sample_id": "A04_02",
+      "split": "train",
+      "source_sha256": "f11143106cee3991ed8c32ed4b84702a4c46a65e3d85f3b0cdbb4778a201c772",
+      "label_file": "A04_02.png",
+      "original_draft_mask_sha256": "548336f91d32c5f750c5fd8da231a9b36d51c4f16c983eb0785cc34242dbb900",
+      "counts": {
+        "0": 261925,
+        "1": 24717,
+        "2": 3429,
+        "255": 17129
+      }
+    },
+    {
+      "sample_id": "A05_02",
+      "split": "development_object_probe",
+      "source_sha256": "ad7d9224a4ef56019f284c3b5a0a4419c9ff7654e42a16247e54c225cb0d1caf",
+      "label_file": "A05_02.png",
+      "original_draft_mask_sha256": "6d22471adc03ba558d67293338abd9111e497d113ad95542067bf24e33bcbe7f",
+      "counts": {
+        "0": 243786,
+        "1": 40978,
+        "2": 3118,
+        "255": 19318
+      }
+    },
+    {
+      "sample_id": "A06_02",
+      "split": "development_object_probe",
+      "source_sha256": "3aded9cc4f95d7ba669cf2a357bf8ed8f751534a157929151b5e5bc97e2f8db4",
+      "label_file": "A06_02.png",
+      "original_draft_mask_sha256": "dddd3720c596786704cec96f88f731be2ffd52ce069064a70de14bae7f668ce7",
+      "counts": {
+        "0": 241115,
+        "1": 44001,
+        "2": 2987,
+        "255": 19097
+      }
+    },
+    {
+      "sample_id": "A07_02",
+      "split": "train",
+      "source_sha256": "832929ecee7d606adeb8a596db3ccce3efb971ae6832f3be9362debb918bfaa7",
+      "label_file": "A07_02.png",
+      "original_draft_mask_sha256": "f8c7920aed7fddf6ac7574c3c6be0a4bcca86ab1c59abb7b77b2896f4fb85c63",
+      "counts": {
+        "0": 256080,
+        "1": 29460,
+        "2": 3462,
+        "255": 18198
+      }
+    },
+    {
+      "sample_id": "A08_02",
+      "split": "train",
+      "source_sha256": "a95d1a5742db053e2361cfeb2e3d2762ac388fcf3ab2ff96e89ec856b59f375d",
+      "label_file": "A08_02.png",
+      "original_draft_mask_sha256": "b7f78d44fb963a8e75a4f50c1b65d2bc5063c36af9da6fbe7b201e1220be75f0",
+      "counts": {
+        "0": 258318,
+        "1": 23042,
+        "2": 8106,
+        "255": 17734
+      }
+    }
+  ]
+}

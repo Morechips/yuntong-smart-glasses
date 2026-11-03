@@ -1,0 +1,312 @@
+{
+  "delivery_gate_passed": true,
+  "scope": "v0.4 B可试装候选数字工程；非实物验收",
+  "checks": [
+    {
+      "name": "geometry checks actual pass",
+      "passed": true
+    },
+    {
+      "name": "all_checks retains physical pending",
+      "passed": true
+    },
+    {
+      "name": "final sliced project current hash",
+      "passed": true
+    },
+    {
+      "name": "one plate six objects",
+      "passed": true
+    },
+    {
+      "name": "support actual only cradle objects",
+      "passed": true
+    },
+    {
+      "name": "final forecast",
+      "passed": true
+    },
+    {
+      "name": "no printer submission",
+      "passed": true
+    },
+    {
+      "name": "old production source 3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\carrier.py",
+      "passed": true
+    },
+    {
+      "name": "old production source 3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\parameters.json",
+      "passed": true
+    },
+    {
+      "name": "old production source 3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\shell.py",
+      "passed": true
+    },
+    {
+      "name": "old production source 3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py",
+      "passed": true
+    },
+    {
+      "name": "old 5-part project retained unchanged",
+      "passed": true
+    },
+    {
+      "name": "parameter version validated",
+      "passed": true
+    },
+    {
+      "name": "current STL B01_common_frame",
+      "passed": true
+    },
+    {
+      "name": "individual STEP B01_common_frame",
+      "passed": true
+    },
+    {
+      "name": "current STL B02_mb_cradle",
+      "passed": true
+    },
+    {
+      "name": "individual STEP B02_mb_cradle",
+      "passed": true
+    },
+    {
+      "name": "current STL B03_camera_cradle",
+      "passed": true
+    },
+    {
+      "name": "individual STEP B03_camera_cradle",
+      "passed": true
+    },
+    {
+      "name": "current STL B04_imu_cradle",
+      "passed": true
+    },
+    {
+      "name": "individual STEP B04_imu_cradle",
+      "passed": true
+    },
+    {
+      "name": "current STL B05_camera_cap",
+      "passed": true
+    },
+    {
+      "name": "individual STEP B05_camera_cap",
+      "passed": true
+    },
+    {
+      "name": "current STL B06_imu_keeper",
+      "passed": true
+    },
+    {
+      "name": "individual STEP B06_imu_keeper",
+      "passed": true
+    },
+    {
+      "name": "image valid 01_assembly_exploded.png",
+      "passed": true
+    },
+    {
+      "name": "image valid 02_part_identification.png",
+      "passed": true
+    },
+    {
+      "name": "image valid 03_fasteners_camera_IMU.png",
+      "passed": true
+    },
+    {
+      "name": "image valid 04_open_wire_seats.png",
+      "passed": true
+    },
+    {
+      "name": "image valid plate_1.png",
+      "passed": true
+    },
+    {
+      "name": "image valid top_1.png",
+      "passed": true
+    },
+    {
+      "name": "image valid first_layer.png",
+      "passed": true
+    },
+    {
+      "name": "offline viewer with inline plotly",
+      "passed": true
+    },
+    {
+      "name": "native assembly diagram structure",
+      "passed": true
+    },
+    {
+      "name": "link ArcMask_B_v04_A1_PETG_6parts.3mf",
+      "passed": true
+    },
+    {
+      "name": "link images/01_assembly_exploded.png",
+      "passed": true
+    },
+    {
+      "name": "link images/02_part_identification.png",
+      "passed": true
+    },
+    {
+      "name": "link images/03_fasteners_camera_IMU.png",
+      "passed": true
+    },
+    {
+      "name": "link images/04_open_wire_seats.png",
+      "passed": true
+    },
+    {
+      "name": "link B_modular_viewer.html",
+      "passed": true
+    },
+    {
+      "name": "link ASSEMBLY.md",
+      "passed": true
+    },
+    {
+      "name": "link ArcMask_B_v04_printed_assembly.step",
+      "passed": true
+    },
+    {
+      "name": "link ArcMask_B_v04_assembly_with_refs.step",
+      "passed": true
+    },
+    {
+      "name": "link step_parts/",
+      "passed": true
+    },
+    {
+      "name": "link stl_print/",
+      "passed": true
+    },
+    {
+      "name": "link images/plate_1.png",
+      "passed": true
+    },
+    {
+      "name": "link images/top_1.png",
+      "passed": true
+    },
+    {
+      "name": "link images/first_layer.png",
+      "passed": true
+    },
+    {
+      "name": "link qa/validation.json",
+      "passed": true
+    },
+    {
+      "name": "link qa/project_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link parameters.json",
+      "passed": true
+    },
+    {
+      "name": "link model.py",
+      "passed": true
+    },
+    {
+      "name": "link build_and_check.py",
+      "passed": true
+    },
+    {
+      "name": "link prepare_3mf.py",
+      "passed": true
+    },
+    {
+      "name": "link slice_project.py",
+      "passed": true
+    },
+    {
+      "name": "link verify_3mf.py",
+      "passed": true
+    },
+    {
+      "name": "link render_and_viewer.py",
+      "passed": true
+    },
+    {
+      "name": "link assembly_order.drawio",
+      "passed": true
+    },
+    {
+      "name": "link images/02_part_identification.png",
+      "passed": true
+    },
+    {
+      "name": "link images/03_fasteners_camera_IMU.png",
+      "passed": true
+    },
+    {
+      "name": "link images/04_open_wire_seats.png",
+      "passed": true
+    },
+    {
+      "name": "current input index selected B",
+      "passed": true
+    },
+    {
+      "name": "newest LOG correct/<=20 lines",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/validation.json",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/project_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/ASSEMBLY.md",
+      "passed": true
+    },
+    {
+      "name": "link eyewear-b2-mechanics.md",
+      "passed": true
+    },
+    {
+      "name": "topic schema",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/ASSEMBLY.md",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/validation.json",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/qa/project_verification.json",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_主板孔位失配核对_20261031/当前已确认输入.json",
+      "passed": true
+    },
+    {
+      "name": "link ../3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+      "passed": true
+    }
+  ],
+  "images_visually_reviewed": true,
+  "viewer_WebGL_interaction_tested": false,
+  "physical_fit_validated": false,
+  "submitted_to_printer": false,
+  "final_project": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\ArcMask_B_v04_A1_PETG_6parts.3mf",
+  "final_project_sha256": "02646d865ebe15594d14b67f6f68b4516823edafe98cd91c619b65905ce6bf4f"
+}

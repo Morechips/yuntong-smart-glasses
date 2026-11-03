@@ -1,0 +1,4 @@
+-r requirements.txt
+# Original training used torch 2.7.1+cu128; select the matching CUDA distribution separately.
+torch==2.7.1
+onnx==1.17.0

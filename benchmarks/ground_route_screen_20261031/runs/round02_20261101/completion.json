@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "body_initialization_equal": true,
+  "trained_models": 2,
+  "training_images": 6,
+  "development_probe_images": 2,
+  "heldout_scene_B_used": false,
+  "independent_accuracy_claim": false,
+  "board_deployment_verified": false,
+  "round01_timing_applies": false
+}

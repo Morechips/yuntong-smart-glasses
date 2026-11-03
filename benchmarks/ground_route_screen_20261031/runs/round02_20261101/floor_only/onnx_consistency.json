@@ -1,0 +1,45 @@
+{
+  "scope": "Same trained weights PyTorch FP32 vs ONNX FP32; not quantized BIN",
+  "rows": [
+    {
+      "sample_id": "A01_02",
+      "max_logit_abs": 3.6954879760742188e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A02_02",
+      "max_logit_abs": 6.198883056640625e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A03_02",
+      "max_logit_abs": 4.708766937255859e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A04_02",
+      "max_logit_abs": 5.245208740234375e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A07_02",
+      "max_logit_abs": 4.76837158203125e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A08_02",
+      "max_logit_abs": 3.933906555175781e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A05_02",
+      "max_logit_abs": 5.066394805908203e-06,
+      "category_different_pixels": 0
+    },
+    {
+      "sample_id": "A06_02",
+      "max_logit_abs": 4.0531158447265625e-06,
+      "category_different_pixels": 0
+    }
+  ]
+}

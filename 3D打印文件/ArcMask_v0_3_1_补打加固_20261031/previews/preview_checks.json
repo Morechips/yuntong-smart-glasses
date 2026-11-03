@@ -1,0 +1,53 @@
+{
+  "source": "qa/viewer_meshes.json",
+  "source_sha256": "4e4c6b1d117f3bb484e1c6085cbb813968b23d3aed7c388737103f6bd835fc74",
+  "version": "0.3.1-reinforced-repair",
+  "object_count": 45,
+  "printed_count": 20,
+  "soft_reference_count": 14,
+  "projection": "orthographic",
+  "static_renderer": "supersampled z-buffer, crease-aware smooth shading",
+  "images": [
+    "previews\\01_总装外观.png",
+    "previews\\02_结构尺寸.png",
+    "previews\\03_内部布局.png",
+    "previews\\04_接触结构.png",
+    "previews\\05_与旧版同尺度对比.png"
+  ],
+  "offline_html": "ArcMask_模型查看.html",
+  "mode_visible_counts": {
+    "assembly": 41,
+    "inside": 8,
+    "wear": 10,
+    "soft": 14,
+    "pods": 12,
+    "rear": 16,
+    "hardware": 7,
+    "explode": 41
+  },
+  "head_fit_verified": false,
+  "soft_parts_printable": false,
+  "neutral_curves_are_anthropometric_data": false,
+  "front_shell_xyz_mm": [
+    178.4,
+    40.0,
+    70.0
+  ],
+  "displayed_front_group_xyz_mm": [
+    178.4,
+    63.63222807562012,
+    105.0
+  ],
+  "displayed_rear_group_xyz_mm": [
+    226.4,
+    109.80000000000001,
+    57.0
+  ],
+  "assembly_xyz_mm": [
+    227.0,
+    238.8,
+    143.17361517301484
+  ],
+  "hardware_envelope_checks_passed": true,
+  "solid_pla_mass_g_from_manifest_assuming_1_24": 191.17273811956207
+}

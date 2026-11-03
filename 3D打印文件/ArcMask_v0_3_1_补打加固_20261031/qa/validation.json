@@ -1,0 +1,2706 @@
+{
+  "stage": "reinforced-repair-physical-pending",
+  "version": "0.3.1-reinforced-repair",
+  "printed_count": 20,
+  "part_count": 45,
+  "checks": [
+    {
+      "name": "arc_front_flat_lid_valid_single_solid",
+      "passed": true,
+      "kind": "geometry",
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_structural_rim_valid_single_solid",
+      "passed": true,
+      "kind": "geometry",
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_eye_side_barrier_valid_single_solid",
+      "passed": true,
+      "kind": "geometry",
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_top_service_blank_valid_single_solid",
+      "passed": true,
+      "kind": "geometry",
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_front_flat_lid_clear_arc_structural_rim",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_front_flat_lid_clear_arc_eye_side_barrier",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_front_flat_lid_clear_arc_top_service_blank",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_structural_rim_clear_arc_eye_side_barrier",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_structural_rim_clear_arc_top_service_blank",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_eye_side_barrier_clear_arc_top_service_blank",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "front_large_planar_face",
+      "passed": true,
+      "kind": "geometry",
+      "maximum_planar_area_mm2": 11102.648685248341,
+      "category": "geometry"
+    },
+    {
+      "name": "rear_large_planar_face",
+      "passed": true,
+      "kind": "geometry",
+      "maximum_planar_area_mm2": 10755.82570311609,
+      "category": "geometry"
+    },
+    {
+      "name": "wire_-1_continuous_open_back_passage",
+      "passed": true,
+      "kind": "geometry",
+      "section_mm": [
+        8,
+        5
+      ],
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "wire_1_continuous_open_back_passage",
+      "passed": true,
+      "kind": "geometry",
+      "section_mm": [
+        8,
+        5
+      ],
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "carrier_0_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999996,
+      "category": "geometry"
+    },
+    {
+      "name": "carrier_1_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999996,
+      "category": "geometry"
+    },
+    {
+      "name": "carrier_2_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999996,
+      "category": "geometry"
+    },
+    {
+      "name": "carrier_3_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999996,
+      "category": "geometry"
+    },
+    {
+      "name": "dock_0_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999999,
+      "category": "geometry"
+    },
+    {
+      "name": "dock_1_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999999,
+      "category": "geometry"
+    },
+    {
+      "name": "dock_2_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999999,
+      "category": "geometry"
+    },
+    {
+      "name": "dock_3_flat_bearing_coverage",
+      "passed": true,
+      "kind": "geometry",
+      "coverage_ratio": 0.9999999999999999,
+      "category": "geometry"
+    },
+    {
+      "name": "front_0_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "front_1_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "front_2_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "front_3_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "rear_0_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "rear_1_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "rear_2_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "rear_3_head_clear",
+      "passed": true,
+      "kind": "geometry",
+      "intersection_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_rigid_electronics_carrier_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 7743.00244,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_camera_edge_tray_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 553.08497,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_camera_edge_keeper_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 383.18478,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_imu_edge_keeper_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 378.65566,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_ref_mainboard_plugged_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 24131.96727,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_ref_camera_raised_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 1116.25291,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_ref_imu_bent_plugged_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 9310.0,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_keepout_fpc_corridor_valid_single_solid",
+      "passed": true,
+      "volume_mm3": 1387.2,
+      "solid_count": 1,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_carrier_static_envelope_clearance",
+      "passed": true,
+      "conflicts": [],
+      "tolerance_mm3": 0.001,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_carrier_contract_bounds",
+      "passed": true,
+      "bounds": [
+        -69.0,
+        69.0,
+        11.0,
+        28.8,
+        -29.0,
+        29.0
+      ],
+      "category": "geometry"
+    },
+    {
+      "name": "arc_mainboard_hole_pitch_confirmed",
+      "passed": false,
+      "category": "physical_pending",
+      "detail": "38mm inferred from40mm outer bore-edge distance minus assumed2mm diameter. Both diameter/pitch pending; diagonal slot end centres ±0.6mm."
+    },
+    {
+      "name": "arc_camera_edge_contact_confirmed",
+      "passed": false,
+      "category": "physical_pending",
+      "detail": "Camera edge bearing, PCB thickness, exit direction and clamping force pending."
+    },
+    {
+      "name": "arc_imu_edge_contact_confirmed",
+      "passed": false,
+      "category": "physical_pending",
+      "detail": "Bent pin direction retained; exact PCB position within35mm envelope and safe bearing map unconfirmed."
+    },
+    {
+      "name": "arc_fpc_route_length_confirmed",
+      "passed": false,
+      "category": "physical_pending",
+      "detail": "The75mm mark is not proof of free route length, connector orientation or safe bend radius."
+    },
+    {
+      "name": "battery_round_port_to_cover_seam_connected",
+      "passed": true,
+      "detail": {
+        "slot_width_mm": 3.6,
+        "opens_to_seam_y": 237.2
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_wire_layin_sampled_cover_removed",
+      "passed": true,
+      "detail": {
+        "nominal_bundle_diameter_mm": 2.9,
+        "sampled_y_offsets_mm": [
+          0,
+          0.5,
+          1,
+          2,
+          3,
+          5
+        ],
+        "max_intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_layin_avoids_cell_and_fastener_posts",
+      "passed": true,
+      "detail": {
+        "protected_post_intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_front_skin_closed_at_blind_screw",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "battery_cover_removal_sampled",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "battery_cell_loading_sampled",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "battery_nut_loading_sampled",
+      "passed": true,
+      "detail": {
+        "max_intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "pod_round_port_to_cover_seam_connected",
+      "passed": true,
+      "detail": {
+        "slot_height_mm": 3.6,
+        "seam_x": 106.0,
+        "end_wall_y": [
+          184.2,
+          186.2
+        ]
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "pod_wire_layin_sampled_cover_removed",
+      "passed": true,
+      "detail": {
+        "nominal_bundle_diameter_mm": 2.9,
+        "sampled_outward_x_offsets_mm": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "max_intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "pod_layin_avoids_module_and_fastener_posts",
+      "passed": true,
+      "detail": {
+        "protected_post_intersection_mm3": 0.0,
+        "minimum_slot_to_rear_post_z_gap_mm": 2.9
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "pod_inner_panel_closed_opposite_layin_slot",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "pod_inner_panel_closed_at_blind_screw",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "pod_nut_loading_sampled",
+      "passed": true,
+      "detail": {
+        "max_intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "left_pod_cover_removal_sampled",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "left_pod_loading_sampled",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "left_pod_25mm_band_passage",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "slot_x_mm": 3.2,
+        "slot_z_mm": 25.8
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "right_pod_cover_removal_sampled",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "right_pod_loading_sampled",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "right_pod_25mm_band_passage",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "slot_x_mm": 3.2,
+        "slot_z_mm": 25.8
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_tray_single_valid",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 10731.654664435526,
+        "solids": 1,
+        "bounds": {
+          "x": [
+            -44.5,
+            44.5
+          ],
+          "y": [
+            222.0,
+            237.2
+          ],
+          "z": [
+            -17.0,
+            33.0
+          ],
+          "size": [
+            89.0,
+            15.199999999999989,
+            50.0
+          ]
+        }
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_cover_single_valid",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 5088.368486033622,
+        "solids": 1,
+        "bounds": {
+          "x": [
+            -32.0,
+            32.0
+          ],
+          "y": [
+            236.2,
+            238.8
+          ],
+          "z": [
+            -17.0,
+            33.0
+          ],
+          "size": [
+            64.0,
+            2.6000000000000227,
+            50.0
+          ]
+        }
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_body_single_valid",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 6833.803331785122,
+        "solids": 1,
+        "bounds": {
+          "x": [
+            -106.0,
+            -91.4
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            14.599999999999994,
+            56.0,
+            32.0
+          ]
+        }
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_cover_single_valid",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 3640.6311916116115,
+        "solids": 1,
+        "bounds": {
+          "x": [
+            -113.2,
+            -106.0
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            7.200000000000003,
+            56.0,
+            32.0
+          ]
+        }
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_pod_body_single_valid",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 6833.803331785122,
+        "solids": 1,
+        "bounds": {
+          "x": [
+            91.4,
+            106.0
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            14.599999999999994,
+            56.0,
+            32.0
+          ]
+        }
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_pod_cover_single_valid",
+      "passed": true,
+      "detail": {
+        "volume_mm3": 3640.6311916116115,
+        "solids": 1,
+        "bounds": {
+          "x": [
+            106.0,
+            113.2
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            7.200000000000003,
+            56.0,
+            32.0
+          ]
+        }
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_tray__battery_only_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_tray__haptic_left_pod_body_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_tray__haptic_left_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_tray__haptic_right_pod_body_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_tray__haptic_right_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_cover__haptic_left_pod_body_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_cover__haptic_left_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_cover__haptic_right_pod_body_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_only_cover__haptic_right_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_body__haptic_left_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_body__haptic_right_pod_body_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_body__haptic_right_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_cover__haptic_right_pod_body_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_pod_cover__haptic_right_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_pod_body__haptic_right_pod_cover_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_measured_reference_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": false
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_front_liner_reference_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_retaining_ribbon_reference_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "battery_round_wire_keepout_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": false
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_measured_reference_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": false
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_trial_inner_pad_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_trial_skin_pad_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_retaining_ribbon_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_left_round_wire_keepout_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": false
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_measured_reference_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": false
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_trial_inner_pad_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_trial_skin_pad_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_retaining_ribbon_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": true
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "haptic_right_round_wire_keepout_printed_clear",
+      "passed": true,
+      "detail": {
+        "intersection_mm3": 0.0,
+        "soft_face_contacts_only": false
+      },
+      "category": "geometry"
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_left_flat_connector_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_right_flat_connector_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_forehead_pad_reference_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_face_pad_reference_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_rear_occipital_cradle_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_rear_pad_reference_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_left_side_band_reference_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_right_side_band_reference_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_top_band_reference_valid_single_positive",
+      "passed": true,
+      "category": "geometry",
+      "solid_count": 1
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_left_flat_connector",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_right_flat_connector",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_forehead_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_face_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_rear_occipital_cradle",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_rear_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_left_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_right_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_clear_wear_top_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_right_flat_connector",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_forehead_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_face_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_rear_occipital_cradle",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_rear_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_left_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_right_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_left_flat_connector_clear_wear_top_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_forehead_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_face_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_rear_occipital_cradle",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_rear_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_left_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_right_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_right_flat_connector_clear_wear_top_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_forehead_pad_reference_clear_wear_rear_occipital_cradle",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_face_pad_reference_clear_wear_rear_occipital_cradle",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_rear_occipital_cradle_clear_wear_rear_pad_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_rear_occipital_cradle_clear_wear_left_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_rear_occipital_cradle_clear_wear_right_side_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "wear_rear_occipital_cradle_clear_wear_top_band_reference",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "left-26.0_shell_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 1.0
+    },
+    {
+      "name": "left-26.0_shell_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "left26.0_shell_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 1.0
+    },
+    {
+      "name": "left26.0_shell_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "left-25.0_new_frame_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "left-25.0_frame_pad_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 1.0
+    },
+    {
+      "name": "left25.0_new_frame_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "left25.0_frame_pad_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 1.0
+    },
+    {
+      "name": "right-26.0_shell_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 0.9999999999999999
+    },
+    {
+      "name": "right-26.0_shell_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "right26.0_shell_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 0.9999999999999999
+    },
+    {
+      "name": "right26.0_shell_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "right-25.0_new_frame_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "right-25.0_frame_pad_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 1.0
+    },
+    {
+      "name": "right25.0_new_frame_head_clear",
+      "passed": true,
+      "category": "geometry",
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "right25.0_frame_pad_bearing",
+      "passed": true,
+      "category": "geometry",
+      "coverage": 1.0
+    },
+    {
+      "name": "speaker_strap_body_valid",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "speaker_strap_cover_valid",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "ref_speaker_2209_valid",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "speaker_strap_body_clear_speaker_strap_cover",
+      "passed": true,
+      "volume_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "speaker_strap_body_clear_ref_speaker_2209",
+      "passed": true,
+      "volume_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "speaker_strap_cover_clear_ref_speaker_2209",
+      "passed": true,
+      "volume_mm3": 0.0,
+      "category": "geometry"
+    },
+    {
+      "name": "speaker_round_lead_slot_clear",
+      "passed": true,
+      "category": "geometry"
+    },
+    {
+      "name": "arc_front_flat_lid_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 13926.144043919632
+    },
+    {
+      "name": "arc_front_flat_lid_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 7.657377214681665e-06
+    },
+    {
+      "name": "arc_front_flat_lid_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "arc_front_flat_lid_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 2.6123374823773347e-16
+    },
+    {
+      "name": "arc_structural_rim_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 35904.84415892021
+    },
+    {
+      "name": "arc_structural_rim_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 5.021729368074559e-05
+    },
+    {
+      "name": "arc_structural_rim_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "arc_structural_rim_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 3.85026583203091e-14
+    },
+    {
+      "name": "arc_eye_side_barrier_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 10755.825703116088
+    },
+    {
+      "name": "arc_eye_side_barrier_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 1.5115382212487554e-05
+    },
+    {
+      "name": "arc_eye_side_barrier_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 3.1530860753847638e-15
+    },
+    {
+      "name": "arc_eye_side_barrier_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.522050011201824e-14
+    },
+    {
+      "name": "arc_top_service_blank_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 1866.3186824037605
+    },
+    {
+      "name": "arc_top_service_blank_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 3.702100547934669e-06
+    },
+    {
+      "name": "arc_top_service_blank_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -1.408186186760966e-16
+    },
+    {
+      "name": "arc_top_service_blank_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 2.5584307917648975e-15
+    },
+    {
+      "name": "arc_rigid_electronics_carrier_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 7743.002443989451
+    },
+    {
+      "name": "arc_rigid_electronics_carrier_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 0.00012916646987514254
+    },
+    {
+      "name": "arc_rigid_electronics_carrier_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -1.2766162943661594e-16
+    },
+    {
+      "name": "arc_rigid_electronics_carrier_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 6.800946223842401e-14
+    },
+    {
+      "name": "arc_camera_edge_tray_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 553.0849748625102
+    },
+    {
+      "name": "arc_camera_edge_tray_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 1.77408881157601e-05
+    },
+    {
+      "name": "arc_camera_edge_tray_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "arc_camera_edge_tray_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 0.0
+    },
+    {
+      "name": "arc_camera_edge_keeper_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 383.18477989000803
+    },
+    {
+      "name": "arc_camera_edge_keeper_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 2.0648524514912375e-05
+    },
+    {
+      "name": "arc_camera_edge_keeper_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -1.2761851016564478e-16
+    },
+    {
+      "name": "arc_camera_edge_keeper_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.3351020097774308e-15
+    },
+    {
+      "name": "arc_imu_edge_keeper_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 378.6556567580605
+    },
+    {
+      "name": "arc_imu_edge_keeper_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 8.745199057138394e-05
+    },
+    {
+      "name": "arc_imu_edge_keeper_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "arc_imu_edge_keeper_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.9215235489885603e-14
+    },
+    {
+      "name": "arc_ref_mainboard_plugged_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 24131.967270829016
+    },
+    {
+      "name": "arc_ref_camera_raised_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 1116.2529115483533
+    },
+    {
+      "name": "arc_ref_imu_bent_plugged_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 9310.0
+    },
+    {
+      "name": "arc_keepout_fpc_corridor_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 1387.1999999999998
+    },
+    {
+      "name": "battery_only_tray_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 10731.654664435526
+    },
+    {
+      "name": "battery_only_tray_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 7.926811834482701e-05
+    },
+    {
+      "name": "battery_only_tray_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -5.541723645323101e-16
+    },
+    {
+      "name": "battery_only_tray_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.0000356717111198e-14
+    },
+    {
+      "name": "battery_only_cover_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 5088.368486033622
+    },
+    {
+      "name": "battery_only_cover_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 1.2349945518542679e-05
+    },
+    {
+      "name": "battery_only_cover_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -5.541723645323101e-16
+    },
+    {
+      "name": "battery_only_cover_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.5014155354239643e-14
+    },
+    {
+      "name": "battery_measured_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 20671.200000000008
+    },
+    {
+      "name": "battery_front_liner_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 1125.0
+    },
+    {
+      "name": "battery_retaining_ribbon_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 316.8000000000015
+    },
+    {
+      "name": "battery_round_wire_keepout_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 66.05198554172532
+    },
+    {
+      "name": "haptic_left_pod_body_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 6833.803331785122
+    },
+    {
+      "name": "haptic_left_pod_body_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 8.834743808541191e-05
+    },
+    {
+      "name": "haptic_left_pod_body_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -4.4333789162584805e-16
+    },
+    {
+      "name": "haptic_left_pod_body_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.7407862242477477e-13
+    },
+    {
+      "name": "haptic_left_pod_cover_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3640.6311916116115
+    },
+    {
+      "name": "haptic_left_pod_cover_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 1.864243388753296e-05
+    },
+    {
+      "name": "haptic_left_pod_cover_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "haptic_left_pod_cover_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 3.747267934754683e-15
+    },
+    {
+      "name": "haptic_left_measured_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 10467.500000000002
+    },
+    {
+      "name": "haptic_left_trial_inner_pad_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 336.0
+    },
+    {
+      "name": "haptic_left_trial_skin_pad_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 662.4000000000063
+    },
+    {
+      "name": "haptic_left_retaining_ribbon_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 278.40000000000265
+    },
+    {
+      "name": "haptic_left_round_wire_keepout_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 66.05198554172539
+    },
+    {
+      "name": "haptic_right_pod_body_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 6833.803331785122
+    },
+    {
+      "name": "haptic_right_pod_body_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 8.834363569684238e-05
+    },
+    {
+      "name": "haptic_right_pod_body_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -4.4333789162584805e-16
+    },
+    {
+      "name": "haptic_right_pod_body_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 6.3882063275146704e-15
+    },
+    {
+      "name": "haptic_right_pod_cover_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3640.6311916116115
+    },
+    {
+      "name": "haptic_right_pod_cover_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 1.8642686469005377e-05
+    },
+    {
+      "name": "haptic_right_pod_cover_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "haptic_right_pod_cover_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 3.997085797071662e-15
+    },
+    {
+      "name": "haptic_right_measured_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 10467.500000000002
+    },
+    {
+      "name": "haptic_right_trial_inner_pad_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 336.0
+    },
+    {
+      "name": "haptic_right_trial_skin_pad_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 662.4000000000063
+    },
+    {
+      "name": "haptic_right_retaining_ribbon_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 278.40000000000265
+    },
+    {
+      "name": "haptic_right_round_wire_keepout_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 66.05198554172539
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 22895.392747441056
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 0.0021231068714976445
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "wear_removable_forehead_face_frame_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 1.3653522280694802e-08
+    },
+    {
+      "name": "wear_left_flat_connector_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 4457.369143165668
+    },
+    {
+      "name": "wear_left_flat_connector_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 9.4507604805233e-06
+    },
+    {
+      "name": "wear_left_flat_connector_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 6.977808715086459e-15
+    },
+    {
+      "name": "wear_left_flat_connector_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 8.161717574299857e-16
+    },
+    {
+      "name": "wear_right_flat_connector_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 4457.369143165668
+    },
+    {
+      "name": "wear_right_flat_connector_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 9.451518537178829e-06
+    },
+    {
+      "name": "wear_right_flat_connector_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 6.977808715086459e-15
+    },
+    {
+      "name": "wear_right_flat_connector_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 6.121288180724893e-16
+    },
+    {
+      "name": "wear_forehead_pad_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 15351.039862270096
+    },
+    {
+      "name": "wear_face_pad_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 13442.48350288524
+    },
+    {
+      "name": "wear_rear_occipital_cradle_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 8940.026108546856
+    },
+    {
+      "name": "wear_rear_occipital_cradle_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 0.0027248401815507715
+    },
+    {
+      "name": "wear_rear_occipital_cradle_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "wear_rear_occipital_cradle_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 2.184240451060759e-08
+    },
+    {
+      "name": "wear_rear_pad_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 13800.111937377442
+    },
+    {
+      "name": "wear_left_side_band_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 7585.025180302775
+    },
+    {
+      "name": "wear_right_side_band_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 7585.025180302766
+    },
+    {
+      "name": "wear_top_band_reference_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 11350.353496642714
+    },
+    {
+      "name": "speaker_strap_body_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3007.646576792515
+    },
+    {
+      "name": "speaker_strap_body_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 7.23857640670919e-07
+    },
+    {
+      "name": "speaker_strap_body_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": -1.2761851016564478e-16
+    },
+    {
+      "name": "speaker_strap_body_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 5.775728085175649e-14
+    },
+    {
+      "name": "speaker_strap_cover_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 2133.8066394127004
+    },
+    {
+      "name": "speaker_strap_cover_stl_closed",
+      "category": "geometry",
+      "passed": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_relative_error": 7.394438446631741e-06
+    },
+    {
+      "name": "speaker_strap_cover_stl_on_bed",
+      "category": "geometry",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "name": "speaker_strap_cover_part_step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 2.983617538167739e-15
+    },
+    {
+      "name": "ref_speaker_2209_brep_valid",
+      "category": "geometry",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 792.0
+    },
+    {
+      "name": "global_static_rigid_intersections",
+      "category": "geometry",
+      "passed": true,
+      "tested_broad_pairs": 42,
+      "tolerance_mm3": 0.01,
+      "hits": [],
+      "excluded": [
+        "soft_reference flexible bands; no head model or wire sweep modeled"
+      ]
+    },
+    {
+      "name": "hard_parts_clear_nominal_soft_pads",
+      "category": "geometry",
+      "passed": true,
+      "hits": [],
+      "nominal_pad_count": 7,
+      "note": "No compression or contact pressure is simulated."
+    },
+    {
+      "name": "ArcMask_v0_3_1_printed.step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 3.2942040081970572e-09,
+      "volume_method": "sum of individual solid volumes",
+      "compound_integration_volume_mm3": 154171.509100861,
+      "imported_solids": 20,
+      "expected_solids": 20,
+      "max_bounds_error_mm": 1.4210854715202004e-14
+    },
+    {
+      "name": "ArcMask_v0_3_1_with_references.step_roundtrip",
+      "category": "geometry",
+      "passed": true,
+      "volume_error_relative": 2.048332998984494e-09,
+      "volume_method": "sum of individual solid volumes",
+      "compound_integration_volume_mm3": 305822.7270528643,
+      "imported_solids": 45,
+      "expected_solids": 45,
+      "max_bounds_error_mm": 4.831690603168681e-12
+    },
+    {
+      "name": "m2_coupon_stl_closed",
+      "category": "geometry",
+      "passed": true
+    },
+    {
+      "name": "generic_head_eyelid_nose_and_padding_fit",
+      "category": "physical_pending",
+      "passed": false,
+      "detail": "No anthropometric range or individual fit proof; neutral curves, nose/eyelid clearance and padding compression require varied-user trials."
+    },
+    {
+      "name": "actual_connectors_and_fpc_exit",
+      "category": "physical_pending",
+      "passed": false,
+      "detail": "Exact camera/USB/PWR/battery/4Pin positions and wire bends require real fitting."
+    },
+    {
+      "name": "independent_pod_contact_and_vibration_transfer",
+      "category": "physical_pending",
+      "passed": false,
+      "detail": "Independent pods and flexible linking reduce shared hard paths by design; motor map, retention, tactile localization and actual transfer remain unverified."
+    },
+    {
+      "name": "speaker_contact_cavity_and_strap",
+      "category": "physical_pending",
+      "passed": false,
+      "detail": "Speaker contact edge, seal, acoustic performance and actual strap/buckle fit unverified."
+    },
+    {
+      "name": "printing_strength_thermal_and_assembly",
+      "category": "physical_pending",
+      "passed": false,
+      "detail": "Supports, reduced-wall strength, actual fasteners, thermal behaviour and complete assembly sequence unverified."
+    },
+    {
+      "name": "adjustment_and_load_distribution",
+      "category": "physical_pending",
+      "passed": false,
+      "detail": "No actual head circumference/width range, strap tension, pressure distribution, drop retention or dynamic load testing has been established."
+    }
+  ],
+  "geometric_checks_passed": true,
+  "all_checks_passed": false,
+  "printed_volume_mm3": 154171.56299964682,
+  "solid_pla_mass_g_assuming_1_24": 191.17273811956207,
+  "previous_v01_same_density_mass_g": 171.85977302474993,
+  "mass_change_from_v01_g": 19.312965094812142,
+  "mass_excludes": [
+    "electronics",
+    "fasteners",
+    "straps",
+    "padding",
+    "printing supports"
+  ],
+  "notes": [
+    "Planar enclosure skins and chamfered outline; no compound curved outer lid.",
+    "Only rigid envelopes and local channel voids checked; no exact connector map, flexible wire sweep or75mm FPC routing proof.",
+    "Local mounting posts reachY40, beyond the30.4mm housing; do not report30.4 as the entire front assembly depth.",
+    "Carrier and dock nuts are installed before closing the barrier; actual fastener lengths and PETG bearing strength pending.",
+    "One lightweight common rigid skeleton carries MB, raised camera and IMU, independently of the front lid.",
+    "Camera and IMU reference solids intentionally contact retainer/support planar faces with zero volume.",
+    "The assumed IMU PCB end isX18..38, DuPont endX38..53. Verify on the physical board; do not tighten against chips or sockets.",
+    "Printed1.7mm M2 pilot holes are provisional; use fit coupon and appropriate fastener trial. No slicer/support, head fit, electrical or contact validation.",
+    "Battery-onlycase and two independentpods; no rigid link betweenpods,cradle,battery.",
+    "Batterycasebody64X×50Z×16.8Y,earsreachX±44.5. Pods56Y×32Z×16.2X,outerloopsreachX±113.2.",
+    "Adjustable6mm retainingribbon and compliantpad candidates in eachcase. Contact maps remainphysicalpending; no hard pouchface clamp.",
+    "Ø3.6 round-bottom wire ports now open to removable cover seams by3.6 lay-in slots; existing terminals need not be removed for threading. NominalØ2.9 bundle unchanged. Actualwirelength,diameter,bend,grommet,seal andstrainrelief pending.",
+    "M2clear2.3,nutseat4.2AF×1.9; loadingcheckuses4.0AF×1.6candidate. Screwlength/head unselected.",
+    "Smoothinnerpodpanel is a trialtransmissionsurface, not a tactile/skin/strength/headfit claim. Mainwalls1.6.",
+    "Contact-side curves/pads unchanged; added thickness extends toward enclosure. Nose opening kept; no hard bridge across nose.",
+    "Two separate flat brackets replace all four inclined rod arms; broad front-loaded nut pads on frame. Assemble brackets to frame first, then fasten complete module to shell from rear.",
+    "New4M2x10 screws and4M2 nuts are candidates for frame/bracket joints; actual washers, thread engagement and tip clearance require trial. Existing four shell screws may be reused only after length check.",
+    "3mm skins/wide webs/roof root are geometric changes, not validated head-fit, strength or material results.",
+    "Speaker retained as one left unit, separate from haptic pods. Acoustic seal, strain relief and safe clamping force unverified."
+  ],
+  "interfaces": {
+    "shell": {
+      "flat_front_plane_y": 0.0,
+      "front_skin": 1.2,
+      "barrier_plane_y": 29.4,
+      "barrier_skin": 1.0,
+      "rim_wall": 1.8,
+      "body_depth_without_mount_posts_mm": 30.4,
+      "carrier_bearing_plane_y": 28.8,
+      "carrier_bearing_x": [
+        -66.0,
+        66.0
+      ],
+      "carrier_bearing_z": [
+        -27.0,
+        27.0
+      ],
+      "wear_dock_positions": [
+        [
+          -73.0,
+          -26.0
+        ],
+        [
+          -73.0,
+          26.0
+        ],
+        [
+          73.0,
+          -26.0
+        ],
+        [
+          73.0,
+          26.0
+        ]
+      ],
+      "wear_dock_seat_y": 40.0,
+      "wear_dock_nut_entry_y": 21.4,
+      "wear_dock_nut_stop_y": 34.0,
+      "carrier_nut_stop_y": 31.6,
+      "rear_barrier_screw_axes": [
+        [
+          -78.0,
+          -20.0
+        ],
+        [
+          -78.0,
+          20.0
+        ],
+        [
+          78.0,
+          -20.0
+        ],
+        [
+          78.0,
+          20.0
+        ]
+      ],
+      "front_lid_screw_axes": [
+        [
+          -75.0,
+          -12.0
+        ],
+        [
+          -75.0,
+          12.0
+        ],
+        [
+          75.0,
+          -12.0
+        ],
+        [
+          75.0,
+          12.0
+        ]
+      ],
+      "service_opening": [
+        26,
+        14
+      ],
+      "service_center_y": 19.0,
+      "service_screw_x": [
+        -58.0,
+        -22.0
+      ],
+      "service_anchor_y": [
+        3.0,
+        9.0
+      ],
+      "service_support_section_mm": [
+        8.0,
+        6.8
+      ],
+      "strap_slot_z_clearance": 25.8,
+      "strap_slot_y_clearance": 3.2,
+      "wire_channels": [
+        {
+          "side": "left",
+          "exit_center_y": 25.4,
+          "center_z": 20.5,
+          "section_y": 8,
+          "section_z": 5,
+          "x_start": -76,
+          "x_end": -96,
+          "opens_at_barrier_seam": true
+        },
+        {
+          "side": "right",
+          "exit_center_y": 25.4,
+          "center_z": 20.5,
+          "section_y": 8,
+          "section_z": 5,
+          "x_start": 76,
+          "x_end": 96,
+          "opens_at_barrier_seam": true
+        }
+      ]
+    },
+    "carrier": {
+      "mount_centres": [
+        [
+          -66.0,
+          28.8,
+          -27.0
+        ],
+        [
+          -66.0,
+          28.8,
+          27.0
+        ],
+        [
+          66.0,
+          28.8,
+          -27.0
+        ],
+        [
+          66.0,
+          28.8,
+          27.0
+        ]
+      ],
+      "rear_contact_plane_y": 28.8,
+      "camera_optical_axis": {
+        "origin": [
+          0,
+          1.0,
+          6.0
+        ],
+        "direction": [
+          0,
+          -1,
+          0
+        ]
+      },
+      "nominal_mainboard_holes": [
+        [
+          -58.75,
+          -16.0
+        ],
+        [
+          -58.75,
+          22.0
+        ],
+        [
+          -20.75,
+          -16.0
+        ],
+        [
+          -20.75,
+          22.0
+        ]
+      ],
+      "m2_bom_candidates": [
+        {
+          "item": "M2 carrier-to-shell",
+          "qty": 4,
+          "nominal_length_mm": null,
+          "length_note": "Flat-A: carrier head seatY26.8 to candidate nut shoulderY31.6 is4.8mm before nut engagement. Trial8mm with actual head/nut and tip clearance; not a fixed procurement length."
+        },
+        {
+          "item": "M2 mainboard with insulating washers",
+          "qty": 4,
+          "nominal_length_mm": null
+        },
+        {
+          "item": "M2 camera keeper/tray shared screws",
+          "qty": 2,
+          "nominal_length_mm": 10
+        },
+        {
+          "item": "M2 IMU keeper screws",
+          "qty": 2,
+          "nominal_length_mm": 8
+        }
+      ],
+      "intentional_zero_volume_contacts": [
+        [
+          "arc_rigid_electronics_carrier",
+          "arc_ref_mainboard_plugged"
+        ],
+        [
+          "arc_camera_edge_tray",
+          "arc_ref_camera_raised"
+        ],
+        [
+          "arc_camera_edge_keeper",
+          "arc_ref_camera_raised"
+        ],
+        [
+          "arc_camera_edge_tray",
+          "arc_rigid_electronics_carrier"
+        ],
+        [
+          "arc_imu_edge_keeper",
+          "arc_ref_imu_bent_plugged"
+        ],
+        [
+          "arc_rigid_electronics_carrier",
+          "arc_ref_imu_bent_plugged"
+        ],
+        [
+          "arc_imu_edge_keeper",
+          "arc_rigid_electronics_carrier"
+        ]
+      ]
+    },
+    "rear": {
+      "battery": {
+        "center": [
+          0,
+          230.0,
+          8.0
+        ],
+        "body_bounds": {
+          "x": [
+            -44.5,
+            44.5
+          ],
+          "y": [
+            222.0,
+            237.2
+          ],
+          "z": [
+            -17.0,
+            33.0
+          ],
+          "size": [
+            89.0,
+            15.199999999999989,
+            50.0
+          ]
+        },
+        "cover_bounds": {
+          "x": [
+            -32.0,
+            32.0
+          ],
+          "y": [
+            236.2,
+            238.8
+          ],
+          "z": [
+            -17.0,
+            33.0
+          ],
+          "size": [
+            64.0,
+            2.6000000000000227,
+            50.0
+          ]
+        },
+        "dock_axes_y": [
+          [
+            -40,
+            8.0
+          ],
+          [
+            40,
+            8.0
+          ]
+        ],
+        "dock_seat_y": 222.0,
+        "dock_ears_y": [
+          222.0,
+          224.2
+        ],
+        "dock_nut_access": "Ear+Yface224.2 atX±40/Z8 unobstructed; mating fasteners owned bywear.py.",
+        "cover_axes_y": [
+          [
+            0,
+            -13.7
+          ],
+          [
+            0,
+            29.7
+          ]
+        ],
+        "cover_removal": [
+          0,
+          1,
+          0
+        ],
+        "wire_bore": {
+          "axis": "Z",
+          "diameter_mm": 3.6,
+          "center_xy": [
+            12.0,
+            235.0
+          ],
+          "layin_slot_width_mm": 3.6,
+          "layin_direction": "+Y from open cover seam",
+          "seam_y": 237.2
+        },
+        "soft_retention": "6mm replaceable ribbon through1.6×6.8slots,1mm compliant front liner; physical pressure/bearing pending."
+      },
+      "haptic_left": {
+        "center": [
+          -99,
+          158.0,
+          12.0
+        ],
+        "body_bounds": {
+          "x": [
+            -106.0,
+            -91.4
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            14.599999999999994,
+            56.0,
+            32.0
+          ]
+        },
+        "cover_bounds": {
+          "x": [
+            -113.2,
+            -106.0
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            7.200000000000003,
+            56.0,
+            32.0
+          ]
+        },
+        "band_slot_centers": [
+          [
+            -110,
+            142.0,
+            12.0
+          ],
+          [
+            -110,
+            174.0,
+            12.0
+          ]
+        ],
+        "band_slot_dimensions_xz_mm": [
+          3.2,
+          25.8
+        ],
+        "band_route_axis": "Y",
+        "cover_removal": [
+          -1,
+          0,
+          0
+        ],
+        "cover_fastener_axes_x": [
+          [
+            134.0,
+            12.0
+          ],
+          [
+            182.0,
+            12.0
+          ]
+        ],
+        "nut_loading": "+Z before cover",
+        "wire_bore": {
+          "axis": "Y",
+          "diameter_mm": 3.6,
+          "center_xz": [
+            -100.0,
+            4.0
+          ],
+          "layin_slot_height_mm": 3.6,
+          "layin_direction": [
+            -1,
+            0,
+            0
+          ],
+          "seam_x": -106.0
+        },
+        "retention": "6mm ribbon plus1mm trialpad. Actualmotor/PCB bearing/pressure map pending."
+      },
+      "haptic_right": {
+        "center": [
+          99,
+          158.0,
+          12.0
+        ],
+        "body_bounds": {
+          "x": [
+            91.4,
+            106.0
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            14.599999999999994,
+            56.0,
+            32.0
+          ]
+        },
+        "cover_bounds": {
+          "x": [
+            106.0,
+            113.2
+          ],
+          "y": [
+            130.0,
+            186.0
+          ],
+          "z": [
+            -4.0,
+            28.0
+          ],
+          "size": [
+            7.200000000000003,
+            56.0,
+            32.0
+          ]
+        },
+        "band_slot_centers": [
+          [
+            110,
+            142.0,
+            12.0
+          ],
+          [
+            110,
+            174.0,
+            12.0
+          ]
+        ],
+        "band_slot_dimensions_xz_mm": [
+          3.2,
+          25.8
+        ],
+        "band_route_axis": "Y",
+        "cover_removal": [
+          1,
+          0,
+          0
+        ],
+        "cover_fastener_axes_x": [
+          [
+            134.0,
+            12.0
+          ],
+          [
+            182.0,
+            12.0
+          ]
+        ],
+        "nut_loading": "+Z before cover",
+        "wire_bore": {
+          "axis": "Y",
+          "diameter_mm": 3.6,
+          "center_xz": [
+            100.0,
+            4.0
+          ],
+          "layin_slot_height_mm": 3.6,
+          "layin_direction": [
+            1,
+            0,
+            0
+          ],
+          "seam_x": 106.0
+        },
+        "retention": "6mm ribbon plus1mm trialpad. Actualmotor/PCB bearing/pressure map pending."
+      },
+      "physical_pending": [
+        "battery tab/lead and compliantpressure",
+        "motor/PCB safecontact map",
+        "wirelength/bends/grommets/seals/ties",
+        "actualM2hardware/strength",
+        "headfit/tactile/skinperformance"
+      ]
+    },
+    "wear": {
+      "front_dock": {
+        "x": [
+          -73,
+          73
+        ],
+        "z": [
+          -26,
+          26
+        ],
+        "seat_y": 40.0,
+        "ear_thickness": 3.0,
+        "head_seat_y": 43.0,
+        "hole_diameter": 2.3
+      },
+      "new_frame_bracket_joint": {
+        "x": [
+          -58.0,
+          58.0
+        ],
+        "z": [
+          -25.0,
+          25.0
+        ],
+        "head_seat_y": 40.0,
+        "frame_pad_y": 45.5,
+        "nut_range_y": [
+          45.5,
+          47.5
+        ],
+        "screw_candidates": "4xM2x10 +4xM2 nut; physical pending"
+      },
+      "contact_inner_sphere_radii_mm": {
+        "forehead": 127.8,
+        "face": 148.4
+      },
+      "retained_original_interfaces": {
+        "front_dock": {
+          "x": [
+            -73,
+            73
+          ],
+          "z": [
+            -26,
+            26
+          ],
+          "seat_y": 40.0,
+          "ear_thickness": 3,
+          "hole_diameter": 2.3,
+          "head_seat_y": 43.0,
+          "head_recess_diameter": 4.8,
+          "head_recess_back_y": 61.0,
+          "candidate_head": [
+            4.2,
+            1.6
+          ],
+          "candidate_tool_diameter": 4
+        },
+        "battery_dock": {
+          "x": [
+            -40,
+            40
+          ],
+          "z": 8,
+          "seat_y": 222,
+          "hole_diameter": 2.3,
+          "head_side_access_diameter": 5.2
+        },
+        "strap_width": 25,
+        "top_band_max_z_reference": 108.174,
+        "top_band_closure": "25mm fold-back hook-and-loop textile strap; shown short returns are not validated overlap length"
+      }
+    },
+    "accessories": {
+      "speaker_webbing_x": -110.4,
+      "speaker_loop_y": [
+        95.0,
+        121.0
+      ],
+      "speaker_loop_z": 5.0,
+      "speaker_loop_clear_z": 25.8,
+      "speaker_loop_clear_x": 3.2,
+      "speaker_wire_slot_width": 2.4
+    }
+  },
+  "coordinate_system": "X positive wearer right; Y rearward toward head; Z up. No individual scan or measured head model; soft straps and pads are illustrative, not printed.",
+  "geometry_input_sha256": {
+    "parameters.json": "b3214e20fea603c4c996e81befa14f8c65ba967f0da6fbd74e7becec02fa43d2",
+    "common.py": "55c341462d1d86379d7013567daca6e1e25a3c158f9b39d77b08d7cacc17c5cf",
+    "shell.py": "4261c11b398a994028decd7a4303b40fb28bd3864e4a229cc499eb9fe94280c8",
+    "carrier.py": "2c666dd92687ab2b2b6aad0806fbb037f5a64be9c099940859b8a9bcebf3c407",
+    "rear.py": "62bd8e69bfb8265df0c963aa092ef642062587b262d943ed8618b90e1001316a",
+    "wear.py": "6f46bd87d52c44f39303c2da2a41be09d07e325541f40b21d386c4bef3a5fdfa",
+    "wear_legacy.py": "bea9634460301408896d98dbb4528cfb323420ac8e0b80155842d5284a5bf15c",
+    "accessories.py": "9872426580de35df08fcbb9a76dab271eb69d5c5bb8536b16762ee518e2401c7"
+  },
+  "seconds": 36.68941593170166
+}

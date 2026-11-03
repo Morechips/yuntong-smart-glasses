@@ -1,0 +1,2688 @@
+{
+  "digital_checks": [
+    {
+      "name": "01_common_base / 02_compute_lid",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 03_battery_lid",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 04_x5_carrier",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 03_battery_lid",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 04_x5_carrier",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / 04_x5_carrier",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "06_right_service_panel / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "06_right_service_panel / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "06_right_service_panel / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "07_front_service_panel / 08_waist_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "07_front_service_panel / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "08_waist_bridge / 09_second_bridge",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "01_common_base / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "02_compute_lid / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "03_battery_lid / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "04_x5_carrier / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "05_left_service_panel / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "06_right_service_panel / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "06_right_service_panel / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "06_right_service_panel / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "07_front_service_panel / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "07_front_service_panel / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "07_front_service_panel / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "08_waist_bridge / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "08_waist_bridge / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "08_waist_bridge / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "09_second_bridge / official_X5_706_solids",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "09_second_bridge / P23C_conservative_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "09_second_bridge / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_P_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_top3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_under3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_P_base3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_board_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_P_base_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "copper_X_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_top3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_under3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_X_frame3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_board_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_X_frame_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_4 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_4 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_4 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_4 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_4 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_4 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_4 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_4 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_4 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_4 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_4 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_4 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_5 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_5 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_5 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_5 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_5 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_5 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_5 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_5 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_5 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_5 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_5 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_5 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_6 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_6 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_6 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_lid_6 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_6 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_6 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_6 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_lid_6 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_6 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_6 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_6 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_lid_6 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_carrier_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_carrier_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_carrier_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_strap_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_strap_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_strap_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_left_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_left_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_right_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_right_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "hw_front_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "nut_front_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_2 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_2 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_2 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_3 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_3 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_3 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_left_3 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_right_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_0 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_0 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_0 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_1 / measured_battery",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_1 / P23C_height",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "washer_front_1 / official_X5",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "ref_charge_socket / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "ref_DC_wire_0 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "ref_DC_wire_1 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "ref_DC_wire_2 / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "ref_DC_male / printed",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "X5_module_vertical_insertion_5mm",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "X5_module_vertical_insertion_15mm",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "X5_module_vertical_insertion_30mm",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "X5_power_and_debug / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "X5_power_and_debug / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "X5_power_and_debug / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "SD_and_CSI_service / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "SD_and_CSI_service / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "SD_and_CSI_service / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "HDMI_audio / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "HDMI_audio / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "HDMI_audio / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "USB_A_RJ45 / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "USB_A_RJ45 / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "USB_A_RJ45 / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "P23C_C_outputs / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "P23C_C_outputs / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "P23C_C_outputs / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "DC_input / 05_left_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "DC_input / 06_right_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "name": "DC_input / 07_front_service_panel",
+      "intersection_mm3": 0.0,
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "body_dimensions_mm": [
+    98,
+    146,
+    55
+  ],
+  "assembled_printed_bounds_with_bridges_mm": [
+    101,
+    146,
+    68
+  ],
+  "source": "official unscaled STEP for X5; measured conservative envelopes for P23C/cell",
+  "printed_parts": 9,
+  "mounts": "8 M2.5x8 female-female, 16 M2.5x5; 19 M3x10, 4 M3x16; 23 M3 nuts; 24 M2.5 nylon washers, 23 M3 washers",
+  "physical_fit_validated": false,
+  "thermal_validated": false,
+  "strength_validated": false,
+  "p23c_socket_coordinates_verified": false,
+  "strap_friction_validated": false
+}

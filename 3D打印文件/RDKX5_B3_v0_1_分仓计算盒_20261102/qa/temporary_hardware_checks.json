@@ -1,0 +1,1994 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "tmp_spacer_power0/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x53/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x53/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x53/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x53/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x53/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x53/printed",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x53/X5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x53/P23C_height",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x53/battery",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x53/unchanged_hardware",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_power0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_power0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power0/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_power0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power0/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power0/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_spacer_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power1/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_power1",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_spacer_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power1/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_spacer_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power1/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_bolt_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power2/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_nut_power2",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power2/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_spacer_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power2/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_bolt_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_power3/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_nut_power3",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_power3/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_spacer_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_power3/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_bolt_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x50/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_nut_x50",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x50/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_spacer_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x50/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_bolt_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x51/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_nut_x51",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x51/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/tmp_spacer_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x51/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/tmp_bolt_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x52/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/tmp_nut_x52",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x52/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/tmp_spacer_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_nut_x52/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/tmp_bolt_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_spacer_x53/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tmp_bolt_x53/tmp_nut_x53",
+      "intersection_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "requires": "M3 double-female THROUGH-BORED spacers: body8mm AF<=5.5mm; M2x16 screws8, M2 nuts8; existing insulating washers retained",
+  "printed_parts_changed": false,
+  "rdk_hole_enlarged": false,
+  "uses_hot_glue_as_structure": false,
+  "physical_fit_validated": false,
+  "screw_protrusion_past_nut_mm": {
+    "power": 1.4,
+    "x5": 0.9916
+  }
+}

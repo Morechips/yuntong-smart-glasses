@@ -1,0 +1,10 @@
+[
+  {"direction":"LEFT","text":"左侧有障碍"},
+  {"direction":"CENTER","text":"前方有障碍"},
+  {"direction":"RIGHT","text":"右侧有障碍"}
+,
+  {"direction":"LEFT_CENTER","text":"前方和左侧有障碍"},
+  {"direction":"CENTER_RIGHT","text":"前方和右侧有障碍"},
+  {"direction":"LEFT_CENTER_RIGHT","text":"前方和两侧有障碍"},
+  {"direction":"LEFT_RIGHT","text":"左右两侧有障碍"}
+]

@@ -1,0 +1,171 @@
+{
+    "error_string": "Success.",
+    "export_time": 2195,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 129,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 207.34359741210938,
+                "Bridge": 334.5771789550781,
+                "Brim": 221.9715576171875,
+                "Custom": 386.2454528808594,
+                "Flush": 25.0,
+                "Gap infill": 970.965576171875,
+                "Inner wall": 4191.09912109375,
+                "Internal solid infill": 1453.9810791015625,
+                "Outer wall": 4160.41845703125,
+                "Overhang wall": 172.0801239013672,
+                "Sparse infill": 412.33013916015625,
+                "Support": 2033.2298583984375,
+                "Support interface": 155.9824676513672,
+                "Top surface": 420.22991943359375,
+                "Travel": 3670.959228515625,
+                "Undefined": 3653.4736328125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 57.88749313354492,
+                    "total_used_g": 57.88749313354492
+                }
+            ],
+            "generate_support_material_time": 1587,
+            "id": 1,
+            "infill_time": 285,
+            "layer_filament_change": 0,
+            "main_predication": 18383.5,
+            "make_perimeters_time": 543,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 70.0,
+                        "height": 38.79999923706055,
+                        "width": 178.39999389648438,
+                        "x": 15.0,
+                        "y": 15.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "01_加固结构外圈",
+                    "triangle_count": 12576
+                },
+                {
+                    "bbox": {
+                        "depth": 19.600000381469727,
+                        "height": 3.200000047683716,
+                        "width": 45.599998474121094,
+                        "x": 125.0,
+                        "y": 125.0,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "02_加宽检修盖_孔距36",
+                    "triangle_count": 876
+                },
+                {
+                    "bbox": {
+                        "depth": 64.0,
+                        "height": 5.5,
+                        "width": 26.0,
+                        "x": 18.0,
+                        "y": 125.0,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "03_左连接片_平面贴床",
+                    "triangle_count": 1776
+                },
+                {
+                    "bbox": {
+                        "depth": 64.0,
+                        "height": 5.5,
+                        "width": 26.0,
+                        "x": 65.0,
+                        "y": 125.0,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "04_右连接片_平面贴床",
+                    "triangle_count": 1776
+                }
+            ],
+            "sliced_time": 4415,
+            "sliced_time_with_cache": 1675,
+            "total_predication": 18802.259765625,
+            "triangle_count": 17004,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bridge": 347.2788391113281,
+                "Brim": 12.481072425842285,
+                "Custom": 384.8472595214844,
+                "Flush": 25.0,
+                "Gap infill": 157.4006805419922,
+                "Inner wall": 1878.1339111328125,
+                "Internal solid infill": 2243.4609375,
+                "Outer wall": 1147.8433837890625,
+                "Overhang wall": 1001.3857421875,
+                "Sparse infill": 272.5898132324219,
+                "Support": 5986.359375,
+                "Support interface": 411.5497131347656,
+                "Top surface": 392.1509704589844,
+                "Travel": 3910.20361328125,
+                "Undefined": 3893.64794921875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 41.4082145690918,
+                    "total_used_g": 41.4082145690918
+                }
+            ],
+            "generate_support_material_time": 5711,
+            "id": 2,
+            "infill_time": 267,
+            "layer_filament_change": 0,
+            "main_predication": 17739.513671875,
+            "make_perimeters_time": 165,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 99.0,
+                        "height": 22.64693260192871,
+                        "width": 147.99998474121094,
+                        "x": 337.20001220703125,
+                        "y": 40.0,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "05_加强额托脸垫架",
+                    "triangle_count": 5846
+                }
+            ],
+            "sliced_time": 9230,
+            "sliced_time_with_cache": 2884,
+            "total_predication": 18157.806640625,
+            "triangle_count": 5846,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

@@ -1,0 +1,278 @@
+{
+  "geometry_checks_passed": true,
+  "all_checks_passed": false,
+  "checks": [
+    {
+      "name": "new_valid_single",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 12094.201764817235,
+      "bounds": {
+        "min": [
+          -59.5,
+          201.9999999,
+          -11.000000100000001
+        ],
+        "max": [
+          59.5,
+          222.0000001,
+          40.0
+        ],
+        "size": [
+          119.0,
+          20.000000199999988,
+          51.0000001
+        ]
+      }
+    },
+    {
+      "name": "old_valid_single",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 8940.026108546856,
+      "bounds": {
+        "min": [
+          -51.5,
+          203.1889133217961,
+          -11.000000100000001
+        ],
+        "max": [
+          51.5,
+          222.0000001,
+          40.0
+        ],
+        "size": [
+          103.0,
+          18.8110867782039,
+          51.0000001
+        ]
+      }
+    },
+    {
+      "name": "strap_right_fold_envelope_t2p5_valid_single",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 5437.223392972767,
+      "bounds": {
+        "min": [
+          47.25,
+          200.25,
+          -4.5
+        ],
+        "max": [
+          90.0,
+          209.75,
+          20.5
+        ],
+        "size": [
+          42.75,
+          9.5,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "strap_left_fold_envelope_t2p5_valid_single",
+      "passed": true,
+      "solids": 1,
+      "volume_mm3": 5437.223392972767,
+      "bounds": {
+        "min": [
+          -90.0,
+          200.25,
+          -4.5
+        ],
+        "max": [
+          -47.25,
+          209.75,
+          20.5
+        ],
+        "size": [
+          42.75,
+          9.5,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "reconstructed_old_matches_delivered_STEP",
+      "passed": true,
+      "volume_difference_mm3": -0.00019527166659827344
+    },
+    {
+      "name": "old_inside_exit_to_post_gap_only_0p3",
+      "passed": true,
+      "gap_mm": 0.3
+    },
+    {
+      "name": "new_strap_envelope_clear_1",
+      "passed": true,
+      "intersection_mm3": 0.0,
+      "strap_width_mm": 25,
+      "assumed_max_thickness_mm": 2.5,
+      "centerline_turn_radius_mm": 3.5
+    },
+    {
+      "name": "battery_only_tray_strap_clear_1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_only_cover_strap_clear_1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "straight_threading_passage_clear_1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_tool_access_preserved_1",
+      "passed": true
+    },
+    {
+      "name": "original_battery_dock_bore_1",
+      "passed": true,
+      "hole_pitch_mm": 80,
+      "seat_y_mm": 222
+    },
+    {
+      "name": "new_strap_envelope_clear_-1",
+      "passed": true,
+      "intersection_mm3": 0.0,
+      "strap_width_mm": 25,
+      "assumed_max_thickness_mm": 2.5,
+      "centerline_turn_radius_mm": 3.5
+    },
+    {
+      "name": "battery_only_tray_strap_clear_-1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_only_cover_strap_clear_-1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "straight_threading_passage_clear_-1",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_tool_access_preserved_-1",
+      "passed": true
+    },
+    {
+      "name": "original_battery_dock_bore_-1",
+      "passed": true,
+      "hole_pitch_mm": 80,
+      "seat_y_mm": 222
+    },
+    {
+      "name": "new_clear_battery_only_tray",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "new_clear_battery_only_cover",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "soft_pad_contact_envelope_preserved",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "original_main_contact_shell_retained",
+      "passed": true,
+      "contact_volume_mm3": 4275.4483303601855,
+      "lost_volume_mm3": 0.0,
+      "intersection_mm3": 4275.446216403762
+    },
+    {
+      "name": "root_0_positive_shell_overlap",
+      "passed": true,
+      "overlap_mm3": 46.61473795517715
+    },
+    {
+      "name": "root_1_positive_shell_overlap",
+      "passed": true,
+      "overlap_mm3": 46.61473795517723
+    },
+    {
+      "name": "root_2_positive_shell_overlap",
+      "passed": true,
+      "overlap_mm3": 46.614737662844526
+    },
+    {
+      "name": "root_3_positive_shell_overlap",
+      "passed": true,
+      "overlap_mm3": 46.61473769005006
+    },
+    {
+      "name": "STEP_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "STL_watertight_and_on_bed",
+      "passed": true,
+      "mesh_bounds": [
+        [
+          0.0,
+          0.0,
+          9.999999406318238e-08
+        ],
+        [
+          119.0,
+          51.0,
+          20.0
+        ]
+      ],
+      "faces": 6334
+    },
+    {
+      "name": "old_source_files_unchanged",
+      "passed": true
+    }
+  ],
+  "parameters": {
+    "old_total_width_mm": 103,
+    "new_total_width_mm": 119,
+    "ear_shift_per_side_mm": 8,
+    "slot_width_mm": 26.5,
+    "slot_thickness_gap_mm": 6,
+    "assumed_max_strap_single_layer_mm": 2.5,
+    "strap_thickness_measured": false,
+    "battery_dock_pitch_mm": 80,
+    "battery_dock_y_mm": 222,
+    "inner_slot_face_to_post_mm": 8.3
+  },
+  "physical_pending": [
+    "actual strap thickest seam/closure, width and fold stiffness",
+    "hand threading and foldback with battery installed",
+    "support removal, rail strength and print quality",
+    "soft pad/head contact and strap tightening"
+  ],
+  "old_sources_sha256": {
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear_legacy.py": "bea9634460301408896d98dbb4528cfb323420ac8e0b80155842d5284a5bf15c",
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py": "6f46bd87d52c44f39303c2da2a41be09d07e325541f40b21d386c4bef3a5fdfa",
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\rear.py": "62bd8e69bfb8265df0c963aa092ef642062587b262d943ed8618b90e1001316a",
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\parameters.json": "b3214e20fea603c4c996e81befa14f8c65ba967f0da6fbd74e7becec02fa43d2"
+  },
+  "stl_parts": [
+    {
+      "name": "R01_rear_cradle_clear_strap",
+      "path": "D:\\智能眼镜\\3D打印文件\\ArcMask_后枕托穿带修正_20261101\\stl_print\\R01_rear_cradle_clear_strap.stl",
+      "sha256": "1cf17f25d527cd450af898185ac3e270b054c6174f0df5f348e2e3570df2d80d",
+      "size": [
+        119.0,
+        51.0,
+        19.999999900000006
+      ]
+    }
+  ],
+  "submitted_to_printer": false
+}

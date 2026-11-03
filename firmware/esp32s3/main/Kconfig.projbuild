@@ -1,0 +1,161 @@
+menu "OV3660 camera benchmark"
+
+    config CAM_WIFI_SSID
+        string "2.4 GHz Wi-Fi SSID"
+        default "YOUR_WIFI_SSID"
+
+    config CAM_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default ""
+
+    choice CAM_FRAME_SIZE
+        prompt "Default frame size"
+        default CAM_FRAME_SIZE_VGA
+
+        config CAM_FRAME_SIZE_QVGA
+            bool "QVGA 320x240"
+
+        config CAM_FRAME_SIZE_VGA
+            bool "VGA 640x480"
+
+        config CAM_FRAME_SIZE_SVGA
+            bool "SVGA 800x600"
+    endchoice
+
+    config CAM_JPEG_QUALITY
+        int "JPEG quality (lower is better quality)"
+        range 8 40
+        default 12
+
+    config CAM_FB_COUNT
+        int "PSRAM frame-buffer count"
+        range 2 4
+        default 3
+
+    config CAM_HTTP_SERVER_ENABLE
+        bool "Keep HTTP diagnostics server"
+        default y
+
+    config CAM_HTTP_STREAM_ENABLE
+        bool "Keep legacy /stream MJPEG endpoint"
+        default n
+        help
+            The active-push transport owns normal video delivery. Enable this
+            only for fallback testing; do not use /stream at the same time as
+            port 9001 because both consumers access the camera.
+
+    config GLASSES_TRANSPORT_ENABLE
+        bool "Enable X5 active-push transport"
+        default y
+
+    if GLASSES_TRANSPORT_ENABLE
+
+        config GLASSES_CONTROL_PORT
+            int "X5 control port"
+            range 1024 65535
+            default 9000
+
+        config GLASSES_VIDEO_PORT
+            int "X5 JPEG video port"
+            range 1024 65535
+            default 9001
+
+        config GLASSES_MICROPHONE_PORT
+            int "X5 microphone PCM port"
+            range 1024 65535
+            default 9002
+
+        config GLASSES_SPEAKER_PORT
+            int "X5 speaker PCM port"
+            range 1024 65535
+            default 9003
+
+        config GLASSES_VIDEO_MAX_FPS
+            int "Maximum JPEG push frame rate"
+            range 1 30
+            default 15
+
+        config GLASSES_MIC_CHANNEL
+            int "ES7210 interleaved channel to upload (0 or 1)"
+            range 0 1
+            default 0
+
+        config GLASSES_MIC_SHIFT
+            int "Right shift applied to signed 32-bit microphone samples"
+            range 0 24
+            default 16
+
+        config GLASSES_MIC_GAIN_DB
+            int "ES7210 input gain in dB"
+            range 0 42
+            default 42
+
+        config GLASSES_SPEAKER_VOLUME
+            int "ES8311 playback volume"
+            range 0 100
+            default 60
+
+        config GLASSES_SPEAKER_PREBUFFER_MS
+            int "Speaker jitter prebuffer in milliseconds"
+            range 60 300
+            default 150
+
+        config GLASSES_SPEAKER_BUFFER_BYTES
+            int "Speaker stream buffer size"
+            range 8192 65536
+            default 32768
+
+        config GLASSES_SPEAKER_MAX_PACKET
+            int "Maximum accepted speaker packet payload"
+            range 960 8192
+            default 4096
+
+    endif
+
+    config GLASSES_PERIPHERAL_BENCH_ENABLE
+        bool "Manual peripheral bench on HTTP port 8081"
+        depends on !GLASSES_TRANSPORT_ENABLE && CAM_HTTP_SERVER_ENABLE
+        default n
+        help
+            Retains legacy camera streaming. No sound at boot. Vibration at
+            boot requires the separate motor-cycle diagnostic option below.
+            POST /tone or /pcm explicitly requests bounded speaker playback.
+            GET /imu reads the JY61P at I2C address 0x50 without calibrating it.
+
+    config GLASSES_BENCH_MOTOR_ENABLE
+        bool "Use UART RX/GPIO44 and TX/GPIO43 as two vibration module inputs"
+        depends on GLASSES_PERIPHERAL_BENCH_ENABLE && ESP_CONSOLE_USB_SERIAL_JTAG
+        default n
+        help
+            Connect IN only after this firmware is installed. The module VCC
+            uses the UART header 3V3 rail for an initial short test. UART0
+            console must be moved to USB Serial/JTAG to release GPIO43/44.
+
+    config GLASSES_BENCH_MOTOR_CYCLE_ENABLE
+        bool "Repeat both, RX and TX motor pulses at boot (diagnostic only)"
+        depends on GLASSES_BENCH_MOTOR_ENABLE
+        default n
+        help
+            Starts a board-local task: both 500ms, rest 2s, RX 500ms, rest 2s,
+            TX 500ms, rest 3s, then repeat. No PC client is needed. Manual
+            HTTP motor commands are rejected while this build owns the pins.
+            Remove USB and battery power to stop the diagnostic.
+
+    config GLASSES_IMU_SYNC_ENABLE
+        bool "Continuous JY61P ring and camera source metadata"
+        depends on GLASSES_PERIPHERAL_BENCH_ENABLE
+        default n
+
+    config GLASSES_IMU_POLL_HZ
+        int "JY61P register polling target, not verified sensor update rate"
+        depends on GLASSES_IMU_SYNC_ENABLE
+        range 10 100
+        default 50
+
+    config GLASSES_IMU_TIMEOUT_MS
+        int "Bounded IMU I2C transaction timeout in milliseconds"
+        depends on GLASSES_IMU_SYNC_ENABLE
+        range 1 20
+        default 10
+
+endmenu

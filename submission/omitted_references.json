@@ -1,0 +1,70 @@
+[
+  {
+    "file": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
+    "target": "../ArcMask_主板孔位失配核对_20261031/README.md"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
+    "target": "../ArcMask_v0_3_A平面减薄_20261029/README.md"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
+    "target": "../ArcMask_佩戴架破损评估_20261031/README.md"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "slice_project.py"
+  },
+  {
+    "file": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
+    "target": "presentation_renders/README.md"
+  },
+  {
+    "file": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
+    "target": "../RDKX5_计算盒方案_20261102/B3_实测输入_20261102.json"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
+    "target": "parameters.json"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "parameters.json"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "model.py"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "build_and_check.py"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "prepare_3mf.py"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "verify_3mf.py"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+    "target": "render_and_viewer.py"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/README.md",
+    "target": "model.py"
+  },
+  {
+    "file": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/README.md",
+    "target": "parameters.json"
+  },
+  {
+    "file": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
+    "target": "parameters.json"
+  },
+  {
+    "file": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
+    "target": "model.py"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "checks_passed": true,
+  "old_file_hashes_unchanged": 34,
+  "printed_count": 20,
+  "repair_parts": [
+    "arc_structural_rim",
+    "arc_top_service_blank",
+    "wear_left_flat_connector",
+    "wear_removable_forehead_face_frame",
+    "wear_right_flat_connector"
+  ],
+  "repair_count": 5,
+  "reusable_printed_parts": [
+    "arc_front_flat_lid",
+    "arc_eye_side_barrier",
+    "arc_rigid_electronics_carrier",
+    "arc_camera_edge_tray",
+    "arc_camera_edge_keeper",
+    "arc_imu_edge_keeper",
+    "battery_only_tray",
+    "battery_only_cover",
+    "haptic_left_pod_body",
+    "haptic_left_pod_cover",
+    "haptic_right_pod_body",
+    "haptic_right_pod_cover",
+    "wear_rear_occipital_cradle",
+    "speaker_strap_body",
+    "speaker_strap_cover"
+  ],
+  "reusable_count": 15,
+  "electronics_and_pad_meshes_unchanged": true,
+  "shell_outer_bounds_unchanged": true,
+  "bracket_print_bounds_mm": [
+    26,
+    64,
+    5.5
+  ],
+  "service_screw_pitch_mm": 36,
+  "forehead_and_face_nominal_skin_mm": [
+    3,
+    3
+  ],
+  "additional_hardware_candidates": {
+    "frame_to_connectors": {
+      "M2x10_screws": 4,
+      "M2_nuts": 4
+    },
+    "existing_shell_four_screws": "retainY40/43 interfaces; actual length/head check pending"
+  },
+  "development_correction": "Initial roof support/carrier76.8mm3 overlap removed by ending stripY26.4,0.4mm from carrier; both connector/web7mm3 overlaps removed by moving webs inward. All full geometry checks rerun.",
+  "physical_strength_or_reprint_validated": false
+}

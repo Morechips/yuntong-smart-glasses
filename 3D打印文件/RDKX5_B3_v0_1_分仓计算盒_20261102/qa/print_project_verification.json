@@ -1,0 +1,194 @@
+{
+  "project_checks_passed": true,
+  "plate_count": 1,
+  "printed_parts": 9,
+  "prediction_seconds": 47272,
+  "weight_grams": 170.46,
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "support_enabled": false,
+  "brim_enabled": false,
+  "parts": [
+    {
+      "name": "05_left_service_panel",
+      "geometry_error_mm": 3.834574467157437e-06,
+      "bounds": [
+        [
+          6.5,
+          6.5,
+          0.0
+        ],
+        [
+          56.7000008,
+          152.5,
+          2.4000001
+        ]
+      ]
+    },
+    {
+      "name": "07_front_service_panel",
+      "geometry_error_mm": 2.3815463239762804e-06,
+      "bounds": [
+        [
+          6.5,
+          155.4999995,
+          0.0
+        ],
+        [
+          56.7000008,
+          248.6999965,
+          2.4000001
+        ]
+      ]
+    },
+    {
+      "name": "01_common_base",
+      "geometry_error_mm": 4.14068518840874e-06,
+      "bounds": [
+        [
+          59.700000999999986,
+          6.5,
+          0.0
+        ],
+        [
+          205.700001,
+          104.5,
+          52.5999984
+        ]
+      ]
+    },
+    {
+      "name": "08_waist_bridge",
+      "geometry_error_mm": 1.9574536364436274e-06,
+      "bounds": [
+        [
+          208.700001,
+          6.5,
+          0.0
+        ],
+        [
+          224.700001,
+          104.5,
+          13.0
+        ]
+      ]
+    },
+    {
+      "name": "04_x5_carrier",
+      "geometry_error_mm": 3.016131496143474e-06,
+      "bounds": [
+        [
+          59.7000012,
+          107.4999995,
+          0.0
+        ],
+        [
+          130.4975704,
+          185.1999965,
+          2.4000001
+        ]
+      ]
+    },
+    {
+      "name": "09_second_bridge",
+      "geometry_error_mm": 1.7879593375822056e-06,
+      "bounds": [
+        [
+          227.700001,
+          6.5,
+          0.0
+        ],
+        [
+          243.700001,
+          80.5,
+          13.0
+        ]
+      ]
+    },
+    {
+      "name": "06_right_service_panel",
+      "geometry_error_mm": 1.7863624456729423e-06,
+      "bounds": [
+        [
+          59.7000008,
+          188.1999966,
+          0.0
+        ],
+        [
+          135.7000008,
+          238.3999974,
+          2.4000001
+        ]
+      ]
+    },
+    {
+      "name": "03_battery_lid",
+      "geometry_error_mm": 2.0891930371053903e-06,
+      "bounds": [
+        [
+          138.700001,
+          107.5,
+          0.0
+        ],
+        [
+          236.700001,
+          170.5,
+          2.4000001
+        ]
+      ]
+    },
+    {
+      "name": "02_compute_lid",
+      "geometry_error_mm": 2.211957023155897e-06,
+      "bounds": [
+        [
+          138.700001,
+          173.5,
+          0.0
+        ],
+        [
+          236.700001,
+          249.5,
+          2.4000001
+        ]
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "all_objects_sliced": true,
+  "print_submitted": false,
+  "physical_fit_validated": false,
+  "thermal_validated": false,
+  "file_sha256": "00766bd75ea18d5a5912aacf2821cdb039e84af3ce8de78a41d2a2ffe3c7482e"
+}

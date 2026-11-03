@@ -1,0 +1,31 @@
+{
+  "model": "TinyTaskProbe scratch CNN; not PP-LiteSeg and not deployment-selected",
+  "input_wh": [
+    320,
+    240
+  ],
+  "train_ids": [
+    "A01_02",
+    "A02_02",
+    "A03_02",
+    "A04_02",
+    "A07_02",
+    "A08_02"
+  ],
+  "development_probe_ids": [
+    "A05_02",
+    "A06_02"
+  ],
+  "seed": 20261101,
+  "steps": 250,
+  "optimizer": "AdamW lr=0.001 weight_decay=0.0001",
+  "same_body_initialization": true,
+  "same_augmentations": true,
+  "pixel_weights": "primary-obstacle annotated pixels x5 in BOTH tasks; other valid pixels x1",
+  "augmentation": "horizontal flip, brightness +/-0.1, contrast +/-0.1; all label transforms paired",
+  "labels": "weak coarse user-reviewed; boundary ignored; class0 coarse context, not exhaustive obstacle truth",
+  "checkpoint_selection": "final fixed step, no choosing on probe scores",
+  "evaluation": "coarse development diagnostics only; two probes share corridor; no independent generalization claim",
+  "heldout_scene_B_used": false,
+  "board_timing_inherited": false
+}

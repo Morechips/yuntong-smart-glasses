@@ -1,0 +1,673 @@
+{
+  "schema": "ground-label-draft-v1",
+  "human_confirmed": false,
+  "scope": "Coarse visual review material only; not an oracle mask or benchmark ground truth",
+  "entries": [
+    {
+      "sample_id": "A01_02",
+      "source_sha256": "b3a76bf65674a28342a02894b0669889196f1482a6183b77a4ac77abe73cc805",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            197,
+            479
+          ],
+          [
+            281,
+            361
+          ],
+          [
+            302,
+            359
+          ],
+          [
+            304,
+            332
+          ],
+          [
+            453,
+            325
+          ],
+          [
+            503,
+            397
+          ],
+          [
+            548,
+            479
+          ]
+        ],
+        "obstacles": []
+      },
+      "mask": "A01_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A02_02",
+      "source_sha256": "b8294a3c216d42574b0746eb0958b057166952284bd3b8238d80153805563d74",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            111,
+            479
+          ],
+          [
+            201,
+            333
+          ],
+          [
+            231,
+            324
+          ],
+          [
+            250,
+            298
+          ],
+          [
+            367,
+            294
+          ],
+          [
+            421,
+            365
+          ],
+          [
+            470,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              278,
+              305
+            ],
+            [
+              321,
+              301
+            ],
+            [
+              330,
+              325
+            ],
+            [
+              323,
+              365
+            ],
+            [
+              285,
+              365
+            ],
+            [
+              277,
+              330
+            ]
+          ]
+        ]
+      },
+      "mask": "A02_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A03_02",
+      "source_sha256": "f4e4fcb76bbd4d61667d2c689c7e9077a470dd7793a2ae12e993a85f23a26c05",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            155,
+            479
+          ],
+          [
+            228,
+            381
+          ],
+          [
+            245,
+            367
+          ],
+          [
+            259,
+            344
+          ],
+          [
+            411,
+            336
+          ],
+          [
+            448,
+            399
+          ],
+          [
+            503,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              257,
+              348
+            ],
+            [
+              304,
+              343
+            ],
+            [
+              308,
+              357
+            ],
+            [
+              301,
+              407
+            ],
+            [
+              262,
+              410
+            ],
+            [
+              252,
+              372
+            ]
+          ]
+        ]
+      },
+      "mask": "A03_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A04_02",
+      "source_sha256": "f11143106cee3991ed8c32ed4b84702a4c46a65e3d85f3b0cdbb4778a201c772",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            147,
+            479
+          ],
+          [
+            234,
+            374
+          ],
+          [
+            277,
+            367
+          ],
+          [
+            294,
+            347
+          ],
+          [
+            430,
+            346
+          ],
+          [
+            456,
+            410
+          ],
+          [
+            473,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              382,
+              356
+            ],
+            [
+              425,
+              353
+            ],
+            [
+              444,
+              383
+            ],
+            [
+              433,
+              425
+            ],
+            [
+              396,
+              427
+            ],
+            [
+              384,
+              391
+            ]
+          ]
+        ]
+      },
+      "mask": "A04_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A05_02",
+      "source_sha256": "ad7d9224a4ef56019f284c3b5a0a4419c9ff7654e42a16247e54c225cb0d1caf",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            139,
+            479
+          ],
+          [
+            256,
+            330
+          ],
+          [
+            277,
+            311
+          ],
+          [
+            303,
+            310
+          ],
+          [
+            316,
+            289
+          ],
+          [
+            432,
+            293
+          ],
+          [
+            455,
+            330
+          ],
+          [
+            527,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              327,
+              287
+            ],
+            [
+              377,
+              286
+            ],
+            [
+              384,
+              302
+            ],
+            [
+              379,
+              328
+            ],
+            [
+              374,
+              335
+            ],
+            [
+              329,
+              335
+            ],
+            [
+              325,
+              301
+            ]
+          ],
+          [
+            [
+              327,
+              330
+            ],
+            [
+              333,
+              332
+            ],
+            [
+              330,
+              374
+            ],
+            [
+              325,
+              374
+            ]
+          ],
+          [
+            [
+              376,
+              328
+            ],
+            [
+              381,
+              329
+            ],
+            [
+              383,
+              374
+            ],
+            [
+              377,
+              374
+            ]
+          ],
+          [
+            [
+              331,
+              330
+            ],
+            [
+              376,
+              330
+            ],
+            [
+              378,
+              339
+            ],
+            [
+              330,
+              338
+            ]
+          ],
+          [
+            [
+              330,
+              349
+            ],
+            [
+              377,
+              349
+            ],
+            [
+              377,
+              353
+            ],
+            [
+              330,
+              353
+            ]
+          ]
+        ]
+      },
+      "mask": "A05_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A06_02",
+      "source_sha256": "3aded9cc4f95d7ba669cf2a357bf8ed8f751534a157929151b5e5bc97e2f8db4",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            108,
+            479
+          ],
+          [
+            237,
+            329
+          ],
+          [
+            261,
+            315
+          ],
+          [
+            279,
+            287
+          ],
+          [
+            409,
+            279
+          ],
+          [
+            434,
+            319
+          ],
+          [
+            473,
+            398
+          ],
+          [
+            504,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              327,
+              304
+            ],
+            [
+              358,
+              303
+            ],
+            [
+              365,
+              333
+            ],
+            [
+              361,
+              381
+            ],
+            [
+              322,
+              381
+            ],
+            [
+              320,
+              333
+            ]
+          ]
+        ]
+      },
+      "mask": "A06_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A07_02",
+      "source_sha256": "832929ecee7d606adeb8a596db3ccce3efb971ae6832f3be9362debb918bfaa7",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            170,
+            479
+          ],
+          [
+            286,
+            368
+          ],
+          [
+            315,
+            359
+          ],
+          [
+            331,
+            321
+          ],
+          [
+            455,
+            323
+          ],
+          [
+            510,
+            421
+          ],
+          [
+            535,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              375,
+              332
+            ],
+            [
+              419,
+              330
+            ],
+            [
+              436,
+              354
+            ],
+            [
+              428,
+              400
+            ],
+            [
+              391,
+              404
+            ],
+            [
+              377,
+              373
+            ]
+          ]
+        ]
+      },
+      "mask": "A07_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    },
+    {
+      "sample_id": "A08_02",
+      "source_sha256": "a95d1a5742db053e2361cfeb2e3d2762ac388fcf3ab2ff96e89ec856b59f375d",
+      "class_ids": {
+        "0": "other_or_not_fully_annotated",
+        "1": "draft_visible_floor",
+        "2": "draft_primary_obstacle"
+      },
+      "polygons": {
+        "floor": [
+          [
+            160,
+            479
+          ],
+          [
+            238,
+            373
+          ],
+          [
+            265,
+            357
+          ],
+          [
+            265,
+            334
+          ],
+          [
+            409,
+            328
+          ],
+          [
+            453,
+            389
+          ],
+          [
+            500,
+            479
+          ]
+        ],
+        "obstacles": [
+          [
+            [
+              281,
+              376
+            ],
+            [
+              342,
+              375
+            ],
+            [
+              357,
+              418
+            ],
+            [
+              351,
+              479
+            ],
+            [
+              270,
+              479
+            ],
+            [
+              269,
+              414
+            ]
+          ]
+        ]
+      },
+      "mask": "A08_02_draft_mask.png",
+      "label_source": "AI visual polygon draft from original image",
+      "human_confirmed": false,
+      "complete_obstacle_annotation": false,
+      "allowed_for_training": false,
+      "allowed_for_accuracy_evaluation": false,
+      "annotator_saw_model_previews": true
+    }
+  ],
+  "annotator_saw_model_previews": true
+}

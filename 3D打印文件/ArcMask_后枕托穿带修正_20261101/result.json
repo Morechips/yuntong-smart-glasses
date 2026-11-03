@@ -1,0 +1,76 @@
+{
+    "error_string": "Success.",
+    "export_time": 582,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 30,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bridge": 177.0297393798828,
+                "Brim": 37.7177848815918,
+                "Custom": 385.4295349121094,
+                "Flush": 25.0,
+                "Gap infill": 222.26353454589844,
+                "Inner wall": 1305.4583740234375,
+                "Internal solid infill": 606.1908569335938,
+                "Outer wall": 688.6000366210938,
+                "Overhang wall": 463.6583251953125,
+                "Sparse infill": 41.32330322265625,
+                "Support": 2562.228759765625,
+                "Support interface": 279.75146484375,
+                "Top surface": 253.9832000732422,
+                "Travel": 1909.9195556640625,
+                "Undefined": 1892.7640380859375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 21.275127410888672,
+                    "total_used_g": 21.275127410888672
+                }
+            ],
+            "generate_support_material_time": 1707,
+            "id": 1,
+            "infill_time": 60,
+            "layer_filament_change": 0,
+            "main_predication": 8522.87890625,
+            "make_perimeters_time": 161,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 51.0,
+                        "height": 20.0,
+                        "width": 119.0,
+                        "x": 60.0,
+                        "y": 90.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "R01_后枕托_穿带耳避让_柱朝上",
+                    "triangle_count": 6334
+                }
+            ],
+            "sliced_time": 2799,
+            "sliced_time_with_cache": 780,
+            "total_predication": 8941.1533203125,
+            "triangle_count": 6334,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

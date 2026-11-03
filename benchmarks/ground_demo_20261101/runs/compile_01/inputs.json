@@ -1,0 +1,261 @@
+{
+  "scope": "Development Scene A only; no independent accuracy",
+  "samples": [
+    {
+      "sample_id": "A01_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_01.jpg",
+      "source_sha256": "22678f7a1afbcaeb78352be535dd8bab07fd5501d009c8c9ed26e33e6cd0d824",
+      "input_file": "inputs/A01_01.npy",
+      "input_sha256": "ae90ccff5aa2e13674385c2b3851b72827d745f2ae2357d6044d8c3b7fa53e1c",
+      "calibration": true
+    },
+    {
+      "sample_id": "A01_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_02.jpg",
+      "source_sha256": "b3a76bf65674a28342a02894b0669889196f1482a6183b77a4ac77abe73cc805",
+      "input_file": "inputs/A01_02.npy",
+      "input_sha256": "39df348f54e8934b8d4b5ec0d6210853f2b0c5c9f4d0a6714d00ace9e83004bf",
+      "calibration": true
+    },
+    {
+      "sample_id": "A01_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_03.jpg",
+      "source_sha256": "e215b2889c84d965707ab88eb836a45432ddffe37efc83838253bb6786dab41e",
+      "input_file": "inputs/A01_03.npy",
+      "input_sha256": "a65be940f399e501c84ebcdbffaf6e4ff96d86d247f10a017d3c4a5293eba63a",
+      "calibration": true
+    },
+    {
+      "sample_id": "A01_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A01_04.jpg",
+      "source_sha256": "c4b0bbbaa4ee60a031b80f955d441a666d3682014d5831f8ba3f8506be92d54c",
+      "input_file": "inputs/A01_04.npy",
+      "input_sha256": "de5901164be811ce4c05cb9ff9b2ce99c24bb93f651a97f78ef455cf32e7864f",
+      "calibration": true
+    },
+    {
+      "sample_id": "A02_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_01.jpg",
+      "source_sha256": "4fcd3637838c92923f72ca3cf521aa8175a49b16b74ae062c118a669e0a8b407",
+      "input_file": "inputs/A02_01.npy",
+      "input_sha256": "3f9042cc494becaa2de515b3aac98a60a8176673af94b11d5f3122bfc7a1d390",
+      "calibration": true
+    },
+    {
+      "sample_id": "A02_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_02.jpg",
+      "source_sha256": "b8294a3c216d42574b0746eb0958b057166952284bd3b8238d80153805563d74",
+      "input_file": "inputs/A02_02.npy",
+      "input_sha256": "9fffb72f313f9a2c214cfb981ac02bdd1198089964583b23ac429521e8b60514",
+      "calibration": true
+    },
+    {
+      "sample_id": "A02_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_03.jpg",
+      "source_sha256": "b93fbc0d5a3ed2bc50d6e16fcfbeda57969ced36f65a3cdff88899e619792172",
+      "input_file": "inputs/A02_03.npy",
+      "input_sha256": "996405e878386a94d0eee48ae11c6467ee0fa250f5b8218f5080d76779218f21",
+      "calibration": true
+    },
+    {
+      "sample_id": "A02_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A02_04.jpg",
+      "source_sha256": "ede8cda08198b1fd33effb4ee3b71ae19af2f5eff1148f2097aaffbf34fcc1f6",
+      "input_file": "inputs/A02_04.npy",
+      "input_sha256": "790575158f8d249831e18c00fc4813fc48e51cc2471e98edfd979c478bd5a78e",
+      "calibration": true
+    },
+    {
+      "sample_id": "A03_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_01.jpg",
+      "source_sha256": "c59246fc764e090de7c0f5c06e3774a3cd72969cf38211aefc7447b6b74d47d8",
+      "input_file": "inputs/A03_01.npy",
+      "input_sha256": "eb22ec395c6dbb7b6f41899e44dd221fa65a06282e56aa12802d3cc74f72603b",
+      "calibration": true
+    },
+    {
+      "sample_id": "A03_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_02.jpg",
+      "source_sha256": "f4e4fcb76bbd4d61667d2c689c7e9077a470dd7793a2ae12e993a85f23a26c05",
+      "input_file": "inputs/A03_02.npy",
+      "input_sha256": "08fb4a664d3c4f8c4cbd5b53e7b8acfcb9ed64b5a008f87cf95b9bde85c16d2c",
+      "calibration": true
+    },
+    {
+      "sample_id": "A03_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_03.jpg",
+      "source_sha256": "227beff107d423748525713bd9de817278517efaa36c042d4120f1e5a006e757",
+      "input_file": "inputs/A03_03.npy",
+      "input_sha256": "5a4ea72c19e3c92acedaa7eed3b0fdfd1ea60fb4e219e7b891f5418c67d0e826",
+      "calibration": true
+    },
+    {
+      "sample_id": "A03_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A03_04.jpg",
+      "source_sha256": "7036d159c71dd1344473c385717922970f17c52bdf7fff6900ba5d5af8c9b7fd",
+      "input_file": "inputs/A03_04.npy",
+      "input_sha256": "ddbdf6d38b4ea02e78ec61c15a21910647c8b5dea6f3cf1e07d04a252c6430e2",
+      "calibration": true
+    },
+    {
+      "sample_id": "A04_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_01.jpg",
+      "source_sha256": "0d1f766d2b3829a4e226f8b1c34eb7362fe85b3acb573c7cd26d0e6b7cb84450",
+      "input_file": "inputs/A04_01.npy",
+      "input_sha256": "f542f5531f128467bd151e7ff1b6931314d7462ca811007bb3234e9579ba2e64",
+      "calibration": true
+    },
+    {
+      "sample_id": "A04_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_02.jpg",
+      "source_sha256": "f11143106cee3991ed8c32ed4b84702a4c46a65e3d85f3b0cdbb4778a201c772",
+      "input_file": "inputs/A04_02.npy",
+      "input_sha256": "c027394df1ce22858d5fc7973fe001ea88a5907761f01c484c9e14d3327f396d",
+      "calibration": true
+    },
+    {
+      "sample_id": "A04_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_03.jpg",
+      "source_sha256": "3ed02da704a057de9d8514409e92d2fa1b3abe2b3d9e970e4a0a68afdf12a1b3",
+      "input_file": "inputs/A04_03.npy",
+      "input_sha256": "4c2373bf904ffbc264aeddf9573ab32e1667b9fb92156703d4c886c6cad988cd",
+      "calibration": true
+    },
+    {
+      "sample_id": "A04_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A04_04.jpg",
+      "source_sha256": "dce510e2bd7d809b2226ae68d1910b459c01f488d2fd3f828f6100e68ffb52b1",
+      "input_file": "inputs/A04_04.npy",
+      "input_sha256": "d88fbbc47a498273a63089a8d0f857b7cb223e92119bccdf0e4639a5436ebb11",
+      "calibration": true
+    },
+    {
+      "sample_id": "A05_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_01.jpg",
+      "source_sha256": "9065dda1d3b6e9e42e658c5b23ff5713b47fd7b6c88c28ab3fe31a4fbf57b5ea",
+      "input_file": "inputs/A05_01.npy",
+      "input_sha256": "bb1a0e4f1e9a83eefd5a858e77cf0f1be303ef45c0803920f5019513de2c42c9",
+      "calibration": false
+    },
+    {
+      "sample_id": "A05_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_02.jpg",
+      "source_sha256": "ad7d9224a4ef56019f284c3b5a0a4419c9ff7654e42a16247e54c225cb0d1caf",
+      "input_file": "inputs/A05_02.npy",
+      "input_sha256": "c7597b24166d94c763cadee2a6b0fb1b2078e912eb466e5937c8a172f0109071",
+      "calibration": false
+    },
+    {
+      "sample_id": "A05_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_03.jpg",
+      "source_sha256": "bf919d244b02dafca6d736def1645e5476df2e5e529feb777af4c21ad65b43d6",
+      "input_file": "inputs/A05_03.npy",
+      "input_sha256": "26541936aef467dfcd3b7182aeb5325b526fa1f495c17ac99324efbf0f8459a0",
+      "calibration": false
+    },
+    {
+      "sample_id": "A05_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A05_04.jpg",
+      "source_sha256": "b18b8366663b4f8ef1dab6b9fd801014f8889cef91ee8c661bb9f010d7f2b029",
+      "input_file": "inputs/A05_04.npy",
+      "input_sha256": "ff45a714988166dd4e3062089944a720afc9537a5dda97e687f55392b73a186d",
+      "calibration": false
+    },
+    {
+      "sample_id": "A06_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_01.jpg",
+      "source_sha256": "6e36172ddf06977386a05bc8396ed27740ca713e027d23a38ae9dcdaa981f797",
+      "input_file": "inputs/A06_01.npy",
+      "input_sha256": "37a3d906d365c1c50bed51b8c60291d76ecb1cbfa010dc95f4818131ea5479b9",
+      "calibration": false
+    },
+    {
+      "sample_id": "A06_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_02.jpg",
+      "source_sha256": "3aded9cc4f95d7ba669cf2a357bf8ed8f751534a157929151b5e5bc97e2f8db4",
+      "input_file": "inputs/A06_02.npy",
+      "input_sha256": "0ad436b352187dffbc37874d346955640be55e2ec659ff5dca5dd87bd1c20dd7",
+      "calibration": false
+    },
+    {
+      "sample_id": "A06_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_03.jpg",
+      "source_sha256": "4281d0c16549210cf7d6e3a1781af1170ed0ad1015b873ba965fcb5c5bf9e01c",
+      "input_file": "inputs/A06_03.npy",
+      "input_sha256": "ff0d3fc63308dc9e659d94c115da44d2f6b9d87a101dac9d0f7306939501d739",
+      "calibration": false
+    },
+    {
+      "sample_id": "A06_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A06_04.jpg",
+      "source_sha256": "7f014d761a7c033f2237f01322dab4e27d7ee7449903e2d61b2c36b0d312ed14",
+      "input_file": "inputs/A06_04.npy",
+      "input_sha256": "f1f3ec4fb8beb40de27ec5badb472b898098c5334685d9b8d1216a13e65b12b0",
+      "calibration": false
+    },
+    {
+      "sample_id": "A07_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_01.jpg",
+      "source_sha256": "e3bde8809710f62afd72828a22221ac85f4a52ca0586ad29b44d72f2c04208a6",
+      "input_file": "inputs/A07_01.npy",
+      "input_sha256": "7955e5f163b5490b287039f89a41e813a448efdc592f25f50ae495ec40c5ce14",
+      "calibration": true
+    },
+    {
+      "sample_id": "A07_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_02.jpg",
+      "source_sha256": "832929ecee7d606adeb8a596db3ccce3efb971ae6832f3be9362debb918bfaa7",
+      "input_file": "inputs/A07_02.npy",
+      "input_sha256": "d9526c95842d21e2381fc0de246f86280105125c95038e88385f397e7ed889f3",
+      "calibration": true
+    },
+    {
+      "sample_id": "A07_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_03.jpg",
+      "source_sha256": "a70d4de64543ed4bf209e5440bbb78f55685c972168f6e420bd1a46e41a6cbe3",
+      "input_file": "inputs/A07_03.npy",
+      "input_sha256": "a04dd9d33b737908bd9c8fd94556c525f8a5c0359a11c4de84e714d835e836ac",
+      "calibration": true
+    },
+    {
+      "sample_id": "A07_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A07_04.jpg",
+      "source_sha256": "732589676bca05b7efc569cb44b5920b0868809968b1cc28254a2739f9416acd",
+      "input_file": "inputs/A07_04.npy",
+      "input_sha256": "4cc9d0f6a317dba149846233a6f061af4ba242871306f900aadb9e413f16bcf0",
+      "calibration": true
+    },
+    {
+      "sample_id": "A08_01",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_01.jpg",
+      "source_sha256": "a299f7cd94cb6347c0be68d8a9521e58acd24c86d04d3e18b673006f01ea2f6a",
+      "input_file": "inputs/A08_01.npy",
+      "input_sha256": "b5ec52a8697204fe24701e2291c3eeb60ac03079eeacce962fc9cb0056f9ae38",
+      "calibration": true
+    },
+    {
+      "sample_id": "A08_02",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_02.jpg",
+      "source_sha256": "a95d1a5742db053e2361cfeb2e3d2762ac388fcf3ab2ff96e89ec856b59f375d",
+      "input_file": "inputs/A08_02.npy",
+      "input_sha256": "674c636dcc69a922b22ba62105569c3eec3ef59d96e7933db75826aa5fe3689b",
+      "calibration": true
+    },
+    {
+      "sample_id": "A08_03",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_03.jpg",
+      "source_sha256": "f3f213ef2a0236f4edf163d195011bcbc256b041edd3bd41494bbc706cb6a71b",
+      "input_file": "inputs/A08_03.npy",
+      "input_sha256": "ed51af5f0b03b09ee82492ac7eb3e41a055f5c688013a01c21a4ff717bcc8fa6",
+      "calibration": true
+    },
+    {
+      "sample_id": "A08_04",
+      "source": "benchmarks/ground_route_screen_20261031/runs/round01/data/development/A08_04.jpg",
+      "source_sha256": "5edaa7a23fd3b25221e3964c1e97fe4d8cc1400e1a1bb4876a6f00ecbcf47740",
+      "input_file": "inputs/A08_04.npy",
+      "input_sha256": "74ea3751d481f068075eefb2d130794c34a3623dc76e47561db97fee6a650cdb",
+      "calibration": true
+    }
+  ]
+}

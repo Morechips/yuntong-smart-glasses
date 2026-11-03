@@ -1,0 +1,113 @@
+{
+  "geometry_checks_passed": false,
+  "checks": [
+    {
+      "name": "optional_barrier_single_valid",
+      "passed": true
+    },
+    {
+      "name": "new_wire_port_open",
+      "passed": true
+    },
+    {
+      "name": "battery_and_adhesive_clear_backplate",
+      "passed": true
+    },
+    {
+      "name": "battery_clear_arc_structural_rim",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_arc_front_flat_lid",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_wear_removable_forehead_face_frame",
+      "passed": false,
+      "intersection_mm3": 7.968349172099895
+    },
+    {
+      "name": "battery_clear_wear_left_flat_connector",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_wear_right_flat_connector",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_B01_common_frame",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_B02_mb_cradle",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_B03_camera_cradle",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_B04_imu_cradle",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_B05_camera_cap",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "battery_clear_B06_imu_keeper",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "name": "only_wire_port_material_removed",
+      "passed": true
+    },
+    {
+      "name": "port_away_from_four_rear_cover_screws",
+      "passed": true
+    },
+    {
+      "name": "optional_backplate_STL_closed",
+      "passed": true
+    }
+  ],
+  "battery_box_added": false,
+  "battery_position_xz_mm": [
+    0,
+    10
+  ],
+  "battery_y_bounds_mm": [
+    30.9,
+    36.5
+  ],
+  "adhesive_reserved_mm": 0.5,
+  "port_xz_mm": [
+    -30,
+    10
+  ],
+  "port_clear_width_height_mm": [
+    8,
+    6
+  ],
+  "optional_backplate_stl_sha256": "30171b660885d6f04f5651afc0ec14aa906a701b3b406712fdef8d2a1dabf56c",
+  "human_head_clearance_validated": false,
+  "actual_connector_passage_validated": false,
+  "original_60mm_wire_full_route_validated": false,
+  "physical_pending": [
+    "actual skin/eye clearance and no pouch compression",
+    "adhesive compatible with pouch and removability",
+    "existing plug through8x6 opening and complete60mm lead path",
+    "wire edge protection/strain relief and closure without pinching"
+  ],
+  "all_checks_passed": false
+}

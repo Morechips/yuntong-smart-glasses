@@ -1,0 +1,6 @@
+# Recorded PC runtime; Python 3.10
+numpy==1.26.4
+opencv-python==4.11.0.86
+onnxruntime==1.23.2
+paramiko==5.1.0
+Pillow==12.3.0

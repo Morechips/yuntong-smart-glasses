@@ -1,0 +1,56 @@
+{
+  "reinforced_root_witnesses_passed": true,
+  "checks": [
+    {
+      "x": -58.0,
+      "region": "wide_seam",
+      "filled_ratio": 1.0
+    },
+    {
+      "x": -58.0,
+      "region": "uncut_roof_attachment",
+      "filled_ratio": 1.0
+    },
+    {
+      "x": -22.0,
+      "region": "wide_seam",
+      "filled_ratio": 1.0
+    },
+    {
+      "x": -22.0,
+      "region": "uncut_roof_attachment",
+      "filled_ratio": 1.0
+    },
+    {
+      "old_integral_ear_x_z": [
+        -73.0,
+        -26.0
+      ],
+      "frame_intersection_mm3": 0.0
+    },
+    {
+      "old_integral_ear_x_z": [
+        -73.0,
+        26.0
+      ],
+      "frame_intersection_mm3": 0.0
+    },
+    {
+      "old_integral_ear_x_z": [
+        73.0,
+        -26.0
+      ],
+      "frame_intersection_mm3": 0.0
+    },
+    {
+      "old_integral_ear_x_z": [
+        73.0,
+        26.0
+      ],
+      "frame_intersection_mm3": 0.0
+    }
+  ],
+  "four_integral_ear_regions_removed_from_curve_frame": true,
+  "old_0_2mm_web_is_not_sole_load_path": true,
+  "not_a_strength_test": true
+}

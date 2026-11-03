@@ -1,0 +1,74 @@
+{
+  "source_sha256": "4e4c6b1d117f3bb484e1c6085cbb813968b23d3aed7c388737103f6bd835fc74",
+  "html_bytes": 6757607,
+  "external_script_tags": 0,
+  "object_count": 45,
+  "printed_count": 20,
+  "soft_reference_count": 14,
+  "offline_plotly_bundled": true,
+  "checks": [
+    {
+      "mode": "assembly",
+      "visible_count": 41,
+      "passed": true
+    },
+    {
+      "mode": "inside",
+      "visible_count": 8,
+      "passed": true
+    },
+    {
+      "mode": "wear",
+      "visible_count": 10,
+      "passed": true
+    },
+    {
+      "mode": "soft",
+      "visible_count": 14,
+      "passed": true
+    },
+    {
+      "mode": "pods",
+      "visible_count": 12,
+      "passed": true
+    },
+    {
+      "mode": "rear",
+      "visible_count": 16,
+      "passed": true
+    },
+    {
+      "mode": "hardware",
+      "visible_count": 7,
+      "passed": true
+    },
+    {
+      "mode": "explode",
+      "visible_count": 41,
+      "passed": true
+    },
+    {
+      "mode": "assembly_with_keepouts",
+      "visible_count": 45,
+      "passed": true
+    },
+    {
+      "view": "front",
+      "passed": true
+    },
+    {
+      "view": "iso",
+      "passed": true
+    },
+    {
+      "view": "side",
+      "passed": true
+    },
+    {
+      "view": "rearview",
+      "passed": true
+    }
+  ],
+  "logic_checks_passed": true,
+  "browser_webgl_rendering_tested": false
+}

@@ -1,0 +1,215 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "key": "B01_common_frame",
+      "label": "01_共同骨架_背面贴床",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B01_common_frame.stl",
+      "source_sha256": "0e2779caa2e97c2e6f54f6e25c0b55661679b704f50554d00dd2007ffc32f1e2",
+      "xy": [
+        12,
+        12
+      ],
+      "size_mm": [
+        138.0,
+        60.0,
+        4.800000190734863
+      ],
+      "source_to_world_translation_mm": [
+        12.0,
+        12.0,
+        1.2767564518491504e-16
+      ],
+      "overrides": {
+        "name": "01_共同骨架_背面贴床",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      },
+      "faces": 8636
+    },
+    {
+      "id": 2,
+      "key": "B02_mb_cradle",
+      "label": "02_主板托架_柱朝上",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B02_mb_cradle.stl",
+      "source_sha256": "7b7b24279cfd8383b6cf72ce6661f26bb669b9c8bba9bdd3c3be85ea055cbe7b",
+      "xy": [
+        12,
+        90
+      ],
+      "size_mm": [
+        45.0,
+        56.0,
+        10.399999618530273
+      ],
+      "source_to_world_translation_mm": [
+        12.0,
+        90.0,
+        4.439532081224691e-16
+      ],
+      "overrides": {
+        "name": "02_主板托架_柱朝上",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      },
+      "faces": 8334
+    },
+    {
+      "id": 3,
+      "key": "B03_camera_cradle",
+      "label": "03_相机托座_局部支撑",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B03_camera_cradle.stl",
+      "source_sha256": "69eff63aec09de21cd7a6d081581dcdcba5c46bf719e2ca0c422946cff8b6bcf",
+      "xy": [
+        78,
+        90
+      ],
+      "size_mm": [
+        30.0,
+        32.0,
+        19.399999618530273
+      ],
+      "source_to_world_translation_mm": [
+        78.0,
+        90.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "03_相机托座_局部支撑",
+        "extruder": "1",
+        "enable_support": "1",
+        "brim_type": "outer_only",
+        "brim_width": "4",
+        "support_type": "normal(auto)",
+        "support_style": "snug",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "bridge_no_support": "0",
+        "support_remove_small_overhang": "0"
+      },
+      "faces": 4288
+    },
+    {
+      "id": 4,
+      "key": "B04_imu_cradle",
+      "label": "04_IMU托座_局部支撑",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B04_imu_cradle.stl",
+      "source_sha256": "f5b7860eb2bc9c5bd6e061608c7ac59954a2659b821747b35581ac1693e28076",
+      "xy": [
+        129,
+        90
+      ],
+      "size_mm": [
+        36.0,
+        33.099998474121094,
+        13.0
+      ],
+      "source_to_world_translation_mm": [
+        129.0,
+        90.0,
+        4.440892098500626e-16
+      ],
+      "overrides": {
+        "name": "04_IMU托座_局部支撑",
+        "extruder": "1",
+        "enable_support": "1",
+        "brim_type": "outer_only",
+        "brim_width": "4",
+        "support_type": "normal(auto)",
+        "support_style": "snug",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "bridge_no_support": "0",
+        "support_remove_small_overhang": "0"
+      },
+      "faces": 4190
+    },
+    {
+      "id": 5,
+      "key": "B05_camera_cap",
+      "label": "05_相机上锁压盖",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B05_camera_cap.stl",
+      "source_sha256": "659fda5ea1d1f684996ef67dd5a7aa5126dc3c69e48b75820986cca97563ffee",
+      "xy": [
+        78,
+        145
+      ],
+      "size_mm": [
+        30.0,
+        14.999999999999998,
+        8.199999809265137
+      ],
+      "source_to_world_translation_mm": [
+        78.0,
+        145.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "05_相机上锁压盖",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      },
+      "faces": 1584
+    },
+    {
+      "id": 6,
+      "key": "B06_imu_keeper",
+      "label": "06_IMU限位条",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\stl_print\\B06_imu_keeper.stl",
+      "source_sha256": "b82afddf357c884d1c6264f6a57e6ba17fe8602534197fe83ea765bc0d134c0a",
+      "xy": [
+        129,
+        145
+      ],
+      "size_mm": [
+        7.199957827464459,
+        32.1977727873018,
+        1.7999999523162846
+      ],
+      "source_to_world_translation_mm": [
+        128.99997899903428,
+        144.9988859159639,
+        3.995566114668454e-16
+      ],
+      "overrides": {
+        "name": "06_IMU限位条",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      },
+      "faces": 1892
+    }
+  ],
+  "plate_count": 1,
+  "template_sha256": "58a0164c898e57c2a5ea7422f0a312d96a29a8cfb9e0a2933f6e007c56a172c8",
+  "input_sha256": "f6f542982062c45a1257d15903550dfd4610bea38a045bae99c8f1b99816732a",
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "filament_type": [
+      "PETG"
+    ],
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "submitted_to_printer": false
+}

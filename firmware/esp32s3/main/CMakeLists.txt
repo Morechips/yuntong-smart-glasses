@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "glasses_protocol.c"
+        "glasses_transport.c"
+        "glasses_peripheral_bench.c"
+        "glasses_sync_core.c"
+        "glasses_imu_stream.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        glasses_board
+        esp32-camera
+        esp_event
+        esp_app_format
+        esp_hw_support
+        esp_http_server
+        esp_netif
+        esp_timer
+        esp_wifi
+        nvs_flash
+)

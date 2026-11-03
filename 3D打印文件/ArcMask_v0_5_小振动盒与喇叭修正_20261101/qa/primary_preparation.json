@@ -1,0 +1,253 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "key": "H01_body",
+      "label": "01_左振动盒体",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H01_body.stl",
+      "source_sha256": "c4fdcbcfd2d669bd6a3df084193a3e9118706d911818c0f63d1a14862e9e602c",
+      "size_mm": [
+        40.599998474121094,
+        26.0,
+        13.199999809265137
+      ],
+      "xy": [
+        16,
+        16
+      ],
+      "source_to_world_translation_mm": [
+        16.0,
+        16.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "01_左振动盒体",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      }
+    },
+    {
+      "id": 2,
+      "key": "H01_body",
+      "label": "02_右振动盒体",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H01_body.stl",
+      "source_sha256": "c4fdcbcfd2d669bd6a3df084193a3e9118706d911818c0f63d1a14862e9e602c",
+      "size_mm": [
+        40.599998474121094,
+        26.0,
+        13.199999809265137
+      ],
+      "xy": [
+        70,
+        16
+      ],
+      "source_to_world_translation_mm": [
+        70.0,
+        16.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "02_右振动盒体",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      }
+    },
+    {
+      "id": 3,
+      "key": "S01_body",
+      "label": "03_扬声器盒体",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\S01_body.stl",
+      "source_sha256": "7ade96a454150c2d9d92499dd8f06644e584b1fcb9612b397ef238da8221fdb2",
+      "size_mm": [
+        36.0,
+        14.0,
+        10.0
+      ],
+      "xy": [
+        132,
+        16
+      ],
+      "source_to_world_translation_mm": [
+        132.0,
+        16.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "03_扬声器盒体",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      }
+    },
+    {
+      "id": 4,
+      "key": "H02_cover",
+      "label": "04_左振动盖_端向螺丝",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H02_cover.stl",
+      "source_sha256": "3ade0c74482d3cd0ea0399f4aacd90bc2b8f0ed8fdf49f6d3c71284b61a1d308",
+      "size_mm": [
+        40.599998474121094,
+        10.80000019073486,
+        29.299999237060547
+      ],
+      "xy": [
+        16,
+        70
+      ],
+      "source_to_world_translation_mm": [
+        16.0,
+        70.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "04_左振动盖_端向螺丝",
+        "extruder": "1",
+        "enable_support": "1",
+        "brim_type": "outer_only",
+        "brim_width": "4",
+        "support_type": "normal(auto)",
+        "support_style": "snug",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": ".2",
+        "support_bottom_z_distance": ".2",
+        "bridge_no_support": "0",
+        "support_remove_small_overhang": "0"
+      }
+    },
+    {
+      "id": 5,
+      "key": "H02_cover",
+      "label": "05_右振动盖_端向螺丝",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H02_cover.stl",
+      "source_sha256": "3ade0c74482d3cd0ea0399f4aacd90bc2b8f0ed8fdf49f6d3c71284b61a1d308",
+      "size_mm": [
+        40.599998474121094,
+        10.80000019073486,
+        29.299999237060547
+      ],
+      "xy": [
+        75,
+        70
+      ],
+      "source_to_world_translation_mm": [
+        75.0,
+        70.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "05_右振动盖_端向螺丝",
+        "extruder": "1",
+        "enable_support": "1",
+        "brim_type": "outer_only",
+        "brim_width": "4",
+        "support_type": "normal(auto)",
+        "support_style": "snug",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": ".2",
+        "support_bottom_z_distance": ".2",
+        "bridge_no_support": "0",
+        "support_remove_small_overhang": "0"
+      }
+    },
+    {
+      "id": 6,
+      "key": "S02_cover",
+      "label": "06_扬声器盖_侧向螺丝",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\S02_cover.stl",
+      "source_sha256": "4638955b09c2787d2bebdbbaa23de8a47e63eab6eb0f9d1d3ada8a2b145963be",
+      "size_mm": [
+        36.0,
+        11.199999809265133,
+        29.299999237060547
+      ],
+      "xy": [
+        135,
+        70
+      ],
+      "source_to_world_translation_mm": [
+        135.0,
+        70.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "06_扬声器盖_侧向螺丝",
+        "extruder": "1",
+        "enable_support": "1",
+        "brim_type": "outer_only",
+        "brim_width": "4",
+        "support_type": "normal(auto)",
+        "support_style": "snug",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": ".2",
+        "support_bottom_z_distance": ".2",
+        "bridge_no_support": "0",
+        "support_remove_small_overhang": "0"
+      }
+    },
+    {
+      "id": 7,
+      "key": "H03_nut_keeper",
+      "label": "07_左M3螺母定位条",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H03_nut_keeper.stl",
+      "source_sha256": "9a2b17e4cb4a3984b9617263682b41a8c80cc166909f19930fac087ea1e8a436",
+      "size_mm": [
+        8.0,
+        22.799999237060547,
+        3.700000047683716
+      ],
+      "xy": [
+        190,
+        16
+      ],
+      "source_to_world_translation_mm": [
+        190.0,
+        16.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "07_左M3螺母定位条",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      }
+    },
+    {
+      "id": 8,
+      "key": "H03_nut_keeper",
+      "label": "08_右M3螺母定位条",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\H03_nut_keeper.stl",
+      "source_sha256": "9a2b17e4cb4a3984b9617263682b41a8c80cc166909f19930fac087ea1e8a436",
+      "size_mm": [
+        8.0,
+        22.799999237060547,
+        3.700000047683716
+      ],
+      "xy": [
+        207,
+        16
+      ],
+      "source_to_world_translation_mm": [
+        207.0,
+        16.0,
+        0.0
+      ],
+      "overrides": {
+        "name": "08_右M3螺母定位条",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      }
+    }
+  ],
+  "plate_count": 1,
+  "optional": false,
+  "input_sha256": "7ffb93eeac944e3b52845677e101cce4f65cb59d0ad4440cd7d49290adf89c39",
+  "submitted_to_printer": false
+}

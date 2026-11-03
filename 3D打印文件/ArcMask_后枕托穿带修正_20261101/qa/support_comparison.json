@@ -1,0 +1,13 @@
+{
+  "selected": "normal(auto), snug",
+  "reason": "Shorter offline estimate and slightly lower material; both have actual support/interface paths. Removal quality not physically tested.",
+  "normal": {
+    "seconds": 7270,
+    "grams": 20.89
+  },
+  "tree": {
+    "seconds": 8941,
+    "grams": 21.28
+  },
+  "geometry_and_orientation_unchanged": true
+}

@@ -1,0 +1,300 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "name": "01_加固结构外圈",
+      "part_key": "arc_structural_rim",
+      "plate": 1,
+      "plate_origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "plate_xy": [
+        15,
+        15
+      ],
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\stl_fit_parts\\arc_structural_rim.stl",
+      "source_sha256": "1ce5e16679b86fbf4628e5b9a4d94cbfe038d3b4737560bbdbac42015645b126",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_from_source_mm": [
+        15.0,
+        14.999999999999986,
+        0.0
+      ],
+      "size_mm": [
+        178.39999389648438,
+        69.99999999999999,
+        38.79999923706055
+      ],
+      "face_count": 12576,
+      "object_overrides": {
+        "name": "01_加固结构外圈",
+        "extruder": "1",
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_style": "default",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2"
+      }
+    },
+    {
+      "id": 2,
+      "name": "02_加宽检修盖_孔距36",
+      "part_key": "arc_top_service_blank",
+      "plate": 1,
+      "plate_origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "plate_xy": [
+        125,
+        125
+      ],
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\stl_fit_parts\\arc_top_service_blank.stl",
+      "source_sha256": "8b250e4c8426dbb5182998ad11218d8c2879960fc2c3516d48d3001bca246323",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_from_source_mm": [
+        125.0,
+        125.0,
+        1.408186186760966e-16
+      ],
+      "size_mm": [
+        45.599998474121094,
+        19.600000381469727,
+        3.200000047683716
+      ],
+      "face_count": 876,
+      "object_overrides": {
+        "name": "02_加宽检修盖_孔距36",
+        "extruder": "1",
+        "enable_support": "0",
+        "support_type": "tree(auto)",
+        "support_style": "default",
+        "brim_type": "no_brim",
+        "brim_width": "5",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2"
+      }
+    },
+    {
+      "id": 3,
+      "name": "03_左连接片_平面贴床",
+      "part_key": "wear_left_flat_connector",
+      "plate": 1,
+      "plate_origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "plate_xy": [
+        18,
+        125
+      ],
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\stl_fit_parts\\wear_left_flat_connector.stl",
+      "source_sha256": "9c91f3a70e2f0321c4dbc1d45383a9e810cc1fe602de206d64cfbdd8f665deeb",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_from_source_mm": [
+        18.0,
+        125.0,
+        -6.977808715086459e-15
+      ],
+      "size_mm": [
+        26.0,
+        64.0,
+        5.499999999999993
+      ],
+      "face_count": 1776,
+      "object_overrides": {
+        "name": "03_左连接片_平面贴床",
+        "extruder": "1",
+        "enable_support": "0",
+        "support_type": "tree(auto)",
+        "support_style": "default",
+        "brim_type": "no_brim",
+        "brim_width": "5",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2"
+      }
+    },
+    {
+      "id": 4,
+      "name": "04_右连接片_平面贴床",
+      "part_key": "wear_right_flat_connector",
+      "plate": 1,
+      "plate_origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "plate_xy": [
+        65,
+        125
+      ],
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\stl_fit_parts\\wear_right_flat_connector.stl",
+      "source_sha256": "add70cf39f6cd7258f5da55cf0d5479f074b1ad15393a0982004711bc7b22bb3",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_from_source_mm": [
+        65.0,
+        125.0,
+        -6.977808715086459e-15
+      ],
+      "size_mm": [
+        26.0,
+        64.0,
+        5.499999999999993
+      ],
+      "face_count": 1776,
+      "object_overrides": {
+        "name": "04_右连接片_平面贴床",
+        "extruder": "1",
+        "enable_support": "0",
+        "support_type": "tree(auto)",
+        "support_style": "default",
+        "brim_type": "no_brim",
+        "brim_width": "5",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2"
+      }
+    },
+    {
+      "id": 5,
+      "name": "05_加强额托脸垫架",
+      "part_key": "wear_removable_forehead_face_frame",
+      "plate": 2,
+      "plate_origin": [
+        307.2,
+        0.0,
+        0.0
+      ],
+      "plate_xy": [
+        30,
+        40
+      ],
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\stl_fit_parts\\wear_removable_forehead_face_frame.stl",
+      "source_sha256": "fc23f127cc83843a679e4af03a44012edc74c52d274a0801bd4edfd65a25cb33",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_from_source_mm": [
+        337.2,
+        40.0,
+        0.0
+      ],
+      "size_mm": [
+        148.0,
+        99.0,
+        22.64693260192871
+      ],
+      "face_count": 5846,
+      "object_overrides": {
+        "name": "05_加强额托脸垫架",
+        "extruder": "1",
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_style": "default",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "support_on_build_plate_only": "0",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2"
+      }
+    }
+  ],
+  "source_version": "v0.3.1 reinforced repair",
+  "has_new_clips": false,
+  "plate_count": 2,
+  "parts_count": 5,
+  "excluded": "coupon,trials,reference hardware,soft materials",
+  "submitted_to_printer": false,
+  "physical_print_tested": false,
+  "source_cad_modified": true,
+  "template_sha256": "58a0164c898e57c2a5ea7422f0a312d96a29a8cfb9e0a2933f6e007c56a172c8",
+  "project_input_sha256": "cf752eff7450969c35150bd16cd53329ab1c4264ffa9d38be6ada66b32bda57b",
+  "note": "2x2 plate origins; rigid rotations and translations only."
+}

@@ -1,0 +1,102 @@
+{
+  "file": "D:\\智能眼镜\\3D打印文件\\ArcMask_后枕托穿带修正_20261101\\ArcMask_Rear_R01_A1_PETG_1part.3mf",
+  "sha256": "535e7ba40af57a2e5d0687cf2d661c2d9f43e84dd2b38edeb8b263c9c4f71d5f",
+  "submitted_to_printer": false,
+  "physical_print_tested": false,
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "curr_bed_type": "Textured PEI Plate",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "part": {
+    "key": "R01_rear_cradle_clear_strap",
+    "label": "R01_后枕托_穿带耳避让_柱朝上",
+    "source_sha256": "1cf17f25d527cd450af898185ac3e270b054c6174f0df5f348e2e3570df2d80d",
+    "maximum_geometry_error_mm": 1.9745217590054767e-06,
+    "topology": {
+      "boundary": 0,
+      "nonmanifold": 0,
+      "inconsistent_winding": 0
+    },
+    "bounds": [
+      [
+        60.0,
+        90.0,
+        0.0
+      ],
+      [
+        179.0,
+        141.0,
+        20.0
+      ]
+    ],
+    "object_overrides": {
+      "name": "R01_后枕托_穿带耳避让_柱朝上",
+      "bridge_no_support": "0",
+      "brim_type": "outer_only",
+      "brim_width": "4",
+      "enable_support": "1",
+      "extruder": "1",
+      "support_bottom_z_distance": "0.2",
+      "support_on_build_plate_only": "0",
+      "support_remove_small_overhang": "0",
+      "support_style": "snug",
+      "support_top_z_distance": "0.2",
+      "support_type": "normal(auto)",
+      "null": null
+    }
+  },
+  "digital_project_checks_passed": true,
+  "plate_count": 1,
+  "objects_sliced": 1,
+  "total_seconds": 7270,
+  "total_grams": 20.89,
+  "layers": 102,
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "deposition_bounds_xy_mm": [
+    [
+      56.472,
+      88.25
+    ],
+    [
+      182.528,
+      142.85706938739438
+    ]
+  ],
+  "all_checks_passed": false,
+  "physical_validation_pending": true,
+  "support_paths": {
+    "support_moves": 9504,
+    "interface_moves": 5196,
+    "bridge_moves": 704
+  }
+}

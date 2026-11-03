@@ -1,0 +1,452 @@
+{
+  "version": "0.4-B-modular-first-fit",
+  "geometry_checks": [
+    {
+      "name": "B01_common_frame_valid_single_solid",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 6006.412406469338,
+      "bounds": {
+        "min": [
+          -69.0,
+          24.0,
+          -29.0
+        ],
+        "max": [
+          69.0,
+          28.800000000000004,
+          31.0
+        ],
+        "size": [
+          138.0,
+          4.800000000000004,
+          60.0
+        ]
+      }
+    },
+    {
+      "name": "B01_common_frame_stays_inside_carrier_bounds",
+      "passed": true
+    },
+    {
+      "name": "B02_mb_cradle_valid_single_solid",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 3920.5678609408287,
+      "bounds": {
+        "min": [
+          -62.25,
+          13.6,
+          -25.0
+        ],
+        "max": [
+          -17.25,
+          24.0,
+          31.0
+        ],
+        "size": [
+          45.0,
+          10.4,
+          56.0
+        ]
+      }
+    },
+    {
+      "name": "B02_mb_cradle_stays_inside_carrier_bounds",
+      "passed": true
+    },
+    {
+      "name": "B03_camera_cradle_valid_single_solid",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 5070.019439971619,
+      "bounds": {
+        "min": [
+          -15.0,
+          4.6,
+          -7.0
+        ],
+        "max": [
+          15.0,
+          24.0,
+          25.0
+        ],
+        "size": [
+          30.0,
+          19.4,
+          32.0
+        ]
+      }
+    },
+    {
+      "name": "B03_camera_cradle_stays_inside_carrier_bounds",
+      "passed": true
+    },
+    {
+      "name": "B04_imu_cradle_valid_single_solid",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 4467.570024087036,
+      "bounds": {
+        "min": [
+          16.0,
+          11.0,
+          -16.0
+        ],
+        "max": [
+          52.0,
+          24.0,
+          17.1
+        ],
+        "size": [
+          36.0,
+          13.0,
+          33.1
+        ]
+      }
+    },
+    {
+      "name": "B04_imu_cradle_stays_inside_carrier_bounds",
+      "passed": true
+    },
+    {
+      "name": "B05_camera_cap_valid_single_solid",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 862.2837243507813,
+      "bounds": {
+        "min": [
+          -15.0,
+          3.0,
+          -1.0
+        ],
+        "max": [
+          15.0,
+          11.2,
+          14.000000000000002
+        ],
+        "size": [
+          30.0,
+          8.2,
+          15.000000000000002
+        ]
+      }
+    },
+    {
+      "name": "B05_camera_cap_stays_inside_carrier_bounds",
+      "passed": true
+    },
+    {
+      "name": "B06_imu_keeper_valid_single_solid",
+      "passed": true,
+      "solid_count": 1,
+      "volume_mm3": 228.89330807348927,
+      "bounds": {
+        "min": [
+          23.2,
+          9.2,
+          -15.1
+        ],
+        "max": [
+          30.400000000000002,
+          11.0,
+          17.1
+        ],
+        "size": [
+          7.200000000000003,
+          1.8000000000000007,
+          32.2
+        ]
+      }
+    },
+    {
+      "name": "B06_imu_keeper_stays_inside_carrier_bounds",
+      "passed": true
+    },
+    {
+      "name": "printed_parts_no_positive_intersection",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "hardware_envelopes_and_pin_keepout_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "existing_arc_front_flat_lid_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "existing_arc_structural_rim_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "existing_arc_eye_side_barrier_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "existing_arc_top_service_blank_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_0_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_0_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_1_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_1_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_2_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_2_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_3_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_M2x12_3_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_module_M2x8_0_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_module_M2x8_0_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_module_M2x8_1_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_module_M2x8_1_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_module_M2x8_0_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_module_M2x8_0_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_module_M2x8_1_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_module_M2x8_1_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_module_M2x8_0_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_module_M2x8_0_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_module_M2x8_1_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_module_M2x8_1_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_keeper_M2x16_0_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_keeper_M2x16_0_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_keeper_M2x16_1_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_keeper_M2x16_1_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_cap_M2x8_0_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_cap_M2x8_0_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_cap_M2x8_1_fastener_solid_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_cap_M2x8_1_driver_access_candidate",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "MB_sampled_front_insertion_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "CAM_sampled_front_insertion_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "IMU_sampled_front_insertion_clearance",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "B01_common_frame_STEP_roundtrip",
+      "passed": true,
+      "relative_volume_error": 1.1659387883703583e-14
+    },
+    {
+      "name": "B01_common_frame_STL_closed_consistent",
+      "passed": true,
+      "vertices": 4290,
+      "faces": 8636
+    },
+    {
+      "name": "B02_mb_cradle_STEP_roundtrip",
+      "passed": true,
+      "relative_volume_error": 1.5449891262318648e-13
+    },
+    {
+      "name": "B02_mb_cradle_STL_closed_consistent",
+      "passed": true,
+      "vertices": 4155,
+      "faces": 8334
+    },
+    {
+      "name": "B03_camera_cradle_STEP_roundtrip",
+      "passed": true,
+      "relative_volume_error": 1.865623004098659e-14
+    },
+    {
+      "name": "B03_camera_cradle_STL_closed_consistent",
+      "passed": true,
+      "vertices": 2136,
+      "faces": 4288
+    },
+    {
+      "name": "B04_imu_cradle_STEP_roundtrip",
+      "passed": true,
+      "relative_volume_error": 1.628616356308885e-14
+    },
+    {
+      "name": "B04_imu_cradle_STL_closed_consistent",
+      "passed": true,
+      "vertices": 2087,
+      "faces": 4190
+    },
+    {
+      "name": "B05_camera_cap_STEP_roundtrip",
+      "passed": true,
+      "relative_volume_error": 3.95531660326344e-16
+    },
+    {
+      "name": "B05_camera_cap_STL_closed_consistent",
+      "passed": true,
+      "vertices": 788,
+      "faces": 1584
+    },
+    {
+      "name": "B06_imu_keeper_STEP_roundtrip",
+      "passed": true,
+      "relative_volume_error": 9.797022433433921e-14
+    },
+    {
+      "name": "B06_imu_keeper_STL_closed_consistent",
+      "passed": true,
+      "vertices": 944,
+      "faces": 1892
+    },
+    {
+      "name": "old_source_unchanged_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\carrier.py",
+      "passed": true
+    },
+    {
+      "name": "old_source_unchanged_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\parameters.json",
+      "passed": true
+    },
+    {
+      "name": "old_source_unchanged_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\shell.py",
+      "passed": true
+    },
+    {
+      "name": "old_source_unchanged_3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py",
+      "passed": true
+    }
+  ],
+  "geometry_checks_passed": true,
+  "physical_pending": [
+    "camera base thickness/contact and actual bondline; do not force cap",
+    "IMU rear solder joints and actual keeper/pad clearance, retention under vibration",
+    "exact real component footprint / plug shell / head and nut dimensional fit",
+    "complete FPC route, optical field, original harness lengths and strain relief",
+    "PETG support removal, fit, strength, thermal and wearer load"
+  ],
+  "physical_fit_validated": false,
+  "all_checks_passed": false,
+  "old_source_sha256": {
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\carrier.py": "2c666dd92687ab2b2b6aad0806fbb037f5a64be9c099940859b8a9bcebf3c407",
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\parameters.json": "b3214e20fea603c4c996e81befa14f8c65ba967f0da6fbd74e7becec02fa43d2",
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\shell.py": "4261c11b398a994028decd7a4303b40fb28bd3864e4a229cc499eb9fe94280c8",
+    "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py": "6f46bd87d52c44f39303c2da2a41be09d07e325541f40b21d386c4bef3a5fdfa"
+  },
+  "parameters_sha256": "a02fabf29c8e66e2f6dda5593a5d195550293f7a34a1d65e25039240d3f66fda",
+  "input_measurements_sha256": "8c220edfa6f3e72ab65582b3fa6627457dca44f3b580da512f7003bb1dda1b52"
+}

@@ -1,0 +1,71 @@
+{
+    "error_string": "Success.",
+    "export_time": 348,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 27,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 720.5174560546875,
+                "Custom": 385.3779602050781,
+                "Flush": 25.0,
+                "Gap infill": 10.875091552734375,
+                "Inner wall": 203.88674926757813,
+                "Internal solid infill": 1187.401611328125,
+                "Outer wall": 102.2431640625,
+                "Top surface": 698.8389892578125,
+                "Travel": 90.3802261352539,
+                "Undefined": 73.2887954711914
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 12.994990348815918,
+                    "total_used_g": 12.994990348815918
+                }
+            ],
+            "generate_support_material_time": 13,
+            "id": 1,
+            "infill_time": 79,
+            "layer_filament_change": 0,
+            "main_predication": 2989.19580078125,
+            "make_perimeters_time": 53,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 70.0,
+                        "height": 1.0,
+                        "width": 170.0,
+                        "x": 24.0,
+                        "y": 32.0,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "备用_背板带出线孔",
+                    "triangle_count": 4912
+                }
+            ],
+            "sliced_time": 234,
+            "sliced_time_with_cache": 65,
+            "total_predication": 3407.482421875,
+            "triangle_count": 4912,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

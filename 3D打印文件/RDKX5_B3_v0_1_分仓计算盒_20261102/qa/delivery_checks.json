@@ -1,0 +1,34 @@
+{
+  "geometry_checks": 533,
+  "mesh_checks_passed": true,
+  "printed_parts": 9,
+  "complete_hardware_bounds_mm": [
+    105.0,
+    149.5,
+    71.5
+  ],
+  "dc_centerline_example_mm": 112.51113931187803,
+  "dc_route_is_cutting_template": false,
+  "stl_zip": "B3_v01_九件STL.zip",
+  "physical_fit_validated": false,
+  "thermal_validated": false,
+  "strength_validated": false,
+  "actual_socket_and_strap_fit_validated": false,
+  "print_sent": false,
+  "source_and_deliverable_sha256": {
+    "model.py": "bf1d14570d15be8d5426e231ae80ae04d46fedd9b713359a3e52239698b777a7",
+    "parameters.json": "317e89499bd19c81427b1cea1816408c1e72ff3899e3547c1d08bb7aaf235527",
+    "B3_v01_assembly.step": "2da2a79d5a4943ada63c036e813a40f7f703049d64e9b226380bc4d3ebe9ae7d",
+    "B3_模型查看.html": "1f5c1f26ea8325b9fe5591dab3e0849f24ef63f4e2edfceefb4de5bc9633b299",
+    "B3_v01_九件STL.zip": "9e98aab9edb2cc66d9dcd3ad8f21439a49debcf8b3d3fea1f3ee6208daa64e73",
+    "stl\\01_common_base.stl": "14c45d5d5c178af8adf946660f106a34a25bde575d7704a165e1e0961572cb4a",
+    "stl\\02_compute_lid.stl": "7d185a212d1d37c4ed9b9b9934e8e5555aa34a973f46b7df6edc7e1c4be9bbce",
+    "stl\\03_battery_lid.stl": "ceada916581a18a63b5c5e5656c3be9a0d6fd535bad6a687d65498d63887ed39",
+    "stl\\04_x5_carrier.stl": "2c502f6cc437310b08d98a75b9ce6f5a0b1be59253ed8cf18dbb5b819ba9ea8b",
+    "stl\\05_left_service_panel.stl": "2e1dd9ff1660220309f455f685be731cff5f26404c5609a012c3d20eecfd8309",
+    "stl\\06_right_service_panel.stl": "7d2d58330aeb58bab965640efcee10461a6f9c91bf1d79c80d0adb68c45c835a",
+    "stl\\07_front_service_panel.stl": "daeb34542f4fe89c3300329360942df5941376eb229d2910772b06d677a56f7e",
+    "stl\\08_waist_bridge.stl": "0edd690be3bb84ed0832848c4b5e3567af8eb2f3d5ccaad8b93952eeaec2240b",
+    "stl\\09_second_bridge.stl": "60e1c2e0f3e4ff87d71598130d3d5cd9d92beef6617cf17b9eee041c16cde30d"
+  }
+}

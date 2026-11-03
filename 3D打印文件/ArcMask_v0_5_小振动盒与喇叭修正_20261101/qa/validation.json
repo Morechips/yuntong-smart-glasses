@@ -1,0 +1,430 @@
+{
+  "geometry_checks_passed": true,
+  "all_checks_passed": false,
+  "checks": [
+    {
+      "name": "H01_body_single_valid",
+      "passed": true,
+      "solids": 1,
+      "bounds": {
+        "min": [
+          -26.8,
+          -13.0,
+          0.0
+        ],
+        "max": [
+          13.8,
+          13.0,
+          13.2
+        ],
+        "size": [
+          40.6,
+          26.0,
+          13.2
+        ]
+      },
+      "volume_mm3": 3469.3406237378567
+    },
+    {
+      "name": "H02_cover_single_valid",
+      "passed": true,
+      "solids": 1,
+      "bounds": {
+        "min": [
+          -26.8,
+          -14.65,
+          9.0
+        ],
+        "max": [
+          13.8,
+          14.65,
+          19.8
+        ],
+        "size": [
+          40.6,
+          29.3,
+          10.8
+        ]
+      },
+      "volume_mm3": 1731.2092784273682
+    },
+    {
+      "name": "H03_nut_keeper_single_valid",
+      "passed": true,
+      "solids": 1,
+      "bounds": {
+        "min": [
+          -12.7,
+          -11.4,
+          5.5
+        ],
+        "max": [
+          -4.699999999999998,
+          11.4,
+          9.2
+        ],
+        "size": [
+          8.0,
+          22.8,
+          3.6999999999999993
+        ]
+      },
+      "volume_mm3": 271.2662365135579
+    },
+    {
+      "name": "S01_body_single_valid",
+      "passed": true,
+      "solids": 1,
+      "bounds": {
+        "min": [
+          -18.0,
+          -7.000000000000001,
+          0.0
+        ],
+        "max": [
+          18.0,
+          7.000000000000001,
+          10.000000000000002
+        ],
+        "size": [
+          36.0,
+          14.000000000000002,
+          10.000000000000002
+        ]
+      },
+      "volume_mm3": 2296.872212471814
+    },
+    {
+      "name": "S02_cover_single_valid",
+      "passed": true,
+      "solids": 1,
+      "bounds": {
+        "min": [
+          -18.0,
+          -14.65,
+          5.4
+        ],
+        "max": [
+          18.0,
+          14.65,
+          16.599999999999998
+        ],
+        "size": [
+          36.0,
+          29.3,
+          11.199999999999998
+        ]
+      },
+      "volume_mm3": 1236.9146995043807
+    },
+    {
+      "name": "printed_parts_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_PCB_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_motor_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_front_component_keepout_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_centered_connector_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_back_solder_-2.54_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_back_solder_0_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_back_solder_2.54_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_side_frame_shim_-1_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_side_frame_shim_1_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_2209_unit_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_front_rim_seal_trial_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_strap_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_centered_wire_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_strap_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_centered_wire_printed_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_cover_1_fastener_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_cover_-1_fastener_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_PCB_-7.8_fastener_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_PCB_7.8_fastener_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_cover_-14.4_fastener_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_cover_14.4_fastener_clear",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_cover_tool_1_straight_approach",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_cover_tool_-1_straight_approach",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_PCB_tool_-7.8_straight_approach",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_PCB_tool_7.8_straight_approach",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_cover_tool_-14.4_straight_approach",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "S_cover_tool_14.4_straight_approach",
+      "passed": true,
+      "conflicts": []
+    },
+    {
+      "name": "H_cover_1_nut_loading_off_body",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "H_cover_-1_nut_loading_off_body",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "S_cover_-14.4_nut_loading_off_body",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "S_cover_14.4_nut_loading_off_body",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "haptic_module_top_loading_sampled",
+      "passed": true,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "name": "speaker_module_top_loading_sampled",
+      "passed": true,
+      "maximum_intersection_mm3": 0.0
+    },
+    {
+      "name": "haptic_vertical_lid_removal_sampled",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "speaker_vertical_lid_removal_sampled",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "M3_nut_keeper_loading_-7.8",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "M3_nut_keeper_loading_7.8",
+      "passed": true,
+      "intersection_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "M3_keeper_top_loading_over_module",
+      "passed": true,
+      "max_intersection_mm3": 0.0
+    },
+    {
+      "name": "H01_body_STEP_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "H01_body_STL_closed_on_bed",
+      "passed": true
+    },
+    {
+      "name": "H02_cover_STEP_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "H02_cover_STL_closed_on_bed",
+      "passed": true
+    },
+    {
+      "name": "H03_nut_keeper_STEP_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "H03_nut_keeper_STL_closed_on_bed",
+      "passed": true
+    },
+    {
+      "name": "S01_body_STEP_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "S01_body_STL_closed_on_bed",
+      "passed": true
+    },
+    {
+      "name": "S02_cover_STEP_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "S02_cover_STL_closed_on_bed",
+      "passed": true
+    }
+  ],
+  "physical_pending": [
+    "hole-row symmetry and actual fastener head/nut sizes",
+    "solder protrusion within2.3mm underside budget",
+    "centered3pin connector within10mm width budget and actual bends",
+    "2209 hard rim, sealing and light retention pads",
+    "PETG support removal, strength, tactile and left/right discrimination",
+    "strap actual thickness and threading",
+    "battery adhesion, head clearance and actual wire route"
+  ],
+  "isolation_added": false,
+  "latest_haptic_total_thickness_mm": 8.8,
+  "haptic_hole_edge_center_mm": 2.8,
+  "battery_box_removed_from_new_batch": true,
+  "submitted_to_printer": false
+}

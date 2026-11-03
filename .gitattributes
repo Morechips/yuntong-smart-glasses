@@ -1,0 +1,20 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.stl binary
+*.step binary
+*.stp binary
+*.brep binary
+*.3mf binary
+*.bin binary
+*.onnx binary
+*.pt binary
+*.npy binary
+*.png binary
+*.jpg binary
+*.wav binary

@@ -1,0 +1,11 @@
+{
+  "native_xml_valid": true,
+  "png_size": [
+    1500,
+    1130
+  ],
+  "cairn_checks_passed": true,
+  "temporary_fastener_stack_matches_model": true,
+  "manufacturing_geometry_changed": false,
+  "physical_assembly_validated": false
+}

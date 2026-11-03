@@ -1,0 +1,470 @@
+[
+  {
+    "name": "P_board_0",
+    "axis": "z",
+    "seat": [
+      36.5,
+      13.5,
+      15.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "P_base_0",
+    "axis": "z",
+    "seat": [
+      36.5,
+      13.5,
+      2.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "P_board_1",
+    "axis": "z",
+    "seat": [
+      94.5,
+      13.5,
+      15.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "P_base_1",
+    "axis": "z",
+    "seat": [
+      94.5,
+      13.5,
+      2.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "P_board_2",
+    "axis": "z",
+    "seat": [
+      36.5,
+      62.5,
+      15.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "P_base_2",
+    "axis": "z",
+    "seat": [
+      36.5,
+      62.5,
+      2.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "P_board_3",
+    "axis": "z",
+    "seat": [
+      94.5,
+      62.5,
+      15.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "P_base_3",
+    "axis": "z",
+    "seat": [
+      94.5,
+      62.5,
+      2.7
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "X_board_0",
+    "axis": "z",
+    "seat": [
+      13.5052,
+      13.4982,
+      31.7016
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "X_frame_0",
+    "axis": "z",
+    "seat": [
+      13.5052,
+      13.4982,
+      45.11
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "X_board_1",
+    "axis": "z",
+    "seat": [
+      71.5052,
+      13.4982,
+      31.7016
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "X_frame_1",
+    "axis": "z",
+    "seat": [
+      71.5052,
+      13.4982,
+      45.11
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "X_board_2",
+    "axis": "z",
+    "seat": [
+      13.5052,
+      62.4948,
+      31.7016
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "X_frame_2",
+    "axis": "z",
+    "seat": [
+      13.5052,
+      62.4948,
+      45.11
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "X_board_3",
+    "axis": "z",
+    "seat": [
+      71.5052,
+      62.4948,
+      31.7016
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": 1
+  },
+  {
+    "name": "X_frame_3",
+    "axis": "z",
+    "seat": [
+      71.5052,
+      62.4948,
+      45.11
+    ],
+    "length": 5,
+    "diameter": 2.5,
+    "sign": -1
+  },
+  {
+    "name": "lid_0",
+    "axis": "z",
+    "seat": [
+      96,
+      5,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "lid_1",
+    "axis": "z",
+    "seat": [
+      8,
+      71,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "lid_2",
+    "axis": "z",
+    "seat": [
+      96,
+      71,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "lid_3",
+    "axis": "z",
+    "seat": [
+      8,
+      88,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "lid_4",
+    "axis": "z",
+    "seat": [
+      96,
+      88,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "lid_5",
+    "axis": "z",
+    "seat": [
+      8,
+      141,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "lid_6",
+    "axis": "z",
+    "seat": [
+      96,
+      141,
+      55.5
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "carrier_0",
+    "axis": "z",
+    "seat": [
+      8,
+      6.2,
+      45.11
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "carrier_1",
+    "axis": "z",
+    "seat": [
+      78,
+      6.2,
+      45.11
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "carrier_2",
+    "axis": "z",
+    "seat": [
+      16,
+      69.6,
+      45.11
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "carrier_3",
+    "axis": "z",
+    "seat": [
+      78,
+      69.6,
+      45.11
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "strap_0",
+    "axis": "z",
+    "seat": [
+      8,
+      40,
+      -9.8
+    ],
+    "length": 16,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "strap_1",
+    "axis": "z",
+    "seat": [
+      96,
+      40,
+      -9.8
+    ],
+    "length": 16,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "strap_2",
+    "axis": "z",
+    "seat": [
+      96,
+      77,
+      -9.8
+    ],
+    "length": 16,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "strap_3",
+    "axis": "z",
+    "seat": [
+      96,
+      141,
+      -9.8
+    ],
+    "length": 16,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "left_0",
+    "axis": "x",
+    "seat": [
+      2.5,
+      5,
+      27
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "left_1",
+    "axis": "x",
+    "seat": [
+      2.5,
+      71,
+      27
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "left_2",
+    "axis": "x",
+    "seat": [
+      2.5,
+      88,
+      27
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "left_3",
+    "axis": "x",
+    "seat": [
+      2.5,
+      141,
+      27
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "right_0",
+    "axis": "x",
+    "seat": [
+      101.5,
+      5,
+      27
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "right_1",
+    "axis": "x",
+    "seat": [
+      101.5,
+      71,
+      27
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": -1
+  },
+  {
+    "name": "front_0",
+    "axis": "y",
+    "seat": [
+      8,
+      -0.5,
+      19
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": 1
+  },
+  {
+    "name": "front_1",
+    "axis": "y",
+    "seat": [
+      96,
+      -0.5,
+      19
+    ],
+    "length": 10,
+    "diameter": 3,
+    "sign": 1
+  }
+]

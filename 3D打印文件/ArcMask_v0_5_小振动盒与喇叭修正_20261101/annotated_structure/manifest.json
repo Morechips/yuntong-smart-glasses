@@ -1,0 +1,26 @@
+{
+  "source_inputs": {
+    "model.py": "b3e828b30d8592504d470059a0e86007e48ebb5ce2cd4827160036310751d1f1",
+    "parameters.json": "481e1fc2ddef09d7d4b39ed262d493c7b507a34811e6dfd899141929c980a06e",
+    "qa/meshes.json": "5ab20c23305a05826d9b2767a56725a4b0b007949b6cdfa921239828810120d3",
+    "ArcMask_v05_A1_PETG_M2x10_8parts.3mf": "6f6f65eeb4d27c9cc88f5abfc90b2a427d4de74851db108a5fd11fbc4234ec82"
+  },
+  "source_version": "retained v0.5",
+  "manufacturing_files_modified": false,
+  "candidate_v051_used": false,
+  "rendered_pngs": [
+    "01_当前版结构拆解与认件.png",
+    "02_安装朝向与底部螺丝.png"
+  ],
+  "native_annotation_file": "当前版结构标注.drawio",
+  "physical_fit_validated": false,
+  "visual_review_passed": true,
+  "annotation_xml_pages": 2,
+  "source_hash_checks_passed": true,
+  "cairn_records_checked": true,
+  "records_updated": [
+    "cairn/LOG.md",
+    "cairn/eyewear-b2-mechanics.md"
+  ],
+  "roadmap_changed": false
+}

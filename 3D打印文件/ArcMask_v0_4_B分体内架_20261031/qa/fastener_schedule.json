@@ -1,0 +1,156 @@
+[
+  {
+    "name": "MB_M2x12_0",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -56.05,
+      12,
+      -13.3
+    ],
+    "length_mm": 12,
+    "nut_bearing_plane": 21.6
+  },
+  {
+    "name": "MB_M2x12_1",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -56.05,
+      12,
+      19.3
+    ],
+    "length_mm": 12,
+    "nut_bearing_plane": 21.6
+  },
+  {
+    "name": "MB_M2x12_2",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -23.45,
+      12,
+      -13.3
+    ],
+    "length_mm": 12,
+    "nut_bearing_plane": 21.6
+  },
+  {
+    "name": "MB_M2x12_3",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -23.45,
+      12,
+      19.3
+    ],
+    "length_mm": 12,
+    "nut_bearing_plane": 21.6
+  },
+  {
+    "name": "MB_module_M2x8_0",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -39.75,
+      20.8,
+      27
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 26.4
+  },
+  {
+    "name": "MB_module_M2x8_1",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -39.75,
+      20.8,
+      -21
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 26.4
+  },
+  {
+    "name": "CAM_module_M2x8_0",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      -11,
+      20.8,
+      21
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 26.4
+  },
+  {
+    "name": "CAM_module_M2x8_1",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      11,
+      20.8,
+      21
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 26.4
+  },
+  {
+    "name": "IMU_module_M2x8_0",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      48,
+      20.8,
+      -12
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 26.4
+  },
+  {
+    "name": "IMU_module_M2x8_1",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      48,
+      20.8,
+      12
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 26.4
+  },
+  {
+    "name": "IMU_keeper_M2x16_0",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      26.8,
+      9.2,
+      -11.5
+    ],
+    "length_mm": 16,
+    "nut_bearing_plane": 21.6
+  },
+  {
+    "name": "IMU_keeper_M2x16_1",
+    "axis": "+Y",
+    "head_seat_xyz": [
+      26.8,
+      9.2,
+      13.5
+    ],
+    "length_mm": 16,
+    "nut_bearing_plane": 21.6
+  },
+  {
+    "name": "CAM_cap_M2x8_0",
+    "axis": "-Z",
+    "head_seat_xyz": [
+      -10.5,
+      8,
+      14
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 8.4
+  },
+  {
+    "name": "CAM_cap_M2x8_1",
+    "axis": "-Z",
+    "head_seat_xyz": [
+      10.5,
+      8,
+      14
+    ],
+    "length_mm": 8,
+    "nut_bearing_plane": 8.4
+  }
+]

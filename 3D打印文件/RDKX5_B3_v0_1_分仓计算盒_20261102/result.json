@@ -1,0 +1,178 @@
+{
+    "error_string": "Success.",
+    "export_time": 1361,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 73,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 2433.677734375,
+                "Bridge": 3689.597900390625,
+                "Custom": 385.8864440917969,
+                "Flush": 25.0,
+                "Gap infill": 717.17626953125,
+                "Inner wall": 11355.8359375,
+                "Internal solid infill": 9508.755859375,
+                "Outer wall": 8403.572265625,
+                "Overhang wall": 183.47361755371094,
+                "Sparse infill": 2311.005615234375,
+                "Top surface": 2830.073486328125,
+                "Travel": 5388.63427734375,
+                "Undefined": 5371.322265625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG99",
+                    "id": 1,
+                    "main_used_g": 170.46392822265625,
+                    "total_used_g": 170.46392822265625
+                }
+            ],
+            "generate_support_material_time": 151,
+            "id": 1,
+            "infill_time": 879,
+            "layer_filament_change": 0,
+            "main_predication": 46853.890625,
+            "make_perimeters_time": 648,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 146.0,
+                        "height": 2.4000000953674316,
+                        "width": 50.20000076293945,
+                        "x": 6.5,
+                        "y": 6.5,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "05_left_service_panel",
+                    "triangle_count": 1748
+                },
+                {
+                    "bbox": {
+                        "depth": 93.19999694824219,
+                        "height": 2.4000000953674316,
+                        "width": 50.20000076293945,
+                        "x": 6.5,
+                        "y": 155.5,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "07_front_service_panel",
+                    "triangle_count": 956
+                },
+                {
+                    "bbox": {
+                        "depth": 98.0,
+                        "height": 52.599998474121094,
+                        "width": 146.0,
+                        "x": 59.70000076293945,
+                        "y": 6.5,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "01_common_base",
+                    "triangle_count": 20094
+                },
+                {
+                    "bbox": {
+                        "depth": 98.0,
+                        "height": 13.0,
+                        "width": 16.000003814697266,
+                        "x": 208.6999969482422,
+                        "y": 6.5,
+                        "z": 0.0
+                    },
+                    "id": 17,
+                    "name": "08_waist_bridge",
+                    "triangle_count": 1764
+                },
+                {
+                    "bbox": {
+                        "depth": 77.69999694824219,
+                        "height": 2.4000000953674316,
+                        "width": 70.79756927490234,
+                        "x": 59.70000076293945,
+                        "y": 107.5,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "04_x5_carrier",
+                    "triangle_count": 4472
+                },
+                {
+                    "bbox": {
+                        "depth": 74.0,
+                        "height": 13.0,
+                        "width": 16.000003814697266,
+                        "x": 227.6999969482422,
+                        "y": 6.5,
+                        "z": 0.0
+                    },
+                    "id": 25,
+                    "name": "09_second_bridge",
+                    "triangle_count": 1732
+                },
+                {
+                    "bbox": {
+                        "depth": 50.20000076293945,
+                        "height": 2.4000000953674316,
+                        "width": 76.0,
+                        "x": 59.70000076293945,
+                        "y": 188.1999969482422,
+                        "z": 0.0
+                    },
+                    "id": 29,
+                    "name": "06_right_service_panel",
+                    "triangle_count": 808
+                },
+                {
+                    "bbox": {
+                        "depth": 63.0,
+                        "height": 2.4000000953674316,
+                        "width": 98.00000762939453,
+                        "x": 138.6999969482422,
+                        "y": 107.5,
+                        "z": 0.0
+                    },
+                    "id": 33,
+                    "name": "03_battery_lid",
+                    "triangle_count": 1708
+                },
+                {
+                    "bbox": {
+                        "depth": 76.0,
+                        "height": 2.4000000953674316,
+                        "width": 98.00000762939453,
+                        "x": 138.6999969482422,
+                        "y": 173.5,
+                        "z": 0.0
+                    },
+                    "id": 37,
+                    "name": "02_compute_lid",
+                    "triangle_count": 4216
+                }
+            ],
+            "sliced_time": 4035,
+            "sliced_time_with_cache": 1966,
+            "total_predication": 47272.46484375,
+            "triangle_count": 37498,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "upward_compatible_machine": [
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

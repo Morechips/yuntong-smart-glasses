@@ -1,0 +1,36 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "key": "OPTIONAL_backplate_wire_port",
+      "label": "备用_背板带出线孔",
+      "source": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\stl_print\\OPTIONAL_backplate_wire_port.stl",
+      "source_sha256": "45c6af8c516a8f25ef499082413bcd6d9ff440a92439268551c550838c21ce00",
+      "size_mm": [
+        170.0,
+        70.0,
+        1.0000000000000004
+      ],
+      "xy": [
+        24,
+        32
+      ],
+      "source_to_world_translation_mm": [
+        24.0,
+        32.0,
+        3.9962760341573714e-16
+      ],
+      "overrides": {
+        "name": "备用_背板带出线孔",
+        "extruder": "1",
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "brim_width": "0"
+      }
+    }
+  ],
+  "plate_count": 1,
+  "optional": true,
+  "input_sha256": "5db6287ba64dc386908bbddbf9598423f19d2fa8d0afb98922c3df9b5394cbdc",
+  "submitted_to_printer": false
+}

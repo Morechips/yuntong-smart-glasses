@@ -1,0 +1,1106 @@
+{
+  "passed": true,
+  "files": 98,
+  "rows": [
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_camera_edge_keeper.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 383.19269209032933,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -1.2761851016564478e-16
+        ],
+        [
+          30.0,
+          17.299999237060547,
+          1.600000023841858
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_camera_edge_tray.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 553.0947870811677,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          30.0,
+          17.299999237060547,
+          3.5999999046325684
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_eye_side_barrier.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 10755.988281532602,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          3.1530860753847638e-15
+        ],
+        [
+          170.0,
+          70.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_front_flat_lid.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 13926.250681657722,
+      "bounds": [
+        [
+          0.0,
+          1.4210854715202004e-14,
+          0.0
+        ],
+        [
+          170.0,
+          70.0,
+          2.5999999046325684
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_imu_edge_keeper.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 378.6225425671359,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          24.0,
+          33.997337341308594,
+          1.600000023841858
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_rigid_electronics_carrier.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 7742.002307697527,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -1.2766162943661594e-16
+        ],
+        [
+          138.0,
+          58.0,
+          17.799999237060547
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_structural_rim.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 35903.04111481652,
+      "bounds": [
+        [
+          0.0,
+          1.4210854715202004e-14,
+          0.0
+        ],
+        [
+          178.39999389648438,
+          70.0,
+          38.79999923706055
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/arc_top_service_blank.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 1866.3255917031772,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -1.408186186760966e-16
+        ],
+        [
+          45.599998474121094,
+          19.600000381469727,
+          3.200000047683716
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/battery_only_cover.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 5088.305644960041,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -5.541723645323101e-16
+        ],
+        [
+          64.0,
+          50.0,
+          2.5999999046325684
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/battery_only_tray.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 10730.80398636355,
+      "bounds": [
+        [
+          -8.881784197001252e-16,
+          0.0,
+          -5.541723645323101e-16
+        ],
+        [
+          89.0,
+          50.0,
+          15.199999809265137
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_left_pod_body.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 6833.1995827683795,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -4.4333789162584805e-16
+        ],
+        [
+          32.0,
+          56.0,
+          14.600000381469727
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_left_pod_cover.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3640.563321385313,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          32.0,
+          56.0,
+          7.199999809265137
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_right_pod_body.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 6833.199608753155,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -4.4333789162584805e-16
+        ],
+        [
+          32.0,
+          56.0,
+          14.600000381469727
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/haptic_right_pod_cover.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3640.563320465757,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          32.0,
+          56.0,
+          7.199999809265137
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/m2_fit_coupon.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3870.4689625030455,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          22.0,
+          3.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/speaker_strap_body.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3007.64875390047,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -1.2761851016564478e-16
+        ],
+        [
+          16.0,
+          34.0,
+          10.600000381469727
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/speaker_strap_cover.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 2133.8224177145526,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          31.799999237060547,
+          34.0,
+          11.800000190734863
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_left_flat_connector.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 4457.411268693813,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          6.977808715086459e-15
+        ],
+        [
+          26.0,
+          64.0,
+          5.5
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_rear_occipital_cradle.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 8964.386250911537,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          103.0,
+          51.0,
+          18.810985565185547
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_removable_forehead_face_frame.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 22944.002113108785,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          148.0,
+          99.0,
+          22.64693260192871
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/stl_fit_parts/wear_right_flat_connector.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 4457.411272072752,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          6.977808715086459e-15
+        ],
+        [
+          26.0,
+          64.0,
+          5.5
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B01_common_frame.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 6005.99464157614,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -1.2767564518491504e-16
+        ],
+        [
+          138.0,
+          60.0,
+          4.800000190734863
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B02_mb_cradle.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3920.3373753461533,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -4.439532081224691e-16
+        ],
+        [
+          45.0,
+          56.0,
+          10.399999618530273
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B03_camera_cradle.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 5069.943004245118,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          30.0,
+          32.0,
+          19.399999618530273
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B04_imu_cradle.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 4467.323248534992,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -4.440892098500626e-16
+        ],
+        [
+          36.0,
+          33.099998474121094,
+          13.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B05_camera_cap.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 862.320513012793,
+      "bounds": [
+        [
+          0.0,
+          1.648720832710289e-15,
+          0.0
+        ],
+        [
+          30.0,
+          15.0,
+          8.199999809265137
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/stl_print/B06_imu_keeper.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 228.8472973953628,
+      "bounds": [
+        [
+          2.1000965716666542e-05,
+          0.00111408403608948,
+          -3.995566114668454e-16
+        ],
+        [
+          7.199978828430176,
+          32.19888687133789,
+          1.7999999523162842
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/H01_body.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3469.290773211822,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          40.599998474121094,
+          26.0,
+          13.199999809265137
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/H02_cover.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 1731.213448221577,
+      "bounds": [
+        [
+          0.0,
+          3.552713678800501e-15,
+          0.0
+        ],
+        [
+          40.599998474121094,
+          10.800000190734863,
+          29.299999237060547
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/H03_nut_keeper.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 271.27090986797305,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          22.799999237060547,
+          3.700000047683716
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/OPTIONAL_backplate_wire_port.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 10708.848462756154,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          -3.9962760341573714e-16
+        ],
+        [
+          170.0,
+          70.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/S01_body.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 2296.8983511284696,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          14.0,
+          10.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/stl_print/S02_cover.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 1236.9193680780807,
+      "bounds": [
+        [
+          0.0,
+          3.552713678800501e-15,
+          0.0
+        ],
+        [
+          36.0,
+          11.199999809265137,
+          29.299999237060547
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/stl_print/R01_rear_cradle_clear_strap.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 12114.254027982868,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          9.999999406318238e-08
+        ],
+        [
+          119.0,
+          51.0,
+          20.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/01_common_base.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 85664.42051783258,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          98.0,
+          146.0,
+          52.599998474121094
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/02_compute_lid.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 15525.571099176981,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          98.0,
+          76.0,
+          2.4000000953674316
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/03_battery_lid.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 14722.25265711498,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          98.0,
+          63.0,
+          2.4000000953674316
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/04_x5_carrier.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 2452.9894944145285,
+      "bounds": [
+        [
+          0.0,
+          2.9815488232998177e-05,
+          0.0
+        ],
+        [
+          77.69999694824219,
+          70.79759979248047,
+          2.4000000953674316
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/05_left_service_panel.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 13035.93216098501,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.20000076293945,
+          146.0,
+          2.4000000953674316
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/06_right_service_panel.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 3878.944029188789,
+      "bounds": [
+        [
+          4.440892098500626e-16,
+          0.0,
+          -1.8873791948023253e-16
+        ],
+        [
+          50.20000076293945,
+          76.0,
+          2.4000000953674316
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/07_front_service_panel.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 8141.353318620176,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          93.19999694824219,
+          50.20000076293945,
+          2.4000000953674316
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/08_waist_bridge.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 12555.549053998007,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          98.0,
+          16.0,
+          13.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/stl/09_second_bridge.stl",
+      "type": "STL",
+      "passed": true,
+      "watertight": true,
+      "volume_mm3": 9643.549053998004,
+      "bounds": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          16.0,
+          74.0,
+          13.0
+        ]
+      ]
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v0_3_1_printed.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v0_3_1_with_references.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_camera_edge_keeper.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_camera_edge_tray.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_eye_side_barrier.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_front_flat_lid.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_imu_edge_keeper.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_rigid_electronics_carrier.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_structural_rim.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/arc_top_service_blank.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/battery_only_cover.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/battery_only_tray.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_left_pod_body.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_left_pod_cover.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_right_pod_body.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/haptic_right_pod_cover.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/m2_fit_coupon.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/speaker_strap_body.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/speaker_strap_cover.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_left_flat_connector.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_rear_occipital_cradle.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_removable_forehead_face_frame.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/step_parts/wear_right_flat_connector.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_assembly_with_refs.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_printed_assembly.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B01_common_frame.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B02_mb_cradle.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B03_camera_cradle.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B04_imu_cradle.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B05_camera_cap.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/step_parts/B06_imu_keeper.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/H01_body.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/H02_cover.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/H03_nut_keeper.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/OPTIONAL_backplate_wire_port.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/S01_body.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/step_parts/S02_cover.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/step_parts/R01_rear_cradle_clear_strap.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_v01_assembly.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_v01_临时M3套筒五金参考.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/01_common_base.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/02_compute_lid.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/03_battery_lid.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/04_x5_carrier.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/05_left_service_panel.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/06_right_service_panel.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/07_front_service_panel.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/08_waist_bridge.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/step/09_second_bridge.step",
+      "type": "STEP header",
+      "passed": true
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v031_A1_PETG_仅补打5件_两盘.3mf",
+      "type": "3MF container/XML",
+      "passed": true,
+      "model_files": 6
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_A1_PETG_6parts.3mf",
+      "type": "3MF container/XML",
+      "passed": true,
+      "model_files": 7
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ArcMask_v05_A1_PETG_M2x10_8parts.3mf",
+      "type": "3MF container/XML",
+      "passed": true,
+      "model_files": 9
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/OPTIONAL_Backplate_A1_PETG_1part.3mf",
+      "type": "3MF container/XML",
+      "passed": true,
+      "model_files": 2
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/ArcMask_Rear_R01_A1_PETG_1part.3mf",
+      "type": "3MF container/XML",
+      "passed": true,
+      "model_files": 2
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_v01_A1_PETG_9件.3mf",
+      "type": "3MF container/XML",
+      "passed": true,
+      "model_files": 10
+    }
+  ],
+  "topology_method": "Check raw coordinates for finiteness, then weld coincident STL vertices in memory; files unchanged.",
+  "scope": "File and mesh integrity only. No CAD regeneration, slicing, printing, fit, load or thermal test."
+}

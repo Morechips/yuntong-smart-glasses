@@ -1,0 +1,36 @@
+# Local runtime environment and credentials
+.venv/
+.benchmark-venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+config/*.local.json
+**/sdkconfig
+**/sdkconfig.local
+**/sdkconfig.old
+**/build/
+**/managed_components/
+**/.component_cache/
+**/dependencies.lock.old
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+
+# New captures, live sessions and temporary files
+outputs/
+datasets/
+benchmarks/ground_demo_20261101/runs/live_*/
+benchmarks/ground_demo_20261101/runs/offline_*/
+benchmarks/ground_tactile_joint_20261102/runs/
+hardware_test/esp_dataset_capture/runs/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

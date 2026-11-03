@@ -1,0 +1,301 @@
+{
+  "scope": "Exported floor runtime only, not original workspace 126-file freeze",
+  "files": [
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/CENTER.wav",
+      "sha256": "ba2fec2ed7bc6b9712c9d06928f8a1f84ef9a0b8f7f7734eb31dd4b07ff5774a"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/CENTER_RIGHT.wav",
+      "sha256": "57904b5acf1d2ebffc2d39499a78401500b0f45dca5e697e783e094fde35fadf"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/generation.json",
+      "sha256": "aee218d5417935980ae275185c209d924a947d48c56dbd266574dbf18b529cb4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT.wav",
+      "sha256": "3b8aaf4890e4781a09aee36a0921b5253b13cc91010d19828cb8f1aee451ef37"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_CENTER.wav",
+      "sha256": "53bb6977c174d666b6dad99ddcfca45005ef623bf6ffaf2035ee06369d6f91ee"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_CENTER_RIGHT.wav",
+      "sha256": "d8adcbd6d2f0ae7a6536fe355f66d9fad35566e6e3697e866eeb346bf6d1db69"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_RIGHT.wav",
+      "sha256": "aa88f308e0429f6902186561eecdc8e19ba59e8ea378dbae78c30595a4df5503"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/manifest.json",
+      "sha256": "30b0341c8461cd438e042d576c85b332b63e8cc3b4e25723a819688c7c95f83d"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/CENTER.wav",
+      "sha256": "1696ac30a6197225f77544da6e6fd7472f679b2056f96fd9995375b7097347f2"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/CENTER_RIGHT.wav",
+      "sha256": "92befed63f972369aca383620be943b7823cc3451c0610b1f9ccf6eda567e9c9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT.wav",
+      "sha256": "e5e60b4a50edd483feaea41e546b23204f40863860a13d7c472c38627c572cd4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT_CENTER.wav",
+      "sha256": "afdd1544fc86a8b2a2dd1460d021b53db86e0657f406414b02ba93cc5b5740dd"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT_CENTER_RIGHT.wav",
+      "sha256": "77f1aa14643e617666d30c1686bd1ee42867fb6494ba373bd7996a8cff252157"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/LEFT_RIGHT.wav",
+      "sha256": "4de409663abe39ead179e9b86c0b158aa14ac2296487705f768b68c847b11e41"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/RIGHT.wav",
+      "sha256": "583b7170f0fd763bb50120c32cb26462e038f82506a042820ef9125339258e82"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/RIGHT.wav",
+      "sha256": "07851aa42403bc49024d2201a230e6674e3975b45047533147c1b951cce54040"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/backends.py",
+      "sha256": "9229b928a92605ff3536d2e20fd5e83f40b8d27bcdb46677e6f25c2e73ce058a"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/board_worker.py",
+      "sha256": "06b7c2f636635d61d437b6426403be8973fbb37b9306772d5280694e1584acdc"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/check_quant.py",
+      "sha256": "aab7dd4a5c9574a0af606d9557a2dacd287459009ee3511fc9bbb1ec58212c11"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/compile_demo.py",
+      "sha256": "487c2467a91a7581d2ab71377fd96638af7d0a073ed9547d214a50de2dbf055c"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/corridor_decision.py",
+      "sha256": "74b6847120b84ed4d2836d50fb11273e5fa8d8be77742c612eefabd2d59fa2a7"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/demo_core.py",
+      "sha256": "4685c6a145cbac27be08bbbb4ec4cb82f894e0bb3aa6dc2c72860e4ec1500025"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/emulate_quant.py",
+      "sha256": "9a025431f78b3e26350229d3fda59c0585383717ae8224d7867827a3183caaf3"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/live_demo.py",
+      "sha256": "a7f716f5d71068f008471f9368e37600ed5705794514669522e18afaef5c6101"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/prepare_corridor_audio.py",
+      "sha256": "56745fbce22098896cd43dc93479a194fa5463857e6c895658d2694776c3ade4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/prepare_speech.ps1",
+      "sha256": "f3638f45e3d679804b85aada543c7b0e3b2ffefaa9ee6b35782dd28af02e52c9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/README.md",
+      "sha256": "afc84289fe3a9ffa780fe756169a1953a166d5a7e1c1b0bbb3f74f22f4156e7e"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/resilient_stream.py",
+      "sha256": "fc15349def5495c83d593318ea9615bd8f364d0a59a2a9986cd2bf5bc3c7d7d9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/run_storage.py",
+      "sha256": "1fc78d9c0ce9b6b54935549e3bd1362edbb8c012f9972b4cc26ed41d5ded6eca"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_01.npy",
+      "sha256": "2d4af1fdc4e884f15d57d23a4d7c25d689f7e4146c66d6a6ef9564be9b4ed25d"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_02.npy",
+      "sha256": "b75e8af5fe676228ada9bce9f2d819ee98f53bc23d4d507585e7dc3df63fd983"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_03.npy",
+      "sha256": "2b1b57e9599d116c4900fdfff6bdfb9a0d7ade0c4f0e2cba276db48ef28794ae"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A01_04.npy",
+      "sha256": "a55f7a2814f5bd113310ef2741e5dc5fac31416ca46a2c4068f9b53a260787f1"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_01.npy",
+      "sha256": "00cdba750f8178bf07fc2a5a563a2b24a620c216ab9e068db1c67ccb3fc969fd"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_02.npy",
+      "sha256": "f5f5a5301695ce68d96f002acd4ae2913e48e3d33327541573fa32c18ad86e10"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_03.npy",
+      "sha256": "ee04290c01d4ef5a36fca005576c222ca92820d0e651d08b9e30d4a369da16cf"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A02_04.npy",
+      "sha256": "79a5dcb53d426c08c7ce5f7d1c0b054bd56334cd9748bdebea398d4482ee80a8"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_01.npy",
+      "sha256": "e5c0e6cae36292bfb9d81fe2a22a703983729ac312f9e47ba67b91e2a0e26ca1"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_02.npy",
+      "sha256": "213630f372baba46271f4af2834cd3a8ab182a51c04bc5cea7fcd38267e4a820"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_03.npy",
+      "sha256": "10dbae6092caaa730fb9c584eb6550320addbbd3a86069b7e83e23b4f21551f5"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A03_04.npy",
+      "sha256": "4116793a75e46ef47614e1e68d81a888d40aa72acec44704679d8d731bf5ff57"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_01.npy",
+      "sha256": "c378f15bba013f094284d66b217c83f3972df621dca46add794585f0f99ee43f"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_02.npy",
+      "sha256": "c162f46b564ebf52676aa0cf013b496bddd57bda48c05c42dc0e6a41c72223ce"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_03.npy",
+      "sha256": "cbed1c0710477f718b1498b1fbb5aec67c854dade2c60e2b437c001bed64f608"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A04_04.npy",
+      "sha256": "116817cf6359f39bc0692608f6f1a3df5bb1bda18577eed83f9afc2b904c484b"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_01.npy",
+      "sha256": "79fa9b78f6b589d42d8bbb63569021b8a9f1d9b827d25af18760db4945224207"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_02.npy",
+      "sha256": "b3eb13065bc014495af96d4ad4ac87ba6b0fd2947fdf09c1a06c514a493311c0"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_03.npy",
+      "sha256": "9f438be61972128b1173cb5a97b7f621c928e15dd1645bad3f99b72dc4d55403"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A05_04.npy",
+      "sha256": "b56b81761fb9244d2d7fbe50f513b3f00d339d8cdc2386fc08c8b818511f602c"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_01.npy",
+      "sha256": "70380ff71acf12724db28867a3f251dd919cd7919ac108a5eac6b6abaa2fa2a2"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_02.npy",
+      "sha256": "53e0e9b865e8d98a9ed50e1785f5f44106c283988d3e3f92d78fdc8719f8dca4"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_03.npy",
+      "sha256": "3cdbe23ad3f35705178d95e68cac6619ea2c52a4494930d7e5f68db48f04fffc"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A06_04.npy",
+      "sha256": "ae775043785b1f556d44192686cb313109c64cfb6061383b37161674693c05cb"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_01.npy",
+      "sha256": "ae67abaf2e98d8b979adba24face718abc70ef873ebcdb2a210aa36ec17312ed"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_02.npy",
+      "sha256": "7a74f7ecd4f2138ac6caa7deef03cacb867663f3074009b5afa5deac0ee1322b"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_03.npy",
+      "sha256": "f2a8bf4b7b6b7cdee8d14bbcd18f2dad0c28368fe8d2a6fbad698ad92f08de44"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A07_04.npy",
+      "sha256": "ddb816f4fdeec7b8e44b097293522a0d1c89b1a0294efdbfbf62a32e8e171aed"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_01.npy",
+      "sha256": "7be75556167a0a221571bcd5de8eb3fa4592d76c303e4cb19d62834a522989ca"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_02.npy",
+      "sha256": "042f543259f33d0c74811dac421219f99be847f1d37202c461dab3a642f91bc9"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_03.npy",
+      "sha256": "c003b85df98f576628f666501088ecceffeb9c1eeafb0abce2e543ae102d390c"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/emulator/A08_04.npy",
+      "sha256": "47644ceafb5aac4fe13fc25b58d52f87b6049f2a583f4ac1fa3be88cbb60d4e5"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/inputs.json",
+      "sha256": "b87e03a7839f57bb8d9ff05836ed32f72130d24c5ee936adeec1647e85f8b4ee"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/runs/compile_01/work/floor_demo.bin",
+      "sha256": "627da5cd5db122e5ff0e6554ef45fa905e95c004bca5fbb9a6d05b8a2205c410"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/speech_output.py",
+      "sha256": "2b59e0c138ecd66735ce0de9aa8c74a45967fdab848ecb8adb9fe9563e398910"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/speech_phrases.json",
+      "sha256": "7e9cea9a9cf239233fa4b69cf101839e06f47293583d1efb3aee637aa6df1930"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_closed_loop.py",
+      "sha256": "0208ff6581381481ffc2aee18e9e403b9a8427ab0cf736690c71b5d206e25c6a"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_continuous.py",
+      "sha256": "ebdb62d46995b1381c921bd6ce143b29c6f9cb19a2aeae53de25449cf32961cb"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_corridor.py",
+      "sha256": "400c9f573835c8f2450c386b034799da6d2457cc09bef5f9d35b062cb2554c62"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_demo_core.py",
+      "sha256": "29854cab1543c15d4cea08764e44ac09bb0d03816657798139a85051c4c39012"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_live_integration.py",
+      "sha256": "eab012251c4e727931cbd27d1d57633259b74f5a0eddd0c1326e86b8468905fe"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_speech.py",
+      "sha256": "453ab7644c6dca07cbdd34010631394f6719d129ab833fb83b4e18a29b2549d3"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/test_x5_camera_link.py",
+      "sha256": "51a0218f2ce715b196bda3f0124b060a114738b724f3090ab6f8582cbb26b218"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/verify_board.py",
+      "sha256": "63d7ff85bf54cb65b5d01bcb4263a783bfa9d3004beb93903f3df5816cd68eda"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/x5_camera_link.py",
+      "sha256": "8cf27b29a5bdefb1f11a3acbc3b14afcbd9c903daa2603f66722c9909a0de45c"
+    }
+  ]
+}

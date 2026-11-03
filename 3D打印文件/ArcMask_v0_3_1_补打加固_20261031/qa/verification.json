@@ -1,0 +1,186 @@
+{
+  "file": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\ArcMask_v031_A1_PETG_仅补打5件_两盘.3mf",
+  "sha256": "a568ef2bdcec74032e1d3f51e6dfbb7ed204e95e0e01f81c598ed0c205db7a3b",
+  "source_version": "v0.3.1 repair-only5",
+  "source_cad_modified": true,
+  "submitted_to_printer": false,
+  "physical_print_tested": false,
+  "gui_warning_recheck_performed": false,
+  "meshes": [
+    {
+      "name": "01_加固结构外圈",
+      "plate": 1,
+      "source_sha256": "1ce5e16679b86fbf4628e5b9a4d94cbfe038d3b4737560bbdbac42015645b126",
+      "maximum_geometry_error_mm": 4.030580129807577e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "rotation_only_no_scaling": true,
+      "face_count": 12576
+    },
+    {
+      "name": "02_加宽检修盖_孔距36",
+      "plate": 1,
+      "source_sha256": "8b250e4c8426dbb5182998ad11218d8c2879960fc2c3516d48d3001bca246323",
+      "maximum_geometry_error_mm": 1.2371507639614857e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "rotation_only_no_scaling": true,
+      "face_count": 876
+    },
+    {
+      "name": "03_左连接片_平面贴床",
+      "plate": 1,
+      "source_sha256": "9c91f3a70e2f0321c4dbc1d45383a9e810cc1fe602de206d64cfbdd8f665deeb",
+      "maximum_geometry_error_mm": 1.101403724151474e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "rotation_only_no_scaling": true,
+      "face_count": 1776
+    },
+    {
+      "name": "04_右连接片_平面贴床",
+      "plate": 1,
+      "source_sha256": "add70cf39f6cd7258f5da55cf0d5479f074b1ad15393a0982004711bc7b22bb3",
+      "maximum_geometry_error_mm": 1.0810805139357474e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "rotation_only_no_scaling": true,
+      "face_count": 1776
+    },
+    {
+      "name": "05_加强额托脸垫架",
+      "plate": 2,
+      "source_sha256": "fc23f127cc83843a679e4af03a44012edc74c52d274a0801bd4edfd65a25cb33",
+      "maximum_geometry_error_mm": 3.830059379598678e-06,
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      },
+      "rotation_only_no_scaling": true,
+      "face_count": 5846
+    }
+  ],
+  "plates": [
+    {
+      "plate": 1,
+      "seconds": 18802,
+      "grams": 57.89,
+      "objects": [
+        "01_加固结构外圈",
+        "02_加宽检修盖_孔距36",
+        "03_左连接片_平面贴床",
+        "04_右连接片_平面贴床"
+      ],
+      "warnings": [
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "all_objects_sliced": true,
+      "deposition_bounds_xy_mm": [
+        [
+          9.768002543331429,
+          5.557035559447695
+        ],
+        [
+          198.62123225541666,
+          188.79
+        ]
+      ],
+      "layers": 194,
+      "support_role_moves": {
+        "Support": 34675,
+        "Support interface": 2351
+      }
+    },
+    {
+      "plate": 2,
+      "seconds": 18157,
+      "grams": 41.41,
+      "objects": [
+        "05_加强额托脸垫架"
+      ],
+      "warnings": [
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "all_objects_sliced": true,
+      "deposition_bounds_xy_mm": [
+        [
+          27.06792694672214,
+          36.90766802447521
+        ],
+        [
+          180.53057908946204,
+          143.86263944423612
+        ]
+      ],
+      "layers": 112,
+      "support_role_moves": {
+        "Support interface": 7253,
+        "Support": 114705
+      }
+    }
+  ],
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_settings_id": [
+      "Generic PETG @BBL A1"
+    ],
+    "curr_bed_type": "Textured PEI Plate",
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "filament_max_volumetric_speed": [
+      "8"
+    ],
+    "filament_density": [
+      "1.27"
+    ],
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ]
+  },
+  "total_seconds": 36959,
+  "total_grams": 99.3,
+  "digital_project_checks_passed": true,
+  "physical_support_and_strength_validated": false
+}

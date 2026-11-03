@@ -1,0 +1,88 @@
+{
+  "scope": "Coarse development diagnostics, not independent accuracy",
+  "initialization_body_sha256": "2e2fadadc35c0b456228de39d65f39738b9c88d7cb2389ba21acb572d19474ba",
+  "elapsed_s": 9.197079900186509,
+  "parameters": 139826,
+  "rows": [
+    {
+      "sample_id": "A01_02",
+      "split": "train",
+      "floor_iou": 1.0,
+      "scored_pixels": 72566
+    },
+    {
+      "sample_id": "A02_02",
+      "split": "train",
+      "floor_iou": 0.9980321077162092,
+      "scored_pixels": 72127
+    },
+    {
+      "sample_id": "A03_02",
+      "split": "train",
+      "floor_iou": 0.9997050582509954,
+      "scored_pixels": 72415
+    },
+    {
+      "sample_id": "A04_02",
+      "split": "train",
+      "floor_iou": 0.9986938775510205,
+      "scored_pixels": 72406
+    },
+    {
+      "sample_id": "A07_02",
+      "split": "train",
+      "floor_iou": 0.9987709954936501,
+      "scored_pixels": 72160
+    },
+    {
+      "sample_id": "A08_02",
+      "split": "train",
+      "floor_iou": 0.9989521480964024,
+      "scored_pixels": 72289
+    },
+    {
+      "sample_id": "A05_02",
+      "split": "development_object_probe",
+      "floor_iou": 0.953451985135928,
+      "scored_pixels": 71885
+    },
+    {
+      "sample_id": "A06_02",
+      "split": "development_object_probe",
+      "floor_iou": 0.8994726433750824,
+      "scored_pixels": 71922
+    }
+  ],
+  "training_log": [
+    {
+      "step": 1,
+      "loss": 0.563310444355011,
+      "elapsed_s": 3.4515688000246882
+    },
+    {
+      "step": 50,
+      "loss": 0.14247657358646393,
+      "elapsed_s": 4.451121400110424
+    },
+    {
+      "step": 100,
+      "loss": 0.0807957798242569,
+      "elapsed_s": 5.3577638999558985
+    },
+    {
+      "step": 150,
+      "loss": 0.04706868529319763,
+      "elapsed_s": 6.294916700106114
+    },
+    {
+      "step": 200,
+      "loss": 0.028063081204891205,
+      "elapsed_s": 7.280435600085184
+    },
+    {
+      "step": 250,
+      "loss": 0.018791107460856438,
+      "elapsed_s": 8.54079890018329
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "layers": 263,
+  "deposition_move_count": 343245,
+  "deposition_bounds_xy_mm": [
+    [
+      6.71,
+      6.7098234888890635
+    ],
+    [
+      243.49104712709956,
+      249.29000027886224
+    ]
+  ],
+  "bed_violations": [],
+  "role_move_counts": {
+    "Outer wall": 51283,
+    "Inner wall": 115428,
+    "Gap infill": 26650,
+    "Bottom surface": 5436,
+    "Internal solid infill": 59799,
+    "Sparse infill": 65936,
+    "Bridge": 6598,
+    "Floating vertical shell": 3299,
+    "Top surface": 7967,
+    "Overhang wall": 849
+  },
+  "excluded_machine_start_positive_xy_extrusions": 12,
+  "excluded_machine_end_positive_xy_extrusions": 0,
+  "bounds_method": "All model-phase positive-E XY deposition, including support/brim, checked before filtering; G2/G3 cardinal extrema included. Start purge/end parking excluded solely using CHANGE_LAYER and MACHINE_END_GCODE_START phase boundaries; all coordinate/E modes tracked."
+}

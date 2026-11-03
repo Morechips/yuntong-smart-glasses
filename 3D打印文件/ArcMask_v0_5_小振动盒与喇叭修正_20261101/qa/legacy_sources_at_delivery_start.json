@@ -1,0 +1,90 @@
+[
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\accessories.py",
+    "sha256": "9872426580de35df08fcbb9a76dab271eb69d5c5bb8536b16762ee518e2401c7"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\build_all.py",
+    "sha256": "0d7b9557487ddbac83361f380fbe707f8a6bb57cda051da6c6ae164e97eb9b9f"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\carrier.py",
+    "sha256": "2c666dd92687ab2b2b6aad0806fbb037f5a64be9c099940859b8a9bcebf3c407"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\common.py",
+    "sha256": "55c341462d1d86379d7013567daca6e1e25a3c158f9b39d77b08d7cacc17c5cf"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\final_gate.py",
+    "sha256": "6b1496dd065e36c257fd73900307047fd32376749cda9d94d9f03ff58b548cbe"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\inspect_reinforced_root.py",
+    "sha256": "91ecfaeef9545c933dd3ba9543003d8bb575f4bdc39bf8d829cfc120a38ecd47"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\prepare_repair_project.py",
+    "sha256": "1bfcd02c4f6cb642c53617e5e5c33632dcac1afd96752ad692c14274484919d5"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\rear.py",
+    "sha256": "62bd8e69bfb8265df0c963aa092ef642062587b262d943ed8618b90e1001316a"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\render_previews.py",
+    "sha256": "7586031c97436037ace3bb96b91deb76c7d22d4650ead6d0b656020d19398902"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\render_repair_details.py",
+    "sha256": "7cacba89089bcf958b9cd4a0a4396692b7cb01d281bd6039e94d1d256bc13907"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\shell.py",
+    "sha256": "4261c11b398a994028decd7a4303b40fb28bd3864e4a229cc499eb9fe94280c8"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\verify_repair_geometry.py",
+    "sha256": "33ff806e999cee8f326bd2cc067fe04f11414e9fd624e630974287cd459a3679"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\verify_repair_project.py",
+    "sha256": "2ba740a4beadf279d8a8caeb966a5bd3021d373853c1f15d3d90bfb778fe033f"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear.py",
+    "sha256": "6f46bd87d52c44f39303c2da2a41be09d07e325541f40b21d386c4bef3a5fdfa"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_3_1_补打加固_20261031\\wear_legacy.py",
+    "sha256": "bea9634460301408896d98dbb4528cfb323420ac8e0b80155842d5284a5bf15c"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\build_and_check.py",
+    "sha256": "97218a0830cfb1e983acabe5c5798a96df9dcaa32c0f73f962775d41d775f956"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\finish_delivery.py",
+    "sha256": "8a88569f1f577d8b000a66b03b0becf5a25ef4bb7076d6ef07c2e9009dfe0bba"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\model.py",
+    "sha256": "79fbf6fa3671dfc693712c111577a0955c9203bb7609ae5395197ac9ea391db0"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\prepare_3mf.py",
+    "sha256": "363400e067a3ebec6e858bc3d39fb7a912e82a096946fdd3d695d13f27621b40"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\render_and_viewer.py",
+    "sha256": "418033e8e7d00c0048c10c8d30bfcf5adc8055dbf87e61125d19995c88835f79"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\slice_project.py",
+    "sha256": "1c4e3c27ce2ab8ad692dfa49fc30e65234d10ee8f6fbec1bcd69924eece5c68c"
+  },
+  {
+    "path": "3D打印文件\\ArcMask_v0_4_B分体内架_20261031\\verify_3mf.py",
+    "sha256": "156efb2ae7c9b7683a072cd3b2b8d112fdf98a000af0343482e0220b47134d31"
+  }
+]

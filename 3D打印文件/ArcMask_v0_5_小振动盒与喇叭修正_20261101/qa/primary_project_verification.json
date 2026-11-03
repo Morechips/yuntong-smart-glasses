@@ -1,0 +1,239 @@
+{
+  "file": "D:\\智能眼镜\\3D打印文件\\ArcMask_v0_5_小振动盒与喇叭修正_20261101\\ArcMask_v05_A1_PETG_M2x10_8parts.3mf",
+  "sha256": "6f6f65eeb4d27c9cc88f5abfc90b2a427d4de74851db108a5fd11fbc4234ec82",
+  "parts": [
+    {
+      "label": "01_左振动盒体",
+      "key": "H01_body",
+      "source_sha256": "c4fdcbcfd2d669bd6a3df084193a3e9118706d911818c0f63d1a14862e9e602c",
+      "geometry_error_mm": 1.117747081032806e-06,
+      "bounds": [
+        [
+          16.000000000000004,
+          16.0,
+          0.0
+        ],
+        [
+          56.599998400000004,
+          42.0,
+          13.1999998
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "02_右振动盒体",
+      "key": "H01_body",
+      "source_sha256": "c4fdcbcfd2d669bd6a3df084193a3e9118706d911818c0f63d1a14862e9e602c",
+      "geometry_error_mm": 1.1177470843319707e-06,
+      "bounds": [
+        [
+          70.0,
+          16.0,
+          0.0
+        ],
+        [
+          110.5999984,
+          42.0,
+          13.1999998
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "03_扬声器盒体",
+      "key": "S01_body",
+      "source_sha256": "7ade96a454150c2d9d92499dd8f06644e584b1fcb9612b397ef238da8221fdb2",
+      "geometry_error_mm": 8.86502689797336e-07,
+      "bounds": [
+        [
+          132.0,
+          16.0,
+          0.0
+        ],
+        [
+          168.0,
+          30.0,
+          10.0
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "04_左振动盖_端向螺丝",
+      "key": "H02_cover",
+      "source_sha256": "3ade0c74482d3cd0ea0399f4aacd90bc2b8f0ed8fdf49f6d3c71284b61a1d308",
+      "geometry_error_mm": 9.92080089145805e-07,
+      "bounds": [
+        [
+          16.000000000000004,
+          70.0,
+          0.0
+        ],
+        [
+          56.599998400000004,
+          80.8000002,
+          29.2999992
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "05_右振动盖_端向螺丝",
+      "key": "H02_cover",
+      "source_sha256": "3ade0c74482d3cd0ea0399f4aacd90bc2b8f0ed8fdf49f6d3c71284b61a1d308",
+      "geometry_error_mm": 9.92080095687508e-07,
+      "bounds": [
+        [
+          75.0,
+          70.0,
+          0.0
+        ],
+        [
+          115.5999984,
+          80.8000002,
+          29.2999992
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "06_扬声器盖_侧向螺丝",
+      "key": "S02_cover",
+      "source_sha256": "4638955b09c2787d2bebdbbaa23de8a47e63eab6eb0f9d1d3ada8a2b145963be",
+      "geometry_error_mm": 8.780499268625126e-07,
+      "bounds": [
+        [
+          135.0,
+          70.0,
+          0.0
+        ],
+        [
+          171.0,
+          81.1999998,
+          29.2999992
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "07_左M3螺母定位条",
+      "key": "H03_nut_keeper",
+      "source_sha256": "9a2b17e4cb4a3984b9617263682b41a8c80cc166909f19930fac087ea1e8a436",
+      "geometry_error_mm": 4.981954003252639e-07,
+      "bounds": [
+        [
+          190.0,
+          16.0,
+          0.0
+        ],
+        [
+          198.0,
+          38.7999992,
+          3.70000004
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    },
+    {
+      "label": "08_右M3螺母定位条",
+      "key": "H03_nut_keeper",
+      "source_sha256": "9a2b17e4cb4a3984b9617263682b41a8c80cc166909f19930fac087ea1e8a436",
+      "geometry_error_mm": 4.981954003252639e-07,
+      "bounds": [
+        [
+          207.0,
+          16.0,
+          0.0
+        ],
+        [
+          215.0,
+          38.7999992,
+          3.70000004
+        ]
+      ],
+      "topology": {
+        "boundary": 0,
+        "nonmanifold": 0,
+        "inconsistent_winding": 0
+      }
+    }
+  ],
+  "submitted_to_printer": false,
+  "physical_tested": false,
+  "settings": {
+    "printer_model": "Bambu Lab A1",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ]
+  },
+  "digital_project_checks_passed": true,
+  "plate_count": 1,
+  "object_count": 8,
+  "prediction_seconds": 7847,
+  "weight_grams": 19.35,
+  "layers": 284,
+  "warnings": [
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "2",
+      "error_code": "10018003"
+    },
+    {
+      "msg": "not_support_traditional_timelapse",
+      "level": "3",
+      "error_code": "1000C003"
+    }
+  ],
+  "support_moves_by_object": {
+    "6": 3336,
+    "5": 3495,
+    "4": 3495
+  },
+  "all_checks_passed": false,
+  "physical_pending": true
+}
