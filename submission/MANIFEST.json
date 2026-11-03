@@ -2033,8 +2033,8 @@
     },
     {
       "path": "docs/GITHUB.md",
-      "bytes": 2653,
-      "sha256": "6bded90b11cb345577d0fcf64ec1d3220fe07bb05c245cbe2001978d982bc2e5"
+      "bytes": 2549,
+      "sha256": "119ec27b9db6114c3e632aa2c9f1d154c2604d1772f51155c897c9c917a85bde"
     },
     {
       "path": "docs/HARDWARE.md",
@@ -2264,7 +2264,7 @@
     {
       "path": "submission/PROVENANCE.json",
       "bytes": 180418,
-      "sha256": "ed1949163e04436a6abc40f0b6c3555a54bd37ae75db543a7f5faefe2000ea12"
+      "sha256": "e9c1dedab9dfc7657e0fb759ece080933b0f80a65f54dcf5aeb722c0aa6181b5"
     },
     {
       "path": "third_party/GuideTWSI_LICENSE_MIT.txt",

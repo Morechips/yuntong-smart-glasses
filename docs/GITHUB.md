@@ -1,6 +1,6 @@
 # 本地整理包与 GitHub 提交
 
-本目录就是待提交仓库根目录。只在此处建库，不要在原始 `D:\智能眼镜` 工作区直接 `git add .`。整理过程未创建远程仓库、commit 或 push。
+本目录是已发布仓库的根目录：[Morechips/yuntong-smart-glasses](https://github.com/Morechips/yuntong-smart-glasses)。本地提交副本位于 `releases/github_submission_20261103/repository/`；不要在原始 `D:\智能眼镜` 工作区直接 `git add .`。
 
 ## 已做的整理
 
@@ -14,25 +14,24 @@
 
 文本换行已与 `.gitattributes` 对齐，供克隆后继续使用同一份哈希清单；CMD / PowerShell 为 CRLF，其余文本 LF，模型和制造文件按二进制处理。
 
-## 回来后按顺序操作
+## 查看和更新仓库
 
 1. 阅读根 README 和 `docs/STATUS.md`，核对作品状态表述。
 2. 运行核验和离线演示；联网硬件测试另按使用说明安排。
-3. 在 GitHub 创建仓库并复制仓库 URL。可先使用私有仓库提交；具体可见性由你决定。
-4. 在本目录执行以下命令，检查暂存内容后再提交和推送。
+3. 后续修改从本目录继续，提交前检查差异并核对文件清单。
 
 ```powershell
-git init -b main
+git status --short --branch
+python scripts/verify_repository.py
 git add .
 git status --short
 git diff --cached --stat
 git diff --cached --check
-git commit -m "整理云瞳助行原型代码、建模及使用说明"
-git remote add origin <你的GitHub仓库URL>
+git commit -m "Describe your change"
 git push -u origin main
 ```
 
-`<你的GitHub仓库URL>` 是待替换说明，不能原样执行。若已有仓库历史，应先合并到该仓库副本中，不要在同目录重复初始化或强制覆盖远程。
+本地仓库已配置 `origin`，跟踪远端 `main`。多人协作时先拉取远端变更并解决冲突；不要强制覆盖远端。
 
 ## 后续提交前
 

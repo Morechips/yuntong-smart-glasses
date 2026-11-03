@@ -2825,8 +2825,8 @@
     {
       "path": "docs/GITHUB.md",
       "source": "tools/github_package/docs/GITHUB.md",
-      "source_sha256": "6bded90b11cb345577d0fcf64ec1d3220fe07bb05c245cbe2001978d982bc2e5",
-      "export_sha256": "6bded90b11cb345577d0fcf64ec1d3220fe07bb05c245cbe2001978d982bc2e5",
+      "source_sha256": "119ec27b9db6114c3e632aa2c9f1d154c2604d1772f51155c897c9c917a85bde",
+      "export_sha256": "119ec27b9db6114c3e632aa2c9f1d154c2604d1772f51155c897c9c917a85bde",
       "changed": false
     },
     {
