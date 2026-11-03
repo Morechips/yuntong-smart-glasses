@@ -4,8 +4,8 @@
     {
       "path": ".gitattributes",
       "source": "tools/github_package/.gitattributes",
-      "source_sha256": "1538aabfd80d5b459358ada86c7f6b06581d30a120984355d2b857fe280e6210",
-      "export_sha256": "1538aabfd80d5b459358ada86c7f6b06581d30a120984355d2b857fe280e6210",
+      "source_sha256": "e3e33054cd8280fadbcb211e9c08f6b0f38df35743ff3589af4431722899b661",
+      "export_sha256": "e3e33054cd8280fadbcb211e9c08f6b0f38df35743ff3589af4431722899b661",
       "changed": false
     },
     {
@@ -1656,8 +1656,8 @@
     {
       "path": "README.md",
       "source": "tools/github_package/README.md",
-      "source_sha256": "010eaa617d22a8de78e3fda80ea93170ee757334570f101f758b61c403fa8e45",
-      "export_sha256": "010eaa617d22a8de78e3fda80ea93170ee757334570f101f758b61c403fa8e45",
+      "source_sha256": "29af20d67dd5cb326ff8d0ede4009f1d98ac6cff70af34cd0efc47772b638ad3",
+      "export_sha256": "29af20d67dd5cb326ff8d0ede4009f1d98ac6cff70af34cd0efc47772b638ad3",
       "changed": false
     },
     {

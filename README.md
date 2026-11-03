@@ -21,6 +21,14 @@
 
 ## 工程内容
 
+### Python 代码入口
+
+- [实时演示主程序](benchmarks/ground_demo_20261101/live_demo.py)和[地面障碍决策](benchmarks/ground_demo_20261101/demo_core.py)
+- [模型训练与 ONNX 导出](benchmarks/ground_route_screen_20261031/round02_supervision.py)
+- [离线模型演示](scripts/offline_demo.py)和[仓库文件核验](scripts/verify_repository.py)
+
+仓库收录 55 个 `.py` 文件，主要在 `benchmarks/`、`hardware_test/` 和 `scripts/`。`3D打印文件/` 中的 HTML 是结构模型的三维查看页。
+
 ```text
 benchmarks/
   ground_demo_20261101/          当前地面演示、后处理、串行声振调度及测试
