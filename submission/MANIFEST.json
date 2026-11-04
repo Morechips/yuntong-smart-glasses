@@ -12,6 +12,11 @@
       "sha256": "a4adedffb3ae0d8f7c612d1e8e2c9a554986d052cadc8e4495d730521828b388"
     },
     {
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ASSEMBLY.md",
+      "bytes": 2514,
+      "sha256": "e0090239d502e2e2c88ba36ce2a0d36ca956f09796f15bb678922c50a8e54dcc"
+    },
+    {
       "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ArcMask_v031_A1_PETG_仅补打5件_两盘.3mf",
       "bytes": 6862808,
       "sha256": "a568ef2bdcec74032e1d3f51e6dfbb7ed204e95e0e01f81c598ed0c205db7a3b"
@@ -32,9 +37,9 @@
       "sha256": "a96d7867e96c3ba74e7e829b8302d94d3f993616d9522a3180969a7e7bbbcd65"
     },
     {
-      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ASSEMBLY.md",
-      "bytes": 2514,
-      "sha256": "e0090239d502e2e2c88ba36ce2a0d36ca956f09796f15bb678922c50a8e54dcc"
+      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
+      "bytes": 5631,
+      "sha256": "03af8006a33287eea8aaf83283f368a9ffe3e30f2cb5bc7c8a23ef22d6e3afae"
     },
     {
       "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/first_layers.png",
@@ -150,11 +155,6 @@
       "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/qa/viewer_meshes.json",
       "bytes": 1993836,
       "sha256": "c01addb264ae540109a773ae6e4a8ccb1b2885d9c189b00804c515649d558187"
-    },
-    {
-      "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/README.md",
-      "bytes": 5631,
-      "sha256": "03af8006a33287eea8aaf83283f368a9ffe3e30f2cb5bc7c8a23ef22d6e3afae"
     },
     {
       "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/result.json",
@@ -382,6 +382,11 @@
       "sha256": "8bdac005b696be3ae5d8201a1d33a134dd41441d74ffd908f3440afb2ffad1be"
     },
     {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ASSEMBLY.md",
+      "bytes": 5180,
+      "sha256": "2e9ed7b2ec9082b6d61bcd52c09e519d5308dc05835c8674e2a9b26c704c47e5"
+    },
+    {
       "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ArcMask_B_v04_A1_PETG_6parts.3mf",
       "bytes": 1111067,
       "sha256": "02646d865ebe15594d14b67f6f68b4516823edafe98cd91c619b65905ce6bf4f"
@@ -397,19 +402,19 @@
       "sha256": "7fb7513ae9ba8c1cdb5b7db3fd4ac27c4a3c18442d89bc2a681841b57a1f5c9a"
     },
     {
-      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/ASSEMBLY.md",
-      "bytes": 5180,
-      "sha256": "2e9ed7b2ec9082b6d61bcd52c09e519d5308dc05835c8674e2a9b26c704c47e5"
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/B_modular_viewer.html",
+      "bytes": 7164152,
+      "sha256": "4f99fecc7c5245407104719f8504f66e817c9c62bbef3091f9cf8573e24a2409"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
+      "bytes": 6550,
+      "sha256": "29743af52f8e5528723be0f8f8505451eaf1d9ce621e138431d734c2ad878a47"
     },
     {
       "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/assembly_order.drawio",
       "bytes": 2727,
       "sha256": "ed25734f42c9532e873621f18869818d958a311260033271d9c2fe9ace93cc27"
-    },
-    {
-      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/B_modular_viewer.html",
-      "bytes": 7164152,
-      "sha256": "4f99fecc7c5245407104719f8504f66e817c9c62bbef3091f9cf8573e24a2409"
     },
     {
       "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/images/01_assembly_exploded.png",
@@ -497,11 +502,6 @@
       "sha256": "0c9347e15c265afcb3fe0dbe86662df074b3f3b12c3414378fd48ae4f9f385e7"
     },
     {
-      "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/README.md",
-      "bytes": 6550,
-      "sha256": "29743af52f8e5528723be0f8f8505451eaf1d9ce621e138431d734c2ad878a47"
-    },
-    {
       "path": "3D打印文件/ArcMask_v0_4_B分体内架_20261031/result.json",
       "bytes": 5009,
       "sha256": "55eedc97c269c94a59e57e0135aed66cfb3f77cae66d6bcc84fa520a664593f5"
@@ -567,6 +567,31 @@
       "sha256": "b82afddf357c884d1c6264f6a57e6ba17fe8602534197fe83ea765bc0d134c0a"
     },
     {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ASSEMBLY.md",
+      "bytes": 5474,
+      "sha256": "3414dd225aa95d2f2a8ae01ab195154341f93be8e2414e14d7444a035e3c6e28"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ArcMask_v05_A1_PETG_M2x10_8parts.3mf",
+      "bytes": 236299,
+      "sha256": "ed8c56a8e67b0128e5442f80acec1ab64f8291e078ebf168c9a00db3a4709a48"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/FASTENERS.md",
+      "bytes": 2205,
+      "sha256": "8c7e148d3b73cee27b6117446528fb2893b2ff933a98c091a76c840dba7308bf"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/OPTIONAL_Backplate_A1_PETG_1part.3mf",
+      "bytes": 177342,
+      "sha256": "0dbe16e3790f36990309b72aa486f11989ebd00e5994ba3f5ee52626adf0ff7b"
+    },
+    {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/README.md",
+      "bytes": 5322,
+      "sha256": "df54c7dc3c05ab081a4b4a573a7b41be29993ddc1ab5509fde8cb3a45fa0ef5d"
+    },
+    {
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/01_当前版结构拆解与认件.png",
       "bytes": 613708,
       "sha256": "027be8933a55437829ae42b06ee3eb5ede4907b74f90f96d6185f8e7c66f8e09"
@@ -577,34 +602,19 @@
       "sha256": "cf07bd6d66d9a8994b93e3b8fd4af9f930e0e6ef09eaaf9f7c0cb9c2d0486412"
     },
     {
-      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/manifest.json",
-      "bytes": 965,
-      "sha256": "4a7e5ec2cf0a2a6dbb595ff001226ab59c799609ec60e1238c0e026bd160b488"
-    },
-    {
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/README.md",
       "bytes": 1429,
       "sha256": "cb857edd6e4715a5f4b4c23b70d199d160b6b306179bd1d9a0c71f16fc743953"
     },
     {
+      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/manifest.json",
+      "bytes": 965,
+      "sha256": "4a7e5ec2cf0a2a6dbb595ff001226ab59c799609ec60e1238c0e026bd160b488"
+    },
+    {
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/annotated_structure/当前版结构标注.drawio",
       "bytes": 236651,
       "sha256": "1e1f192829dd040c902b9c754c41d81058e9577d1bd5b8977cf6c85199ed8e68"
-    },
-    {
-      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ArcMask_v05_A1_PETG_M2x10_8parts.3mf",
-      "bytes": 236299,
-      "sha256": "ed8c56a8e67b0128e5442f80acec1ab64f8291e078ebf168c9a00db3a4709a48"
-    },
-    {
-      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/ASSEMBLY.md",
-      "bytes": 5474,
-      "sha256": "3414dd225aa95d2f2a8ae01ab195154341f93be8e2414e14d7444a035e3c6e28"
-    },
-    {
-      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/FASTENERS.md",
-      "bytes": 2205,
-      "sha256": "8c7e148d3b73cee27b6117446528fb2893b2ff933a98c091a76c840dba7308bf"
     },
     {
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/01_parts_exploded.png",
@@ -650,11 +660,6 @@
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/images/primary_top_1.png",
       "bytes": 2711,
       "sha256": "4d6e8373518c6bfd62f3bd495b05955e6793e5e7127c71b83724f804d5ca588f"
-    },
-    {
-      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/OPTIONAL_Backplate_A1_PETG_1part.3mf",
-      "bytes": 177342,
-      "sha256": "0dbe16e3790f36990309b72aa486f11989ebd00e5994ba3f5ee52626adf0ff7b"
     },
     {
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/peripherals_viewer.html",
@@ -737,11 +742,6 @@
       "sha256": "260b8b6dffabb046a433cc4da0bfc39ad38b5adc22ffb6ea67403e03198110a6"
     },
     {
-      "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/README.md",
-      "bytes": 5322,
-      "sha256": "df54c7dc3c05ab081a4b4a573a7b41be29993ddc1ab5509fde8cb3a45fa0ef5d"
-    },
-    {
       "path": "3D打印文件/ArcMask_v0_5_小振动盒与喇叭修正_20261101/result.json",
       "bytes": 2335,
       "sha256": "a0dd8bda64b7758c2ffe6fb4b54290d73e45dcc827920eab31e917319cb21fb5"
@@ -810,6 +810,11 @@
       "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/ArcMask_Rear_R01_A1_PETG_1part.3mf",
       "bytes": 951355,
       "sha256": "535e7ba40af57a2e5d0687cf2d661c2d9f43e84dd2b38edeb8b263c9c4f71d5f"
+    },
+    {
+      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
+      "bytes": 5492,
+      "sha256": "dccb45b1dc0eaa0851b3a4d63f6a8ca46265554a8642046ee8c1a8b84fb6fec7"
     },
     {
       "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/images/first_layer.png",
@@ -912,11 +917,6 @@
       "sha256": "10c340dfa492b5e85dcd331241c7db3552f34b374b1c304ae93e974b39fe7a72"
     },
     {
-      "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/README.md",
-      "bytes": 5492,
-      "sha256": "dccb45b1dc0eaa0851b3a4d63f6a8ca46265554a8642046ee8c1a8b84fb6fec7"
-    },
-    {
       "path": "3D打印文件/ArcMask_后枕托穿带修正_20261101/rear_strap_viewer.html",
       "bytes": 4397225,
       "sha256": "578d6c88bf3b8dbbebdc9803aea56eb45824d49772be27a0be481580e33b0765"
@@ -955,6 +955,11 @@
       "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/B3_模型查看.html",
       "bytes": 13239668,
       "sha256": "d520c9fbd0599fe3b165fc0ebe1640450eedc4547c44a17d3df68fb3310efe2d"
+    },
+    {
+      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
+      "bytes": 8697,
+      "sha256": "96165b8654a95a5d4c1d4dce31d8506bac1fcb4b434778c7eab577268930b7b1"
     },
     {
       "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/images/01_整体与内部.png",
@@ -1072,11 +1077,6 @@
       "sha256": "f1160a2cd5587e13736a79694a6f8633662d7538a7c8552ba17432b8587d35e4"
     },
     {
-      "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/README.md",
-      "bytes": 8697,
-      "sha256": "96165b8654a95a5d4c1d4dce31d8506bac1fcb4b434778c7eab577268930b7b1"
-    },
-    {
       "path": "3D打印文件/RDKX5_B3_v0_1_分仓计算盒_20261102/result.json",
       "bytes": 6259,
       "sha256": "13b93c8ee93330374e6fae99126f0d4893182ad64ddd4993df4e2ea7a33637b0"
@@ -1187,6 +1187,26 @@
       "sha256": "f5a0818a974ed6e1404b387cbb05368f945d016a62c44808f93cfa39f244301d"
     },
     {
+      "path": "README.md",
+      "bytes": 5371,
+      "sha256": "11fde90182ba76dc01c496e0ec8df5b70145fe99d856112d16abb04c95fa7831"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 522,
+      "sha256": "4c3255097f644d68586814a7a1c493fd04342608b4b3dabcfb6253c63fa53c55"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2183,
+      "sha256": "ce7b3eb13c708ddd6b87c61969ee9dd00dc06ea214caa442dac7127b4e2637a3"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/README.md",
+      "bytes": 246,
+      "sha256": "afc84289fe3a9ffa780fe756169a1953a166d5a7e1c1b0bbb3f74f22f4156e7e"
+    },
+    {
       "path": "benchmarks/ground_demo_20261101/audio_corridor/CENTER.wav",
       "bytes": 91552,
       "sha256": "ba2fec2ed7bc6b9712c9d06928f8a1f84ef9a0b8f7f7734eb31dd4b07ff5774a"
@@ -1195,11 +1215,6 @@
       "path": "benchmarks/ground_demo_20261101/audio_corridor/CENTER_RIGHT.wav",
       "bytes": 121988,
       "sha256": "57904b5acf1d2ebffc2d39499a78401500b0f45dca5e697e783e094fde35fadf"
-    },
-    {
-      "path": "benchmarks/ground_demo_20261101/audio_corridor/generation.json",
-      "bytes": 142,
-      "sha256": "aee218d5417935980ae275185c209d924a947d48c56dbd266574dbf18b529cb4"
     },
     {
       "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT.wav",
@@ -1220,6 +1235,16 @@
       "path": "benchmarks/ground_demo_20261101/audio_corridor/LEFT_RIGHT.wav",
       "bytes": 105398,
       "sha256": "aa88f308e0429f6902186561eecdc8e19ba59e8ea378dbae78c30595a4df5503"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/RIGHT.wav",
+      "bytes": 88760,
+      "sha256": "07851aa42403bc49024d2201a230e6674e3975b45047533147c1b951cce54040"
+    },
+    {
+      "path": "benchmarks/ground_demo_20261101/audio_corridor/generation.json",
+      "bytes": 142,
+      "sha256": "aee218d5417935980ae275185c209d924a947d48c56dbd266574dbf18b529cb4"
     },
     {
       "path": "benchmarks/ground_demo_20261101/audio_corridor/manifest.json",
@@ -1260,11 +1285,6 @@
       "path": "benchmarks/ground_demo_20261101/audio_corridor/raw/RIGHT.wav",
       "bytes": 88762,
       "sha256": "583b7170f0fd763bb50120c32cb26462e038f82506a042820ef9125339258e82"
-    },
-    {
-      "path": "benchmarks/ground_demo_20261101/audio_corridor/RIGHT.wav",
-      "bytes": 88760,
-      "sha256": "07851aa42403bc49024d2201a230e6674e3975b45047533147c1b951cce54040"
     },
     {
       "path": "benchmarks/ground_demo_20261101/backends.py",
@@ -1315,11 +1335,6 @@
       "path": "benchmarks/ground_demo_20261101/prepare_speech.ps1",
       "bytes": 1650,
       "sha256": "f3638f45e3d679804b85aada543c7b0e3b2ffefaa9ee6b35782dd28af02e52c9"
-    },
-    {
-      "path": "benchmarks/ground_demo_20261101/README.md",
-      "bytes": 246,
-      "sha256": "afc84289fe3a9ffa780fe756169a1953a166d5a7e1c1b0bbb3f74f22f4156e7e"
     },
     {
       "path": "benchmarks/ground_demo_20261101/resilient_stream.py",
@@ -1907,14 +1922,49 @@
       "sha256": "311a851af617b9d521e3b57a0f699eab14589eeb2b7a2565c468a34d1d31b7d1"
     },
     {
+      "path": "benchmarks/ground_tactile_joint_20261102/CONTINUOUS_20261103.md",
+      "bytes": 4345,
+      "sha256": "0a1148879ca62a6fc578e50d1da6e78cbce08ce9298995de4c1e75e584c8b7df"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/HAPTIC_AB_20261103.md",
+      "bytes": 5663,
+      "sha256": "84219941a9657682978426f7f800ea9433d0c80226bcbdb63d103b3f4f450acc"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/LIVE_20261102.md",
+      "bytes": 4859,
+      "sha256": "9fe83172a22ea0dc5c2646588e701f5589d3f039ee5e52144a991cb6ed438945"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/README.md",
+      "bytes": 12633,
+      "sha256": "bfbe850e9b8d8f8dd57d2a626418edba7a275fa6d7bf29eba26afdfa2d170df9"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/RESULTS_20261103.md",
+      "bytes": 7118,
+      "sha256": "cd6c23a1805fcef0719f6ae5275f23c1a8edb496da0fec8467a506ca38d87465"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/VALIDATION_20261103.md",
+      "bytes": 3473,
+      "sha256": "a3a6100282204a60486f704e25f4dd7686772a214540e7bc482628b5f6690c58"
+    },
+    {
       "path": "benchmarks/ground_tactile_joint_20261102/board_connection.py",
       "bytes": 4374,
       "sha256": "9af1b6a9819a0b6f0d2736279f0add07d28d04f778bf74aefcb883cfafd821be"
     },
     {
+      "path": "benchmarks/ground_tactile_joint_20261102/camera_link.py",
+      "bytes": 3095,
+      "sha256": "9f0b28f45829d7b4b0c2ca1dd91460d32a570f69b12c0d2cc780ebeef9db8487"
+    },
+    {
       "path": "benchmarks/ground_tactile_joint_20261102/check_camera_transport.py",
-      "bytes": 7435,
-      "sha256": "056a75bc829bdf8810f939ee56d304cfbfe1f45c967c3d34e4649e1bf5eb4565"
+      "bytes": 8262,
+      "sha256": "0a6cd2fb3d87fae7d6ad6b293775de744005f44d90532357c4276123927a34ff"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/check_joint_board.py",
@@ -1927,24 +1977,34 @@
       "sha256": "86be1ae078ae02f914701c6c4314318762cc0761851fa660e18f857291b030f7"
     },
     {
+      "path": "benchmarks/ground_tactile_joint_20261102/check_live_comparison.py",
+      "bytes": 4293,
+      "sha256": "a8b83fcc9f951e68369bad8772a7bb640db2bdd12d4b0a29686ede004a6d9598"
+    },
+    {
       "path": "benchmarks/ground_tactile_joint_20261102/guidance_output.py",
-      "bytes": 2696,
-      "sha256": "815b9d8897d9d6f7e78076c894010c40fc92d387a08a2ab11c2883166fba3e2b"
+      "bytes": 3162,
+      "sha256": "aba552ba1165e1d3211bb936b3eec10baa48b27d16d3e17eb90be125a8b991b4"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/haptic_profiles.py",
+      "bytes": 1188,
+      "sha256": "3693979c89ae44b23d304a81d8a0a8a0b273583a515c48ec5f3928243769ecee"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/joint_app.py",
-      "bytes": 10542,
-      "sha256": "4db9229e4fb041402973f912c4e21d06b8197a3c9d9d1d5cdcf1842946c4bb91"
+      "bytes": 12615,
+      "sha256": "b39cc7ddacde694130807b7ee2557cf3bd2b0aab70109c4a21f2d8f1b3f28ca4"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/live_joint.py",
-      "bytes": 12763,
-      "sha256": "8991ffe1b8aa2f62c7c5ea2891636411ea158ead08885c06d88ee8a0ce38af18"
+      "bytes": 16194,
+      "sha256": "55fe25d44f573d84582e29ad5bb223a1b24ee6458e78f9e81e0e8d83199939ce"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/path_policy.py",
-      "bytes": 3100,
-      "sha256": "9dc81080e2aa55016b4b0055f16157008755c7d33acfb689eeb0395a29952937"
+      "bytes": 4962,
+      "sha256": "35577dca5a1950196f77aa4657dbd071dd9892caf35f4964b3dd414043624e12"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/paths.py",
@@ -1957,9 +2017,9 @@
       "sha256": "bad2befe29f72f3b98ab08ce06a46ee0115894053bb16952fb99e6e3d90ff1a1"
     },
     {
-      "path": "benchmarks/ground_tactile_joint_20261102/README.md",
-      "bytes": 207,
-      "sha256": "da1c477f0954573888557172b79eb0329f1d42129de553b3cd36e25b9b51b006"
+      "path": "benchmarks/ground_tactile_joint_20261102/replay_haptic_profiles.py",
+      "bytes": 2575,
+      "sha256": "e348e46fac429a7c8b9adebe5e3eba650748d2fc0bc0188f15453e95c3ef0c9c"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/runtime_utils/__init__.py",
@@ -1997,19 +2057,49 @@
       "sha256": "ef0cdf994bdfe89bfb0b07ed8ad4981532ade7a60e3a0b60c2afd313294464e1"
     },
     {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_camera_link.py",
+      "bytes": 2780,
+      "sha256": "820c2d35425cfafde1d0a9eb76f513d08546bb4f6c1441b21ea5a32d2b412a15"
+    },
+    {
       "path": "benchmarks/ground_tactile_joint_20261102/test_camera_transport.py",
-      "bytes": 1974,
-      "sha256": "4fea3fc4cebe764041773be3492f6b9e8ef3085ca67145a76f43b0516eee6bce"
+      "bytes": 3022,
+      "sha256": "5c8ced7d822d65f811c457e3a156bf5beaea15e7cf6e81ab42750219ef6e6fdd"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_continuous_outputs.py",
+      "bytes": 3054,
+      "sha256": "d55633d8bcaddeb8214fb90e6e95af6aa4a7b37606d05d94fa2bbf123d6f14ae"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_deviation_levels.py",
+      "bytes": 4738,
+      "sha256": "9b07bd37a0d04a35db339e43b2860889173c814497d6a2a85f0b647638180f03"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/test_guidance_output.py",
-      "bytes": 2723,
-      "sha256": "1c673100d798d4ffa3eeb9071529ade1411e85d64a6eb9624f562987ebb39b25"
+      "bytes": 2859,
+      "sha256": "f45f71c0e68bb626a5f2181a719819106e747404a2e425b8668e0304dbde4072"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_haptic_profiles.py",
+      "bytes": 7305,
+      "sha256": "abcbbd80c07af5e002895918ed4577816e974f6ecac5055774717aa7d35b593d"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_haptic_viewer.py",
+      "bytes": 2830,
+      "sha256": "25857d74a84d9e3debcf9fbb5d01428e293e7365ce66d4044aea52de1deca0af"
+    },
+    {
+      "path": "benchmarks/ground_tactile_joint_20261102/test_live_comparison.py",
+      "bytes": 1495,
+      "sha256": "02e70f60ccd363640790f4a13be5a7d413984bde7fec692428a22fbbe1ac1522"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/test_live_joint.py",
-      "bytes": 4418,
-      "sha256": "cfc4d66110d21d7a14a5d7a5e660727542678a254c8b23cf3c2b464f2566b67a"
+      "bytes": 5262,
+      "sha256": "c7d68c4a234f73f913bb4f08f9845840b25d433a7fccb21195eabe81f568df98"
     },
     {
       "path": "benchmarks/ground_tactile_joint_20261102/test_path_policy.py",
@@ -2020,16 +2110,6 @@
       "path": "config/device.json.example",
       "bytes": 174,
       "sha256": "79508f2e85ee50f0f5ba41bde68bb02076f35d1c537e541f30958be9c4533553"
-    },
-    {
-      "path": "docs/assets/compute_case.png",
-      "bytes": 340616,
-      "sha256": "a170caef21d9f7f11c26532161857f45fada53253709b334f941302d59085803"
-    },
-    {
-      "path": "docs/assets/headwear.png",
-      "bytes": 277324,
-      "sha256": "21ddb81b4f9a30e1b3d52c0edf89adf277df217673765eec4d1a2a89979704f8"
     },
     {
       "path": "docs/GITHUB.md",
@@ -2053,18 +2133,28 @@
     },
     {
       "path": "docs/STATUS.md",
-      "bytes": 4101,
-      "sha256": "9eb0b94067a716c5b75833b42a49a48a23ced10b25cbb77e990db12667be9881"
+      "bytes": 4622,
+      "sha256": "9b9a2f0354d09554d1b208ffdc0fdcfc53e9fdb251c90e4c77c671a497e8135e"
     },
     {
       "path": "docs/SUBMISSION.md",
-      "bytes": 2959,
-      "sha256": "eb867314682ec8302e8f48f8606fe14df88c00bb6419683e33437445273d08e8"
+      "bytes": 3226,
+      "sha256": "cc7eb5ebb384f809076b1905fc01113259e213fa670ec300c6a6ce8d91ea5cb9"
     },
     {
       "path": "docs/USAGE.md",
       "bytes": 4205,
       "sha256": "5cba898eae071dc11afbe130d5336df13e425b1589f0653efa8c10ca82b96c0f"
+    },
+    {
+      "path": "docs/assets/compute_case.png",
+      "bytes": 340616,
+      "sha256": "a170caef21d9f7f11c26532161857f45fada53253709b334f941302d59085803"
+    },
+    {
+      "path": "docs/assets/headwear.png",
+      "bytes": 277324,
+      "sha256": "21ddb81b4f9a30e1b3d52c0edf89adf277df217673765eec4d1a2a89979704f8"
     },
     {
       "path": "firmware/esp32s3/CMakeLists.txt",
@@ -2095,6 +2185,11 @@
       "path": "firmware/esp32s3/main/CMakeLists.txt",
       "bytes": 445,
       "sha256": "a03411cacfff4fe80577d80f31172d698780391b68b09ad29153d96b64e0de74"
+    },
+    {
+      "path": "firmware/esp32s3/main/Kconfig.projbuild",
+      "bytes": 4984,
+      "sha256": "2d4b18c251bb3c9b70b82e177db8cf54ebf28ee5a7f62c00613c5372c452db4e"
     },
     {
       "path": "firmware/esp32s3/main/glasses_imu_stream.c",
@@ -2152,11 +2247,6 @@
       "sha256": "c5d4603f9c9e8cc16c112a72067b57a2ef861ce149ef485ad57e8b3db3dcd8e4"
     },
     {
-      "path": "firmware/esp32s3/main/Kconfig.projbuild",
-      "bytes": 4984,
-      "sha256": "2d4b18c251bb3c9b70b82e177db8cf54ebf28ee5a7f62c00613c5372c452db4e"
-    },
-    {
       "path": "firmware/esp32s3/main/main.c",
       "bytes": 18924,
       "sha256": "6e6eaa2470af304022fc9020447eca23f0b14511e20d6d4d99ce483307c957a6"
@@ -2172,6 +2262,11 @@
       "sha256": "d1474bbd5030cc630dcadcda090d793aa322a14f799c643903775fb549da1c22"
     },
     {
+      "path": "hardware_test/esp_dataset_capture/README.md",
+      "bytes": 342,
+      "sha256": "9da9d379f32382ec91c4d4663a1619d62ef996201aff5f5c4b0269cfb0dc647f"
+    },
+    {
       "path": "hardware_test/esp_dataset_capture/app.py",
       "bytes": 10325,
       "sha256": "00f9315f9be44d28cc5386aa8972a4e3e924e348a4335a7de3f1a86eeba74964"
@@ -2180,11 +2275,6 @@
       "path": "hardware_test/esp_dataset_capture/live_stream.py",
       "bytes": 3037,
       "sha256": "f97b7dedb9a8c796c6ed689f228ee2027e1faec640c51a6d17fdedc9d65b8bf3"
-    },
-    {
-      "path": "hardware_test/esp_dataset_capture/README.md",
-      "bytes": 342,
-      "sha256": "9da9d379f32382ec91c4d4663a1619d62ef996201aff5f5c4b0269cfb0dc647f"
     },
     {
       "path": "hardware_test/esp_dataset_capture/recorder.py",
@@ -2207,11 +2297,6 @@
       "sha256": "7ca1197479c91823f2de766f79522b4dbe4e98aa06d52d4e4e8b643ca0199da0"
     },
     {
-      "path": "README.md",
-      "bytes": 4630,
-      "sha256": "29af20d67dd5cb326ff8d0ede4009f1d98ac6cff70af34cd0efc47772b638ad3"
-    },
-    {
       "path": "requirements-training.txt",
       "bytes": 140,
       "sha256": "57a1920acc9765edd7bb356354cc6f37d084658579a32f70f0e064dffee40716"
@@ -2220,11 +2305,6 @@
       "path": "requirements.txt",
       "bytes": 125,
       "sha256": "d23ba70c718cff0d84863acddabb7527df2aaf9b39610af05f1764404cc8db46"
-    },
-    {
-      "path": "RIGHTS.md",
-      "bytes": 522,
-      "sha256": "4c3255097f644d68586814a7a1c493fd04342608b4b3dabcfb6253c63fa53c55"
     },
     {
       "path": "scripts/launch_demo.ps1",
@@ -2242,14 +2322,19 @@
       "sha256": "3d37a874b8cc9bf21bda89f3386c2e25887befa4a61da058a5911baccb6b27e3"
     },
     {
-      "path": "submission/baseline.json",
-      "bytes": 12966,
-      "sha256": "47829b3bc089bbd53171ee6918b2433ab5201c1d42c1c3743d9f79beba5d8207"
-    },
-    {
       "path": "submission/EXPORT_CHANGES.md",
       "bytes": 1743,
       "sha256": "65f0c422e383cba4e6f59abae8bb6f4c1c4729da80aae4499ba72c0289c97adf"
+    },
+    {
+      "path": "submission/PROVENANCE.json",
+      "bytes": 180418,
+      "sha256": "9ae6917eeb02a24ee99a54b2066bed2af8fe9efabc961aed66e8d432a6bd44d0"
+    },
+    {
+      "path": "submission/baseline.json",
+      "bytes": 12966,
+      "sha256": "47829b3bc089bbd53171ee6918b2433ab5201c1d42c1c3743d9f79beba5d8207"
     },
     {
       "path": "submission/mechanics.json",
@@ -2262,11 +2347,6 @@
       "sha256": "85901be515bdccf6f6033ddddf625fa222b8ae64bb13ce75dddcd25da83a6f2a"
     },
     {
-      "path": "submission/PROVENANCE.json",
-      "bytes": 180418,
-      "sha256": "9ae6917eeb02a24ee99a54b2066bed2af8fe9efabc961aed66e8d432a6bd44d0"
-    },
-    {
       "path": "third_party/GuideTWSI_LICENSE_MIT.txt",
       "bytes": 1074,
       "sha256": "78a984e3ae317d5ae7bcd8db78e96a260b5cd016e4770f068d9b94d378d213a0"
@@ -2275,11 +2355,6 @@
       "path": "third_party/RDK_MODEL_ZOO_LICENSE.txt",
       "bytes": 11357,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2183,
-      "sha256": "ce7b3eb13c708ddd6b87c61969ee9dd00dc06ea214caa442dac7127b4e2637a3"
     },
     {
       "path": "启动演示.cmd",

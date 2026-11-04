@@ -12,7 +12,7 @@ import paths
 from board_connection import connect_checked
 from rdk_io import run
 from check_joint_board import health
-from x5_camera_link import X5CameraLink
+from camera_link import X5CameraLink
 sys.path.insert(0, str(paths.ROOT / 'hardware_test/esp_dataset_capture'))
 from resilient_stream import ResilientStream
 
@@ -25,7 +25,7 @@ def clock():
  t0=time.monotonic()
  with opener.open('http://'+host+':8081/state',timeout=2) as r:s=json.load(r)
  t1=time.monotonic()
- return dict(t0=t0,t1=t1,esp_uptime_s=s['uptime_ms']/1000,boot=s['imu_stream']['boot_id'],speaker_pa=s['speaker_pa'],motor_cycle_enabled=s['motor_cycle_enabled'])
+ return dict(t0=t0,t1=t1,clock_resolution_s=time.get_clock_info('monotonic').resolution,esp_uptime_s=s['uptime_ms']/1000,boot=s['imu_stream']['boot_id'],speaker_pa=s['speaker_pa'],motor_cycle_enabled=s['motor_cycle_enabled'])
 before=clock();rows=[];started=time.monotonic();error=None
 try:
  with opener.open('http://'+host+'/stream',timeout=2) as r:
@@ -54,6 +54,7 @@ def clock(opener, url):
     with opener.open(url + '/state', timeout=2) as response:
         state = json.load(response)
     return dict(t0=t0, t1=time.monotonic(), esp_uptime_s=state['uptime_ms'] / 1000,
+                clock_resolution_s=time.get_clock_info('monotonic').resolution,
                 boot=state['imu_stream']['boot_id'], speaker_pa=state['speaker_pa'], motor_cycle_enabled=state['motor_cycle_enabled'])
 
 
@@ -63,23 +64,30 @@ def statistics(data):
     before = data['before']
     # /state uptime is floored to ms; use a conservative interval rather than
     # pretending the server and receiver clocks are exactly synchronized.
-    offset_min = before['t0'] - before['esp_uptime_s'] - .001
-    offset_max = before['t1'] - before['esp_uptime_s']
-    lower_ages = []
+    quantum=before.get('clock_resolution_s',0)
+    offset_min = before['t0'] - quantum - before['esp_uptime_s'] - .001
+    offset_max = before['t1'] + quantum - before['esp_uptime_s']
+    lower_ages = [];upper_ages=[];invalid_stamps=0
     for row in rows:
         if row['headers'].get('x-device-boot-id') != before['boot']:
             raise RuntimeError('ESP boot changed')
         if row['headers'].get('x-frame-time-status') != 'ok':
+            invalid_stamps+=1
             continue
         source = int(row['headers']['x-frame-source-us']) / 1000000
-        row['source_stamp_age_lower_ms'] = (row['received'] - source - offset_max) * 1000
-        row['source_stamp_age_upper_ms'] = (row['received'] - source - offset_min) * 1000
+        row['source_stamp_age_lower_ms'] = (row['received'] - quantum - source - offset_max) * 1000
+        row['source_stamp_age_upper_ms'] = (row['received'] + quantum - source - offset_min) * 1000
         lower_ages.append(row['source_stamp_age_lower_ms'])
+        upper_ages.append(row['source_stamp_age_upper_ms'])
     return dict(frames=len(rows), receive_gap_p95_ms=float(np.percentile(gaps, 95)) if gaps else None,
                 receive_gap_max_ms=max(gaps) if gaps else None, receive_gaps_over500=sum(v > 500 for v in gaps),
                 source_stamp_age_lower_p95_ms=float(np.percentile(lower_ages, 95)) if lower_ages else None,
                 source_stamp_age_lower_max_ms=max(lower_ages) if lower_ages else None,
                 source_stamp_age_definitely_over500=sum(v > 500 for v in lower_ages),
+                source_stamp_age_upper_p95_ms=float(np.percentile(upper_ages,95)) if upper_ages else None,
+                source_stamp_age_upper_max_ms=max(upper_ages) if upper_ages else None,
+                source_stamp_age_possibly_over500=sum(v > 500 for v in upper_ages),source_stamp_invalid=invalid_stamps,
+                clock_resolution_s=quantum,clock_model='Initial offset interval, millisecond server rounding and local clock quantization; constant offset assumed',
                 clock_probe_rtt_ms=(before['t1'] - before['t0']) * 1000)
 
 

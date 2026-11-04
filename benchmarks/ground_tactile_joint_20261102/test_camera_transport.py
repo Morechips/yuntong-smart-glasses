@@ -34,6 +34,25 @@ class CameraTimingTests(unittest.TestCase):
         self.assertFalse(result['pc_relay_no_reconnect'])
         self.assertFalse(all(result.values()))
 
+    def test_upper_age_is_used_to_keep_clock_uncertainty_visible(self):
+        result=statistics(self.data([self.sample(100.52,10.01)]))
+        self.assertEqual(result['source_stamp_age_definitely_over500'],0)
+        self.assertEqual(result['source_stamp_age_possibly_over500'],1)
+        self.assertGreater(result['source_stamp_age_upper_max_ms'],500)
+
+    def test_bad_source_status_is_not_a_fresh_sample(self):
+        row=self.sample(100.02,9.98);row['headers']['x-frame-time-status']='non-monotonic'
+        result=statistics(self.data([row]))
+        self.assertEqual(result['source_stamp_invalid'],1)
+        self.assertIsNone(result['source_stamp_age_upper_max_ms'])
+
+    def test_local_clock_quantization_widens_both_age_bounds(self):
+        data=self.data([self.sample(100.02,9.98)])
+        data['before']['clock_resolution_s']=.015625
+        result=statistics(data)
+        self.assertAlmostEqual(result['source_stamp_age_lower_max_ms'],30.-31.25)
+        self.assertAlmostEqual(result['source_stamp_age_upper_max_ms'],41.+31.25)
+
 
 if __name__ == '__main__':
     unittest.main()
