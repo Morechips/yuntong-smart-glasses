@@ -1187,6 +1187,11 @@
       "sha256": "f5a0818a974ed6e1404b387cbb05368f945d016a62c44808f93cfa39f244301d"
     },
     {
+      "path": "AGENTS.md",
+      "bytes": 1064,
+      "sha256": "f73610d16659f73623d5b2298d746a98b1899e4c1182ba85fe8055b5d77b6429"
+    },
+    {
       "path": "README.md",
       "bytes": 5515,
       "sha256": "c63005c235e8622afeb6baa12fd81a711160551df3d36d050b204d9203f6a162"
@@ -2113,8 +2118,8 @@
     },
     {
       "path": "docs/COMPANION.md",
-      "bytes": 2904,
-      "sha256": "cfde011dd1bb0d3174af8e6734909cd413d12fc1fa6e146ef457cd99ed217933"
+      "bytes": 4181,
+      "sha256": "cab4373878dc8cb8984f0b77bd978c4efd3eee2a4ffc1141ddaffab2142cd130"
     },
     {
       "path": "docs/GITHUB.md",

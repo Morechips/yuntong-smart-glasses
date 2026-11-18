@@ -35,6 +35,14 @@ cd mobile/v1/rdk
 ../../../.venv/bin/python -B -m unittest -v test_server
 ```
 
+### 安卓 R01 台架准备
+
+先用现有 8082 固件和佩戴运行包。维护者使用上面的方式确认手机接口服务运行，并给 Morechips 一条电脑或手机可达的 RDK 地址，配对密钥通过私下渠道提供。若接口仍只监听回环，Windows 工具无法从另一台电脑连接；按上文选择可达的 RDK 局域网监听地址。保留原有服务和系统设置。
+
+Morechips 在 Windows 使用 [安卓一键联调入口](https://github.com/Morechips/yuntong-mobile/tree/main/field-test)，从 App 发起、读取和停止本轮静默观察。通过实时变化的纸卡和请求后更换的纸卡分别核对预览和新图。若状态已有其他入口的观察任务，回原入口确认和处理。当前协议测试已覆盖鉴权、图传和请求后的新帧；真实 ESP 画面与源帧连续性由本轮台架反馈补证。R01 不需要刷写 8084、验证声振或触发跌倒事件。
+
+记录实装的 RDK 包标识、ESP 固件指纹（可查时）和是否确见新图。服务握手只确认协议协商；板端包或指纹未知时在报告中明确。结果通过 [安卓反馈入口](https://github.com/Morechips/yuntong-mobile/issues) 交回，设备端独立验证仍按 [状态记录](STATUS.md) 的口径归档。
+
 ## ESP32-S3 固件
 
 | 源码版本 | 接口与状态 |
