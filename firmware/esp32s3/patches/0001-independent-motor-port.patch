@@ -1,0 +1,116 @@
+diff --git a/firmware/esp32s3/main/glasses_peripheral_bench.c b/firmware/esp32s3/main/glasses_peripheral_bench.c
+--- a/firmware/esp32s3/main/glasses_peripheral_bench.c
++++ b/firmware/esp32s3/main/glasses_peripheral_bench.c
+@@ -16,6 +16,7 @@
+ #include "esp_log.h"
+ #include "esp_timer.h"
+ #include "freertos/FreeRTOS.h"
++#include "freertos/semphr.h"
+ #include "freertos/task.h"
+ #include "glasses_board.h"
+ #include "glasses_imu_stream.h"
+@@ -25,6 +26,7 @@
+ #define MAX_PCM_BYTES (PCM_RATE * 2 * 10)
+ #define MOTOR_LEFT_PIN GPIO_NUM_44
+ #define MOTOR_RIGHT_PIN GPIO_NUM_43
++#define PARALLEL_MOTOR_PORT 8084
+ #if CONFIG_GLASSES_BENCH_MOTOR_CYCLE_ENABLE
+ #define MOTOR_CYCLE_JSON "true"
+ #else
+@@ -33,6 +35,10 @@
+ 
+ static const char *TAG = "peripheral_bench";
+ static httpd_handle_t s_server;
++static httpd_handle_t s_motor_server;
++#if CONFIG_GLASSES_BENCH_MOTOR_ENABLE && !CONFIG_GLASSES_BENCH_MOTOR_CYCLE_ENABLE
++static SemaphoreHandle_t s_motor_lock;
++#endif
+ #if CONFIG_GLASSES_IMU_SYNC_ENABLE
+ static httpd_handle_t s_telemetry;
+ #endif
+@@ -60,6 +66,7 @@
+              "\"motor_gpios\":{\"left\":44,\"right\":43},\"motor_default_channel\":\"left\","
+              "\"pcm_rate\":24000,\"pcm_bits\":16,\"pcm_channels\":1,"
+              "\"speaker_volume_query\":true,\"speaker_volume_default\":25,\"speaker_volume_max\":70,"
++             "\"parallel_motor_port\":%d,"
+              "\"imu_address\":80,\"scl_gpio\":7,\"sda_gpio\":8}",
+              esp_timer_get_time() / 1000,
+              board.speaker_pa_enabled ? "true" : "false",
+@@ -68,7 +75,8 @@
+ #else
+              "false",
+ #endif
+-             board.battery_hold_requested ? "true" : "false"
++             board.battery_hold_requested ? "true" : "false",
++             s_motor_server ? PARALLEL_MOTOR_PORT : 0
+     );
+ #if CONFIG_GLASSES_IMU_SYNC_ENABLE
+     size_t used=strlen(text);
+@@ -273,6 +281,11 @@
+     if (!left && !right) {
+         return httpd_resp_send_err(req, HTTPD_400_BAD_REQUEST, "Expected left, right or both");
+     }
++    /* Both the original route and the dedicated HTTP task use the same pins. */
++    if (xSemaphoreTake(s_motor_lock, 0) != pdTRUE) {
++        httpd_resp_set_status(req, "409 Conflict");
++        return json_reply(req, "{\"ok\":false,\"reason\":\"Motor pulse already active\"}");
++    }
+     /* Bounded locally even if the HTTP client disconnects. */
+     const esp_err_t on_left = gpio_set_level(MOTOR_LEFT_PIN, left ? 1 : 0);
+     const esp_err_t on_right = gpio_set_level(MOTOR_RIGHT_PIN, right ? 1 : 0);
+@@ -281,6 +294,7 @@
+     }
+     const esp_err_t off_left = gpio_set_level(MOTOR_LEFT_PIN, 0);
+     const esp_err_t off_right = gpio_set_level(MOTOR_RIGHT_PIN, 0);
++    xSemaphoreGive(s_motor_lock);
+     if (on_left != ESP_OK || on_right != ESP_OK || off_left != ESP_OK || off_right != ESP_OK) {
+         return httpd_resp_send_err(req, HTTPD_500_INTERNAL_SERVER_ERROR, "Motor GPIO failed");
+     }
+@@ -377,6 +391,8 @@
+ #endif
+ #if CONFIG_GLASSES_BENCH_MOTOR_ENABLE && !CONFIG_GLASSES_BENCH_MOTOR_CYCLE_ENABLE
+     ESP_RETURN_ON_ERROR(motor_pins_init(), TAG, "motor configuration failed");
++    s_motor_lock = xSemaphoreCreateMutex();
++    ESP_RETURN_ON_FALSE(s_motor_lock != NULL, ESP_ERR_NO_MEM, TAG, "motor mutex allocation failed");
+ #endif
+     httpd_config_t config = HTTPD_DEFAULT_CONFIG();
+     config.server_port = 8081;
+@@ -423,6 +439,26 @@
+     }
+     ESP_LOGI(TAG, "Independent GET-only IMU telemetry on :8082");
+ #endif
++#if CONFIG_GLASSES_BENCH_MOTOR_ENABLE && !CONFIG_GLASSES_BENCH_MOTOR_CYCLE_ENABLE
++    httpd_config_t motor = HTTPD_DEFAULT_CONFIG();
++    motor.server_port = PARALLEL_MOTOR_PORT;
++    motor.ctrl_port = 32771;
++    motor.max_open_sockets = 2;
++    motor.max_uri_handlers = 1;
++    motor.lru_purge_enable = true;
++    motor.recv_wait_timeout = 1;
++    motor.send_wait_timeout = 1;
++    httpd_handle_t motor_server = NULL;
++    ESP_RETURN_ON_ERROR(httpd_start(&motor_server, &motor), TAG, "motor HTTP start failed");
++    const httpd_uri_t pulse = {.uri="/motor", .method=HTTP_POST, .handler=motor_handler};
++    esp_err_t pulse_result = httpd_register_uri_handler(motor_server, &pulse);
++    if (pulse_result != ESP_OK) {
++        httpd_stop(motor_server);
++        return pulse_result;
++    }
++    s_motor_server = motor_server;
++    ESP_LOGI(TAG, "Independent motor HTTP task on :%d", PARALLEL_MOTOR_PORT);
++#endif
+ #if CONFIG_GLASSES_BENCH_MOTOR_CYCLE_ENABLE
+     ESP_LOGW(TAG, "Motor-cycle diagnostic: both -> RX -> TX, repeating at boot");
+ #else
+diff --git a/firmware/esp32s3/sdkconfig.defaults b/firmware/esp32s3/sdkconfig.defaults
+--- a/firmware/esp32s3/sdkconfig.defaults
++++ b/firmware/esp32s3/sdkconfig.defaults
+@@ -10,7 +10,7 @@
+ CONFIG_SPIRAM_USE_MALLOC=y
+ CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+ CONFIG_HTTPD_MAX_REQ_HDR_LEN=1024
+-CONFIG_LWIP_MAX_SOCKETS=16
++CONFIG_LWIP_MAX_SOCKETS=20
+ CONFIG_LWIP_TCP_TMR_INTERVAL=25
+ CONFIG_CODEC_ES8311_SUPPORT=y
+ CONFIG_CODEC_ES7210_SUPPORT=y

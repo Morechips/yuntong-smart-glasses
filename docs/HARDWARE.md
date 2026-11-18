@@ -35,9 +35,10 @@
 | `GET http://ESP/capture` | 单张 JPEG |
 | `GET http://ESP/stats` | 图传统计 |
 | `GET http://ESP:8081/state` | 外设 / 音量 / 马达循环能力与状态 |
+| `GET http://ESP:8082/state`、`/imu`、`/imu/batch` | 8082 独立任务提供状态与只读 IMU 缓存 |
 | `POST http://ESP:8081/motor?channel=left或right或both&ms=20..500` | 有界短脉冲，完成后返回关闭状态 |
 | `POST http://ESP:8081/pcm?volume=0..70` | 请求体为 24kHz、16bit little-endian、单声道 PCM，不带 WAV 头 |
 
 接口的严格参数及响应字段以 `firmware/esp32s3/main/glasses_peripheral_bench.c` 为准。主入口会先查询能力再发送，不使用旧固件静默忽略音量参数的行为作为成功依据。
 
-本包没有对外开放这些设备服务或配置云端控制。实机使用步骤见 [使用说明](USAGE.md)。
+实机使用步骤见[使用说明](USAGE.md)。安卓与 RDK 对接以及 8084 独立振动候选的状态见[手机与眼镜接口](COMPANION.md)。

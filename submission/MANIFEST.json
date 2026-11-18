@@ -1,15 +1,15 @@
 {
-  "version": "20261103",
+  "version": "20261118",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 333,
-      "sha256": "e3e33054cd8280fadbcb211e9c08f6b0f38df35743ff3589af4431722899b661"
+      "bytes": 391,
+      "sha256": "3e905e2b700639db52167f2af987d78a9ee7c07fd4d8f4f0f9c28b56eb1e1e59"
     },
     {
       "path": ".gitignore",
-      "bytes": 607,
-      "sha256": "a4adedffb3ae0d8f7c612d1e8e2c9a554986d052cadc8e4495d730521828b388"
+      "bytes": 624,
+      "sha256": "f8d07038bea7388f962d5e3ac16d1ac228a976d26c00709df38db72470d5d41b"
     },
     {
       "path": "3D打印文件/ArcMask_v0_3_1_补打加固_20261031/ASSEMBLY.md",
@@ -1188,8 +1188,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5371,
-      "sha256": "11fde90182ba76dc01c496e0ec8df5b70145fe99d856112d16abb04c95fa7831"
+      "bytes": 5515,
+      "sha256": "c63005c235e8622afeb6baa12fd81a711160551df3d36d050b204d9203f6a162"
     },
     {
       "path": "RIGHTS.md",
@@ -2112,14 +2112,19 @@
       "sha256": "79508f2e85ee50f0f5ba41bde68bb02076f35d1c537e541f30958be9c4533553"
     },
     {
+      "path": "docs/COMPANION.md",
+      "bytes": 2904,
+      "sha256": "cfde011dd1bb0d3174af8e6734909cd413d12fc1fa6e146ef457cd99ed217933"
+    },
+    {
       "path": "docs/GITHUB.md",
       "bytes": 2549,
       "sha256": "119ec27b9db6114c3e632aa2c9f1d154c2604d1772f51155c897c9c917a85bde"
     },
     {
       "path": "docs/HARDWARE.md",
-      "bytes": 2396,
-      "sha256": "ecc5e5ccf7edfbdf68c3143798991c430795d93a2d29c4bdf0a14067c840341b"
+      "bytes": 2539,
+      "sha256": "fabe4a3d5e6ce2f35281a0228c6cbfa1551c171184758198c2bc5a3bd1026c1b"
     },
     {
       "path": "docs/MECHANICAL.md",
@@ -2128,8 +2133,8 @@
     },
     {
       "path": "docs/SETUP.md",
-      "bytes": 4592,
-      "sha256": "b7b0d7dd10cf037271ab7417afd5cabbb1f56025f1c154594ebfe8cfe37e4ffc"
+      "bytes": 4706,
+      "sha256": "92f15925488f77b2ad44eef3f338548d4ba655797b9ffbd3cbe7fdb400535831"
     },
     {
       "path": "docs/STATUS.md",
@@ -2203,8 +2208,8 @@
     },
     {
       "path": "firmware/esp32s3/main/glasses_peripheral_bench.c",
-      "bytes": 16972,
-      "sha256": "65cdcc641bb528d07ec94f26d7c97956682e16609eb0297995948424d5a4e3d9"
+      "bytes": 18239,
+      "sha256": "a5c41a0b538715edae8b287ea92752300a78e67b395c1a6530d8f3515633a51e"
     },
     {
       "path": "firmware/esp32s3/main/glasses_peripheral_bench.h",
@@ -2257,9 +2262,14 @@
       "sha256": "274136c058d0014db3fdf0c8f07450ce5359f94c0d288be718f9dd16f138b804"
     },
     {
+      "path": "firmware/esp32s3/patches/0001-independent-motor-port.patch",
+      "bytes": 4940,
+      "sha256": "7aaed8ab21cfae5a15c57176bb23ce8f59c60454ee93082a51ad0e765e426a77"
+    },
+    {
       "path": "firmware/esp32s3/sdkconfig.defaults",
-      "bytes": 1296,
-      "sha256": "d1474bbd5030cc630dcadcda090d793aa322a14f799c643903775fb549da1c22"
+      "bytes": 1329,
+      "sha256": "41234b21d8206bb9b1f03a652a72c14c1a07fd2786f40be46d80db4ed680496a"
     },
     {
       "path": "hardware_test/esp_dataset_capture/README.md",
@@ -2297,6 +2307,26 @@
       "sha256": "7ca1197479c91823f2de766f79522b4dbe4e98aa06d52d4e4e8b643ca0199da0"
     },
     {
+      "path": "mobile/bridge/server.py",
+      "bytes": 14866,
+      "sha256": "713cf4e665220ea9925cfea3d86a880292956fc72f31a736da07314af06fcef4"
+    },
+    {
+      "path": "mobile/v1/rdk/requirements.txt",
+      "bytes": 19,
+      "sha256": "9ec828179a682425537349fb41440b48a47b1ef006b7b3e1d1542566d3ec6943"
+    },
+    {
+      "path": "mobile/v1/rdk/server.py",
+      "bytes": 21041,
+      "sha256": "0985e9189f9ac8712dc10e9903b8af38ee8a37540263f1932cd70147ed87e1b3"
+    },
+    {
+      "path": "mobile/v1/rdk/test_server.py",
+      "bytes": 10015,
+      "sha256": "08c7faa4046f5353d844dd9fe3ea5d57b2c3fba0dc5218fcf33a39f2a3e15b85"
+    },
+    {
       "path": "requirements-training.txt",
       "bytes": 140,
       "sha256": "57a1920acc9765edd7bb356354cc6f37d084658579a32f70f0e064dffee40716"
@@ -2328,8 +2358,8 @@
     },
     {
       "path": "submission/PROVENANCE.json",
-      "bytes": 180418,
-      "sha256": "9ae6917eeb02a24ee99a54b2066bed2af8fe9efabc961aed66e8d432a6bd44d0"
+      "bytes": 182366,
+      "sha256": "5b4cd8ada2dfe6aca7f06205a39b17c10b42946cc8a5340f99b617e57893a687"
     },
     {
       "path": "submission/baseline.json",

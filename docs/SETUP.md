@@ -39,6 +39,8 @@ ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub -E sha256
 
 ## RDK X5
 
+连接安卓伴侣时，另按[手机与眼镜接口](COMPANION.md)启动 WebSocket 服务。
+
 需要设备已有的 `hobot_dnn.pyeasy_dnn`、Python 3、NumPy、OpenCV 和可用 SSH / SFTP。`hobot_dnn` 不属于电脑的 pip requirements；本包不包含 X5 系统镜像和厂商运行库。
 
 运行时将少量代码和地面 BIN 放进新建 `/dev/shm/yuntong_floor_demo_*` 目录，回读校验哈希后启动工作进程，正常退出时尝试清理。不会把模型安装为开机服务。原设备曾出现存储 I/O 故障且根因未定；先确认系统可正常读取文件，再做负载测试。
@@ -61,7 +63,7 @@ idf.py menuconfig
 idf.py build
 ```
 
-本地 `sdkconfig`、构建目录和固件产物均已忽略。`sdkconfig.defaults` 已合并外设 / USB 控制台 / IMU 配置，Wi-Fi 密码默认留空。脱敏后未重新编译或烧录，不承诺重建字节与原固件一致。
+本地 `sdkconfig` 和构建目录由 Git 忽略。`sdkconfig.defaults` 配置 50 Hz IMU、20 ms 读取超时和 8082 基线所需的 16 个 socket。Wi-Fi 密码留空，使用前在本机填写。脱敏重建产物会因本地配置和工具链而异。
 
 刷写不是运行电脑演示的必要步骤。已有兼容固件时直接使用。需要刷写新板时，先核对实际板型、供电、分区和串口，再按 `idf.py` 构建输出的地址操作；不要把本包模型 BIN 当成 ESP 应用，也不要把其他板上的应用偏移当成通用地址。
 

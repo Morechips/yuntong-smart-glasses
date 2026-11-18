@@ -33,6 +33,9 @@
 
 static const char *TAG = "peripheral_bench";
 static httpd_handle_t s_server;
+#if CONFIG_GLASSES_IMU_SYNC_ENABLE
+static httpd_handle_t s_telemetry;
+#endif
 #if !CONFIG_GLASSES_IMU_SYNC_ENABLE
 static i2c_master_dev_handle_t s_imu;
 #endif
@@ -396,6 +399,30 @@ esp_err_t glasses_peripheral_bench_start(void)
         ESP_RETURN_ON_ERROR(httpd_register_uri_handler(s_server, &routes[i]), TAG,
                             "bench route registration failed");
     }
+#if CONFIG_GLASSES_IMU_SYNC_ENABLE
+    /* Independent task: audio/motor delays must never block IMU reads.
+     * GET-only aliases read the same locked ring; no new sampler or writes. */
+    httpd_config_t telemetry = HTTPD_DEFAULT_CONFIG();
+    telemetry.server_port = 8082;
+    telemetry.ctrl_port = 32770;
+    telemetry.stack_size = 8192;
+    telemetry.max_open_sockets = 4;
+    telemetry.max_uri_handlers = 3;
+    telemetry.lru_purge_enable = true;
+    telemetry.recv_wait_timeout = 1;
+    telemetry.send_wait_timeout = 1;
+    ESP_RETURN_ON_ERROR(httpd_start(&s_telemetry, &telemetry), TAG, "telemetry HTTP start failed");
+    const httpd_uri_t reads[] = {
+        {.uri="/state", .method=HTTP_GET, .handler=state_handler},
+        {.uri="/imu", .method=HTTP_GET, .handler=glasses_imu_cached_handler},
+        {.uri="/imu/batch", .method=HTTP_GET, .handler=glasses_imu_batch_handler},
+    };
+    for (size_t i=0; i<sizeof(reads)/sizeof(reads[0]); ++i) {
+        ESP_RETURN_ON_ERROR(httpd_register_uri_handler(s_telemetry, &reads[i]), TAG,
+                            "telemetry route registration failed");
+    }
+    ESP_LOGI(TAG, "Independent GET-only IMU telemetry on :8082");
+#endif
 #if CONFIG_GLASSES_BENCH_MOTOR_CYCLE_ENABLE
     ESP_LOGW(TAG, "Motor-cycle diagnostic: both -> RX -> TX, repeating at boot");
 #else

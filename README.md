@@ -2,7 +2,9 @@
 
 基于 **ESP32-S3 + OV3660 + RDK X5** 的视觉辅助感知原型。本提交包整理当前地面障碍提示代码、ESP 固件源码、模型、结构模型及打印文件，供项目提交、代码阅读与受限场景复现。
 
-**版本：2026-11-04 提交整理版。** 当前提供两个入口：2026-11-01 地面障碍持续演示，以及 2026-11-04 双模型（地面障碍＋盲道）持续联调。双模型已在真实图像流上完成连续运行，障碍语音与盲道纠偏振动均有确认回执；图像流仍有秒级空档，佩戴左右与身体航向尚未验收。电脑参与图像中继、后处理、界面与提示调度，尚不能脱离电脑独立运行。项目当前没有完整导航、路径规划、测距或独立场景准确率验收。
+目前提供 2026-11-01 地面障碍演示和 2026-11-04 双模型联调入口。这两条桌面演示链路需要电脑。双模型已取得障碍语音和盲道纠偏回执。图像流空档、佩戴方向与真实导航仍待进一步验证。
+
+**2026-11-18 接口同步。** 本仓库收录 RDK X5 的手机接口、ESP32-S3 的 8082 IMU 固件源码及 8084 候选补丁。安卓应用见 [yuntong-mobile](https://github.com/Morechips/yuntong-mobile)。联调入口与版本说明见[手机与眼镜接口](docs/COMPANION.md)。
 
 ![头戴模块 CAD 示意，电子件为参考包络](docs/assets/headwear.png)
 
@@ -15,6 +17,7 @@
 | 不接硬件先检查模型 | `python scripts/offline_demo.py` |
 | 连接硬件使用 | [使用说明与排障](docs/USAGE.md)、[启动演示.cmd](启动演示.cmd) |
 | 核对硬件模块与接口 | [硬件和接口](docs/HARDWARE.md) |
+| 连接安卓伴侣 | [RDK 手机接口与 S3 固件说明](docs/COMPANION.md) |
 | 查看、修改和打印结构 | [建模与装配说明](docs/MECHANICAL.md)、[建模目录](3D打印文件/) |
 | 核验文件和准备 Git 提交 | `python scripts/verify_repository.py`、[GitHub 提交步骤](docs/GITHUB.md) |
 | 看来源与授权状态 | [第三方说明](THIRD_PARTY_NOTICES.md)、[本项目授权说明](RIGHTS.md) |
@@ -28,7 +31,7 @@
 - [模型训练与 ONNX 导出](benchmarks/ground_route_screen_20261031/round02_supervision.py)
 - [离线模型演示](scripts/offline_demo.py)和[仓库文件核验](scripts/verify_repository.py)
 
-仓库收录 55 个 `.py` 文件，主要在 `benchmarks/`、`hardware_test/` 和 `scripts/`。`3D打印文件/` 中的 HTML 是结构模型的三维查看页。
+演示与验证代码主要在 `benchmarks/`、`hardware_test/` 和 `scripts/`。手机接口在 `mobile/`。结构模型的三维查看页在 `3D打印文件/`。
 
 ```text
 benchmarks/
@@ -38,6 +41,7 @@ benchmarks/
 hardware_test/
   esp_dataset_capture/          MJPEG 解析、采集界面与软件测试
 firmware/esp32s3/               当前 ESP-IDF 工程的脱敏源码与配置
+mobile/                         RDK 手机接口及本机协议测试
 3D打印文件/                    头戴和计算盒 STEP、STL、3MF、装配图
 config/                        本地设备配置示例
 scripts/                       启动、离线检查、文件核验
