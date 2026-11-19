@@ -1187,6 +1187,11 @@
       "sha256": "f5a0818a974ed6e1404b387cbb05368f945d016a62c44808f93cfa39f244301d"
     },
     {
+      "path": "AGENTS.md",
+      "bytes": 1064,
+      "sha256": "f73610d16659f73623d5b2298d746a98b1899e4c1182ba85fe8055b5d77b6429"
+    },
+    {
       "path": "README.md",
       "bytes": 5515,
       "sha256": "c63005c235e8622afeb6baa12fd81a711160551df3d36d050b204d9203f6a162"
@@ -2113,8 +2118,8 @@
     },
     {
       "path": "docs/COMPANION.md",
-      "bytes": 2904,
-      "sha256": "cfde011dd1bb0d3174af8e6734909cd413d12fc1fa6e146ef457cd99ed217933"
+      "bytes": 5496,
+      "sha256": "3657928ff1ed69aa49d7f0701bccec30a5030eeda0678ad588fb7baf955dfe86"
     },
     {
       "path": "docs/GITHUB.md",
@@ -2318,13 +2323,13 @@
     },
     {
       "path": "mobile/v1/rdk/server.py",
-      "bytes": 21041,
-      "sha256": "0985e9189f9ac8712dc10e9903b8af38ee8a37540263f1932cd70147ed87e1b3"
+      "bytes": 21331,
+      "sha256": "3a1dde5d23a9661f1fc459d0f75805ab8387c53a3bedc458bf6a6f4549405f1e"
     },
     {
       "path": "mobile/v1/rdk/test_server.py",
-      "bytes": 10015,
-      "sha256": "08c7faa4046f5353d844dd9fe3ea5d57b2c3fba0dc5218fcf33a39f2a3e15b85"
+      "bytes": 10421,
+      "sha256": "1e349bbc866fafd1355a62b098c181336f2d333bedbd0c738644501faa360571"
     },
     {
       "path": "requirements-training.txt",

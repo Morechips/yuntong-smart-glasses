@@ -140,6 +140,11 @@ class RoundTripTest(unittest.IsolatedAsyncioTestCase):
                     captured = json.loads(await asyncio.wait_for(ws.recv(), 3))
                     self.assertEqual(captured["requestId"], request_id)
                     self.assertNotEqual(captured["jpeg"], preview["jpeg"])
+                    unfulfilled_id = str(uuid4())
+                    await ws.send(json.dumps(dict(schema=SCHEMA, type="media.capture", requestId=unfulfilled_id)))
+                    unavailable = json.loads(await asyncio.wait_for(ws.recv(), 3))
+                    self.assertEqual(unavailable["type"], "media.unavailable")
+                    self.assertEqual(unavailable["requestId"], unfulfilled_id)
 
     async def test_authenticated_status_command_guidance_and_reconnect(self):
         class BoardFixture:
