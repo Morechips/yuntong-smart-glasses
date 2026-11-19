@@ -7,6 +7,7 @@ from collections import OrderedDict
 from contextlib import suppress
 import hmac
 import json
+import os
 from pathlib import Path
 import ssl
 import sys
@@ -277,12 +278,8 @@ class Endpoint:
                         request_id = packet.get("requestId")
                         if not isinstance(request_id, str) or str(UUID(request_id)) != request_id:
                             raise ValueError("invalid request ID")
-                        path = self.board.runtime.run / "latest_input.jpg"
-                        try:
-                            before_request = path.stat().st_mtime_ns
-                        except OSError:
-                            before_request = 0
-                        frame = await asyncio.to_thread(self.read_frame, before_request, True)
+                        requested_at = time.time_ns()
+                        frame = await asyncio.to_thread(self.read_frame, requested_at, True)
                         if frame is None:
                             await send(ws, "media.unavailable", requestId=request_id)
                         else:
@@ -311,11 +308,18 @@ class Endpoint:
         deadline = time.monotonic() + (2 if fresh else 0)
         while True:
             try:
-                stat = path.stat()
-                if stat.st_mtime_ns > after_stamp and time.time() - stat.st_mtime <= 2:
-                    payload = path.read_bytes()
-                    if 4 <= len(payload) <= 700_000 and payload[:2] == b"\xff\xd8" and payload[-2:] == b"\xff\xd9":
-                        return stat.st_mtime_ns, payload
+                with path.open("rb") as image:
+                    before = os.fstat(image.fileno())
+                    age = time.time_ns() - before.st_mtime_ns
+                    if (before.st_mtime_ns > after_stamp and 0 <= age <= 2_000_000_000
+                            and 4 <= before.st_size <= 700_000):
+                        payload = image.read(before.st_size + 1)
+                        after = os.fstat(image.fileno())
+                        if (before.st_mtime_ns == after.st_mtime_ns
+                                and before.st_ctime_ns == after.st_ctime_ns
+                                and len(payload) == before.st_size == after.st_size
+                                and payload.startswith(b"\xff\xd8") and payload.endswith(b"\xff\xd9")):
+                            return before.st_mtime_ns, payload
             except OSError:
                 pass
             if not fresh or time.monotonic() >= deadline:
